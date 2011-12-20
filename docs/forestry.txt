@@ -1,0 +1,22 @@
+---- TYPES ----
+
+TIER 1)
+Cabbage, Level 1, Exp: 280
+Pine Tree, Level 1, Exp: 390
+
+TIER 2)
+Potatoes, Level 10, Exp: 820
+Alder Tree, Level 20, Exp: 980
+
+TIER 3)
+Pumpkins, Level 25, Exp: 1240
+Pine Tree, Level 40, Exp: 1650
+Apple Tree, Level 45, Exp: 2250
+
+TIER 4)
+Larix Tree, Level 50, Exp: 3250
+Marihuana, Level 60, Exp: 6500
+
+TIER 5)
+Maple Tree, level 70, Exp: 4250
+Cocaine, Level 80, Exp: 12500

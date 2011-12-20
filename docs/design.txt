@@ -1,0 +1,23 @@
+#### Simple Roleplay ###
+
+--- Features ---
+1) Minimal dialogs 
+2) Easy to use controls
+3) Fast gameplay
+
+--- Gameplay Features ---
+1) Mining with a pickaxe to get resources (f to start mining, t to cancel)
+2) Inventory system which is based on size instead of weight.
+3) Shops are visible objects.
+4) Crafting instead of factories to make vehicles/items.
+5) Tutorial camera - On creating a account you get shown around the map what you can do.
+6) Police scanner
+
+--- Admin Events ---
+1) Quarantine - A virus spreads across the island and will spread to nearby people.
+
+--- UI ---
+
+Left side:
+
+Money: Displays a picture of cash and next to it the amount of money you have.

@@ -1,0 +1,16 @@
+--- EMS Design ---
+
+Will have access to EMS Chopper and Vehicle.
+
+Can drag injured civilians.
+
+TODO:
+If not EMS online then resume normal killed script. - done
+Add Medical Bag for EMS to use. - done
+Add Dialog to select player he wants to revive. 
+Add Stabilizing.
+Add carrying of civilian, getting in vehicle puts patient in back.
+Add it so when near hospital area the person is removed from ambulance and is healed.
+Make it so everyone can use EMS features.
+
+--- Injury Design ---	

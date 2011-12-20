@@ -1,0 +1,38 @@
+Tickets
+Police paychecks
+Add cop shops
+Drug smuggling
+Change UI
+Add 3D Credits
+
+-- Balancing --
+1) Fishing
+2) Seeds/Forestry
+2a) Process Logs
+3) Weapon Shops
+3) Licenses
+4) Mining
+5) Smelting
+5a) Helicopters/planes shops
+6) Factories
+7) Storages
+8) Investing
+
+- NOTES -
+Add copyright to top of files.
+Add sounds
+Using a shovel on grass = random items... artifacts in special locations, on sand = Sand.
+More Drugs - Cocaine, Add Drug shed.
+Backbacks should increase inventory size
+Able to assign animations to keys.
+Delivery - choose from a list of jobs that you can do, these are removed over time.
+UI Overhaul of everthing, find a better style.
+Carts - Cows
+Attempt server loader
+Salvaging
+Adding actions if player look at certain terrain types such as fishing and display text.
+Adding a text to be display in the center of the screen showing actions.
+Add a new chat system.
+Tagging players so cops can track until they die.
+Hiding online players.
+Searching licenses in vehicle and giving tickets.

@@ -1,0 +1,30 @@
+Types of ore:
+
+1st Tier
+Stone - 1 Mining, Time: 2 seconds, Exp: 160
+Iron - 10 Mining, Time: 4 seconds, Exp: 320
+
+2nd Tier
+Copper - 20 Mining, Time: 5 seconds, Exp: 650
+Coal - 25 Mining, Time: 8 seconds, Exp: 920
+
+3rd Tier
+Silicon - 30 Mining, Time: 13 seconds, Exp: 1850
+Sulphur - 40 Mining, Time: 15 seconds, Exp: 2500
+
+4th Tier
+Silver - 60 Mining, Time: 18 seconds, Exp: 4200
+Gold - 85 Mining, Time: 25 seconds, Exp: 8200
+
+5th Tier
+Diamond - 99 Mining, Time: 40 seconds, Exp: 16400
+
+
+
+---- Design ----
+
+You can find mining locations on the map, there will be rocks placed with the text above them.
+
+On mining a progress bar will display showing the amount of time if not a hud icon will show with the time.
+
+On success you will gain the ore in your inventory and some experience.

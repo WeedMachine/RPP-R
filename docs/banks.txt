@@ -1,0 +1,7 @@
+--- Required for dialog --- 
+* Text displaying balance
+* Text displaying money
+* Edit box for amount to withdraw
+* Button to withdraw
+* Button to deposit
+* Description

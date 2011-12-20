@@ -1,0 +1,27 @@
+-= Economy =-
+
+Main points:
+* All shops will start with a set amount of stock which will decrease/increase on people buying & selling.
+* Players will be able to process materials into refined goods at certain places - Smelter, Lumbermill and such.
+
+
+Crafting:
+
+v1.0 Alpha
+
+- General -
+* All shops will have a amount of stock they have, this will increase on buying or selling stuff to it, note there will be a cap on how much stock a shop can have.
+
+- Gathering resources -
+* Players can mine at certain locations such as Iron Mine, Coal mine.... Same with woodcutting.
+* Players can process materials into refined goods at cetain locations - Smelter, Lumbermill etc.
+
+- Crafting -
+* To manufacture stuff a player must go to a factory and press the manufacture key, he will see a list of everything he can make with the current resources he has stored.
+* Players will be able to view what the required materials for all items are at a factory.
+
+- Selling what he made -
+* A player can sell what he has manufactured to shops around the map to fill the stock.
+* A player will be able to set any object he owns up for sale, text will appear above the object with the price that players can buy for.
+* A player can create his own shop marker on the map for a price, if he doesnt own anything within this marker area the marker will be removed to avoid spam.
+
