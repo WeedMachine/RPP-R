@@ -83,6 +83,16 @@ RPP_var_goods =
     ["Volha_1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (Blue)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
     ["Volha_2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (White)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
     
+	//Police Cars
+	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [7500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [9500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [9500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [9500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [8000,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [7500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	
     //Pickups
     ["datsun1_civil_1_open", ["VEHICLE", "CAR"], ["Datsun Open (Blue)", "No Desc"], [1500,750], 150, "core\items\noUse.sqf", 75, true, [], false, []],
     ["datsun1_civil_2_covered", ["VEHICLE", "CAR"], ["Datsun Covered", "No Desc"], [1500,750], 150, "core\items\noUse.sqf", 75, true, [], false, []],

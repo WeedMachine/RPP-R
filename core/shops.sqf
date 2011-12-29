@@ -21,6 +21,16 @@ RPP_var_shops =
     [shop_caroldb, "Volha_1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_caroldw, "Volha_2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     
+	/* Police Car Shop */
+	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
+    [shop_CopcarAus, "CopcarAus", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+    [shop_CopcarAusgreen, "CopcarAusgreen", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+    [shop_CopcarHW2, "CopcarHW2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_Copcarhw, "Copcarhw", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+    [shop_CopcarNZ, "CopcarNZ", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_Paddy, "Paddy", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_Fordpatrolbasic, "Fordpatrolbasic", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	
     /* Pickup shop */
     [shop_pickup, "datsun1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_pickup2, "datsun1_civil_2_covered", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],

@@ -22265,8 +22265,8 @@ class Mission
 		};
 		class Item1773
 		{
-			position[]={4897.9673,110,5299.8364};
-			azimut=541.55823;
+			position[]={4899.957,110,5299.8755};
+			azimut=541.55798;
 			id=1836;
 			side="EMPTY";
 			vehicle="Paddy";
@@ -22274,11 +22274,12 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_Paddy";
 		};
 		class Item1774
 		{
-			position[]={4884.1484,110,5298.6953};
-			azimut=90.189941;
+			position[]={4887.8086,110,5298.7354};
+			azimut=90.189903;
 			id=1837;
 			side="EMPTY";
 			vehicle="Fordpatrolbasic";
@@ -22286,11 +22287,12 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_Fordpatrolbasic";
 		};
 		class Item1775
 		{
-			position[]={4910.2471,110,5299.8267};
-			azimut=-539.87036;
+			position[]={4908.417,110,5299.8267};
+			azimut=-539.87;
 			id=1838;
 			side="EMPTY";
 			vehicle="Copcar";
@@ -22298,61 +22300,67 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_Copcar";
 		};
 		class Item1776
 		{
-			position[]={4923.8164,110,5310.6343};
-			azimut=-90.554848;
+			position[]={4920.5542,110,5310.5547};
+			azimut=-90.554802;
 			id=1839;
 			side="EMPTY";
 			vehicle="CopcarNZ";
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_CopcarNZ";
 		};
 		class Item1777
 		{
-			position[]={4884.2539,110,5304.4961};
-			azimut=89.536346;
+			position[]={4887.9141,110,5304.5361};
+			azimut=89.536301;
 			id=1840;
 			side="EMPTY";
 			vehicle="CopcarHW2";
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_Copcarhw";
 		};
 		class Item1778
 		{
-			position[]={4884.2676,110,5310.3789};
-			azimut=90.972588;
+			position[]={4887.9277,110,5310.4189};
+			azimut=90.972603;
 			id=1841;
 			side="EMPTY";
 			vehicle="CopcarHW";
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_CopcarHW2";
 		};
 		class Item1779
 		{
-			position[]={4924.0669,110,5298.9648};
-			azimut=-91.31311;
+			position[]={4920.8047,110,5298.8853};
+			azimut=-91.313103;
 			id=1842;
 			side="EMPTY";
 			vehicle="CopcarAusgreen";
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_CopcarAusgreen";
 		};
 		class Item1780
 		{
-			position[]={4923.957,110,5304.731};
-			azimut=-91.589378;
+			position[]={4920.6948,110,5304.6514};
+			azimut=-91.589401;
 			id=1843;
 			side="EMPTY";
 			vehicle="CopcarAus";
 			lock="LOCKED";
 			skill=0.60000002;
 			fuel=0;
+			text="shop_CopcarAus";
 		};
 		class Item1781
 		{
