@@ -258,7 +258,7 @@ RPP_fnc_acc_start =
     sleep 2;
     cutText ["Welcome to The Roleplay Project: Reloaded!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
     enableEnvironment false;
-    waitUntil {server getVariable ["loaded",false]};
+    //waitUntil {server getVariable ["loaded",false]};
     enableEnvironment true;
     
     sleep 2;
@@ -296,11 +296,11 @@ RPP_fnc_acc_start =
          
         if (RPP_var_firstConnect) then
         {
-            player addweapon "X26Taser";
-            player addmagazine "Taser_Cartridge";
-            player addmagazine "Taser_Cartridge";
-            player addmagazine "Taser_Cartridge";
-            player addmagazine "Taser_Cartridge";
+            player addweapon "x26";
+            player addmagazine "x26_mag";
+            player addmagazine "x26_mag";
+            player addmagazine "x26_mag";
+            player addmagazine "x26_mag";
             ['Handcuffs', 1] call RPP_fnc_addInventoryItem;
             ['Spikestrip', 1] call RPP_fnc_addInventoryItem;
         };

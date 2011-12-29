@@ -9,12 +9,12 @@ Copyright (C) 2011  Matthew Simms
 RPP_var_civSong = "Track08_Harvest_Red";
 RPP_var_civCamera =
 [
-    [[6943.65,-95672.45,39.50], [6168.72,4324.86,38.18], 0.700, 3.5, "Welcome to the Roleplay Project: Reloaded"],
-    [[6943.65,-95672.45,39.50], [6168.72,4324.86,38.18], 0.700, 7, "Mission brought to you by rp-project.net"],
+    [[6943.65,-95672.45,39.50], [6168.72,4324.86,38.18], 0.700, 3.5, "Welcome to Aussie Life: Reloaded"],
+    [[6943.65,-95672.45,39.50], [6168.72,4324.86,38.18], 0.700, 7, "Mission brought to you by Rp-project.net & AussieLifeReloaded.com"],
     [[6943.65,-95672.45,39.50], [6168.72,4324.86,38.18], 0.700, 7, "RP-Project Project Leader: Unforgiven"],
     [[3844.62,104305.57,1285.63], [6155.86,4345.51,41.47], 0.700, 7, "RP-Project Lead Administrator: Jason"],
-    [[3844.62,104305.57,1285.60], [6176.39,4345.98,41.47], 0.700, 7, "Aussie Life 2 Project Leader: WeedMachine"],
-    [[2737.64,104294.02,788.88], [6171.36,4355.27,43.14], 0.700, 7, ""],
+    [[3844.62,104305.57,1285.60], [6176.39,4345.98,41.47], 0.700, 7, "Aussie Life Reloaded Project Leader: WeedMachine"],
+    [[2737.64,104294.02,788.88], [6171.36,4355.27,43.14], 0.700, 7, "Exclusive to the Australian Community."],
     [[21466.68,-62347.32,-72841.34], [6151.03,4348.34,45.80], 0.700, 7, ""],
     [[58440.81,54459.67,68991.43], [6162.64,4316.39,20.43], 0.700, 7, ""],
     [[4215.22,103918.91,-8605.37], [6168.86,4313.27,17.78], 0.700, 7, ""],
@@ -25,9 +25,9 @@ RPP_var_civCamera =
 RPP_var_copSong = "Ambient06_Khe_Sanh_Riff";
 RPP_var_copCamera = 
 [
-    [[-82093.38,53815.25,-5434.16], [5002.56,4995.96,3.85], 0.700, 7, "Welcome to the Roleplay Project: Reloaded"],
-    [[-12613.63,102174.34,-16072.59], [4890.04,5061.57,4.76], 0.700, 7, "Mission brought to you by rp-project.net"],
-    [[5914.73,105144.48,-1112.63], [4876.48,5157.38,1.96], 0.700, 7, "Lead Developer: Unforgiven"],
+    [[-82093.38,53815.25,-5434.16], [5002.56,4995.96,3.85], 0.700, 7, "Welcome to the Aussie Life: Reloaded"],
+    [[-12613.63,102174.34,-16072.59], [4890.04,5061.57,4.76], 0.700, 7, "Mission brought to you by rp-project.net & AussieLifeReloaded.com"],
+    [[5914.73,105144.48,-1112.63], [4876.48,5157.38,1.96], 0.700, 7, "Lead Developer: Unforgiven & WeedMachine"],
     [[-95080.05,7826.40,-1113.57], [4878.83,5234.59,2.23], 0.700, 7, "Scripting: Unforgiven"],
     [[1935.54,95560.27,-42671.56], [4878.78,5234.77,27.84], 0.700, 7, "Dialogs: Jason"],
     [[89786.08,36188.15,-42671.64], [4878.78,5234.77,27.84], 0.700, 7, "Sounds: Somebloke"],
@@ -48,7 +48,7 @@ RPP_fnc_runIntro =
     
     if !(RPP_Intro) exitWith {};
     
-    /*
+    
     if (_type == "COP") then
     {
         _cameraArray = RPP_var_copCamera;
@@ -59,7 +59,7 @@ RPP_fnc_runIntro =
         _cameraArray = RPP_var_civCamera;
         _music = RPP_var_civSong;
     };
-    */
+    
     
     _cameraArray = RPP_var_civCamera;
     _music = RPP_var_civSong;

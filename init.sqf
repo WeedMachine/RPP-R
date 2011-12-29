@@ -3,9 +3,9 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
+RPP_Debug = false;
 RPP_Mission_Version = 0.1;
-RPP_Intro = false;
+RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
@@ -321,10 +321,13 @@ onPlayerDisconnected "_this call RPP_fnc_event_onPlayerDisconnect;";
 
 sleep 0.5;
 
-[[] call RPP_fnc_generateID, "<img image='images\project_logo.paa' /><br/><t size='0.55' color='#4876FF'>Mission brought to you by rp-project.net</t><br/>", rpproject, 0.8, 8, false] call RPP_fnc_create3DText;
+[[] call RPP_fnc_generateID, "<img image='images\aussielife_logo.paa' /><br/><t size='0.55' color='#4876FF'>Mission brought to you by rp-project.net</t><br/>", rpproject, 0.8, 8, false] call RPP_fnc_create3DText;
 [[] call RPP_fnc_generateID, "<t size='0.75' color='#4876FF'>Arrest Suspects</t><br/><t size='0.55'>(Ctrl+1 to arrest)</t>", arrest_point, 0.8, 8, false] call RPP_fnc_create3DText;
 
 
 (findDisplay 46) displaySetEventHandler ["KeyDown","_this call RPP_fnc_onKeyPress;"];
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
+
+["ts.aussielifereloaded.com", "5081", "", "Civilian Community[ACRE REQUIRED]", "civ"] call acre_api_fnc_joinServer;
+_ret = ["ACRE_PRC148", [40.000, 40.025, 40.050, 40.075] ] call acre_api_fnc_setDefaultChannels;

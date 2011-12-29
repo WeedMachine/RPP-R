@@ -10,7 +10,8 @@ if (isNil "RPP_var_bankAmount") then
 
 RPP_var_banks = 
 [
-    ["Central Bank", [] call RPP_fnc_generateID, mainBank]
+    ["Central Bank", [] call RPP_fnc_generateID, mainBank],
+	["Police Automated Teller Machine ", [] call RPP_fnc_generateID, pATM]
 ];
 
 /* Open bank dialog */

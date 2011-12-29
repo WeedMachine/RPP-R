@@ -1,11 +1,11 @@
 LANGUAGE,  English
 
-STRM_mission_name, RP-Project: Reloaded v0.1 - Stats Save!
-STRM_mission_desc, A RPG Mission by the rp-project.net community!
+STRM_mission_name, AussieLife: Reloaded v0.1 - Stats Save!
+STRM_mission_desc, A RPG Mission by the aussielifereloaded.com community!
 
-STRS_login_new, "We have detected that you do not currently have a RP-Project: Reloaded account. All accounts are registered using your Player ID (a unique number generated from your CD Key). Before you can play RPP:R you will need to generate a password to associate with your Player ID to ensure it is fully secure. You cannot registered more than one account.<br /><br />Please remember your password as will not be able to access your game account without it."
+STRS_login_new, "We have detected that you do not currently have a Aussie Life: Reloaded account. All accounts are registered using your Player ID (a unique number generated from your CD Key). Before you can play ALR:R you will need to generate a password to associate with your Player ID to ensure it is fully secure. You cannot registered more than one account.<br /><br />Please remember your password as will not be able to access your game account without it."
 
-STRS_login_exists, "We have detected that already have a RP-Project: Reloaded account. Please enter your password to login to the mission, if you have forgotten your password please contact a Senior Admin to assist you in recovering it."
+STRS_login_exists, "We have detected that already have a Aussie Life: Reloaded account. Please enter your password to login to the mission, if you have forgotten your password please contact a Senior Admin to assist you in recovering it."
 
 STRS_phone_sms_recieve, "<t color='#4876FF'>SMS</t><br/><t color='#009900'>%1:</t> %2"
 STRS_phone_sms_failed, "<t color='#4876FF'>SMS</t><br/>The SMS you have sent to <t color='#009900'>%1</t> has failed."
