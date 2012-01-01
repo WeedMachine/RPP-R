@@ -3,11 +3,11 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = false;
+RPP_Debug = true;
 RPP_Mission_Version = 0.1;
-RPP_Intro = true;
+RPP_Intro = false;
 RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 
 #define __isServer ((isDedicated) && (isServer))
@@ -329,5 +329,3 @@ sleep 0.5;
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
 
-["ts.aussielifereloaded.com", "5081", "", "Civilian Community[ACRE REQUIRED]", "civ"] call acre_api_fnc_joinServer;
-_ret = ["ACRE_PRC148", [40.000, 40.025, 40.050, 40.075] ] call acre_api_fnc_setDefaultChannels;

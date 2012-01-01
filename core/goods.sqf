@@ -35,7 +35,7 @@ RPP_var_goods =
     
     /* Objects */
     ["Land_Farm_Cowshed_c", ["ITEM", "OBJECT"], ["Cowshed", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, [], false],
-    ["Spikestrip", ["ITEM", "OBJECT"], ["Spikestrip", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, [], true],
+    ["cl_Spikestrip", ["ITEM", "OBJECT"], ["Spikestrip", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, [], true],
     
     //["Wall_FenW2_6_EP1", ["ITEM", "OBJECT"], ["Fence", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, []],
     
@@ -128,8 +128,8 @@ RPP_var_goods =
     ["15Rnd_9x19_M9", ["MAGAZINE", "PISTOL"], ["M9 Magazine", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
     ["Colt1911", ["WEAPON", "PISTOL"], ["Colt 1911", "No Desc"], [1000, 640], 5, "core\items\noUse.sqf", 0, true, [], false],
     ["7Rnd_45ACP_1911", ["MAGAZINE", "PISTOL"], ["7Rnd M1911 .45 ACP Mag", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
-    ["X26Taser", ["WEAPON", "PISTOL"], ["X26 Tazer", "No Desc"], [1000, 640], 5, "core\items\noUse.sqf", 0, true, [], false],
-    ["Taser_Cartridge", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+    ["x26", ["WEAPON", "PISTOL"], ["X26 Tazer", "No Desc"], [1000, 640], 5, "core\items\noUse.sqf", 0, true, [], false],
+    ["x26_mag", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
     
     /* Resources */
     ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [85, 25], 5, "core\items\noUse.sqf", 0, true, [], false],
