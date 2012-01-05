@@ -40,7 +40,7 @@ RPP_fnc_display3DText =
     disableserialization;
     
     waitUntil {alive player};
-    
+
     _nowTime = time;
     
     _id = (_this select 0);

@@ -82,8 +82,6 @@ class Mission
 		"CAWheeled_E_ATV",
 		"CAWheeled2_V3S",
 		"CAWater",
-		"jt_police",
-		"cl_spikestrip",
 		"du_objects",
 		"cmr_cicada"
 	};
@@ -1352,7 +1350,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1782;
+		items=1780;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -13145,7 +13143,7 @@ class Mission
 			special="NONE";
 			id=1049;
 			side="EMPTY";
-			vehicle="MAP_Barrack2";
+			vehicle="MAP_Mil_ControlTower";
 			lock="UNLOCKED";
 			skill=0.2;
 			init="this setPos [7104.42, 2722.24, -0.12814]; this setDir 166.433; doStop this; this setVectorUp [0,0,1];";
@@ -20530,7 +20528,7 @@ class Mission
 			special="NONE";
 			id=1684;
 			side="EMPTY";
-			vehicle="MAP_Gunrack1";
+			vehicle="MAP_LocalBasicAmmo";
 			lock="UNLOCKED";
 			skill=0.2;
 			init="this setPos [2658.72, 4147.04, 0.60130]; this setDir -87.0574; doStop this;";
@@ -20542,7 +20540,7 @@ class Mission
 			special="NONE";
 			id=1685;
 			side="EMPTY";
-			vehicle="MAP_Gunrack2";
+			vehicle="MAP_LocalBasicAmmo";
 			lock="UNLOCKED";
 			skill=0.2;
 			init="this setPos [2657.7, 4147.09, 0.60130]; this setDir -88.2619; doStop this;";
@@ -22267,35 +22265,9 @@ class Mission
 		};
 		class Item1773
 		{
-			position[]={4899.957,110,5299.8755};
-			azimut=541.55798;
-			id=1836;
-			side="EMPTY";
-			vehicle="Paddy";
-			leader=1;
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_Paddy";
-		};
-		class Item1774
-		{
-			position[]={4887.8086,110,5298.7354};
-			azimut=90.189903;
-			id=1837;
-			side="EMPTY";
-			vehicle="Fordpatrolbasic";
-			leader=1;
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_Fordpatrolbasic";
-		};
-		class Item1775
-		{
 			position[]={4908.417,110,5299.8267};
 			azimut=-539.87;
-			id=1838;
+			id=1836;
 			side="EMPTY";
 			vehicle="Copcar";
 			leader=1;
@@ -22304,11 +22276,11 @@ class Mission
 			fuel=0;
 			text="shop_Copcar";
 		};
-		class Item1776
+		class Item1774
 		{
 			position[]={4920.5542,110,5310.5547};
 			azimut=-90.554802;
-			id=1839;
+			id=1837;
 			side="EMPTY";
 			vehicle="CopcarNZ";
 			lock="LOCKED";
@@ -22316,11 +22288,11 @@ class Mission
 			fuel=0;
 			text="shop_CopcarNZ";
 		};
-		class Item1777
+		class Item1775
 		{
 			position[]={4887.9141,110,5304.5361};
 			azimut=89.536301;
-			id=1840;
+			id=1838;
 			side="EMPTY";
 			vehicle="CopcarHW2";
 			lock="LOCKED";
@@ -22328,11 +22300,11 @@ class Mission
 			fuel=0;
 			text="shop_Copcarhw";
 		};
-		class Item1778
+		class Item1776
 		{
 			position[]={4887.9277,110,5310.4189};
 			azimut=90.972603;
-			id=1841;
+			id=1839;
 			side="EMPTY";
 			vehicle="CopcarHW";
 			lock="LOCKED";
@@ -22340,11 +22312,11 @@ class Mission
 			fuel=0;
 			text="shop_CopcarHW2";
 		};
-		class Item1779
+		class Item1777
 		{
 			position[]={4920.8047,110,5298.8853};
 			azimut=-91.313103;
-			id=1842;
+			id=1840;
 			side="EMPTY";
 			vehicle="CopcarAusgreen";
 			lock="LOCKED";
@@ -22352,11 +22324,11 @@ class Mission
 			fuel=0;
 			text="shop_CopcarAusgreen";
 		};
-		class Item1780
+		class Item1778
 		{
 			position[]={4920.6948,110,5304.6514};
 			azimut=-91.589401;
-			id=1843;
+			id=1841;
 			side="EMPTY";
 			vehicle="CopcarAus";
 			lock="LOCKED";
@@ -22364,11 +22336,11 @@ class Mission
 			fuel=0;
 			text="shop_CopcarAus";
 		};
-		class Item1781
+		class Item1779
 		{
 			position[]={4904.3604,110,5316.4941};
 			azimut=179.674;
-			id=1844;
+			id=1842;
 			side="EMPTY";
 			vehicle="du_atm";
 			skill=0.60000002;

@@ -344,7 +344,7 @@ RPP_fnc_hit =
     _source = _this select 3;
     _projectile = _this select 4;
     _handled = false;
-    _tazer = ["stuncartridge"];
+    _tazer = ["x26"];
 
     //player groupchat format["%1 %2 %3 %4 %5", _unit, _selection, _damage, _source, _projectile];
 
@@ -360,7 +360,7 @@ RPP_fnc_hit =
             /* Ignore this one */
         };
         
-        if (_projectile == "stuncartridge") exitWith
+        if (_projectile == "x26") exitWith
         {
             [_unit, _source] spawn RPP_fnc_tazed;
         };

@@ -3,9 +3,9 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
+RPP_Debug = false;
 RPP_Mission_Version = 0.1;
-RPP_Intro = false;
+RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
@@ -192,11 +192,17 @@ progressLoadingScreen 0.50;
 
 if (isServer) then
 {
-    {
-        (_x select 0) spawn RPP_fnc_freezeObject;
+	{
+	_object = (_x select 0);
+	_stock = (_x select 5);
+	_object setVariable ["stock", _stock, true];
     } forEach RPP_var_shops;
     
-    {
+	{
+        (_x select 0) spawn RPP_fnc_freezeObject;
+    } forEach RPP_var_shops;
+	 
+	{
         (_x select 2) spawn RPP_fnc_freezeObject;
     } forEach RPP_var_banks;
     
@@ -217,6 +223,10 @@ if (isServer) then
 
 if (!__isServer) then
 {  
+    progressLoadingScreen 0.99;
+
+    endLoadingScreen;
+    waitUntil{alive player};
     /* Init action checker */
     [] spawn RPP_fnc_actionCheck;
     [] spawn RPP_fnc_runPaycheck;
@@ -275,8 +285,6 @@ if (!__isServer) then
     
     [] spawn RPP_fnc_restrictionLoop;
     [] spawn RPP_fnc_monitor;
-    
-    progressLoadingScreen 0.75;
 };
 
 
@@ -285,17 +293,12 @@ if (!__isServer) then
     [] spawn RPP_fnc_clientRefuelCheck;
     
     
-    progressLoadingScreen 0.99;
-
-    endLoadingScreen;
-    
     /* Begin login */
     if !(RPP_Debug) then
     {  
         [] spawn RPP_fnc_acc_start;
     };
 };
-
 
 
 if (RPP_Debug) then
