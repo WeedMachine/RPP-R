@@ -438,10 +438,10 @@ RPP_fnc_hit =
     {
         _playerDamage = damage player;
         
-        if (_damage + _playerDamage >= 0.9) exitWith
+        /*if (_damage + _playerDamage >= 0.9) exitWith
         {
             [] spawn RPP_fnc_medical_dead;
-        };
+        };*/
 
         _damage
     };
