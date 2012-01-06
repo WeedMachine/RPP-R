@@ -49,7 +49,6 @@ RPP_fnc_event_onVehicleExit =
         };
     };
     
-    hint "Player left vehicle!";
     if (_unit == player) then
     {
         if (player getVariable ["seatbelt", false]) then
