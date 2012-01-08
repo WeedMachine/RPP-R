@@ -4,7 +4,7 @@ Copyright (C) 2011  Matthew Simms
 */
 
 RPP_Debug = false;
-RPP_Mission_Version = 0.1;
+RPP_Mission_Version = 0.2;
 RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = true;
@@ -30,7 +30,7 @@ if (RPP_QuickTest) exitWith
    //player setDir (_playerDir - _dir);
 };
 
-startLoadingScreen ["", "RPPR_LoadMission"];
+startLoadingScreen ["Initializing...", "RscDisplayStart"];
 
 _script = [] execVM "briefing.sqf";
 waitUntil {scriptDone _script};
@@ -190,14 +190,19 @@ waitUntil {scriptDone _script};
 
 progressLoadingScreen 0.50;
 
-if (isServer) then
+if (__isServer) then
+
 {
 	{
 	_object = (_x select 0);
 	_stock = (_x select 5);
 	_object setVariable ["stock", _stock, true];
     } forEach RPP_var_shops;
-    
+};
+
+if (isServer) then
+{
+  
 	{
         (_x select 0) spawn RPP_fnc_freezeObject;
     } forEach RPP_var_shops;

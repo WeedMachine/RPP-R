@@ -23,13 +23,30 @@ RPP_var_shops =
     
 	/* Police Car Shop */
 	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
-    [shop_CopcarAus, "CopcarAus", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
-    [shop_CopcarAusgreen, "CopcarAusgreen", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
     [shop_CopcarHW2, "CopcarHW2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_Copcarhw, "Copcarhw", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_CopcarNZ, "CopcarNZ", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
-	[shop_Paddy, "Paddy", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
-	[shop_Fordpatrolbasic, "Fordpatrolbasic", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_swat_suv, "SUV_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+		
+	/* Police Item Shop */
+	[shop_police_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_compass, "ItemCompass", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_radio, "ItemRadio", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_bottle, "Bottle", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	[shop_police_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_police_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	[shop_police_repair, "RepairKit", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_refuel, "RefuelCan", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_police_phone, "Phone", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_police_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	[shop_police_bottleWater, "High_bottleWater", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	
+	/* Police Weapon Shop */
+	[shop_police_tazer, "x26", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
+	[shop_police_tazer_mag, "x26_mag", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
 	
     /* Pickup shop */
     [shop_pickup, "datsun1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],

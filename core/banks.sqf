@@ -11,6 +11,7 @@ if (isNil "RPP_var_bankAmount") then
 RPP_var_banks = 
 [
     ["Central Bank", [] call RPP_fnc_generateID, mainBank],
+	["SWAT Automated Teller Machine ", [] call RPP_fnc_generateID, swatATM],
 	["Police Automated Teller Machine ", [] call RPP_fnc_generateID, pATM]
 ];
 

@@ -90,6 +90,7 @@ RPP_var_goods =
 	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [9500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [8000,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [7500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	

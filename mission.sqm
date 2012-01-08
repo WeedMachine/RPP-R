@@ -43,7 +43,10 @@ class Mission
 		"cl_spikestrip",
 		"monaro",
 		"jt_police",
-		"du_objects"
+		"du_objects",
+		"IL_Buildings",
+		"il_swat_tcg",
+		"cawheeled_pmc"
 	};
 	addOnsAuto[]=
 	{
@@ -82,7 +85,10 @@ class Mission
 		"CAWheeled_E_ATV",
 		"CAWheeled2_V3S",
 		"CAWater",
+		"IL_Buildings",
+		"il_swat_tcg",
 		"du_objects",
+		"cawheeled_pmc",
 		"cmr_cicada"
 	};
 	randomSeed=13761412;
@@ -1350,7 +1356,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1780;
+		items=1811;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -22265,91 +22271,347 @@ class Mission
 		};
 		class Item1773
 		{
-			position[]={4908.417,110,5299.8267};
-			azimut=-539.87;
+			position[]={4910.1704,110,5212.606};
 			id=1836;
 			side="EMPTY";
-			vehicle="Copcar";
-			leader=1;
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_Copcar";
+			vehicle="asg_cc_10x10m_s";
+			skill=1;
 		};
 		class Item1774
 		{
-			position[]={4920.5542,110,5310.5547};
-			azimut=-90.554802;
+			position[]={4923.6919,110,5221.8652};
 			id=1837;
 			side="EMPTY";
-			vehicle="CopcarNZ";
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_CopcarNZ";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
 		};
 		class Item1775
 		{
-			position[]={4887.9141,110,5304.5361};
-			azimut=89.536301;
+			position[]={4936.6187,110,5219.2803};
+			azimut=90.384209;
 			id=1838;
 			side="EMPTY";
-			vehicle="CopcarHW2";
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_Copcarhw";
+			vehicle="policehq";
+			skill=1;
 		};
 		class Item1776
 		{
-			position[]={4887.9277,110,5310.4189};
-			azimut=90.972603;
+			position[]={4953.0303,110,5194.8643};
 			id=1839;
 			side="EMPTY";
-			vehicle="CopcarHW";
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_CopcarHW2";
+			vehicle="as_t_PrunusS2s_EP1";
+			skill=1;
 		};
 		class Item1777
 		{
-			position[]={4920.8047,110,5298.8853};
-			azimut=-91.313103;
+			position[]={4910.2139,110,5172.4482};
 			id=1840;
 			side="EMPTY";
-			vehicle="CopcarAusgreen";
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_CopcarAusgreen";
+			vehicle="asg_cc_25x75m_s";
+			skill=1;
 		};
 		class Item1778
 		{
-			position[]={4920.6948,110,5304.6514};
-			azimut=-91.589401;
+			position[]={4893.6479,110,5177.4878};
 			id=1841;
 			side="EMPTY";
-			vehicle="CopcarAus";
-			lock="LOCKED";
-			skill=0.60000002;
-			fuel=0;
-			text="shop_CopcarAus";
+			vehicle="asg_cc_25x75m_s";
+			skill=1;
 		};
 		class Item1779
 		{
-			position[]={4904.3604,110,5316.4941};
-			azimut=179.674;
+			position[]={4924.7544,110,5171.4141};
 			id=1842;
 			side="EMPTY";
+			vehicle="asg_cc_25x75m_s";
+			skill=1;
+		};
+		class Item1780
+		{
+			position[]={4943.2627,110,5266.271};
+			id=1843;
+			side="EMPTY";
+			vehicle="asg_cc_25x75m_s";
+			skill=1;
+		};
+		class Item1781
+		{
+			position[]={4885.3101,110,5219.6499};
+			id=1844;
+			side="EMPTY";
+			vehicle="asg_cc_25x75m_s";
+			skill=1;
+		};
+		class Item1782
+		{
+			position[]={4864.6411,110,5235.999};
+			id=1845;
+			side="EMPTY";
+			vehicle="asg_cc_25x50m_s";
+			skill=1;
+		};
+		class Item1783
+		{
+			position[]={4923.5508,110,5193.5762};
+			id=1846;
+			side="EMPTY";
+			vehicle="asg_cc_25x50m_s";
+			skill=1;
+		};
+		class Item1784
+		{
+			position[]={4877.8579,110,5284.4199};
+			id=1847;
+			side="EMPTY";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
+		};
+		class Item1785
+		{
+			position[]={4930.2632,110,5309.2163};
+			id=1848;
+			side="EMPTY";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
+		};
+		class Item1786
+		{
+			position[]={4899.6206,110,5305.9995};
+			id=1849;
+			side="EMPTY";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
+		};
+		class Item1787
+		{
+			position[]={4835.918,110,5235.3105};
+			id=1850;
+			side="EMPTY";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
+		};
+		class Item1788
+		{
+			position[]={4891.5,110,5294.0737};
+			azimut=-38.01136;
+			id=1851;
+			side="EMPTY";
+			vehicle="il_swat_tcg";
+			skill=1;
+		};
+		class Item1789
+		{
+			position[]={4897.793,110,5222.6548};
+			azimut=-88.998695;
+			id=1852;
+			side="EMPTY";
+			vehicle="Copcar";
+			lock="LOCKED";
+			skill=1;
+			text="shop_Copcar";
+		};
+		class Item1790
+		{
+			position[]={4898.0327,110,5230.3438};
+			azimut=-88.998695;
+			id=1853;
+			side="EMPTY";
+			vehicle="CopcarHW2";
+			lock="LOCKED";
+			skill=1;
+			text="shop_CopcarHW2";
+		};
+		class Item1791
+		{
+			position[]={4933.5088,110,5209.0562};
+			id=1854;
+			side="EMPTY";
+			vehicle="du_safe";
+			skill=1;
+		};
+		class Item1792
+		{
+			position[]={4929.3105,110,5189.2832};
+			azimut=182.22701;
+			id=1855;
+			side="EMPTY";
 			vehicle="du_atm";
-			skill=0.60000002;
+			skill=1;
 			text="pATM";
+		};
+		class Item1793
+		{
+			position[]={4920.9678,110,5202.5645};
+			azimut=-178.272;
+			id=1856;
+			side="EMPTY";
+			vehicle="MAP_Proxy_RUWeaponBox";
+			skill=1;
+			text="shop_police_gps";
+		};
+		class Item1794
+		{
+			position[]={4919.9165,110,5204.4258};
+			azimut=-0.71759999;
+			id=1857;
+			side="EMPTY";
+			vehicle="MAP_LocalBasicAmmo";
+			skill=1;
+			text="shop_police_watch";
+		};
+		class Item1795
+		{
+			position[]={4922.8423,110,5203.1934};
+			id=1858;
+			side="EMPTY";
+			vehicle="MAP_LocalBasicWeapons";
+			skill=1;
+			text="shop_police_radio";
+		};
+		class Item1796
+		{
+			position[]={4921.0552,110,5201.7358};
+			id=1859;
+			side="EMPTY";
+			vehicle="MAP_Proxy_RULouncherBox";
+			skill=1;
+			text="shop_police_repair";
+		};
+		class Item1797
+		{
+			position[]={4921.1592,110,5203.1069};
+			id=1860;
+			side="EMPTY";
+			vehicle="MAP_Proxy_UsBasicAmmoBoxSmall";
+			skill=1;
+			text="shop_police_lockpick";
+		};
+		class Item1798
+		{
+			position[]={4903.4873,110,5299.2529};
+			azimut=48.793999;
+			id=1861;
+			side="EMPTY";
+			vehicle="SUV_PMC";
+			lock="LOCKED";
+			skill=1;
+			text="shop_swat_suv";
+		};
+		class Item1799
+		{
+			position[]={4888.4331,110,5289.7173};
+			azimut=152.69479;
+			id=1862;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=1;
+		};
+		class Item1800
+		{
+			position[]={4939.7129,110,5202.2715};
+			azimut=265.73401;
+			id=1863;
+			side="EMPTY";
+			vehicle="MAP_fridge";
+			skill=1;
+			text="shop_police_bottleWater";
+		};
+		class Item1801
+		{
+			position[]={4938.3027,110,5203.4365};
+			azimut=356.27499;
+			id=1864;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_police_donut";
+		};
+		class Item1802
+		{
+			position[]={4939.8003,110,5200.7686};
+			azimut=449.57901;
+			id=1865;
+			side="EMPTY";
+			vehicle="MAP_vending_machine";
+			skill=1;
+			text="shop_police_bottle";
+		};
+		class Item1803
+		{
+			position[]={4939.6294,110,5202.7632};
+			azimut=446.49899;
+			id=1866;
+			side="EMPTY";
+			vehicle="MAP_Kitchenstove_Elec";
+			skill=1;
+			text="shop_police_soup";
+		};
+		class Item1804
+		{
+			position[]={4925.0474,110,5205.0225};
+			id=1867;
+			side="EMPTY";
+			vehicle="MAP_RUBasicAmmo";
+			skill=1;
+			text="shop_police_map";
+		};
+		class Item1805
+		{
+			position[]={4922.3721,110,5206.2373};
+			id=1868;
+			side="EMPTY";
+			vehicle="MAP_RUBasicAmmo";
+			skill=1;
+			text="shop_police_compass";
+		};
+		class Item1806
+		{
+			position[]={4920.3159,110,5206.4111};
+			id=1869;
+			side="EMPTY";
+			vehicle="MAP_USBasicAmmo";
+			skill=1;
+			text="shop_police_tazer";
+		};
+		class Item1807
+		{
+			position[]={4918.2026,110,5205.7974};
+			id=1870;
+			side="EMPTY";
+			vehicle="MAP_Proxy_RUExplosives";
+			skill=1;
+			text="shop_police_tazer_mag";
+		};
+		class Item1808
+		{
+			position[]={4926.5508,110,5184.5239};
+			id=1871;
+			side="EMPTY";
+			vehicle="MAP_RUBasicAmmo";
+			skill=1;
+			text="shop_police_refuel";
+		};
+		class Item1809
+		{
+			position[]={4926.9771,110,5187.3945};
+			id=1872;
+			side="EMPTY";
+			vehicle="MAP_RUBasicWeapons";
+			skill=1;
+			text="shop_police_phone";
+		};
+		class Item1810
+		{
+			position[]={4924.9932,110,5188.4219};
+			id=1873;
+			side="EMPTY";
+			vehicle="MAP_RULaunchers";
+			skill=1;
 		};
 	};
 	class Markers
 	{
-		items=46;
+		items=52;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -22510,7 +22772,7 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={4896.4956,110,5265.7344};
+			position[]={4888.7002,110,5247.7632};
 			name="cop_base";
 			text="Police Base";
 			type="mil_flag";
@@ -22753,6 +23015,70 @@ class Mission
 			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
+		};
+		class Item46
+		{
+			position[]={4929.5176,110,5189.3979};
+			name="pATM";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item47
+		{
+			position[]={4882.3281,110,5291.7339};
+			name="swat_base";
+			text="Swat Base";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+			angle=-0.61570603;
+		};
+		class Item48
+		{
+			position[]={4919.3286,110,5203.7935};
+			name="cop_item_shop";
+			text="Police Items";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.55000001;
+			b=0.55000001;
+			angle=-0.61570603;
+		};
+		class Item49
+		{
+			position[]={4893.5493,110,5200.3818};
+			name="cop_item_shop_1";
+			text="Police Cars";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.55000001;
+			b=0.55000001;
+			angle=-0.61570603;
+		};
+		class Item50
+		{
+			position[]={4888.5493,110,5289.5967};
+			name="swatATM";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item51
+		{
+			position[]={4903.2515,110,5299.6294};
+			name="cop_item_shop_1_1";
+			text="Swat Cars";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.55000001;
+			b=0.55000001;
+			angle=-0.61570603;
 		};
 	};
 };
