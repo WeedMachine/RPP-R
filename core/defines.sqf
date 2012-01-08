@@ -19,9 +19,14 @@ RPP_var_acc_password = "@NO@";
 RPP_var_deathTime = 900;
 RPP_var_serverRules = 
 [
-    "Do not metagame!",
-    "Use brackets around your text when talking out of character",
-    "Global chat OOC use only"
+    "[1.0] Compliance Rules",
+    "[1.1]  Death-matching will not be tolerated",
+	"[1.2]	Do Not Hack Or Exploit Bugs",
+	"[1.3]  Common Decency and Respect",
+	"[1.4]  Roleplay is Required",
+	"[1.5]  Communication With Others",
+	"[1.6]  ACRE MUST BE RUNNING",
+    "Failure to comply with listed rule set stated above may result in temporary or permanent bans depending on the severity of your offence."
 ];
 RPP_var_pol_maxArrest = 60;
 

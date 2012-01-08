@@ -234,6 +234,11 @@ RPP_fnc_onKeyPress =
                 {
                     [_curTarget] call RPP_fnc_lockVehicle;
                 };
+				
+				if (_key == 22) then /* Unflip Car */
+				{
+					[_curTarget] call ALR_fnc_unflip;
+				};
 
                 if (_key == 20) then /* Menu */
                 {

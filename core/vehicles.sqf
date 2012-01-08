@@ -62,6 +62,32 @@ RPP_fnc_freezeObject =
     _obj disableAI "MOVE";
 };
 
+ALR_fnc_unflip = 
+{
+	_vcl = (nearestobjects [getpos player, ["LandVehicle"], 10] select 0);
+	
+	if ((count crew _vcl) > 0) then 
+	{
+	localize "STRS_unflip_empty" call RPP_fnc_hint;
+	}
+	else
+	{
+		localize "STRS_unflip_pending" call RPP_fnc_hint;	
+		sleep 10;
+		if (player distance _vcl < 10) then
+			{
+			_vcl setvectorup [0.001,0.001,1];
+			localize "STRS_unflip_complete" call RPP_fnc_hint;	
+			}
+			else
+			{
+			localize "STRS_unflip_notPossible" call RPP_fnc_hint;
+			};
+	};
+	
+};
+	
+
 RPP_fnc_toggleSeatbelt = 
 {
     _seatbelt = player getVariable ["seatbelt", false];
@@ -160,8 +186,8 @@ RPP_fnc_createVehicle =
         _vcl = objNull;
         _name = _class call RPP_fnc_itemGetName;
         _trunk = [];
-        _text = format["<t size='0.6' color='#4876FF'>%2</t><br/><t size='0.35' color='#4876FF'>%1</t><br/><t size='0.45'>(Press F to lock/unlock)</t><br/><t size='0.45'>(Press T for Menu)<br/></t><t size='0.45'>(Press B to Pullout)</t>", _registration, _name];
-	_damage = 0;
+        _text = format["<t size='0.6' color='#4876FF'>%2</t><br/><t size='0.35' color='#4876FF'>%1</t><br/><t size='0.45'>(Press F to lock/unlock)</t><br/><t size='0.45'>(Press T for Menu)<br/></t><t size='0.45'>(Press B to Pullout)<br/></t><t size='0.45'>(Press U to Unflip)</t>", _registration, _name];
+		_damage = 0;
         _fuel = 1;
         _siren = _class call RPP_fnc_itemGetSiren;
         _hasSiren = false;
@@ -220,7 +246,7 @@ RPP_fnc_createVehicle =
         _vcl setVariable ["maxSize", "%1" call RPP_fnc_itemGetTrunkSize, true];
         _vcl setVariable ["isPublic", true, true];
         _vcl setVariable ["RPP_siren_mounted", %8, true];
-	_vcl setVariable ["RPP_siren_state", 0, true];
+		_vcl setVariable ["RPP_siren_state", 0, true];
 
         _vcl setFuel %7;
         _vcl setDamage %6;

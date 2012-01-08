@@ -74,6 +74,11 @@ STRS_shop_cantUseYet, "<t color='#4876FF'>Shop</t><br/>You cannot use the shop y
 STRS_shop_sellDrugs, "<t color='#4876FF'>Shop</t><br/>You cannot sell any drugs at the moment, there must be at least 2 cops online to do this."
 STRS_shop_cantIsCiv, "<t color='#4876FF'>Shop</t><br/>You cannot access this"
 
+STRS_unflip_pending, "<t color='#4876FF'>Unflip</t><br/>Please wait, You are unfliping the vehicle."
+STRS_unflip_empty, "<t color='#4876FF'>Unflip</t><br/>The vehicle is empty."
+STRS_unflip_notPossible, "<t color='#4876FF'>Unflip</t><br/>You cannot do this while in a vehicle." 
+STRS_unflip_complete, "<t color='#4876FF'>Unflip</t><br/>You unfliped your vehicle." 
+
 STRS_trading_received, "<t color='#4876FF'>Trading</t><br/>%1 has given you some items!"
 STRS_trading_receivedfull, "<t color='#4876FF'>Trading</t><br/>%1 has tried giving you some items but they wont fit in your inventory."
 STRS_trading_accepted, "<t color='#4876FF'>Trading</t><br/>The player has received the items you gave to him!"
