@@ -64,29 +64,44 @@ RPP_fnc_freezeObject =
 
 ALR_fnc_unflip = 
 {
-	_vcl = (nearestobjects [getpos player, ["LandVehicle"], 10] select 0);
+	private ["_vehicle", "_ok"];
+	_obj = _this select 0;
+	_ok = true;
 	
-	if ((count crew _vcl) > 0) then 
+	if (typeName _obj == "STRING") then
+    {
+        _obj = _obj call RPP_fnc_findVehicle;    
+    };
+    
+    if (_obj in RPP_var_keyChain) then
+    {
+        _ok = true;
+    }
+    else
+    {
+        _ok = false;
+    };
+	
+	if ((count crew _obj) > 0) then
+    {
+        _ok = false;
+		localize "STRS_unflip_empty" call RPP_fnc_hint;
+    }
+    else
+    {
+        _ok = true;
+    };
+	
+	if (_ok) then
 	{
-	localize "STRS_unflip_empty" call RPP_fnc_hint;
+			_obj setvectorup [0.001,0.001,1];
+			localize "STRS_unflip_complete" call RPP_fnc_hint;	
 	}
 	else
 	{
-		localize "STRS_unflip_pending" call RPP_fnc_hint;	
-		sleep 10;
-		if (player distance _vcl < 10) then
-			{
-			_vcl setvectorup [0.001,0.001,1];
-			localize "STRS_unflip_complete" call RPP_fnc_hint;	
-			}
-			else
-			{
-			localize "STRS_unflip_notPossible" call RPP_fnc_hint;
-			};
+		localize "STRS_unflip_notPossible" call RPP_fnc_hint;
 	};
-	
-};
-	
+};	
 
 RPP_fnc_toggleSeatbelt = 
 {
