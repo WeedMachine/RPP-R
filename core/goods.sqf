@@ -18,7 +18,7 @@ RPP_var_goods =
     ["ItemCompass", ["WEAPON", "ITEM"], ["Compass", "No description"], [40,20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemWatch", ["WEAPON", "ITEM"], ["Watch", "No description"], [25,20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [100,50], 0, "core\items\noUse.sqf", 0, true, [], false],
-    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No description"], [800,500], 0, "core\items\noUse.sqf", 0, true, [], false],
+    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [800,500], 0, "core\items\noUse.sqf", 0, true, [], false],
     
     ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0,0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
@@ -82,6 +82,16 @@ RPP_var_goods =
     ["Lada2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Decorated", "No Desc"], [400,190], 50, "core\items\noUse.sqf", 50, true, [], false, []],
     ["Volha_1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (Blue)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
     ["Volha_2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (White)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
+    
+	/* Classic Cars */
+	["monaco", ["VEHICLE", "CAR"], ["1968 Dodge Monaco", "No Desc"], [6000,4000], 120, "core\items\noUse.sqf",60, true, [2, [ ["IronBar", 1]]], false, []],
+    ["roadrunner2", ["VEHICLE", "CAR"], ["1969 Road Runner", "Yellow"], [10000,5500], 120, "core\items\noUse.sqf", 60, true, [], false, []],
+    ["barcuda", ["VEHICLE", "CAR"], ["1970 Plymouth Barracuda", "No Desc"], [15755,7500], 120, "core\items\noUse.sqf", 60, true, [], false, []],
+    ["fury", ["VEHICLE", "CAR"], ["1977 Plymouth Fury", "No Desc"], [1500,450], 120, "core\items\noUse.sqf", 60, true, [], false, []],
+    ["challenger", ["VEHICLE", "CAR"], ["2008 Dodge Challenger Concept", "No Desc"], [18000,11000], 130, "core\items\noUse.sqf", 65, true, [], false, []],
+    ["civic", ["VEHICLE", "CAR"], ["1989 Honda Civic", "No Desc"], [2255,1100], 100, "core\items\noUse.sqf", 50, true, [], false, []],
+    ["roadrunner", ["VEHICLE", "CAR"], ["1969 Road Runner", "Green"], [9900,5000], 50, "core\items\noUse.sqf", 50, true, [], false, []],
+    ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [16755,8600], 50, "core\items\noUse.sqf", 50, true, [], false, []],
     
 	//Police Cars
 	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [7500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],

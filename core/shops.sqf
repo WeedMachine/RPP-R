@@ -21,6 +21,16 @@ RPP_var_shops =
     [shop_caroldb, "Volha_1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_caroldw, "Volha_2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     
+	/* Classic Cars */
+	[shop_monaco, "monaco", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [shop_roadrunner2, "roadrunner2", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [shop_barcuda, "barcuda", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [shop_fury, "fury", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [shop_challenger, "challenger", "", [0,0], [] call RPP_fnc_generateID, 3, true, true],
+    [shop_civic, "civic", "", [0,0], [] call RPP_fnc_generateID, 40, true, true],
+    [shop_roadrunner, "roadrunner", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
+    [shop_cuda, "cuda", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+    	
 	/* Police Car Shop */
 	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
     [shop_CopcarHW2, "CopcarHW2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
@@ -34,6 +44,7 @@ RPP_var_shops =
     [shop_police_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_radio, "ItemRadio", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_police_handcuffs, "Handcuffs", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_bottle, "Bottle", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
 	[shop_police_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],

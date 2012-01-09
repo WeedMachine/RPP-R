@@ -7,7 +7,7 @@ RPP_Debug = true;
 RPP_Mission_Version = 0.2;
 RPP_Intro = false;
 RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 
 #define __isServer ((isDedicated) && (isServer))
