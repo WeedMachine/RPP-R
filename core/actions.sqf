@@ -238,6 +238,7 @@ RPP_fnc_onKeyPress =
 				if (_key == 22) then /* Unflip Car */
 				{
 					localize "STRS_unflip_pending" call RPP_fnc_hint;
+					sleep 10;
 					[_curTarget] call ALR_fnc_unflip;
 				};
 
