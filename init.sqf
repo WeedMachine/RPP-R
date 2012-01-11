@@ -27,6 +27,8 @@ if (RPP_QuickTest) exitWith
     
     dummy attachTo[player, [-0.25,-0.5,0]];
 
+	/* Testing stuff */
+
    //player setDir (_playerDir - _dir);
 };
 
