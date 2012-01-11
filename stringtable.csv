@@ -26,7 +26,7 @@ STRS_vehicle_seatbelt_off, "<t color='#4876FF'>Vehicle</t><br/>You've taken your
 STRS_respawn_emsLoss, "<t color='#4876FF'>Respawn</t><br/>You have died and have lost <t color='#FF0000'>$%1</t> for your medical bills."
 
 STRS_event_vcl_entered, "<t color='#4876FF'>Vehicle</t><br/><t color='#009900'>%1</t> has entered your vehicle."
-STRS_event_vcl_left, "<t color='#4876FF'>Vehicle</t><br/><t color='#009900'>%1</t> has lefted your vehicle."
+STRS_event_vcl_left, "<t color='#4876FF'>Vehicle</t><br/><t color='#009900'>%1</t> has left your vehicle."
 
 STRS_object_place, "<t color='#4876FF'>Object</t><br/>You have placed a <t color='#009900'>%1</t> here."
 STRS_object_pickup, "<t color='#4876FF'>Object</t><br/>You pickup a <t color='#009900'>%1</t>, Caution: It is against the rules to pickup other players objects."
