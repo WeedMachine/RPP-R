@@ -192,7 +192,7 @@ class Mission
 					id=7;
 					side="CIV";
 					vehicle="Citizen3";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="Civ3";
@@ -524,7 +524,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={4194.5776,16.113588,5202.248};
+					position[]={4203.8369,8,5209.5967};
 					azimut=417.22836;
 					id=47;
 					side="CIV";
@@ -23078,7 +23078,7 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={4191.1655,15.992719,5202.0264};
+			position[]={4204.0376,8,5209.4316};
 			name="mari_sell";
 			text="Sell Marihuana";
 			type="mil_flag";

@@ -242,8 +242,19 @@ RPP_fnc_onKeyPress =
 				
 				if (_key == 22) then /* Unflip Car */
 				{
-					localize "STRS_unflip_pending" call RPP_fnc_hint;
-					[_curTarget] call ALR_fnc_unflip;
+					if (isNil "RPP_var_flipTime") then { //Define variables if undefined
+						RPP_var_flipTime = time; //Default to current time
+						RPP_var_flipDelay = 5; //Time in seconds unflip action can be repeated
+
+					};
+
+					if (((RPP_var_flipTime) + RPP_var_flipDelay) >= time) then { //Unable to flip vehicle yet
+						localize "STRS_unflip_unable" call RPP_fnc_hint;
+					} else {
+						localize "STRS_unflip_pending" call RPP_fnc_hint;
+						[_curTarget] call ALR_fnc_unflip;
+						
+					};
 				};
 
                 if (_key == 20) then /* Menu */

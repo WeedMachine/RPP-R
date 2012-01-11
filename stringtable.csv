@@ -78,6 +78,7 @@ STRS_unflip_pending, "<t color='#4876FF'>Unflip</t><br/>Please wait, You are unf
 STRS_unflip_empty, "<t color='#4876FF'>Unflip</t><br/>The vehicle is empty."
 STRS_unflip_notPossible, "<t color='#4876FF'>Unflip</t><br/>You cannot do this while in a vehicle." 
 STRS_unflip_complete, "<t color='#4876FF'>Unflip</t><br/>You unfliped your vehicle." 
+STRS_unflip_unable, "<t color='#4876FF'>Unflip</t><br/>You are already unflipping a vehicle."
 
 STRS_trading_received, "<t color='#4876FF'>Trading</t><br/>%1 has given you some items!"
 STRS_trading_receivedfull, "<t color='#4876FF'>Trading</t><br/>%1 has tried giving you some items but they wont fit in your inventory."
