@@ -170,6 +170,7 @@ RPP_fnc_respawnEffect =
 	
     localize "STRS_player_respawn" call RPP_fnc_hint;
 
+	RPP_var_holstered = false;
 	removeAllWeapons player;
     player addweapon "ItemMap";
 	["hunger", 100] call RPP_fnc_setDynamic;
