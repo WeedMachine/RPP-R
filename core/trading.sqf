@@ -134,7 +134,11 @@ RPP_fnc_trading_getSendWeight =
     {
         _class = _x select 0;
         _amount = _x select 1;
-        _size = _size + ((_class call RPP_fnc_itemGetMass) * (_amount));
+		_mass = _class call RPP_fnc_itemGetMass;
+
+		if (_mass > 0) then { 
+        	_size = _size + ((_class call RPP_fnc_itemGetMass) * (_amount));
+		};
     } forEach (_array);
 
     _size
