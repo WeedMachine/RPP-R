@@ -22,8 +22,8 @@ RPP_fnc_onKeyPress =
     _ctrl = _this select 3;
     _alt = _this select 4;
 
-	/* Debug information for a bug */
-	diag_log format["%1 %2 %3 %4", not alive player, RPP_var_isRestrained, player call RPP_fnc_medical_isAlive, RPP_var_medical_isReviving];
+	/* Debug information for a bug...removed as issue has been fixed. */
+	//diag_log format["%1 %2 %3 %4", not alive player, RPP_var_isRestrained, player call RPP_fnc_medical_isAlive, RPP_var_medical_isReviving];
     
     if (not alive player) exitWith {};
     if (RPP_var_isRestrained) exitWith {};
