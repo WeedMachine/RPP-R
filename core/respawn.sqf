@@ -170,6 +170,12 @@ RPP_fnc_respawnEffect =
 	
     localize "STRS_player_respawn" call RPP_fnc_hint;
 
+	removeAllWeapons player;
+    player addweapon "ItemMap";
+	["hunger", 100] call RPP_fnc_setDynamic;
+    ["thirst", 100] call RPP_fnc_setDynamic;
+    
+
     "dynamicBlur" ppEffectEnable true;
     _i = 10;
     while {_i != -1} do
@@ -182,11 +188,7 @@ RPP_fnc_respawnEffect =
     };
 
     sleep 1;
-    ["hunger", 100] call RPP_fnc_setDynamic;
-    ["thirst", 100] call RPP_fnc_setDynamic;
-    
-    removeAllWeapons player;
-    player addweapon "ItemMap";
+
 
     "dynamicBlur" ppEffectEnable false;
 };
