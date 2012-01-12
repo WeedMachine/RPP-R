@@ -117,7 +117,24 @@ RPP_var_shops =
     [shop_pbx, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
     
     /* Fishing shop */
-    
+    [shop_shop4_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_harpoon, "Harpoon", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_worm, "Worm", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_bluegill, "Bluegill", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_catfish, "Catfish", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_perch, "Perch", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_trout, "Trout", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_rockbass, "RockBass", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_shrimp, "Shrimp", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_sardine, "Sardine", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_monkfish, "Monkfish", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_salmon, "Salmon", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_shark, "Shark", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_tuna, "Tuna", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_whale, "Whale", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_swordfish, "Swordfish", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
         
     /* Objects */
     [shop_fence, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
