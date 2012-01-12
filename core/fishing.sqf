@@ -8,19 +8,43 @@ RPP_var_fishingRod_define =
 [
     ["Minnow", "", 1, [0, 100], 25, 160], 
     ["Bluegill", "Worm", 1, [0, 100], 17, 220],
-    ["Catfish", "Minnow", 20, [0, 100], 6, 280]
+    ["Catfish", "Minnow", 20, [0, 100], 6, 280],
+	["Perch", "Worm", 10, [0, 100], 10, 230],
+	["Trout", "Worm", 15, [0, 100], 8, 210],
+	["RockBass", "Minnow", 25, [0, 100], 4, 310]
 ];
+
+ALR_var_fishingnet_define =
+[
+    ["Shrimp", "", 1, [100, 200], 25, 180], 
+    ["Sardine", "Worm", 10, [100, 200], 17, 250],
+    ["Monkfish", "Minnow", 60, [100, 200], 2, 600],
+	["Salmon", "Worm", 30, [100, 200], 4, 370]
+];
+
+ALR_var_harpoon_define =
+[
+	["Shark", "", 65, [200, 400], 2, 620], 
+    ["Tuna", "", 25, [200, 400], 4, 350],
+    ["Whale", "", 99, [200, 600], 1, 1200],
+	["Swordfish", "", 50, [200, 400], 10, 500]
+];
+	
 
 RPP_var_fishing_items = 
 [
-    "Fishing_rod"
+    "Fishing_rod",
+	"Fishing_net",
+	"Harpoon"
 ];
 
 RPP_var_fishingExp = 24;
 
 RPP_var_fishing_define = 
 [
-    ["Fishing_rod", RPP_var_fishingRod_define, "CtsDoktor_Vojak_uder1"]
+    ["Fishing_rod", RPP_var_fishingRod_define, "CtsDoktor_Vojak_uder1"],
+	["Fishing_net", ALR_var_fishingnet_define, "CtsDoktor_Vojak_uder1"],
+	["Harpoon", ALR_var_harpoon_define, "CtsDoktor_Vojak_uder1"]
 ];
 
 RPP_var_isFishing = false;

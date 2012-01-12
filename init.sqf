@@ -3,9 +3,9 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
-RPP_Mission_Version = 0.2;
-RPP_Intro = false;
+RPP_Debug = false;
+RPP_Mission_Version = 0.3;
+RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
@@ -239,7 +239,7 @@ if (!__isServer) then
     [] spawn RPP_fnc_actionCheck;
     [] spawn RPP_fnc_runPaycheck;
     [] spawn RPP_fnc_offroad; /* Damage from driving offroad*/
-    
+	  
     _script = [] execVM "core\ui.sqf";
     waitUntil {scriptDone _script}; 
 

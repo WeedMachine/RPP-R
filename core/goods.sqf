@@ -19,6 +19,8 @@ RPP_var_goods =
     ["ItemWatch", ["WEAPON", "ITEM"], ["Watch", "No description"], [25,20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [100,50], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [800,500], 0, "core\items\noUse.sqf", 0, true, [], false],
+	["ACRE_PRC148_UHF", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [498,250], 1, "core\items\phone.sqf", 0, true, [], false],
+	["ACRE_PRC119", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687,375], 1, "core\items\phone.sqf", 0, true, [], false],
     
     ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0,0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
@@ -26,7 +28,7 @@ RPP_var_goods =
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [0,0], 1, "core\items\lockpick.sqf", 0, true, [], false],
     ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [0,0], 1, "core\items\crowbar.sqf", 0, true, [], false],
     
-    ["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
+   	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
     ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [300,150], 10, "core\items\repairKit.sqf", 0, true, [], false],
     ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [], false],
 
@@ -56,10 +58,30 @@ RPP_var_goods =
     
     /* Fishing */
     ["Fishing_rod", ["ITEM", "TOOL"], ["Fishing rod", "No Desc"], [45, 20], 10, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
-    ["Minnow", ["ITEM", "BAIT"], ["Minnow", "No Desc"], [20,10], 1, "core\items\food.sqf", 0, true, [], false],
+	["Fishing_net", ["ITEM", "TOOL"], ["Fishing net", "No Desc"], [200, 70], 25, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3]]], false],
+    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 60, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["Wood", 6]], false],
+	
+	["Minnow", ["ITEM", "BAIT"], ["Minnow", "No Desc"], [20,10], 1, "core\items\food.sqf", 0, true, [], false],
     ["Worm", ["ITEM", "BAIT"], ["Worm", "No Desc"], [5,1], 0, "core\items\nouse.sqf", 0, true, [], false],
     
-    ["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 0, "core\items\food.sqf", 0, true, [], false],
+    /* Fishing Rod Arrays */
+	["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 0, "core\items\food.sqf", 0, true, [], false],
+	["Catfish", ["ITEM", "FISH"], ["Catfish", "No Desc"], [100,50], 0, "core\items\food.sqf", 0, true, [], false],
+	["Perch", ["ITEM", "FISH"], ["Perch", "No Desc"], [75,50], 0, "core\items\food.sqf", 0, true, [], false],
+	["Trout", ["ITEM", "FISH"], ["Trout", "No Desc"], [90,60], 0, "core\items\food.sqf", 0, true, [], false],
+	["RockBass", ["ITEM", "FISH"], ["RockBass", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
+	
+	/* Fishing net Arrays */
+	["Shrimp", ["ITEM", "FISH"], ["Shrimp", "No Desc"], [25,12], 0, "core\items\food.sqf", 0, true, [], false],
+	["Sardine", ["ITEM", "FISH"], ["Sardine", "No Desc"], [75,45], 0, "core\items\food.sqf", 0, true, [], false],
+	["Monkfish", ["ITEM", "FISH"], ["Monkfish", "No Desc"], [450,300], 0, "core\items\food.sqf", 0, true, [], false],
+	["Salmon", ["ITEM", "FISH"], ["Salmon", "No Desc"], [350,200], 0, "core\items\food.sqf", 0, true, [], false],
+	
+	/* Harpoon */
+	["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 0, "core\items\food.sqf", 0, true, [], false],
+	["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
+	["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 0, "core\items\food.sqf", 0, true, [], false],
+	["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 0, "core\items\food.sqf", 0, true, [], false],
     
     /* Bushes/Seeds/Trees */
     ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], true],

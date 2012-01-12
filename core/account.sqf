@@ -303,9 +303,16 @@ RPP_fnc_acc_start =
             player addmagazine "x26_mag";
             ['Handcuffs', 1] call RPP_fnc_addInventoryItem;
             ['cl_Spikestrip', 1] call RPP_fnc_addInventoryItem;
+						
         };
         
-        player addweapon "ItemMap";
+		player addweapon "ACRE_PRC119";
+		_chanset = ["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
+		_ret = [] call acre_api_fnc_getCurrentRadioList;
+		player removeweapon (_ret select 0);
+		_power = ["ACRE_PRC119", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;
+		
+		player addweapon "ItemMap";
     }
     else
     {
@@ -316,9 +323,15 @@ RPP_fnc_acc_start =
             if ((player call RPP_fnc_isEMS)) then
             {
                 ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-            };
-        }; 
-        
+			};
+			      
+		}; 
+    
+	player addweapon "ACRE_PRC148";
+	_chanset = ["ACRE_PRC148", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
+	_ret = [] call acre_api_fnc_getCurrentRadioList;
+	player removeweapon (_ret select 0);
+	_power = ["ACRE_PRC148", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;  
 
     };
 };
