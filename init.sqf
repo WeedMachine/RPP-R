@@ -192,15 +192,6 @@ waitUntil {scriptDone _script};
 
 progressLoadingScreen 0.50;
 
-if (__isServer) then
-
-{
-	{
-	_object = (_x select 0);
-	_stock = (_x select 5);
-	_object setVariable ["stock", _stock, true];
-    } forEach RPP_var_shops;
-};
 
 if (isServer) then
 {
@@ -230,6 +221,15 @@ if (isServer) then
 
 progressLoadingScreen 0.99;
 endLoadingScreen;
+
+if (RPP_isServer) then
+{
+	{
+		_object = (_x select 0);
+		_stock = (_x select 5);
+		_object setVariable ["stock", _stock, true];
+    } forEach RPP_var_shops;
+};
 
 if (!__isServer) then
 {  
