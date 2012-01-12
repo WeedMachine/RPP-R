@@ -28,7 +28,7 @@ RPP_var_goods =
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [0,0], 1, "core\items\lockpick.sqf", 0, true, [], false],
     ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [0,0], 1, "core\items\crowbar.sqf", 0, true, [], false],
     
-   	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
+   	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
     ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [300,150], 10, "core\items\repairKit.sqf", 0, true, [], false],
     ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [], false],
 
@@ -59,7 +59,7 @@ RPP_var_goods =
     /* Fishing */
     ["Fishing_rod", ["ITEM", "TOOL"], ["Fishing rod", "No Desc"], [45, 20], 10, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
 	["Fishing_net", ["ITEM", "TOOL"], ["Fishing net", "No Desc"], [200, 70], 25, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3]]], false],
-    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 60, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["Wood", 6]], false],
+    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 60, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["Wood", 6]]], false],
 	
 	["Minnow", ["ITEM", "BAIT"], ["Minnow", "No Desc"], [20,10], 1, "core\items\food.sqf", 0, true, [], false],
     ["Worm", ["ITEM", "BAIT"], ["Worm", "No Desc"], [5,1], 0, "core\items\nouse.sqf", 0, true, [], false],
