@@ -54,7 +54,8 @@ class Mission
 		"challenger",
 		"civic",
 		"roadrunner",
-		"cuda"
+		"cuda",
+		"mbg_buildings_3"
 	};
 	addOnsAuto[]=
 	{
@@ -105,6 +106,7 @@ class Mission
 		"civic",
 		"roadrunner",
 		"cuda",
+		"mbg_buildings_3",
 		"cmr_cicada"
 	};
 	randomSeed=13761412;
@@ -1392,7 +1394,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1836;
+		items=1871;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -22944,10 +22946,314 @@ class Mission
 			skill=0.2;
 			init="this setPos [7151.38, 2865.4, -1.6339]; this setDir 327.985;  this setVectorUp [0.198559,-0.317578,0.92721];doStop this;";
 		};
+		class Item1836
+		{
+			position[]={3698.407,46.409897,2922.2688};
+			id=1900;
+			side="EMPTY";
+			vehicle="ClutterCutter_EP1";
+			skill=1;
+		};
+		class Item1837
+		{
+			position[]={3715.4734,45.867912,2935.2688};
+			id=1901;
+			side="EMPTY";
+			vehicle="ClutterCutter_EP1";
+			skill=1;
+		};
+		class Item1838
+		{
+			position[]={3710.9558,46.491333,2919.2932};
+			id=1902;
+			side="EMPTY";
+			vehicle="asg_cc_50x50m_s";
+			skill=1;
+		};
+		class Item1839
+		{
+			position[]={3698.4534,46.41227,2928.531};
+			id=1903;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			skill=1;
+			text="shop_shop4_tuna";
+		};
+		class Item1840
+		{
+			position[]={3719.1824,45.756401,2926.395};
+			azimut=-1.89292;
+			id=1904;
+			side="EMPTY";
+			vehicle="Land_stand_small_EP1";
+			skill=1;
+			text="shop_shop4_shrimp";
+		};
+		class Item1841
+		{
+			position[]={3719.052,46.198463,2923.1704};
+			id=1905;
+			side="EMPTY";
+			vehicle="Land_stand_waterl_EP1";
+			skill=1;
+			text="shop_shop4_shark";
+		};
+		class Item1842
+		{
+			position[]={3702.8135,46.491333,2930.5925};
+			azimut=-0.79981601;
+			id=1906;
+			side="EMPTY";
+			vehicle="Land_stand_small_EP1";
+			skill=1;
+			text="shop_shop4_sardine";
+		};
+		class Item1843
+		{
+			position[]={3717.4148,46.358429,2938.9915};
+			id=1907;
+			side="EMPTY";
+			vehicle="Land_stand_waterl_EP1";
+			skill=1;
+		};
+		class Item1844
+		{
+			position[]={3713.9158,46.333496,2938.8022};
+			azimut=76.362801;
+			id=1908;
+			side="EMPTY";
+			vehicle="Land_stand_waterl_EP1";
+			skill=1;
+			text="shop_shop4_monkfish";
+		};
+		class Item1845
+		{
+			position[]={3713.3386,46.142242,2929.3105};
+			id=1909;
+			side="EMPTY";
+			vehicle="Land_stand_waterl_EP1";
+			skill=1;
+			text="shop_shop4_rockbass";
+		};
+		class Item1846
+		{
+			position[]={3694.3745,46.214733,2936.5222};
+			id=1910;
+			side="EMPTY";
+			vehicle="MAP_paletyD";
+			skill=1;
+		};
+		class Item1847
+		{
+			position[]={3694.7585,46.233608,2938.8838};
+			id=1911;
+			side="EMPTY";
+			vehicle="MAP_P_cihly1";
+			skill=1;
+		};
+		class Item1848
+		{
+			position[]={3694.8137,46.236324,2935.6685};
+			id=1912;
+			side="EMPTY";
+			vehicle="MAP_P_cihly2";
+			skill=1;
+		};
+		class Item1849
+		{
+			position[]={3726.7683,46.491333,2936.9189};
+			id=1913;
+			side="EMPTY";
+			vehicle="MAP_box_c";
+			skill=1;
+		};
+		class Item1850
+		{
+			position[]={3726.7446,46.491333,2936.4233};
+			id=1914;
+			side="EMPTY";
+			vehicle="MAP_box_c";
+			skill=1;
+		};
+		class Item1851
+		{
+			position[]={3728.4812,46.491333,2936.7083};
+			id=1915;
+			side="EMPTY";
+			vehicle="MAP_Barels3";
+			skill=1;
+		};
+		class Item1852
+		{
+			position[]={3731.283,46.322277,2932.4966};
+			id=1916;
+			side="EMPTY";
+			vehicle="MAP_garbage_paleta";
+			skill=1;
+		};
+		class Item1853
+		{
+			position[]={3680.7051,46.799465,2864.4136};
+			azimut=335.76791;
+			id=1917;
+			side="EMPTY";
+			vehicle="MAP_sign_service";
+			skill=1;
+		};
+		class Item1854
+		{
+			position[]={3676.365,46.714893,2865.4155};
+			azimut=337.0946;
+			id=1918;
+			side="EMPTY";
+			vehicle="MAP_Bilboard_Beach";
+			skill=1;
+		};
+		class Item1855
+		{
+			position[]={3678.5828,46.227085,2895.9641};
+			id=1919;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1856
+		{
+			position[]={3678.2466,46.262543,2894.3696};
+			id=1920;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1857
+		{
+			position[]={3678.5464,46.350266,2890.425};
+			id=1921;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1858
+		{
+			position[]={3678.3542,46.396751,2886.6646};
+			id=1922;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1859
+		{
+			position[]={3678.8,46.448811,2881.9753};
+			id=1923;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1860
+		{
+			position[]={3706.6238,46.491333,2939.4431};
+			id=1924;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_catfish";
+		};
+		class Item1861
+		{
+			position[]={3708.9041,46.491333,2939.4395};
+			id=1925;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_perch";
+		};
+		class Item1862
+		{
+			position[]={3711.1506,46.418266,2939.4456};
+			id=1926;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_trout";
+		};
+		class Item1863
+		{
+			position[]={3697.2317,46.355217,2937.25};
+			azimut=-90.474297;
+			id=1927;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_swordfish";
+		};
+		class Item1864
+		{
+			position[]={3697.302,46.358669,2935.0969};
+			azimut=268.32599;
+			id=1928;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_worm";
+		};
+		class Item1865
+		{
+			position[]={3697.4146,46.364159,2932.5623};
+			azimut=269.28201;
+			id=1929;
+			side="EMPTY";
+			vehicle="MAP_icebox";
+			skill=1;
+			text="shop_shop4_bluegill";
+		};
+		class Item1866
+		{
+			position[]={3726.7139,46.491333,2935.1204};
+			id=1930;
+			side="EMPTY";
+			vehicle="MAP_bucket";
+			skill=1;
+		};
+		class Item1867
+		{
+			position[]={3726.7605,46.491333,2936.1924};
+			id=1931;
+			side="EMPTY";
+			vehicle="MAP_floormop";
+			skill=1;
+		};
+		class Item1868
+		{
+			position[]={3726.9705,46.491333,2935.5364};
+			id=1932;
+			side="EMPTY";
+			vehicle="MAP_MetalBucket";
+			skill=1;
+		};
+		class Item1869
+		{
+			position[]={3722.1316,45.981113,2933.9963};
+			azimut=271.737;
+			id=1933;
+			side="EMPTY";
+			vehicle="MAP_fridge";
+			skill=1;
+			text="shop_shop4_salmon";
+		};
+		class Item1870
+		{
+			position[]={3713.9941,45.99567,2929.7673};
+			azimut=88.612999;
+			id=1934;
+			side="EMPTY";
+			vehicle="Land_MBG_GER_SUPERMARKET_1";
+			skill=1;
+			init="this setPos [3713.9941, 2929.7673, 0.27427536]; doStop this;";
+		};
 	};
 	class Markers
 	{
-		items=53;
+		items=54;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -23426,6 +23732,16 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 			angle=-1.0459814;
+		};
+		class Item53
+		{
+			position[]={3700.6191,46.491333,2932.8494};
+			name="fishing_dealer";
+			text="Fishing Market";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
 		};
 	};
 };
