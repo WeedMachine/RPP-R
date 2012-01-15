@@ -5,7 +5,11 @@ Copyright (C) 2011  Matthew Simms
 
 _RPP_var_smeltIron = [ ["IronOre", 2], ["IronBar", 1], ["IronOre", 1] ];
 _RPP_var_cookBluegill = [ ["Bluegill", 1], ["Cooked_Bluegill", 1], [] ];
-_RPP_var_processPopulus = [ ["Populus_Log", 1], ["Wood", 2], [] ];
+_RPP_var_processPopulus = [ ["Populus_Log", 6], ["Wood", 2], [] ];
+_ALR_var_processPine = [ ["pine_log", 4], ["Wood", 2], [] ];
+_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3, [] ];
+_ALR_var_processLarix = [ ["larix_log", 3], ["Wood", 3, [] ];
+_ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4, [] ];
 
 RPP_var_processDelay = 1;
 RPP_var_processLastUsed = time;
@@ -13,7 +17,11 @@ RPP_var_processLastUsed = time;
 RPP_var_processLocations = 
 [
     [process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 1, 240, 110], 25],
-    [process_populus, "Saw Populus Log", "Process", _RPP_var_processPopulus, ["manufacture", 1, 240, 110], 25]
+    [process_populus, "Saw Populus Log", "Process", _RPP_var_processPopulus, ["manufacture", 1, 240, 110], 25],
+	[process_pine, "Saw Pine Log", "Process", _ALR_var_processPine, ["manufacture", 20, 340, 280], 25],
+	[process_alder, "Saw Alder Log", "Process", _ALR_var_processAlder, ["manufacture", 10, 380, 230], 25],
+	[process_larix, "Saw Larix Log", "Process", _ALR_var_processLarix, ["manufacture", 30, 480, 330], 25],
+	[process_maple, "Saw Maple Log", "Process", _ALR_var_processMaple, ["manufacture", 70, 800, 650], 25]
 ];
 
 RPP_fnc_setupProcessing =

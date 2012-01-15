@@ -11,7 +11,8 @@ RPP_var_goods =
 
     /* Tools */
     ["Pickaxe", ["ITEM", "TOOL"], ["Pickaxe", localize "STRS_item_pickaxeDesc"], [200, 150], 12, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
-    ["Hatchet", ["ITEM", "TOOL"], ["Hatchet", "No description"], [150, 75], 8, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
+    ["sickle", ["ITEM", "TOOL"], ["Sickle", "No description"], [100, 50], 8, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Wood", 3] ]], false],
+	["Hatchet", ["ITEM", "TOOL"], ["Hatchet", "No description"], [150, 75], 8, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
 
     /* Equipment */
     ["ItemMap", ["WEAPON", "ITEM"], ["Map", "No description"], [150,75], 0, "core\items\noUse.sqf", 0, true, [], false],
@@ -85,11 +86,27 @@ RPP_var_goods =
     
     /* Bushes/Seeds/Trees */
     ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], true],
-    ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [10,3], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["pine_seed", ["ITEM", "SPROUT"], ["Pine Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["potato_sprouts", ["ITEM", "SPROUT"], ["Potato Sprouts", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["alder_seed", ["ITEM", "SPROUT"], ["Alder Seed", "No Desc"], [8,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["pumpkin_seed", ["ITEM", "SPROUT"], ["Pumpkin Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["cabbage_seed", ["ITEM", "SPROUT"], ["Cabbage Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+	["maple_seed", ["ITEM", "SPROUT"], ["Maple Seed", "No Desc"], [15,6], 0, "core\items\sprout.sqf", 0, true, [], false],
     
     ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [5,1], 1, "core\items\nouse.sqf", 0, true, [], true],
-    
-    ["populus_log", ["ITEM", "RESOURCE"], ["Populus Log", "No Desc"], [5,1], 25, "core\items\nouse.sqf", 0, true, [], false], 
+    ["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [15,7], 0.1, "core\items\food.sqf", 0, true, [], false],
+	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 0.1, "core\items\food.sqf", 0, true, [], false],
+	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.1, "core\items\food.sqf", 0, true, [], false],
+	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false],
+	
+    ["populus_log", ["ITEM", "RESOURCE"], ["Populus Log", "No Desc"], [5,1], 25, "core\items\nouse.sqf", 0, true, [], false],
+	["maple_log", ["ITEM", "RESOURCE"], ["Maple Log", "No Desc"], [5,1], 25, "core\items\nouse.sqf", 0, true, [], false],
+	["larix_log", ["ITEM", "RESOURCE"], ["Larix Log", "No Desc"], [5,1], 25, "core\items\nouse.sqf", 0, true, [], false],
+	["alder_log", ["ITEM", "RESOURCE"], ["Alder Log", "No Desc"], [6,2], 20, "core\items\nouse.sqf", 0, true, [], false],
+	["pine_log", ["ITEM", "RESOURCE"], ["Pine Log", "No Desc"], [5,1], 25, "core\items\nouse.sqf", 0, true, [], false], 	
     ["wood", ["ITEM", "RESOURCE"], ["Wood", "No Desc"], [5,1], 10, "core\items\nouse.sqf", 0, true, [], false],     
 
     //Cars
@@ -122,7 +139,7 @@ RPP_var_goods =
 	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [9500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [8000,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
-	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
+	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], true, []],
 	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [17500,8500], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [7500,3000], 65, "core\items\noUse.sqf", 65, true, [], false, []],
 	

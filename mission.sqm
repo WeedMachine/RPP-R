@@ -1394,7 +1394,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1871;
+		items=1879;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -23249,6 +23249,94 @@ class Mission
 			vehicle="Land_MBG_GER_SUPERMARKET_1";
 			skill=1;
 			init="this setPos [3713.9941, 2929.7673, 0.27427536]; doStop this;";
+		};
+		class Item1871
+		{
+			position[]={7113.334,35.963661,3612.4563};
+			azimut=9.5050001;
+			id=1935;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="apple_shop";
+		};
+		class Item1872
+		{
+			position[]={7112.3008,35.963661,3607.3513};
+			azimut=9.5050001;
+			id=1936;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="pumpkin_shop";
+		};
+		class Item1873
+		{
+			position[]={7114.3677,35.963661,3617.8835};
+			azimut=11.935201;
+			id=1937;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="pine_shop";
+		};
+		class Item1874
+		{
+			position[]={7110.3584,35.963661,3593.0344};
+			azimut=4.1986899;
+			id=1938;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="potato_shop";
+		};
+		class Item1875
+		{
+			position[]={7115.646,35.963661,3622.1787};
+			azimut=11.9352;
+			id=1939;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="alder_shop";
+		};
+		class Item1876
+		{
+			position[]={7126.5522,35.963661,3613.0056};
+			azimut=-169.99715;
+			id=1940;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="larix_shop";
+		};
+		class Item1877
+		{
+			position[]={7127.8271,35.963661,3622.0601};
+			azimut=-174.733;
+			id=1941;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="cabbage_shop";
+		};
+		class Item1878
+		{
+			position[]={7127.4443,35.963661,3617.5972};
+			azimut=-174.733;
+			id=1942;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="maple_shop";
 		};
 	};
 	class Markers

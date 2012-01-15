@@ -17,8 +17,8 @@ Copyright (C) 2011  Matthew Simms
 			(1) Chance of a sprout to grow on it per growth cycle (integer)
 			(2) Item class required to pick sprout (string)
 			(3) Sprout picking animation (string)
-                (6) Chance of it dying
-                (7) String name
+        (6) Chance of it dying
+        (7) String name
 		(8) Parameters:
                         (0) Skill 
                         (1) Required Level
@@ -26,12 +26,27 @@ Copyright (C) 2011  Matthew Simms
 */
 RPP_var_forestry_sprouts = 
 [
-    ["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 1, 4600]],
-    ["populus_seed", "TREE", "populus_tree", "AS_t_populusF2s_EP1", 10, ["populus_seed", 8, "", "normal"], 20, "Populus Tree", ["forestry", 1, 1250]]
+    //TIER 1
+    ["populus_seed", "TREE", "populus_tree", "AS_t_populusF2s_EP1", 10, ["populus_seed", 8, "", "normal"], 20, "Populus Tree", ["forestry", 1, 1250]],
+	["cabbage_seed", "BUSH", "cabbage_patch", "MAP_pumpkin2", 13, ["cabbage_seed", 5, "", "normal"], 35, "Cabbage Patch", ["forestry", 1, 280]],
 	//["wheat_seed", "BUSH", "wheat_plant", "AS_p_wheat_EP1", 600, ["", 0, "", "normal"], 40, "Wheat"]
 	
-	//["apple_seed", "BUSH", "apple_tree", "MAP_t_betula1f", 30, ["apple_seed", 12, "sickle", "normal"], 20, "apple tree"],
-	//["pine_seed", "TREE", "pine_tree", "MAP_t_picea2s", 30, ["pine_seed", 12, "sickle", "normal"], 20, "pine tree"]
+	//TIER 2
+	["potato_sprouts", "BUSH", "potato_patch", "MAP_c_fern", 20, ["patato_sprouts", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 10, 820]],
+	["alder_seed", "TREE", "alder_tree", "MAP_t_pinusN2s", 10, ["alder_seed", 8, "sickle", "normal"], 20, "Alder Tree", ["forestry", 20, 980]],
+	
+	//TIER 3
+	["pumpkin_seed", "BUSH", "pumpkin_patch", "MAP_pumpkin", 20, ["pumpkin_seed", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 25, 1240]],
+	["pine_seed", "TREE", "pine_tree", "MAP_t_picea2s", 30, ["pine_seed", 12, "sickle", "normal"], 20, "Pine Tree", ["forestry", 40, 1650]],
+	["apple_seed", "BUSH", "apple_bush", "MAP_t_betula1f", 20, ["apple_seed", 5, "sickle", "normal"], 35, "Apple Tree", ["forestry", 45, 2250]],
+	
+	//TIER 4
+	["larix_seed", "TREE", "larix_tree", "MAP_t_larix3s", 20, ["larix_seed", 8, "sickle", "normal"], 15, "Larix Tree", ["forestry", 50, 3250]],
+	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 60, 6500]],
+	
+	//TIER 5
+	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 20, ["larix_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 4250]]
+	
 ];
 
 if (isServer) then
@@ -40,11 +55,11 @@ if (isServer) then
 };
 
 /* We use this for actions, Note: Case sensitive */ 
-RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1" ];
+RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_pumpkin2", "MAP_c_fern", "MAP_t_betula1f", "MAP_pumpkin" ];
 { RPP_var_forestry_typeBushes set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeBushes;
-RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1" ];
+RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1", "MAP_t_larix3s", "MAP_t_carpinis2s", "MAP_t_picea2s", "MAP_t_pinusN2s" ];
 { RPP_var_forestry_typeTrees set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrees;
-RPP_var_forestry_typeTrunks = [ "as_Misc_trunk_torzo_ep1" ];
+RPP_var_forestry_typeTrunks = [ "as_Misc_trunk_torzo_ep1", "MAP_misc_FallenTree2" ];
 { RPP_var_forestry_typeTrunks set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrunks;
 RPP_var_cuttingTree = false;
 
@@ -86,7 +101,11 @@ RPP_var_forestry_startHeight = -20;
 */
 RPP_var_forestry_trees = 
 [
-	["populus_tree", ["AS_Misc_trunk_torzo_ep1"], 10, ["populus_log", 2, 6], ["forestry", 220, 50], 7, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]]
+	["populus_tree", ["AS_Misc_trunk_torzo_ep1"], 10, ["populus_log", 2, 6], ["forestry", 220, 50], 7, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]],
+	["alder_tree", ["MAP_misc_FallenTree2"], 10, ["alder_log", 2, 6], ["forestry", 480, 50], 9, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]],
+	["larix_tree", ["MAP_misc_FallenTree2"], 20, ["larix_log", 1, 8], ["forestry", 720, 50], 15, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]],
+	["maple_tree", ["MAP_misc_FallenTree2"], 30, ["maple_log", 4, 8], ["forestry", 890, 50], 20, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]],
+	["pine_tree", ["AS_Misc_trunk_torzo_ep1"], 20, ["pine_log", 3, 6], ["forestry", 670, 50], 13, "hatchet", ["AmovPercMstpSnonWnonDnon_sekani2","AmovPercMstpSnonWnonDnon_sekani2"]]
 ];
 
 /*
@@ -113,7 +132,12 @@ RPP_var_forestry_trees =
 */
 RPP_var_forestry_bushes = 
 [
+	["apple_bush", [3,7, "Apple"], [12], 18, 0.5, [300, 0,10], ["forestry", 240], "", "AinvPknlMstpSlayWrflDnon_medic"],
+	["potato_patch", [4,7, "Potato"], [12], 18, 0.5, [300, 0,10], ["forestry", 160], "", "AinvPknlMstpSlayWrflDnon_medic"],
+	["pumpkin_patch", [1,3, "Pumpkin"], [12], 18, 0.5, [300, 0,10], ["forestry", 180], "", "AinvPknlMstpSlayWrflDnon_medic"],
+	["cabbage_patch", [1,3, "Cabbage"], [12], 18, 0.5, [300, 0,10], ["forestry", 80], "", "AinvPknlMstpSlayWrflDnon_medic"],
     ["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"]
+	
 ];
 
 RPP_fnc_forestry_plantSprout = 

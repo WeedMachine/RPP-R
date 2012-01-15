@@ -152,11 +152,20 @@ RPP_var_shops =
     [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
     [wheat_shop, "Wheat", "", [0,0], [] call RPP_fnc_generateID, 250, true, true],
     [populus_shop, "populus_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-    
-    /* Mari Sell */
+	[apple_shop, "apple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[pine_shop, "pine_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+    [pumpkin_shop, "pumpkin_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[potato_shop, "potato_sprouts", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[alder_shop, "alder_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[larix_shop, "larix_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[cabbage_shop, "cabbage_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[maple_shop, "maple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	
+	/* Mari Sell */
     [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 
     /* Drug Equipment */
+	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 250, true, false],
     [mari_seeds, "mari_seed", "", [0,0], [] call RPP_fnc_generateID, 250, true, false]
 ];
 
