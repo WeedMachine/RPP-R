@@ -7,9 +7,9 @@ _RPP_var_smeltIron = [ ["IronOre", 2], ["IronBar", 1], ["IronOre", 1] ];
 _RPP_var_cookBluegill = [ ["Bluegill", 1], ["Cooked_Bluegill", 1], [] ];
 _RPP_var_processPopulus = [ ["Populus_Log", 6], ["Wood", 2], [] ];
 _ALR_var_processPine = [ ["pine_log", 4], ["Wood", 2], [] ];
-_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3, [] ];
-_ALR_var_processLarix = [ ["larix_log", 3], ["Wood", 3, [] ];
-_ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4, [] ];
+_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3], [] ];
+_ALR_var_processLarix = [ ["larix_log", 3], ["Wood", 3], [] ];
+_ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4], [] ];
 
 RPP_var_processDelay = 1;
 RPP_var_processLastUsed = time;
