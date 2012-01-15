@@ -1394,7 +1394,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1879;
+		items=1883;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -23337,6 +23337,43 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="maple_shop";
+		};
+		class Item1879
+		{
+			position[]={2935.3533,15.706251,2311.623};
+			id=1943;
+			side="EMPTY";
+			vehicle="Axe_woodblock";
+			skill=0.60000002;
+			text="process_pine";
+		};
+		class Item1880
+		{
+			position[]={2942.561,14.774731,2282.9766};
+			id=1944;
+			side="EMPTY";
+			vehicle="Axe_woodblock";
+			skill=0.60000002;
+			text="process_alder";
+		};
+		class Item1881
+		{
+			position[]={2925.9822,14.521885,2280.4009};
+			azimut=37.55809;
+			id=1945;
+			side="EMPTY";
+			vehicle="Axe_woodblock";
+			skill=0.60000002;
+			text="process_larix";
+		};
+		class Item1882
+		{
+			position[]={2936.5891,14.779137,2258.4546};
+			id=1946;
+			side="EMPTY";
+			vehicle="Axe_woodblock";
+			skill=0.60000002;
+			text="process_maple";
 		};
 	};
 	class Markers
