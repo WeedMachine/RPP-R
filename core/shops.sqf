@@ -58,6 +58,8 @@ RPP_var_shops =
 	/* Police Weapon Shop */
 	[shop_police_tazer, "x26", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
 	[shop_police_tazer_mag, "x26_mag", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
+	[shop_police_stunshotgun, "M1014", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
+	[shop_police_stunshotgun_mag, "8Rnd_B_Beneli_74Slug", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
 	
     /* Pickup shop */
     [shop_pickup, "datsun1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],

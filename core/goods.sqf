@@ -178,6 +178,8 @@ RPP_var_goods =
     ["15Rnd_9x19_M9", ["MAGAZINE", "PISTOL"], ["M9 Magazine", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
     ["Colt1911", ["WEAPON", "PISTOL"], ["Colt 1911", "No Desc"], [1000, 640], 5, "core\items\noUse.sqf", 0, true, [], false],
     ["7Rnd_45ACP_1911", ["MAGAZINE", "PISTOL"], ["7Rnd M1911 .45 ACP Mag", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+	["M1014", ["WEAPON", "PISTOL"], ["M1014", "No Desc"], [2000, 1100], 5, "core\items\noUse.sqf", 0, true, [], false],
+    ["8Rnd_B_Beneli_74Slug", ["MAGAZINE", "PISTOL"], ["8Rnds BeanBag Non-Lethal", "No Desc"], [120, 60], 0.5, "core\items\noUse.sqf", 0, true, [], false],
     ["x26", ["WEAPON", "PISTOL"], ["X26 Tazer", "No Desc"], [1000, 640], 5, "core\items\noUse.sqf", 0, true, [], false],
     ["x26_mag", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [], false],
     

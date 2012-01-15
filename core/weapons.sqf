@@ -344,7 +344,7 @@ RPP_fnc_hit =
     _source = _this select 3;
     _projectile = _this select 4;
     _handled = false;
-    _tazer = ["B_9x18_SD"];
+    _tazer = ["B_9x18_SD", "B_12Gauge_74Slug"];
 
     //player groupchat format["%1 %2 %3 %4 %5", _unit, _selection, _damage, _source, _projectile];
 
@@ -364,7 +364,12 @@ RPP_fnc_hit =
         {
             [_unit, _source] spawn RPP_fnc_tazed;
         };
-        
+		
+		if (_projectile == "B_12Gauge_74Slug") exitWith
+        {
+            [_unit, _source] spawn RPP_fnc_tazed;
+        };
+		        
         _handled = true;
     };
     
