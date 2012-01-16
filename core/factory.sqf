@@ -12,9 +12,15 @@ _RPP_var_itemFactory =
 
 ];
 
+_ALR_var_carFactory = 
+[
+	["Skoda", ["manufacture", 1, 260]]
+];
+
 RPP_var_factoryDefine = 
 [
-    [item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory]
+    [car_factory, "Car Factory", item_factory_storage, _RPP_var_carFactory],
+	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory]
 ];
 
 RPP_fnc_openFactory =
