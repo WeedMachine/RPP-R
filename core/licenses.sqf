@@ -10,7 +10,9 @@ RPP_var_licenseShops =
 
 RPP_var_licenses =
 [
-    ["car", "Car license"]
+    ["car", "Car License"],
+	["pistol", "Pistol License"]
+	["pilot", "Pilot License"]
 ];
 
 RPP_var_playerLicenses = [];
