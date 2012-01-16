@@ -26,7 +26,7 @@ RPP_var_goods =
     ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0,0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
     /* Lockpick & Crowbar */
-    ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [0,0], 1, "core\items\lockpick.sqf", 0, true, [], false],
+    ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [0,0], 1, "core\items\lockpick.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
     ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [0,0], 1, "core\items\crowbar.sqf", 0, true, [], false],
     
    	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
