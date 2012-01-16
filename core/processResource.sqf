@@ -13,7 +13,7 @@ _ALR_var_processLarix = [ ["larix_log", 3], ["Wood", 3], [] ];
 _ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4], [] ];
 _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], [] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 4], [] ];
-_ALR_var_processClay = [ ["Glay", 2], ["Bricks", 4], [] ];
+_ALR_var_processClay = [ ["Clay", 2], ["Bricks", 4], [] ];
 _ALR_var_processOil = [ ["Oil", 5], ["Pertol", 10], [] ];
 
 
