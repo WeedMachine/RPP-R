@@ -27,11 +27,11 @@ RPP_var_goods =
     
     /* Lockpick & Crowbar */
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [0,0], 1, "core\items\lockpick.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
-    ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [0,0], 1, "core\items\crowbar.sqf", 0, true, [], false],
+    ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [0,0], 1, "core\items\crowbar.sqf", 0, true, [2, [ ["IronBar", 2]]], false],
     
-   	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [], false],
-    ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [300,150], 10, "core\items\repairKit.sqf", 0, true, [], false],
-    ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [], false],
+   	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
+    ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [300,150], 10, "core\items\repairKit.sqf", 0, true, [2, [ ["IronBar", 3], ["Wood", 3]]], false],
+    ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [[2, [ ["IronBar", 2]]], false],
 
     /* Farming */
     ["Wheat", ["ITEM", "RESOURCE"], ["Wheat", "No Desc"], [5,1], 1, "core\items\nouse.sqf", 0, true, [], false], 
