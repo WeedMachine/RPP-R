@@ -66,7 +66,7 @@ _ALR_var_truckFactory =
 
 _ALR_var_manufacturingPlant =
 [
-	["Tyre", ["manufacture", 1, 260]]
+	["Tyre", ["manufacture", 1, 260]],
 	["ElecComp", ["manufacture", 1, 260]]
 ];
 
