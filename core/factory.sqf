@@ -5,25 +5,33 @@ Copyright (C) 2011  Matthew Simms
 
 _RPP_var_itemFactory = 
 [
-    ["Pickaxe", ["manufacture", 1, 260]],
+    ["Pump", ["manufacture", 1, 260]],
+	["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
-    ["Fishing_rod", ["manufacture", 1, 260]]
+	["Pump", ["manufacture", 20, 400]],
+	["Shovel", ["manufacture", 1, 260]],
+	["RepairKit", ["manufacture", 30, 500]],
+	["Can", ["manufacture", 1, 260]],
+	["Harpoon", ["manufacture", 25, 480]],
+	["Fishing_net", ["manufacture", 20, 450]],
+	["ACRE_PRC148_UHF", ["manufacture", 20, 450]],
+    ["Fishing_rod", ["manufacture", 15, 380]]
 ];
 
 _ALR_var_carFactory = 
 [
 	//Cars
-	["Skoda", ["manufacture", 1, 260]],
-	["SkodaRed", ["manufacture", 1, 260]],
-	["SkodaBlue", ["manufacture", 1, 260]],
-	["SkodaGreen", ["manufacture", 1, 260]],
-	["VWGolf", ["manufacture", 1, 260]],
-	["car_hatchback", ["manufacture", 1, 260]],
-	["car_sedan", ["manufacture", 1, 260]],
-	["Lada1_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["Lada2_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["Volha_1_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["Volha_2_TK_CIV_EP1", ["manufacture", 1, 260]]
+	["Skoda", ["manufacture", 8, 350]],
+	["SkodaRed", ["manufacture", 8, 350]],
+	["SkodaBlue", ["manufacture", 8, 350]],
+	["SkodaGreen", ["manufacture", 8, 350]],
+	["VWGolf", ["manufacture", 15, 380]],
+	["car_hatchback", ["manufacture", 10, 380]],
+	["car_sedan", ["manufacture", 10, 380]],
+	["Lada1_TK_CIV_EP1", ["manufacture", 10, 380]],
+	["Lada2_TK_CIV_EP1", ["manufacture", 10, 380]],
+	["Volha_1_TK_CIV_EP1", ["manufacture", 10, 380]],
+	["Volha_2_TK_CIV_EP1", ["manufacture", 10, 380]]
 ];
 
 _ALR_var_bikeFactory = 
@@ -36,38 +44,44 @@ _ALR_var_bikeFactory =
 	["TT650_Civ", ["manufacture", 1, 260]],
 	["TT650_Gue", ["manufacture", 1, 260]],
 	["TT650_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["ATV_US_EP1", ["manufacture", 1, 260]]
+	["ATV_US_EP1", ["manufacture", 5, 300]]
 	
 ];
 
 _ALR_var_truckFactory = 
 [	
 	//Trucks
-	["Kamaz", ["manufacture", 1, 260]],
-	["KamazOpen", ["manufacture", 1, 260]],
-	["UralCivil", ["manufacture", 1, 260]],
-	["UralCivil2", ["manufacture", 1, 260]],
-	["UralOpen_INS", ["manufacture", 1, 260]],
-	["MTVR", ["manufacture", 1, 260]],
-	["V3S_Salvage_TK_GUE_EP1", ["manufacture", 1, 260]],
+	["Kamaz", ["manufacture", 40, 520]],
+	["KamazOpen", ["manufacture", 40, 520]],
+	["UralCivil", ["manufacture", 30, 500]],
+	["UralCivil2", ["manufacture", 30, 500]],
+	["UralOpen_INS", ["manufacture", 30, 500]],
+	["MTVR", ["manufacture", 45, 550]],
+	["V3S_Salvage_TK_GUE_EP1", ["manufacture", 30, 500]],
 	
 	//Pickups
-	["datsun1_civil_1_open", ["manufacture", 1, 260]],
-	["datsun1_civil_2_covered", ["manufacture", 1, 260]],
-	["datsun1_civil_3_open", ["manufacture", 1, 260]],
-	["hilux1_civil_1_open", ["manufacture", 1, 260]],
-	["hilux1_civil_2_covered", ["manufacture", 1, 260]],
-	["hilux1_civil_3_open", ["manufacture", 1, 260]],
-	["LandRover_CZ_EP1", ["manufacture", 1, 260]],
-	["LandRover_TK_CIV_EP1", ["manufacture", 1, 260]]
+	["datsun1_civil_1_open", ["manufacture", 20, 450]],
+	["datsun1_civil_2_covered", ["manufacture", 20, 450]],
+	["datsun1_civil_3_open", ["manufacture", 20, 450]],
+	["hilux1_civil_1_open", ["manufacture", 25, 480]],
+	["hilux1_civil_2_covered", ["manufacture", 25, 480]],
+	["hilux1_civil_3_open", ["manufacture", 25, 480]],
+	["LandRover_CZ_EP1", ["manufacture", 20, 450]],
+	["LandRover_TK_CIV_EP1", ["manufacture", 20, 450]]
 	
 ];
 
 _ALR_var_manufacturingPlant =
 [
-	["Tyre", ["manufacture", 1, 260]],
-	["ElecComp", ["manufacture", 1, 260]]
+	["Tyre", ["manufacture", 20, 450]],
+	["ElecComp", ["manufacture", 20, 450]]
 ];
+
+//_ALR_var_airFactory =
+//[
+//	["AirVechile", ["manufacture", 60, 700]],
+//	["AirVechile2", ["manufacture", 70, 800]]
+//];
 
 RPP_var_factoryDefine = 
 [
@@ -75,6 +89,7 @@ RPP_var_factoryDefine =
 	[bike_factory, "Bike Factory", bike_factory_storage, _ALR_var_bikeFactory],
 	[heavy_factory, "Heavy Vechile Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
+	//[air_factory, "Air Factory", air_factory_storage, _RPP_var_airFactory],
 	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]
 ];
 

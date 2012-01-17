@@ -7,7 +7,13 @@ RPP_var_miningDefine =
 [
     /* Gold mine */
     [ 0, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 5], 17, 8200, "Pickaxe", "GoldOre", 16, 1]],
-    [ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 1], 4, 180, "Pickaxe", "IronOre", 25, 1]]
+    [ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 1], 4, 180, "Pickaxe", "IronOre", 25, 1]],
+	[ 1, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 1], 4, 180, "Pickaxe", "CopperOre", 25, 1]],
+	[ 1, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 4, 180, "Shovel", "Sand", 25, 1]],
+	[ 1, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 4, 180, "Pickaxe", "Salt", 25, 1]],
+	[ 1, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 1], 4, 180, "Shovel", "Clay", 25, 1]],
+	[ 1, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 1], 4, 180, "Pickaxe", "Coal", 25, 1]],
+	[ 1, [oil1, oil2, oil3, oil4], "Pump Oil", [ ["mining", 1], 4, 180, "Pump", "Oil", 25, 1]]
 ];
 
 RPP_fnc_miningGetArray = 
