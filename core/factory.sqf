@@ -5,7 +5,7 @@ Copyright (C) 2011  Matthew Simms
 
 _RPP_var_itemFactory = 
 [
-    //["Pump", ["manufacture", 1, 260]],
+    ["Pump", ["manufacture", 1, 260]],
 	["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
     ["Fishing_rod", ["manufacture", 1, 260]]
@@ -72,10 +72,11 @@ _ALR_var_manufacturingPlant =
 
 RPP_var_factoryDefine = 
 [
-    //[car_factory, "Car Factory", item_factory_storage, _RPP_var_carFactory],
-	//[bike_factory, "Bike Factory", item_factory_storage, _RPP_var_bikeFactory],
-	//[manufacturing_plant, "Manufacturing Plant", item_factory_storage, _RPP_var_manufacturingPlant],
-	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory]
+    [car_factory, "Car Factory", car_factory_storage, _ALR_var_carFactory],
+	[bike_factory, "Bike Factory", bike_factory_storage, _ALR_var_bikeFactory],
+	[heavy_factory, "Heavy Vechile Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
+	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
+	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]
 ];
 
 RPP_fnc_openFactory =

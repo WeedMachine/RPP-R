@@ -7,7 +7,13 @@ RPP_var_storages =
 [
     [local_storage1, "Test: Local Storage", 0, false],
     [public_storage1, "Test: Public Storage", 10000, true],
-    [item_factory_storage, "Item Factory Storage", 0, false]
+    [item_factory_storage, "Item Factory Storage", 0, false],
+	[car_factory_storage, "Car Factory Storage", 0, false],
+	[bike_factory_storage, "Bike Factory Storage", 0, false],
+	[manufacturing_plant_storage, "Manufacturing Plant Storage", 0, false],
+	[lost_property_lot, "Lost Property Lot", 0, true],
+	[heavy_car_factory_storage, "Heavy Storage", 0, false]
+	
 ];
 
 {
