@@ -9,7 +9,12 @@ _RPP_var_itemFactory =
     ["Hatchet", ["manufacture", 1, 260]],
 	["Pump", ["manufacture", 20, 400]],
 	["Shovel", ["manufacture", 1, 260]],
-    ["Fishing_rod", ["manufacture", 1, 260]]
+	["RepairKit", ["manufacture", 30, 500]],
+	["Can", ["manufacture", 1, 260]],
+	["Harpoon", ["manufacture", 25, 480]],
+	["Fishing_net", ["manufacture", 20, 450]],
+	["ACRE_PRC148_UHF", ["manufacture", 20, 450]],
+    ["Fishing_rod", ["manufacture", 15, 380]]
 ];
 
 _ALR_var_carFactory = 

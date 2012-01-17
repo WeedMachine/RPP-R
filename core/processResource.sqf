@@ -3,18 +3,19 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-_RPP_var_smeltIron = [ ["IronOre", 2], ["IronBar", 1], ["IronOre", 1] ];
-_RPP_var_smeltCopper = [ ["CopperOre", 2], ["Copper", 1], ["CopperOre", 1] ];
+_RPP_var_smeltIron = [ ["IronOre", 2], ["IronBar", 1], ["CopperOre", 1]];
+_RPP_var_smeltCopper = [ ["CopperOre", 2], ["Copper", 1], ["Silicon",1];
+_RPP_var_smeltGold = [ ["GoldOre", 5], ["GoldBar", 1], ["GoldOre", 3] ];
 _RPP_var_cookBluegill = [ ["Bluegill", 1], ["Cooked_Bluegill", 1], [] ];
-_RPP_var_processPopulus = [ ["Populus_Log", 6], ["Wood", 2], [] ];
-_ALR_var_processPine = [ ["pine_log", 4], ["Wood", 2], [] ];
-_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3], [] ];
-_ALR_var_processLarix = [ ["larix_log", 3], ["Wood", 3], [] ];
-_ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4], [] ];
-_ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], [] ];
-_ALR_var_processSand = [ ["Sand", 2], ["Glass", 4], [] ];
-_ALR_var_processClay = [ ["Clay", 2], ["Bricks", 4], [] ];
-_ALR_var_processOil = [ ["Oil", 5], ["Petrol", 10], [] ];
+_RPP_var_processPopulus = [ ["Populus_Log", 6], ["Wood", 2], ["Populus_Log", 3] ];
+_ALR_var_processPine = [ ["pine_log", 6], ["Wood", 3], ["pine_log", 4] ];
+_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3], ["alder_log", 4] ];
+_ALR_var_processLarix = [ ["larix_log", 4], ["Wood", 3], ["larix_log", 3] ];
+_ALR_var_processMaple = [ ["maple_log", 4], ["Wood", 4], ["maple_log", 3] ];
+_ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], ["Rubber", 2] ];
+_ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
+_ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
+_ALR_var_processOil = [ ["Oil", 5], ["Petrol", 9], [["Sand", 1], ["Clay", 2], ["Petrol", 5]] ];
 //Test Butchery skill
 _ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], [] ];
 _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 10], [] ];
@@ -29,9 +30,10 @@ RPP_var_processLastUsed = time;
 RPP_var_processLocations = 
 [
 	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 1, 240, 110], 25],
+	[process_gold, "Smelt Gold Ore", "Process", _RPP_var_smeltGold, ["manufacture", 40, 500, 410], 25],
 	[process_sand, "Process Sand", "Process", _RPP_var_precessSand, ["manufacture", 1, 240, 110], 25],
-	[process_bricks, "Bake Bricks", "Process", _RPP_var_precessBricks, ["manufacture", 10, 380, 230], 15],
-	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 380, 230], 25],
+	[process_bricks, "Bake Bricks", "Process", _RPP_var_precessBricks, ["manufacture", 10, 340, 280], 15],
+	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 340, 280], 25],
     [process_populus, "Saw Populus Log", "Process", _RPP_var_processPopulus, ["manufacture", 1, 240, 110], 25],
 	[process_alder, "Saw Alder Log", "Process", _ALR_var_processAlder, ["manufacture", 10, 380, 230], 25],
 	[process_pine, "Saw Pine Log", "Process", _ALR_var_processPine, ["manufacture", 20, 340, 280], 25],
