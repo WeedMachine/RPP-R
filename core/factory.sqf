@@ -8,19 +8,74 @@ _RPP_var_itemFactory =
     ["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
     ["Fishing_rod", ["manufacture", 1, 260]],
-    ["Skoda", ["manufacture", 1, 260]]
 
 ];
 
 _ALR_var_carFactory = 
 [
-	["Skoda", ["manufacture", 1, 260]]
+	//Cars
+	["Skoda", ["manufacture", 1, 260]],
+	["SkodaRed", ["manufacture", 1, 260]],
+	["SkodaBlue", ["manufacture", 1, 260]],
+	["SkodaGreen", ["manufacture", 1, 260]],
+	["VWGolf", ["manufacture", 1, 260]],
+	["car_hatchback", ["manufacture", 1, 260]],
+	["car_sedan", ["manufacture", 1, 260]],
+	["Lada1_TK_CIV_EP1", ["manufacture", 1, 260]],
+	["Lada2_TK_CIV_EP1", ["manufacture", 1, 260]],
+	["Volha_1_TK_CIV_EP1", ["manufacture", 1, 260]],
+	["Volha_2_TK_CIV_EP1", ["manufacture", 1, 260]]
+];
+
+_ALR_var_bikeFactory = 
+[	
+	//Bikes
+	["Old_bike_TK_CIV_EP1", ["manufacture", 1, 260]],
+	["MMT_Civ", ["manufacture", 1, 260]],
+	["Old_moto_TK_Civ_EP1", ["manufacture", 1, 260]],
+	["M1030", ["manufacture", 1, 260]],
+	["TT650_Civ", ["manufacture", 1, 260]],
+	["TT650_Gue", ["manufacture", 1, 260]],
+	["TT650_TK_CIV_EP1", ["manufacture", 1, 260]],
+	["ATV_US_EP1", ["manufacture", 1, 260]]
+	
+];
+
+_ALR_var_truckFactory = 
+[	
+	//Trucks
+	["Kamaz", ["manufacture", 1, 260]],
+	["KamazOpen", ["manufacture", 1, 260]],
+	["UralCivil", ["manufacture", 1, 260]],
+	["UralCivil2", ["manufacture", 1, 260]],
+	["UralOpen_INS", ["manufacture", 1, 260]],
+	["MTVR", ["manufacture", 1, 260]],
+	["V3S_Salvage_TK_GUE_EP1", ["manufacture", 1, 260]],
+	
+	//Pickups
+	["datsun1_civil_1_open", ["manufacture", 1, 260]],
+	["datsun1_civil_2_covered", ["manufacture", 1, 260]],
+	["datsun1_civil_3_open", ["manufacture", 1, 260]],
+	["hilux1_civil_1_open", ["manufacture", 1, 260]],
+	["hilux1_civil_2_covered", ["manufacture", 1, 260]],
+	["hilux1_civil_3_open", ["manufacture", 1, 260]],
+	["LandRover_CZ_EP1", ["manufacture", 1, 260]],
+	["LandRover_TK_CIV_EP1", ["manufacture", 1, 260]]
+	
+];
+
+_ALR_var_manufacturingPlant =
+[
+	["Tyre", ["manufacture", 1, 260]],
+	["ElecComp", ["manufacture", 1, 260]]
 ];
 
 RPP_var_factoryDefine = 
 [
     [car_factory, "Car Factory", item_factory_storage, _RPP_var_carFactory],
-	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory]
+	[bike_factory, "Bike Factory", item_factory_storage, _RPP_var_bikeFactory],
+	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
+	[manufacturing_plant, "Manufacturing Plant", item_factory_storage, _RPP_var_manufacturingPlant]
 ];
 
 RPP_fnc_openFactory =
