@@ -41,13 +41,14 @@ RPP_var_goods =
     //["Wall_FenW2_6_EP1", ["ITEM", "OBJECT"], ["Fence", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, []],
     
     /* Food & Drink */
-    ["Soup", ["ITEM", "FOOD"], ["Soup", "No Desc"], [5,2], 0.1, "core\items\food.sqf", 0, true, [], false], 
-    ["Sandwich", ["ITEM", "FOOD"], ["Sandwich", "No Desc"], [15,7], 0.1, "core\items\food.sqf", 0, true, [], false], 
-    ["Bread", ["ITEM", "FOOD"], ["Bread", "No Desc"], [40,25], 0.1, "core\items\food.sqf", 0, true, [], false], 
-    ["Donut", ["ITEM", "FOOD"], ["Donut", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false], 
+    ["Soup", ["ITEM", "FOOD"], ["Soup", "No Desc"], [5,2], 0.2, "core\items\food.sqf", 0, true, [], false], 
+    ["Sandwich", ["ITEM", "FOOD"], ["Sandwich", "No Desc"], [15,7], 0.4, "core\items\food.sqf", 0, true, [], false], 
+    ["Bread", ["ITEM", "FOOD"], ["Bread", "No Desc"], [40,25], 1, "core\items\food.sqf", 0, true, [], false], 
+    ["Donut", ["ITEM", "FOOD"], ["Donut", "No Desc"], [10,5], 0.5, "core\items\food.sqf", 0, true, [], false], 
     ["Low_bottleWater", ["ITEM", "DRINK"], ["Small Bottled Water", "No Desc"], [10,5], 1, "core\items\drink.sqf", 0, true, [], false],
     ["High_bottleWater", ["ITEM", "DRINK"], ["Bottled Water", "No Desc"], [25,20], 2, "core\items\drink.sqf", 0, true, [], false],
     ["Bottle", ["ITEM", "DRINK"], ["Bottle", "No Desc"], [50,25], 1, "core\items\nouse.sqf", 0, true, [], false],
+	["ApplePie", ["ITEM", "DRINK"], ["Apple Pie", "No Desc"], [50,25], 0.5, "core\items\nouse.sqf", 0, true, [], false],
     
     /* Boats */
     ["Fishing_Boat", ["VEHICLE", "BOAT"], ["Fishing Boat", "No Desc"], [6500,2500], 600, "core\items\noUse.sqf", 300, true, [], false],
@@ -178,6 +179,13 @@ RPP_var_goods =
 	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false],  
 	
 	//Resources
+	/* Food Resources */
+	["Rabbit", ["ITEM", "RESOURCE"], ["Rabbit Ore", "No desc"], [12,10], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+	["Chicken", ["ITEM", "RESOURCE"], ["Chicken Ore", "No desc"], [2,1], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+	["Lamb", ["ITEM", "RESOURCE"], ["Lamb Ore", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Cow", ["ITEM", "RESOURCE"], ["Cow Ore", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Boar", ["ITEM", "RESOURCE"], ["Boar Ore", "No desc"], [20,10], 5, "core\items\noUse.sqf", 0, true, [], false],
+	
     /* Primary Resources */
     ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [85,25], 10, "core\items\noUse.sqf", 0, true, [], false],
     ["IronOre", ["ITEM", "RESOURCE"], ["Iron Ore", "No desc"], [85,25], 5, "core\items\noUse.sqf", 0, true, [], false],

@@ -7,6 +7,7 @@ _RPP_var_itemFactory =
 [
     ["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
+	["Pump", ["manufacture", 1, 260]],
     ["Fishing_rod", ["manufacture", 1, 260]]
 ];
 
