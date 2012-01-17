@@ -45,7 +45,7 @@ RPP_var_forestry_sprouts =
 	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 60, 6500]],
 	
 	//TIER 5
-	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 20, ["larix_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 4250]]
+	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 20, ["maple_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 4250]]
 	
 ];
 
