@@ -5,7 +5,8 @@ Copyright (C) 2011  Matthew Simms
 
 _RPP_var_itemFactory = 
 [
-    ["Pickaxe", ["manufacture", 1, 260]],
+    ["Pump", ["manufacture", 1, 260]],
+	["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
 	["Pump", ["manufacture", 20, 400]],
 	["Shovel", ["manufacture", 1, 260]],
