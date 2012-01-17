@@ -59,38 +59,38 @@ RPP_var_goods =
     ["PBX", ["VEHICLE", "BOAT"], ["PBX", "No Desc"], [5500,3300], 120, "core\items\noUse.sqf", 60, true, [2, [ ["IronBar", 1], ["ElecComp", 4], ["Rubber", 20], ["Copper", 2]]], false],
     
     /* Fishing */
-    ["Fishing_rod", ["ITEM", "TOOL"], ["Fishing rod", "No Desc"], [45, 20], 10, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1], ["wood", 1]]], false],
-	["Fishing_net", ["ITEM", "TOOL"], ["Fishing net", "No Desc"], [200, 70], 25, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3]]], false],
-    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 60, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["wood", 6]]], false],
+    ["Fishing_rod", ["ITEM", "TOOL"], ["Fishing rod", "No Desc"], [400, 220], 2, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1], ["wood", 1]]], false],
+	["Fishing_net", ["ITEM", "TOOL"], ["Fishing net", "No Desc"], [680, 330], 20, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Rubber", 1], ["Copper", 1]]], false],
+    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 20, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["wood", 6], ["Rubber", 5], ["Copper", 3]], false],
 	
 	["Minnow", ["ITEM", "BAIT"], ["Minnow", "No Desc"], [20,10], 1, "core\items\food.sqf", 0, true, [], false],
     ["Worm", ["ITEM", "BAIT"], ["Worm", "No Desc"], [5,1], 0, "core\items\nouse.sqf", 0, true, [], false],
     
     /* Fishing Rod Arrays */
-    ["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Catfish", ["ITEM", "FISH"], ["Catfish", "No Desc"], [100,50], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Perch", ["ITEM", "FISH"], ["Perch", "No Desc"], [75,50], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Trout", ["ITEM", "FISH"], ["Trout", "No Desc"], [90,60], 0, "core\items\food.sqf", 0, true, [], false],
-    ["RockBass", ["ITEM", "FISH"], ["RockBass", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 2, "core\items\food.sqf", 0, true, [], false],
+    ["Catfish", ["ITEM", "FISH"], ["Catfish", "No Desc"], [100,50], 3, "core\items\food.sqf", 0, true, [], false],
+    ["Perch", ["ITEM", "FISH"], ["Perch", "No Desc"], [75,50], 2, "core\items\food.sqf", 0, true, [], false],
+    ["Trout", ["ITEM", "FISH"], ["Trout", "No Desc"], [90,60], 3, "core\items\food.sqf", 0, true, [], false],
+    ["RockBass", ["ITEM", "FISH"], ["RockBass", "No Desc"], [150,100], 4, "core\items\food.sqf", 0, true, [], false],
 	
 	/* Fishing net Arrays */
-    ["Shrimp", ["ITEM", "FISH"], ["Shrimp", "No Desc"], [25,12], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Sardine", ["ITEM", "FISH"], ["Sardine", "No Desc"], [75,45], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Monkfish", ["ITEM", "FISH"], ["Monkfish", "No Desc"], [450,300], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Salmon", ["ITEM", "FISH"], ["Salmon", "No Desc"], [350,200], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Shrimp", ["ITEM", "FISH"], ["Shrimp", "No Desc"], [25,12], 0.1, "core\items\food.sqf", 0, true, [], false],
+    ["Sardine", ["ITEM", "FISH"], ["Sardine", "No Desc"], [75,45], 0.1, "core\items\food.sqf", 0, true, [], false],
+    ["Monkfish", ["ITEM", "FISH"], ["Monkfish", "No Desc"], [450,300], 2, "core\items\food.sqf", 0, true, [], false],
+    ["Salmon", ["ITEM", "FISH"], ["Salmon", "No Desc"], [350,200], 4, "core\items\food.sqf", 0, true, [], false],
 	
 	/* Harpoon */
-    ["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 0, "core\items\food.sqf", 0, true, [], false],
-    ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 15, "core\items\food.sqf", 0, true, [], false],
+    ["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 5, "core\items\food.sqf", 0, true, [], false],
+    ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 20, "core\items\food.sqf", 0, true, [], true],
+    ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 12, "core\items\food.sqf", 0, true, [], false],
    
 
     //Cars
-    ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [750,450], 120, "core\items\noUse.sqf",60, true, [2, [ ["IronBar", 1]]], false, []],
-    ["SkodaRed", ["VEHICLE", "CAR"], ["Skoda Red", "No Desc"], [750,450], 120, "core\items\noUse.sqf", 60, true, [], false, []],
-    ["SkodaBlue", ["VEHICLE", "CAR"], ["Skoda Blue", "No Desc"], [750,450], 120, "core\items\noUse.sqf", 60, true, [], false, []],
-    ["SkodaGreen", ["VEHICLE", "CAR"], ["Skoda Green", "No Desc"], [750,450], 120, "core\items\noUse.sqf", 60, true, [], false, []],
+    ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf",120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
+    ["SkodaRed", ["VEHICLE", "CAR"], ["Skoda Red", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
+    ["SkodaBlue", ["VEHICLE", "CAR"], ["Skoda Blue", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
+    ["SkodaGreen", ["VEHICLE", "CAR"], ["Skoda Green", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
     ["VWGolf", ["VEHICLE", "CAR"], ["VW Golf", "No Desc"], [1650,800], 130, "core\items\noUse.sqf", 65, true, [], false, []],
     ["car_hatchback", ["VEHICLE", "CAR"], ["Hatchback", "No Desc"], [850,600], 100, "core\items\noUse.sqf", 50, true, [], false, []],
     ["car_sedan", ["VEHICLE", "CAR"], ["Sedan", "No Desc"], [1250,800], 65, "core\items\noUse.sqf", 65, true, [], false, []],
@@ -217,7 +217,9 @@ RPP_var_goods =
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [20,14], 1, "core\items\nouse.sqf", 0, true, [], false],
 	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\nouse.sqf", 0, true, [2, [ ["IronBar", 1], ["Copper", 1], ["Rubber", 2]], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\nouse.sqf", 0, true, [], false],
-	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\nouse.sqf", 0, true, [2, ["Rubber", 5], false]
+	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\nouse.sqf", 0, true, [2, ["Rubber", 5], false],
+	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\nouse.sqf", 0, true, [], false]
+	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\nouse.sqf", 0, true, [], false]
 
 
 	///NO COMMA!

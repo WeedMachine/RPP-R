@@ -15,12 +15,13 @@ _ALR_var_processMaple = [ ["maple_log", 4], ["Wood", 4], ["maple_log", 3] ];
 _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], ["Rubber", 2] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
+_ALR_var_processVinyl = [ ["Rubber", 4], ["Vinyl", 1], [] ];
 _ALR_var_processOil = [ ["Oil", 5], ["Petrol", 9], [["Sand", 1], ["Clay", 2], ["Petrol", 5]] ];
 //Test Butchery skill
 _ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], [] ];
 _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 10], [] ];
 _ALR_var_processButcher3 = [ ["Lamb", 5], ["Meat", 15], [] ];
-_ALR_var_processButcher4 = [ ["Cow", 2], ["Meat", 7], [] ];
+_ALR_var_processButcher4 = [ ["Cow", 2], [["Meat", 7], ["Leather", 2]], ["Leather", 2] ];
 _ALR_var_processButcher5 = [ ["Boar", 1], ["Meat", 4], [] ];
 
 
@@ -40,6 +41,7 @@ RPP_var_processLocations =
 	[process_larix, "Saw Larix Log", "Process", _ALR_var_processLarix, ["manufacture", 30, 480, 330], 30],
 	[process_maple, "Saw Maple Log", "Process", _ALR_var_processMaple, ["manufacture", 70, 800, 650], 33],
 	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 10, 240, 230], 25],
+	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
 	//Test Butchery skill 
 	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["butching", 1, 240, 110], 20],
