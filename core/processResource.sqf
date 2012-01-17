@@ -14,7 +14,12 @@ _ALR_var_processMaple = [ ["maple_log", 2], ["Wood", 4], [] ];
 _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], [] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 4], [] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 4], [] ];
-_ALR_var_processOil = [ ["Oil", 5], ["Pertol", 10], [] ];
+_ALR_var_processOil = [ ["Oil", 5], ["Petrol", 10], [] ];
+_ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], [] ];
+_ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 10], [] ];
+_ALR_var_processButcher3 = [ ["Lamb", 5], ["Meat", 15], [] ];
+_ALR_var_processButcher4 = [ ["Cow", 2], ["Meat", 7], [] ];
+_ALR_var_processButcher5 = [ ["Boar", 1], ["Meat", 4], [] ];
 
 
 RPP_var_processDelay = 1;
@@ -32,7 +37,12 @@ RPP_var_processLocations =
 	[process_larix, "Saw Larix Log", "Process", _ALR_var_processLarix, ["manufacture", 30, 480, 330], 30],
 	[process_maple, "Saw Maple Log", "Process", _ALR_var_processMaple, ["manufacture", 70, 800, 650], 33],
 	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 10, 240, 230], 25],
-	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 20, 340, 280], 20]
+	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 20, 340, 280], 20],
+	[process_Rabbit, "Process Oil", "Process", _ALR_var_processButcher1, ["manufacture", 1, 240, 110], 20],
+	[process_Chicken, "Process Oil", "Process", _ALR_var_processButcher2, ["manufacture", 1, 240, 110], 20],
+	[process_Lamb, "Process Oil", "Process", _ALR_var_processButcher3, ["manufacture", 15, 360, 250], 20],
+	[process_Cow, "Process Oil", "Process", _ALR_var_processButcher4, ["manufacture", 30, 480, 330], 25],
+	[process_Boar, "Process Oil", "Process", _ALR_var_processButcher5, ["manufacture", 50, 600, 500], 30]
 ];
 
 RPP_fnc_setupProcessing =
