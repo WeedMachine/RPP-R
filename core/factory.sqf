@@ -7,8 +7,7 @@ _RPP_var_itemFactory =
 [
     ["Pickaxe", ["manufacture", 1, 260]],
     ["Hatchet", ["manufacture", 1, 260]],
-    ["Fishing_rod", ["manufacture", 1, 260]],
-
+    ["Fishing_rod", ["manufacture", 1, 260]]
 ];
 
 _ALR_var_carFactory = 
@@ -72,10 +71,11 @@ _ALR_var_manufacturingPlant =
 
 RPP_var_factoryDefine = 
 [
-    [car_factory, "Car Factory", car_factory_storage, _RPP_var_carFactory],
-	[bike_factory, "Bike Factory", bike_factory_storage, _RPP_var_bikeFactory],
+    [car_factory, "Car Factory", car_factory_storage, _ALR_var_carFactory],
+	[bike_factory, "Bike Factory", bike_factory_storage, _ALR_var_bikeFactory],
+	[heavy_factory, "Heavy Vechile Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
-	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _RPP_var_manufacturingPlant]
+	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]
 ];
 
 RPP_fnc_openFactory =

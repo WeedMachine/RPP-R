@@ -21,8 +21,8 @@ RPP_var_goods =
     ["ItemWatch", ["WEAPON", "ITEM"], ["Watch", "No description"], [25,20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [100,50], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [800,500], 0, "core\items\noUse.sqf", 0, true, [], false],
-	["ACRE_PRC148_UHF", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [498,250], 1, "core\items\phone.sqf", 0, true, [], false],
-	["ACRE_PRC119", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687,375], 1, "core\items\phone.sqf", 0, true, [], false],
+    ["ACRE_PRC148_UHF", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [498,250], 1, "core\items\phone.sqf", 0, true, [], false],
+    ["ACRE_PRC119", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687,375], 1, "core\items\phone.sqf", 0, true, [], false],
     
     ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0,0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
@@ -32,7 +32,7 @@ RPP_var_goods =
     
    	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [200,75], 1, "core\items\phone.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
     ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [300,150], 10, "core\items\repairKit.sqf", 0, true, [2, [ ["IronBar", 3], ["Wood", 3]]], false],
-    ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [[2, [ ["IronBar", 2]]], false],
+    ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [200,100], 5, "core\items\refuelCan.sqf", 0, true, [2, [ ["IronBar", 2]]], false],
 
     /* Objects */
     ["Land_Farm_Cowshed_c", ["ITEM", "OBJECT"], ["Cowshed", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, [], false],
@@ -64,23 +64,23 @@ RPP_var_goods =
     ["Worm", ["ITEM", "BAIT"], ["Worm", "No Desc"], [5,1], 0, "core\items\nouse.sqf", 0, true, [], false],
     
     /* Fishing Rod Arrays */
-	["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 0, "core\items\food.sqf", 0, true, [], false],
-	["Catfish", ["ITEM", "FISH"], ["Catfish", "No Desc"], [100,50], 0, "core\items\food.sqf", 0, true, [], false],
-	["Perch", ["ITEM", "FISH"], ["Perch", "No Desc"], [75,50], 0, "core\items\food.sqf", 0, true, [], false],
-	["Trout", ["ITEM", "FISH"], ["Trout", "No Desc"], [90,60], 0, "core\items\food.sqf", 0, true, [], false],
-	["RockBass", ["ITEM", "FISH"], ["RockBass", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Bluegill", ["ITEM", "FISH"], ["Bluegill", "No Desc"], [50,25], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Catfish", ["ITEM", "FISH"], ["Catfish", "No Desc"], [100,50], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Perch", ["ITEM", "FISH"], ["Perch", "No Desc"], [75,50], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Trout", ["ITEM", "FISH"], ["Trout", "No Desc"], [90,60], 0, "core\items\food.sqf", 0, true, [], false],
+    ["RockBass", ["ITEM", "FISH"], ["RockBass", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
 	
 	/* Fishing net Arrays */
-	["Shrimp", ["ITEM", "FISH"], ["Shrimp", "No Desc"], [25,12], 0, "core\items\food.sqf", 0, true, [], false],
-	["Sardine", ["ITEM", "FISH"], ["Sardine", "No Desc"], [75,45], 0, "core\items\food.sqf", 0, true, [], false],
-	["Monkfish", ["ITEM", "FISH"], ["Monkfish", "No Desc"], [450,300], 0, "core\items\food.sqf", 0, true, [], false],
-	["Salmon", ["ITEM", "FISH"], ["Salmon", "No Desc"], [350,200], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Shrimp", ["ITEM", "FISH"], ["Shrimp", "No Desc"], [25,12], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Sardine", ["ITEM", "FISH"], ["Sardine", "No Desc"], [75,45], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Monkfish", ["ITEM", "FISH"], ["Monkfish", "No Desc"], [450,300], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Salmon", ["ITEM", "FISH"], ["Salmon", "No Desc"], [350,200], 0, "core\items\food.sqf", 0, true, [], false],
 	
 	/* Harpoon */
-	["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 0, "core\items\food.sqf", 0, true, [], false],
-	["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
-	["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 0, "core\items\food.sqf", 0, true, [], false],
-	["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 0, "core\items\food.sqf", 0, true, [], false],
+    ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 0, "core\items\food.sqf", 0, true, [], false],
    
 
     //Cars
@@ -161,11 +161,11 @@ RPP_var_goods =
    /* Bushes/Seeds/Trees */
     ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [20,5], 0, "core\items\sprout.sqf", 0, true, [], true],
     ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
-	["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], false],
-	["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [10,3], 0, "core\items\sprout.sqf", 0, true, [], false],
-	["pine_seed", ["ITEM", "SPROUT"], ["Pine Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-	["potato_sprouts", ["ITEM", "SPROUT"], ["Potato Sprouts", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-	["alder_seed", ["ITEM", "SPROUT"], ["Alder Seed", "No Desc"], [8,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [5,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [10,3], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["pine_seed", ["ITEM", "SPROUT"], ["Pine Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["potato_sprouts", ["ITEM", "SPROUT"], ["Potato Sprouts", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["alder_seed", ["ITEM", "SPROUT"], ["Alder Seed", "No Desc"], [8,2], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["pumpkin_seed", ["ITEM", "SPROUT"], ["Pumpkin Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["cabbage_seed", ["ITEM", "SPROUT"], ["Cabbage Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["maple_seed", ["ITEM", "SPROUT"], ["Maple Seed", "No Desc"], [15,6], 0, "core\items\sprout.sqf", 0, true, [], false],
@@ -179,14 +179,14 @@ RPP_var_goods =
 	
 	//Resources
     /* Primary Resources */
-    ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [85, 25], 10, "core\items\noUse.sqf", 0, true, [], false],
-    ["IronOre", ["ITEM", "RESOURCE"], ["Iron Ore", "No desc"], [85, 25], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["CopperOre", ["ITEM", "RESOURCE"], ["Copper Ore", "No desc"], [85, 25], 5, "core\items\noUse.sqf", 0, true, [], false],
-    ["Sand", ["ITEM", "RESOURCE"], ["Sand", "No desc"], [5, 1], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Salt", ["ITEM", "RESOURCE"], ["Salt", "No desc"], [5, 1], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Clay", ["ITEM", "RESOURCE"], ["Clay", "No desc"], [5, 1], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Coal", ["ITEM", "RESOURCE"], ["Coal", "No desc"], [5, 1], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Oil", ["ITEM", "RESOURCE"], ["Oil", "No desc"], [10, 6], 20, "core\items\noUse.sqf", 0, true, [], false],
+    ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [85,25], 10, "core\items\noUse.sqf", 0, true, [], false],
+    ["IronOre", ["ITEM", "RESOURCE"], ["Iron Ore", "No desc"], [85,25], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["CopperOre", ["ITEM", "RESOURCE"], ["Copper Ore", "No desc"], [85,25], 5, "core\items\noUse.sqf", 0, true, [], false],
+    ["Sand", ["ITEM", "RESOURCE"], ["Sand", "No desc"], [5,1], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["Salt", ["ITEM", "RESOURCE"], ["Salt", "No desc"], [5,1], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["Clay", ["ITEM", "RESOURCE"], ["Clay", "No desc"], [5,1], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["Coal", ["ITEM", "RESOURCE"], ["Coal", "No desc"], [5,1], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["Oil", ["ITEM", "RESOURCE"], ["Oil", "No desc"], [10,6], 20, "core\items\noUse.sqf", 0, true, [], false],
 	["Silicon", ["ITEM", "RESOURCE"], ["Silicon", "No desc"], [5, 1], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["populus_log", ["ITEM", "RESOURCE"], ["Populus Log", "No Desc"], [5,1], 20, "core\items\nouse.sqf", 0, true, [], false],
 	["alder_log", ["ITEM", "RESOURCE"], ["Alder Log", "No Desc"], [5,1], 20, "core\items\nouse.sqf", 0, true, [], false],
@@ -198,9 +198,9 @@ RPP_var_goods =
 	    
 	/* Secondary Resources */
 	["wood", ["ITEM", "RESOURCE"], ["Wood", "No Desc"], [12,4], 10, "core\items\nouse.sqf", 0, true, [], false],
-	["IronBar", ["ITEM", "RESOURCE"], ["Iron Bar", "No desc"], [85, 25], 3, "core\items\noUse.sqf", 0, true, [], false],
-	["Copper", ["ITEM", "RESOURCE"], ["Copper", "No desc"], [85, 25], 3, "core\items\noUse.sqf", 0, true, [], false],
-	["GoldBar", ["ITEM", "RESOURCE"], ["Gold Bar", "No desc"], [85, 25], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["IronBar", ["ITEM", "RESOURCE"], ["Iron Bar", "No desc"], [85,25], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["Copper", ["ITEM", "RESOURCE"], ["Copper", "No desc"], [85,25], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["GoldBar", ["ITEM", "RESOURCE"], ["Gold Bar", "No desc"], [85,25], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Glass", ["ITEM", "RESOURCE"], ["Glass", "No Desc"], [10,3], 3, "core\items\nouse.sqf", 0, true, [], false],
 	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [10,3], 3, "core\items\nouse.sqf", 0, true, [], false],
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [10,8], 1, "core\items\nouse.sqf", 0, true, [], false],

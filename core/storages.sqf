@@ -11,7 +11,8 @@ RPP_var_storages =
 	[car_factory_storage, "Car Factory Storage", 0, false],
 	[bike_factory_storage, "Bike Factory Storage", 0, false],
 	[manufacturing_plant_storage, "Manufacturing Plant Storage", 0, false],
-	[lost_property_lot, "Lost Property Lot", 0, true]
+	[lost_property_lot, "Lost Property Lot", 0, true],
+	[heavy_car_factory_storage, "Heavy Storage", 0, false]
 	
 ];
 
