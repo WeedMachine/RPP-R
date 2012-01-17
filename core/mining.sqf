@@ -5,9 +5,16 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_miningDefine = 
 [
-    /* Gold mine */
-    [ 0, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 5], 17, 8200, "Pickaxe", "GoldOre", 16, 1]],
+    /* Mines */
+    //[ 2, [copperrock1, ironrock2, ironrock3, ironrock4], "Mine Copper", [ ["mining", 1], 4, 180, "Pickaxe", "CopperOre", 25, 1]],
+	//[ 3, [sandrock1, sandrock2, sandrock3, sandrock4], "Mine Sand", [ ["mining", 1], 4, 180, "Pickaxe", "Sand", 25, 1]],
+	//[ 4, [saltrock1, saltrock2, saltrock3, saltrock4], "Mine Salt", [ ["mining", 1], 4, 180, "Pickaxe", "Salt", 25, 1]],
+	//[ 5, [clayrock1, clayrock2, clayrock3, clayrock4], "Mine Clay", [ ["mining", 1], 4, 180, "Pickaxe", "Clay", 25, 1]],
+	//[ 6, [coalrock1, coalrock2, coalrock3, coalrock4], "Mine Coal", [ ["mining", 1], 4, 180, "Pickaxe", "Coal", 25, 1]],
+	//[ 7, [Siliconrock1, Siliconrock2, Siliconrock3, Siliconrock4], "Mine Silicon", [ ["mining", 1], 4, 180, "Pickaxe", "Silicon", 25, 1]],
+	[ 0, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 5], 17, 8200, "Pickaxe", "GoldOre", 16, 1]],
     [ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 1], 4, 180, "Pickaxe", "IronOre", 25, 1]]
+
 ];
 
 RPP_fnc_miningGetArray = 
