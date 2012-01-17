@@ -72,10 +72,10 @@ _ALR_var_manufacturingPlant =
 
 RPP_var_factoryDefine = 
 [
-    [car_factory, "Car Factory", item_factory_storage, _RPP_var_carFactory],
-	[bike_factory, "Bike Factory", item_factory_storage, _RPP_var_bikeFactory],
+    [car_factory, "Car Factory", car_factory_storage, _RPP_var_carFactory],
+	[bike_factory, "Bike Factory", bike_factory_storage, _RPP_var_bikeFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
-	[manufacturing_plant, "Manufacturing Plant", item_factory_storage, _RPP_var_manufacturingPlant]
+	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _RPP_var_manufacturingPlant]
 ];
 
 RPP_fnc_openFactory =
