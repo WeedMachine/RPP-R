@@ -183,11 +183,11 @@ RPP_var_goods =
 	
 	//Resources
 	/* Food Resources */
-	["Rabbit", ["ITEM", "RESOURCE"], ["Rabbit Ore", "No desc"], [12,10], 0.5, "core\items\noUse.sqf", 0, true, [], false],
-	["Chicken", ["ITEM", "RESOURCE"], ["Chicken Ore", "No desc"], [2,1], 0.5, "core\items\noUse.sqf", 0, true, [], false],
-	["Lamb", ["ITEM", "RESOURCE"], ["Lamb Ore", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["Cow", ["ITEM", "RESOURCE"], ["Cow Ore", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["Boar", ["ITEM", "RESOURCE"], ["Boar Ore", "No desc"], [20,10], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Rabbit", ["ITEM", "RESOURCE"], ["Rabbit", "No desc"], [12,10], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+	["Chicken", ["ITEM", "RESOURCE"], ["Chicken", "No desc"], [2,1], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+	["Lamb", ["ITEM", "RESOURCE"], ["Lamb", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Cow", ["ITEM", "RESOURCE"], ["Cow", "No desc"], [15,6], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Boar", ["ITEM", "RESOURCE"], ["Boar", "No desc"], [20,10], 5, "core\items\noUse.sqf", 0, true, [], false],
 	
     /* Primary Resources */
     ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [40,20], 10, "core\items\noUse.sqf", 0, true, [], false],
