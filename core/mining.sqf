@@ -6,14 +6,20 @@ Copyright (C) 2011  Matthew Simms
 RPP_var_miningDefine = 
 [
     /* Gold mine */
-    [ 0, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 5], 17, 8200, "Pickaxe", "GoldOre", 16, 1]],
-    [ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 1], 4, 180, "Pickaxe", "IronOre", 25, 1]],
-	[ 1, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 1], 4, 180, "Pickaxe", "CopperOre", 25, 1]],
-	[ 1, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 4, 180, "Shovel", "Sand", 25, 1]],
-	[ 1, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 4, 180, "Pickaxe", "Salt", 25, 1]],
-	[ 1, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 1], 4, 180, "Shovel", "Clay", 25, 1]],
-	[ 1, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 1], 4, 180, "Pickaxe", "Coal", 25, 1]],
-	[ 1, [oil1, oil2, oil3, oil4], "Pump Oil", [ ["mining", 1], 4, 180, "Pump", "Oil", 25, 1]]
+    [ 0, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 85], 25, 8200, "Pickaxe", "GoldOre", 16, 1]],
+    [ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]],
+	[ 2, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
+	[ 3, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],
+	[ 4, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
+	[ 5, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
+	[ 6, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 25], 8, 920, "Pickaxe", "Coal", 25, 1]],
+	[ 7, [oil1, oil2, oil3, oil4], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
+	[ 8, [stone1, stone2, stone3, stone4], "Stone Mine", [ ["mining", 1], 2, 160, "Pickaxe", "Stone", 25, 1]],
+	[ 9, [Diamond1, Diamond2, Diamond3, Diamond4], "Diamond Mine", [ ["mining", 99], 40, 16400, "Pickaxe", "Diamond", 25, 1]],
+	[ 9, [Sulphur1, Sulphur2, Sulphur3, Sulphur4], "Sulpur Mine", [ ["mining", 40], 15, 250, "Pickaxe", "Sulphur", 20, 1]],
+	[ 9, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
+	[ 10, [Silver1, Silver2, Silver3, Silver4], "Silver Mine", [ ["mining", 60], 18, 4200, "Shovel", "Silver", 18, 1]]
+	
 ];
 
 RPP_fnc_miningGetArray = 
