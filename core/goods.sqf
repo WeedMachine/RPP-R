@@ -83,7 +83,7 @@ RPP_var_goods =
     ["Shark", ["ITEM", "FISH"], ["Shark", "No Desc"], [670,500], 15, "core\items\food.sqf", 0, true, [], false],
     ["Tuna", ["ITEM", "FISH"], ["Tuna", "No Desc"], [150,100], 5, "core\items\food.sqf", 0, true, [], false],
     ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 20, "core\items\food.sqf", 0, true, [], true],
-    ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 12, "core\items\food.sqf", 0, true, [], false],
+    ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 11, "core\items\food.sqf", 0, true, [], false],
    
 
     //Cars
