@@ -61,7 +61,7 @@ RPP_var_goods =
     /* Fishing */
     ["Fishing_rod", ["ITEM", "TOOL"], ["Fishing rod", "No Desc"], [400, 220], 2, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1], ["wood", 1]]], false],
 	["Fishing_net", ["ITEM", "TOOL"], ["Fishing net", "No Desc"], [680, 330], 20, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Rubber", 1], ["Copper", 1]]], false],
-    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 20, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["wood", 6], ["Rubber", 5], ["Copper", 3]], false],
+    ["Harpoon", ["ITEM", "TOOL"], ["Harpoon", "No Desc"], [2500, 1250], 20, "core\items\fishingUse.sqf", 0, true, [2, [ ["IronBar", 3],["wood", 6], ["Rubber", 5], ["Copper", 3]]], false],
 	
 	["Minnow", ["ITEM", "BAIT"], ["Minnow", "No Desc"], [20,10], 1, "core\items\food.sqf", 0, true, [], false],
     ["Worm", ["ITEM", "BAIT"], ["Worm", "No Desc"], [5,1], 0, "core\items\nouse.sqf", 0, true, [], false],
@@ -87,17 +87,17 @@ RPP_var_goods =
    
 
     //Cars
-    ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf",120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
-    ["SkodaRed", ["VEHICLE", "CAR"], ["Skoda Red", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
-    ["SkodaBlue", ["VEHICLE", "CAR"], ["Skoda Blue", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
-    ["SkodaGreen", ["VEHICLE", "CAR"], ["Skoda Green", "No Desc"], [2500,1250], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 2], ["Copper", 2], ["Vinyl" ,2], false],
-    ["VWGolf", ["VEHICLE", "CAR"], ["VW Golf", "No Desc"], [1650,800], 130, "core\items\noUse.sqf", 65, true, [], false, []],
-    ["car_hatchback", ["VEHICLE", "CAR"], ["Hatchback", "No Desc"], [850,600], 100, "core\items\noUse.sqf", 50, true, [], false, []],
-    ["car_sedan", ["VEHICLE", "CAR"], ["Sedan", "No Desc"], [1250,800], 65, "core\items\noUse.sqf", 65, true, [], false, []],
-    ["Lada1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Green", "No Desc"], [400,190], 50, "core\items\noUse.sqf", 50, true, [], false, []],
-    ["Lada2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Decorated", "No Desc"], [400,190], 50, "core\items\noUse.sqf", 50, true, [], false, []],
-    ["Volha_1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (Blue)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
-    ["Volha_2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (White)", "No Desc"], [200,50], 60, "core\items\noUse.sqf", 30, true, [], false, []],
+    ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [16000,8000], 120, "core\items\noUse.sqf",120, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["SkodaRed", ["VEHICLE", "CAR"], ["Skoda Red", "No Desc"], [16000,8000], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["SkodaBlue", ["VEHICLE", "CAR"], ["Skoda Blue", "No Desc"], [16000,8000], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["SkodaGreen", ["VEHICLE", "CAR"], ["Skoda Green", "No Desc"], [16000,8000], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["VWGolf", ["VEHICLE", "CAR"], ["VW Golf", "No Desc"], [16000,8000], 130, "core\items\noUse.sqf", 130, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["car_hatchback", ["VEHICLE", "CAR"], ["Hatchback", "No Desc"], [17000,8500], 100, "core\items\noUse.sqf", 100, true, [], false, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Leather" ,4], ["ElecComp", 6]]], false],
+    ["car_sedan", ["VEHICLE", "CAR"], ["Sedan", "No Desc"], [16400,8200], 130, "core\items\noUse.sqf", 130, true, [2, [ ["IronBar", 12],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
+    ["Lada1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Green", "No Desc"], [13000,6900], 60, "core\items\noUse.sqf", 60, true, [2, [ ["IronBar", 10],["Tyre", 4], ["Rubber", 5], ["Copper", 16], ["Vinyl" ,4], ["ElecComp", 3]]], false],
+    ["Lada2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Decorated", "No Desc"], [13000,6900], 60, "core\items\noUse.sqf", 60, true, [2, [ ["IronBar", 10],["Tyre", 4], ["Rubber", 5], ["Copper", 16], ["Vinyl" ,4], ["ElecComp", 3]]], false],
+    ["Volha_1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (Blue)", "No Desc"], [13000,6900], 60, "core\items\noUse.sqf", 50, true, [2, [ ["IronBar", 10],["Tyre", 4], ["Rubber", 5], ["Copper", 16], ["Vinyl" ,4], ["ElecComp", 3]]], false],
+    ["Volha_2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (White)", "No Desc"], [13000,6900], 60, "core\items\noUse.sqf", 50, true, [2, [ ["IronBar", 10],["Tyre", 4], ["Rubber", 5], ["Copper", 16], ["Vinyl" ,4],["ElecComp", 3]]], false],
     
 	/* Classic Cars */
 	["monaco", ["VEHICLE", "CAR"], ["1968 Dodge Monaco", "No Desc"], [6000,4000], 120, "core\items\noUse.sqf",60, true, [2, [ ["IronBar", 1]]], false, []],
