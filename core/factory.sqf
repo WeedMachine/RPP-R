@@ -74,6 +74,7 @@ _ALR_var_truckFactory =
 _ALR_var_manufacturingPlant =
 [
 	["Tyre", ["manufacture", 20, 450]],
+	["RefuelCan", ["manufacture", 20, 450]],
 	["ElecComp", ["manufacture", 20, 450]]
 ];
 
