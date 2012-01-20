@@ -93,7 +93,7 @@ RPP_var_goods =
     ["SkodaBlue", ["VEHICLE", "CAR"], ["Skoda Blue", "No Desc"], [15500, 8000], 120, "core\items\noUse.sqf", 220, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["SkodaGreen", ["VEHICLE", "CAR"], ["Skoda Green", "No Desc"], [15500, 8000], 120, "core\items\noUse.sqf", 220, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["VWGolf", ["VEHICLE", "CAR"], ["VW Golf", "No Desc"], [17680, 9200], 130, "core\items\noUse.sqf", 240, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 6]]], false],
-    ["car_hatchback", ["VEHICLE", "CAR"], ["Hatchback", "No Desc"], [16300, 8700], 100, "core\items\noUse.sqf", 180, true, [], false, [2, [ ["IronBar", 15],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Leather" ,4], ["ElecComp", 5]]], false],
+    ["car_hatchback", ["VEHICLE", "CAR"], ["Hatchback", "No Desc"], [16300, 8700], 100, "core\items\noUse.sqf", 180, true, [2, [ ["IronBar", 15],["Tyre", 4], ["Rubber", 10], ["Copper", 12], ["Leather" ,4], ["ElecComp", 5]]], false],
     ["car_sedan", ["VEHICLE", "CAR"], ["Sedan", "No Desc"], [16084, 8500], 130, "core\items\noUse.sqf", 230, true, [2, [ ["IronBar", 15],["Tyre", 4], ["Rubber", 8], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["Lada1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Green", "No Desc"], [14080, 7400], 60, "core\items\noUse.sqf", 100, true, [2, [ ["IronBar", 9],["Tyre", 4], ["Rubber", 5], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["Lada2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Decorated", "No Desc"], [14080,7400], 60, "core\items\noUse.sqf", 100, true, [2, [ ["IronBar", 9],["Tyre", 4], ["Rubber", 5], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
@@ -108,7 +108,7 @@ RPP_var_goods =
     ["challenger", ["VEHICLE", "CAR"], ["2008 Dodge Challenger Concept", "No Desc"], [23820, 12300], 130, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 7]]], false],
     ["civic", ["VEHICLE", "CAR"], ["1989 Honda Civic", "No Desc"], [23820, 12300], 100, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 7]]], false],
     ["roadrunner", ["VEHICLE", "CAR"], ["1969 Road Runner", "Green"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
-    ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [[2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     
 	//Police Cars
 	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
@@ -117,7 +117,7 @@ RPP_var_goods =
 	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
 	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
 	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 300, true, [], false, []],
-	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], true, []],
+	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], true, [], false, true],
 	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
 	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
 	
@@ -126,7 +126,7 @@ RPP_var_goods =
     ["datsun1_civil_2_covered", ["VEHICLE", "CAR"], ["Datsun Covered", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
     ["datsun1_civil_3_open", ["VEHICLE", "CAR"], ["Datsun Tubeframe", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
     ["hilux1_civil_1_open", ["VEHICLE", "CAR"], ["Hilux Open (Gold)", "No Desc"], [20100, 10400], 170, "core\items\noUse.sqf", 320, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
-    ["hilux1_civil_2_covered", ["VEHICLE", "CAR"], ["Hilux Covered (Red)", "No Desc"], [20100, 10400], 170, "core\items\noUse.sqf", 320, true, [], false, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
+    ["hilux1_civil_2_covered", ["VEHICLE", "CAR"], ["Hilux Covered (Red)", "No Desc"], [20100, 10400], 170, "core\items\noUse.sqf", 320, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
     ["hilux1_civil_3_open", ["VEHICLE", "CAR"], ["Hilux Open (White)", "No Desc"], [20100, 10400], 170, "core\items\noUse.sqf", 320, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
     ["LandRover_CZ_EP1", ["VEHICLE", "CAR"], ["Landrover", "No Desc"], [20580, 10600], 200, "core\items\noUse.sqf", 320, true, [2, [ ["IronBar", 20],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
     ["LandRover_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Landrover (Red)", "No Desc"], [20580, 10600], 200, "core\items\noUse.sqf", 320, true, [2, [ ["IronBar", 20],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Leather" , 6], ["ElecComp", 5]]], false],
@@ -197,6 +197,7 @@ RPP_var_goods =
 	["Stone", ["ITEM", "RESOURCE"], ["Stone", "No desc"], [25,12], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Sulphur", ["ITEM", "RESOURCE"], ["Sulphur", "No desc"], [25,12], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Diamond", ["ITEM", "RESOURCE"], ["Diamond", "No desc"], [40,20], .05, "core\items\noUse.sqf", 0, true, [], false],
+	["Silver", ["ITEM", "RESOURCE"], ["Silver", "No desc"], [50,25], .05, "core\items\noUse.sqf", 0, true, [], false],
     ["Sand", ["ITEM", "RESOURCE"], ["Sand", "No desc"], [4,2], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Salt", ["ITEM", "RESOURCE"], ["Salt", "No desc"], [4,2], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Clay", ["ITEM", "RESOURCE"], ["Clay", "No desc"], [5,2], 1, "core\items\noUse.sqf", 0, true, [], false],
@@ -222,7 +223,7 @@ RPP_var_goods =
 	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false]
+	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false]
 
 

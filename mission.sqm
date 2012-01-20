@@ -1400,7 +1400,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1866;
+		items=1870;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -22759,14 +22759,13 @@ class Mission
 		class Item1818
 		{
 			position[]={8070.7056,19,4670.8076};
-			azimut=91.184784;
+			azimut=91.184799;
 			special="NONE";
 			id=1881;
 			side="EMPTY";
 			vehicle="MAP_Misc_WaterStation";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7167.93, 2846.2, 0.065354]; this setDir -209.974; doStop this;";
 		};
 		class Item1819
 		{
@@ -22783,14 +22782,13 @@ class Mission
 		class Item1820
 		{
 			position[]={8070.4497,19,4666.0762};
-			azimut=90.959778;
+			azimut=90.959801;
 			special="NONE";
 			id=1883;
 			side="EMPTY";
 			vehicle="MAP_A_FuelStation_Build";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7163.75, 2843.97, 0.65359]; this setDir -210.199; doStop this;";
 		};
 		class Item1821
 		{
@@ -22915,14 +22913,13 @@ class Mission
 		class Item1831
 		{
 			position[]={8068.4771,19,4664.5757};
-			azimut=270.94653;
+			azimut=270.94699;
 			special="NONE";
 			id=1894;
 			side="EMPTY";
 			vehicle="MAP_P_WindowLarge";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7161.44, 2844.88, 2.2744]; this setDir -30.2123; doStop this;";
 		};
 		class Item1832
 		{
@@ -22939,14 +22936,13 @@ class Mission
 		class Item1833
 		{
 			position[]={8062.5723,19,4666.833};
-			azimut=359.51404;
+			azimut=359.51401;
 			special="NONE";
 			id=1896;
 			side="EMPTY";
 			vehicle="MAP_nav_pier_c_t15";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7160.32, 2851.1, -5.2678]; this setDir 58.3552; doStop this;";
 		};
 		class Item1834
 		{
@@ -23273,10 +23269,50 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.2;
 		};
+		class Item1866
+		{
+			position[]={6766.4644,10.095835,5892.7778};
+			azimut=204.42216;
+			id=1930;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="ironrock1_1";
+		};
+		class Item1867
+		{
+			position[]={6843.249,9.0346727,5784.5205};
+			azimut=246.319;
+			id=1931;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="ironrock2_1";
+		};
+		class Item1868
+		{
+			position[]={6852.0981,0.29300129,5824.6729};
+			azimut=139.92;
+			id=1932;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="ironrock4_1";
+		};
+		class Item1869
+		{
+			position[]={6816.4141,6.7444677,5834.5635};
+			azimut=63.123501;
+			id=1933;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="ironrock3_1";
+		};
 	};
 	class Markers
 	{
-		items=57;
+		items=58;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -23796,6 +23832,16 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 			angle=-0.43827599;
+		};
+		class Item57
+		{
+			position[]={6828.0898,0.98984456,5861.3618};
+			name="ironmine1_1";
+			text="Iron Mine";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
 		};
 	};
 };
