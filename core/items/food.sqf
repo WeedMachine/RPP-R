@@ -20,7 +20,11 @@ _foodArray =
 	["CookedMeat", 10, "You eat the Meat"],
     ["Sandwich", 10, "You eat the Sandwich(s)"],
     ["Bread", 8, "You eat the Bread"],
-	["ApplePie", 20, "You eat the Apple Pie(s)"],
+	["Apple", 20, "You eat the Apple(s)"],
+	["Pumpkin", 10, "You ate the Pumpkin"],
+    ["Cabbage", 10, "You ate the Cabbage(s)"],
+    ["Potato", 8, "You ate the Potato"],
+	["Meat", 10, "You eat the Meat"],	
     ["Donut", 6, "You eat the Donut(s)"]
 ];
 
