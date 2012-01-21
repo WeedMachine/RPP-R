@@ -1,0 +1,12 @@
+//Tier 1
+Rabbit - Farming
+Chicken
+
+//Tier 2
+Sheep - Farming
+
+//Tier 3
+Cow - Farming
+
+//Tier 4
+Boar - Farming

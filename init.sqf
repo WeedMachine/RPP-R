@@ -4,10 +4,10 @@ Copyright (C) 2011  Matthew Simms
 */
 
 RPP_Debug = true;
-RPP_Mission_Version = 0.3;
-RPP_Intro = true;
+RPP_Mission_Version = 0.4;
+RPP_Intro = false;
 RPP_QuickTest = false;
-RPP_Saving = true;
+RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
 
 #define __isServer ((isDedicated) && (isServer))
@@ -23,9 +23,9 @@ if (RPP_QuickTest) exitWith
 {
    sleep 2;
     //ems1 switchMove "AcinPknlMwlkSrasWrflbd";
-    dummy switchMove "AinjPpneMstpSnonWrflDb_grab";
+    //dummy switchMove "AinjPpneMstpSnonWrflDb_grab";
     
-    dummy attachTo[player, [-0.25,-0.5,0]];
+    //dummy attachTo[player, [-0.25,-0.5,0]];
 
 	/* Testing stuff */
 

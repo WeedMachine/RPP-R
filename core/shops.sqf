@@ -85,6 +85,10 @@ RPP_var_shops =
     [shop_truck1, "UralCivil", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_truck2, "UralCivil2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_truck3, "V3S_Salvage_TK_GUE_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_truck4, "Kamaz", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_truck5, "KamazOpen", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_truck6, "MTVR", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_truck7, "UralOpen_INS", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 
     /* Item store */
     [shop_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
@@ -93,7 +97,8 @@ RPP_var_shops =
     [shop_bottleWater, "High_bottleWater", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
     [shop_bottle, "Bottle", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
     [shop_worm, "Bread", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-    [shop_minnow, "Sandwich", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_sandwich, "Sandwich", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],	
     
     /* Tool Shop */
     [shop_shop2_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
@@ -102,6 +107,11 @@ RPP_var_shops =
     [shop_shop2_repair, "RepairKit", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_shop2_refuel, "RefuelCan", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_shop2_phone, "Phone", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop4_harpoon, "Harpoon", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_pump, "Pump", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_shovel, "Shovel", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     
     /* Outdoor shop */
     [shop_shop3_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
@@ -119,10 +129,7 @@ RPP_var_shops =
     [shop_pbx, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
     
     /* Fishing shop */
-    [shop_shop4_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_shop4_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_shop4_harpoon, "Harpoon", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_shop4_worm, "Worm", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_shop4_bluegill, "Bluegill", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_shop4_catfish, "Catfish", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
@@ -149,6 +156,25 @@ RPP_var_shops =
     
     /* Resource shop */
     [shop_ironore, "IronOre", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_goldore, "GoldOre", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_copperore, "CopperOre", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_sand, "Sand", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_salt, "Salt", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_clay, "Clay", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_oil, "Oil", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_wood, "wood", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ironbar, "IronBar", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_copper, "Copper", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_goldbar, "GoldBar", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_glass, "Glass", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_bricks, "Bricks", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_silicon, "Silicon", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_petrol, "Petrol", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_eleccomp, "ElecComp", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_rubber, "Rubber", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_tyre, "Tyre", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_leather, "Leather", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_vinyl, "Vinyl", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
     
     /* Farm Shop */
     [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
@@ -162,6 +188,22 @@ RPP_var_shops =
 	[larix_shop, "larix_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
 	[cabbage_shop, "cabbage_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
 	[maple_shop, "maple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[rubber_shop, "rubber_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	
+    /* Stockyard */
+	[stockyard_rabbit, "Rabbit", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_chicken, "Chicken", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_lamb, "Lamb", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_cow, "Cow", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_boar, "Boar", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	
+    /* Lumberyard */	
+	[lumber_populus, "Populus Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_alder, "Alder Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_pine, "Pine Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_larix, "Larix Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_maple, "Maple Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_rubber, "Rubber Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
 	
 	/* Mari Sell */
     [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
