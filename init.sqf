@@ -9,6 +9,7 @@ RPP_Intro = false;
 RPP_QuickTest = false;
 RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
+RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 

@@ -237,6 +237,13 @@ RPP_fnc_itemGetArray =
     private ["_id", "_arr", "_getID"];
     _id = _this;
     _arr = [];
+
+	if (RPP_AcreEnabled) then {
+		if ([_id] call acre_api_fnc_isRadio) then {
+			_id = [_id] call acre_api_fnc_getBaseRadio;
+		};	
+	};
+
     
     {
         _getID = (_x select 0);
