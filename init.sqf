@@ -314,7 +314,7 @@ if (RPP_Debug) then
     ['money', 25000] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
     ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-    
+
 };
 
 
