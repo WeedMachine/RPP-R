@@ -1,27 +1,29 @@
 Types of ore:
 
+//All below added to processing, but Need to sort Out experience and level requirments
+
 1st Tier
-Stone - 1 Mining, Time: 2 seconds, Exp: 160, Tool, Pickaxe -Done
-Iron - 10 Mining, Time: 4 seconds, Exp: 320, Tool, Pickaxe -Done
-Salt - 1 Mining, Time: 2 seconds, Exp:160, Tool, Shovel -Done
-Sand - 1 Mining, Time: 2 seconds, Exp:160, Tool, Shovel -Done
+Stone - 1 Mining, Time: 2 seconds, Exp: 160, Tool, Pickaxe -Added
+Iron - 10 Mining, Time: 4 seconds, Exp: 320, Tool, Pickaxe -Added
+Salt - 1 Mining, Time: 2 seconds, Exp:160, Tool, Shovel -Added
+Sand - 1 Mining, Time: 2 seconds, Exp:160, Tool, Shovel -Added
 
 2nd Tier
-Copper - 20 Mining, Time: 5 seconds, Exp: 650, Tool, Pickaxe -Done
-Coal - 25 Mining, Time: 8 seconds, Exp: 920, Tool, Pickaxe -Done
-Clay - 20 Mining, Time: 5 seconds, Exp: 650, Tool Shovel -Done
+Copper - 20 Mining, Time: 5 seconds, Exp: 650, Tool, Pickaxe -Added
+Coal - 25 Mining, Time: 8 seconds, Exp: 920, Tool, Pickaxe -Added
+Clay - 20 Mining, Time: 5 seconds, Exp: 650, Tool Shovel -Added
 
 3rd Tier
-Silicon - 30 Mining, Time: 13 seconds, Exp: 1850, Tool, Shovel -Done
-Sulphur - 40 Mining, Time: 15 seconds, Exp: 2500, Tool, Pickaxe -Done
-Oil - - 30 Mining, Time: 15 seconds, Exp: 1900, Tool, Pump -Done
+Silicon - 30 Mining, Time: 13 seconds, Exp: 1850, Tool, Shovel -Added
+Sulphur - 40 Mining, Time: 15 seconds, Exp: 2500, Tool, Pickaxe -Added
+Oil - - 30 Mining, Time: 15 seconds, Exp: 1900, Tool, Pump -Added
 
 4th Tier
-Silver - 60 Mining, Time: 18 seconds, Exp: 4200 -Done
-Gold - 85 Mining, Time: 25 seconds, Exp: 8200 -Done
+Silver - 60 Mining, Time: 18 seconds, Exp: 4200 -Added
+Gold - 85 Mining, Time: 25 seconds, Exp: 8200 -Added
  
 5th Tier
-Diamond - 99 Mining, Time: 40 seconds, Exp: 16400 -Done
+Diamond - 99 Mining, Time: 40 seconds, Exp: 16400 -Added
 
 
 

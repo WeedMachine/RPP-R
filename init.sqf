@@ -9,6 +9,7 @@ RPP_Intro = false;
 RPP_QuickTest = false;
 RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
+RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 
@@ -314,7 +315,7 @@ if (RPP_Debug) then
     ['money', 25000] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
     ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-    
+
 };
 
 
