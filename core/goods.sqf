@@ -20,13 +20,15 @@ RPP_var_goods =
     ["ItemMap", ["WEAPON", "ITEM"], ["Map", "No description"], [5, 1], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemCompass", ["WEAPON", "ITEM"], ["Compass", "No description"], [40, 20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemWatch", ["WEAPON", "ITEM"], ["Watch", "No description"], [80, 40], 0, "core\items\noUse.sqf", 0, true, [], false],
-    ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [800, 650], 0.5, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 1], ["Rubber", 1]]], false],
-    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [1600, 1250], 0.5, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 2], ["Rubber", 1]]], false],
-    ["ACRE_PRC148_UHF", ["WEAPON", "SPECIAL"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 2], ["Rubber", 1]]], false],
-    ["ACRE_PRC119", ["WEAPON", "SPECIAL"], ["PRC-119 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["ACRE_PRC343", ["WEAPON", "SPECIAL"], ["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [800, 650], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [1600, 1250], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC148_UHF", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC119", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["ACRE_PRC148", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC343", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC117F", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
     
-    ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0, 0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
+	["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0, 0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
     /* Misc_Items & Tools */
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [300, 160], 0.5, "core\items\lockpick.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
