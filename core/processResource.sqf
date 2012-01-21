@@ -17,11 +17,12 @@ _ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
 _ALR_var_processVinyl = [ ["Rubber", 4], ["Vinyl", 1], ["Rubber", 1] ];
 _ALR_var_processOil = [ ["Oil", 5], ["Sand", 1], ["Petrol", 5] ];
+_ALR_var_processSilver = [ ["Silver", 5], ["SilverBar", 1], ["IronOre", 5] ];
 //Test Butchery skill
 _ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], ["Meat", 5] ];
 _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 8], ["Meat", 4] ];
 _ALR_var_processButcher3 = [ ["Lamb", 5], ["Meat", 15], ["Meat", 7] ];
-_ALR_var_processButcher4 = [ ["Cow", 2], ["Leather", 2], ["Leather", 2] ];
+_ALR_var_processButcher4 = [ ["Cow", 2], ["Meat", 6], ["Leather", 2] ];
 _ALR_var_processButcher5 = [ ["Boar", 1], ["Meat", 4], ["Meat", 2] ];
 
 
@@ -30,10 +31,10 @@ RPP_var_processLastUsed = time;
 
 RPP_var_processLocations = 
 [
-	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 1, 240, 110], 25],
-	[process_gold, "Smelt Gold Ore", "Process", _RPP_var_smeltGold, ["manufacture", 40, 500, 410], 25],
+	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 20, 240, 110], 25],
+	[process_gold, "Smelt Gold Ore", "Process", _RPP_var_smeltGold, ["manufacture", 85, 950, 800], 25],
 	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 340, 280], 25],
-	
+	[process_silver, "Smelt Silver ore", "Process", _RPP_var_smeltSilver, ['manufacture", 65, 750, 600], 25],
 	[process_sand, "Process Sand", "Process", _ALR_var_processSand, ["manufacture", 1, 240, 110], 25],
 	[process_bricks, "Bake Bricks", "Process", _ALR_var_processBricks, ["manufacture", 10, 340, 280], 15],
 	[process_populus, "Saw Populus Log", "Process", _ALR_var_processPopulus, ["manufacture", 1, 240, 110], 25],
