@@ -192,6 +192,7 @@ class Mission
 					id=7;
 					side="CIV";
 					vehicle="Citizen3";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Civ3";
@@ -1400,7 +1401,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1870;
+		items=1871;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -23308,6 +23309,16 @@ class Mission
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
 			text="ironrock3_1";
+		};
+		class Item1870
+		{
+			position[]={5925.0171,32.5765,4380.626};
+			azimut=177.832;
+			id=1934;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="lost_property_lot";
 		};
 	};
 	class Markers
