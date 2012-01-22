@@ -1369,7 +1369,7 @@ class Mission
 					position[]={8071.5615,19,4667.6157};
 					azimut=631.1983;
 					special="NONE";
-					id=1898;
+					id=1897;
 					side="CIV";
 					vehicle="Functionary2";
 					leader=1;
@@ -8077,6 +8077,7 @@ class Mission
 			vehicle="Land_bags_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_bricks";
 			init="this setPos [7357.12, 2917.42, 1.21]; this setDir -70.2732; doStop this;";
 		};
 		class Item571
@@ -8089,6 +8090,7 @@ class Mission
 			vehicle="Land_bags_stack_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_sand";
 			init="this setPos [7359.2, 2917.46, 1.24]; this setDir -4.75179; doStop this;";
 		};
 		class Item572
@@ -8125,6 +8127,7 @@ class Mission
 			vehicle="Land_transport_crates_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_rubber";
 			init="this setPos [7363.65, 2913.73, 1.22]; this setDir 2.07547; doStop this;";
 		};
 		class Item575
@@ -8170,6 +8173,7 @@ class Mission
 			vehicle="MAP_barrel_water";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_silicon";
 			init="this setPos [7362.03, 2917.27, 1.21]; this setDir 0; doStop this;";
 		};
 		class Item579
@@ -8297,6 +8301,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_glass";
 			init="this setPos [7351.4, 2917.63, 1.25]; this setDir 180.132; doStop this;";
 		};
 		class Item590
@@ -8405,6 +8410,7 @@ class Mission
 			vehicle="Land_transport_kiosk_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_vinyl";
 			init="this setPos [7350.93, 2909.19, 1.22]; this setDir -88.105; doStop this;";
 		};
 		class Item599
@@ -8450,6 +8456,7 @@ class Mission
 			vehicle="MAP_box_c";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_salt";
 			init="this setPos [7361.17, 2917.77, 1.4]; this setDir 0; doStop this;";
 		};
 		class Item603
@@ -8558,6 +8565,7 @@ class Mission
 			vehicle="MAP_stanek_3";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_tyre";
 			init="this setPos [7354.34, 2923.4, 1.18]; this setDir -88.457; doStop this;";
 		};
 		class Item612
@@ -8570,6 +8578,7 @@ class Mission
 			vehicle="MAP_stanek_3B";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_leather";
 			init="this setPos [7357.24, 2923.49, 1.18]; this setDir -91.3052; doStop this;";
 		};
 		class Item613
@@ -8678,6 +8687,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_goldbar";
 			init="this setPos [7368.07, 2912.87, 1.25]; this setDir 88.5229; doStop this;";
 		};
 		class Item622
@@ -8690,6 +8700,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_petrol";
 			init="this setPos [7368.06, 2914.8, 1.25]; this setDir -90.013; doStop this;";
 		};
 		class Item623
@@ -8738,6 +8749,7 @@ class Mission
 			vehicle="Land_Crates_stack_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_clay";
 			init="this setPos [7355.8, 2917.62, 1.22]; this setDir -451.592; doStop this;";
 		};
 		class Item627
@@ -8832,6 +8844,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_eleccomp";
 			init="this setPos [7364.5, 2909.66, 1.1755]; this setDir 179.808; doStop this;";
 		};
 		class Item635
@@ -8844,6 +8857,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_ironbar";
 			init="this setPos [7362.59, 2909.65, 1.1755]; this setDir 179.808; doStop this;";
 		};
 		class Item636
@@ -8856,6 +8870,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_copper";
 			init="this setPos [7360.66, 2909.64, 1.1755]; this setDir 179.808; doStop this;";
 		};
 		class Item637
@@ -8880,6 +8895,7 @@ class Mission
 			vehicle="Land_stand_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_wood";
 			init="this setPos [7356.79, 2909.65, 1.1755]; this setDir 179.808; doStop this;";
 		};
 		class Item639
@@ -22759,7 +22775,7 @@ class Mission
 		};
 		class Item1818
 		{
-			position[]={8070.7056,19,4670.8076};
+			position[]={8107.6714,17.835728,4690.8257};
 			azimut=91.184799;
 			special="NONE";
 			id=1881;
@@ -22782,7 +22798,7 @@ class Mission
 		};
 		class Item1820
 		{
-			position[]={8070.4497,19,4666.0762};
+			position[]={8071.2139,19,4666.0762};
 			azimut=90.959801;
 			special="NONE";
 			id=1883;
@@ -22936,48 +22952,45 @@ class Mission
 		};
 		class Item1833
 		{
-			position[]={8062.5723,19,4666.833};
-			azimut=359.51401;
-			special="NONE";
-			id=1896;
-			side="EMPTY";
-			vehicle="MAP_nav_pier_c_t15";
-			lock="UNLOCKED";
-			skill=0.2;
-		};
-		class Item1834
-		{
 			position[]={8045.7114,19,4666.5815};
 			azimut=629.14337;
 			special="NONE";
-			id=1897;
+			id=1896;
 			side="EMPTY";
 			vehicle="MAP_Concrete_Ramp";
 			lock="UNLOCKED";
 			skill=0.2;
 			init="this setPos [7151.38, 2865.4, -1.6339]; this setDir 327.985;  this setVectorUp [0.198559,-0.317578,0.92721];doStop this;";
 		};
-		class Item1835
+		class Item1834
 		{
 			position[]={3680.7051,46.799465,2864.4136};
 			azimut=335.76791;
-			id=1899;
+			id=1898;
 			side="EMPTY";
 			vehicle="MAP_sign_service";
 			skill=1;
 		};
-		class Item1836
+		class Item1835
 		{
 			position[]={3676.365,46.714893,2865.4155};
 			azimut=337.0946;
-			id=1900;
+			id=1899;
 			side="EMPTY";
 			vehicle="MAP_Bilboard_Beach";
 			skill=1;
 		};
-		class Item1837
+		class Item1836
 		{
 			position[]={3678.5828,46.227085,2895.9641};
+			id=1900;
+			side="EMPTY";
+			vehicle="MAP_arrows_yellow_R";
+			skill=1;
+		};
+		class Item1837
+		{
+			position[]={3678.2466,46.262543,2894.3696};
 			id=1901;
 			side="EMPTY";
 			vehicle="MAP_arrows_yellow_R";
@@ -22985,7 +22998,7 @@ class Mission
 		};
 		class Item1838
 		{
-			position[]={3678.2466,46.262543,2894.3696};
+			position[]={3678.5464,46.350266,2890.425};
 			id=1902;
 			side="EMPTY";
 			vehicle="MAP_arrows_yellow_R";
@@ -22993,7 +23006,7 @@ class Mission
 		};
 		class Item1839
 		{
-			position[]={3678.5464,46.350266,2890.425};
+			position[]={3678.3542,46.396751,2886.6646};
 			id=1903;
 			side="EMPTY";
 			vehicle="MAP_arrows_yellow_R";
@@ -23001,7 +23014,7 @@ class Mission
 		};
 		class Item1840
 		{
-			position[]={3678.3542,46.396751,2886.6646};
+			position[]={3678.8,46.448811,2881.9753};
 			id=1904;
 			side="EMPTY";
 			vehicle="MAP_arrows_yellow_R";
@@ -23009,216 +23022,219 @@ class Mission
 		};
 		class Item1841
 		{
-			position[]={3678.8,46.448811,2881.9753};
-			id=1905;
-			side="EMPTY";
-			vehicle="MAP_arrows_yellow_R";
-			skill=1;
-		};
-		class Item1842
-		{
 			position[]={7113.334,35.963661,3612.4563};
 			azimut=9.5050001;
-			id=1906;
+			id=1905;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="apple_shop";
 		};
-		class Item1843
+		class Item1842
 		{
 			position[]={7112.3008,35.963661,3607.3513};
 			azimut=9.5050001;
-			id=1907;
+			id=1906;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="pumpkin_shop";
 		};
-		class Item1844
+		class Item1843
 		{
 			position[]={7114.3677,35.963661,3617.8835};
 			azimut=11.935201;
-			id=1908;
+			id=1907;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="pine_shop";
 		};
-		class Item1845
+		class Item1844
 		{
 			position[]={7110.3584,35.963661,3593.0344};
 			azimut=4.1986899;
-			id=1909;
+			id=1908;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="potato_shop";
 		};
-		class Item1846
+		class Item1845
 		{
 			position[]={7115.646,35.963661,3622.1787};
 			azimut=11.9352;
-			id=1910;
+			id=1909;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="alder_shop";
 		};
-		class Item1847
+		class Item1846
 		{
 			position[]={7126.5522,35.963661,3613.0056};
 			azimut=-169.99715;
-			id=1911;
+			id=1910;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="larix_shop";
 		};
-		class Item1848
+		class Item1847
 		{
 			position[]={7127.8271,35.963661,3622.0601};
 			azimut=-174.733;
-			id=1912;
+			id=1911;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="cabbage_shop";
 		};
-		class Item1849
+		class Item1848
 		{
 			position[]={7127.4443,35.963661,3617.5972};
 			azimut=-174.733;
-			id=1913;
+			id=1912;
 			side="EMPTY";
 			vehicle="Land_transport_kiosk_EP1";
 			leader=1;
 			skill=0.60000002;
 			text="maple_shop";
 		};
-		class Item1850
+		class Item1849
 		{
 			position[]={2935.3533,15.706251,2311.623};
-			id=1914;
+			id=1913;
 			side="EMPTY";
 			vehicle="Axe_woodblock";
 			skill=0.60000002;
 			text="process_pine";
 		};
-		class Item1851
+		class Item1850
 		{
 			position[]={2942.561,14.774731,2282.9766};
-			id=1915;
+			id=1914;
 			side="EMPTY";
 			vehicle="Axe_woodblock";
 			skill=0.60000002;
 			text="process_alder";
 		};
-		class Item1852
+		class Item1851
 		{
 			position[]={2925.9822,14.521885,2280.4009};
 			azimut=37.55809;
-			id=1916;
+			id=1915;
 			side="EMPTY";
 			vehicle="Axe_woodblock";
 			skill=0.60000002;
 			text="process_larix";
 		};
-		class Item1853
+		class Item1852
 		{
 			position[]={2936.5891,14.779137,2258.4546};
-			id=1917;
+			id=1916;
 			side="EMPTY";
 			vehicle="Axe_woodblock";
 			skill=0.60000002;
 			text="process_maple";
 		};
-		class Item1854
+		class Item1853
 		{
 			position[]={4550.5986,34.992191,4769.6636};
 			azimut=360.07501;
-			id=1918;
+			id=1917;
 			side="EMPTY";
 			vehicle="Misc_palletsfoiled_heap";
 			skill=0.60000002;
 		};
-		class Item1855
+		class Item1854
 		{
 			position[]={4570.8906,39.999992,4782.8335};
 			azimut=148.666;
-			id=1919;
+			id=1918;
 			side="EMPTY";
 			vehicle="Misc_palletsfoiled";
 			skill=0.60000002;
 		};
-		class Item1856
+		class Item1855
 		{
 			position[]={4553.9873,43.999989,4779.6157};
 			azimut=270.19901;
 			special="NONE";
-			id=1920;
+			id=1919;
 			side="EMPTY";
 			vehicle="Land_Misc_Cargo1C_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
 			text="bike_factory_storage";
 		};
-		class Item1857
+		class Item1856
 		{
 			position[]={4543.8179,34.915535,4768.6978};
 			azimut=88.9216;
 			special="NONE";
-			id=1921;
+			id=1920;
 			side="EMPTY";
 			vehicle="Misc_cargo_cont_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1858
+		class Item1857
 		{
 			position[]={4573.9468,39.999992,4777.9438};
 			azimut=360.44699;
 			special="NONE";
-			id=1922;
+			id=1921;
 			side="EMPTY";
 			vehicle="MAP_PowerGenerator";
 			lock="UNLOCKED";
 			skill=0.2;
 			text="bike_factory";
 		};
-		class Item1859
+		class Item1858
 		{
 			position[]={4573.9575,39.999992,4777.8677};
 			azimut=180.44881;
 			special="NONE";
-			id=1923;
+			id=1922;
 			side="EMPTY";
 			vehicle="MAP_PowerGenerator";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1860
+		class Item1859
 		{
 			position[]={4573.3315,39.999992,4777.4326};
 			azimut=628.71252;
 			special="NONE";
-			id=1924;
+			id=1923;
 			side="EMPTY";
 			vehicle="MAP_notebook";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1861
+		class Item1860
 		{
 			position[]={4573.6572,39.999992,4777.3721};
 			azimut=450.51813;
+			special="NONE";
+			id=1924;
+			side="EMPTY";
+			vehicle="MAP_tv_a";
+			lock="UNLOCKED";
+			skill=0.2;
+		};
+		class Item1861
+		{
+			position[]={4573.6729,39.999992,4778.4185};
+			azimut=450.94922;
 			special="NONE";
 			id=1925;
 			side="EMPTY";
@@ -23228,102 +23244,102 @@ class Mission
 		};
 		class Item1862
 		{
-			position[]={4573.6729,39.999992,4778.4185};
-			azimut=450.94922;
-			special="NONE";
-			id=1926;
-			side="EMPTY";
-			vehicle="MAP_tv_a";
-			lock="UNLOCKED";
-			skill=0.2;
-		};
-		class Item1863
-		{
 			position[]={4563.9863,35,4789.689};
 			azimut=449.47937;
 			special="NONE";
-			id=1927;
+			id=1926;
 			side="EMPTY";
 			vehicle="MAP_IndPipe2_big_ground2";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1864
+		class Item1863
 		{
 			position[]={4557.5093,35,4789.8027};
 			azimut=449.00836;
 			special="NONE";
-			id=1928;
+			id=1927;
 			side="EMPTY";
 			vehicle="MAP_IndPipe2_big_9";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1865
+		class Item1864
 		{
 			position[]={4560.8281,43.999989,4779.9824};
 			azimut=359.59799;
 			special="NONE";
-			id=1929;
+			id=1928;
 			side="EMPTY";
 			vehicle="Land_Misc_Cargo1B_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
 		};
-		class Item1866
+		class Item1865
 		{
 			position[]={6766.4644,10.095835,5892.7778};
 			azimut=204.42216;
-			id=1930;
+			id=1929;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
 			text="ironrock1_1";
 		};
-		class Item1867
+		class Item1866
 		{
 			position[]={6843.249,9.0346727,5784.5205};
 			azimut=246.319;
-			id=1931;
+			id=1930;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
 			text="ironrock2_1";
 		};
-		class Item1868
+		class Item1867
 		{
 			position[]={6852.0981,0.29300129,5824.6729};
 			azimut=139.92;
-			id=1932;
+			id=1931;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
 			text="ironrock4_1";
 		};
-		class Item1869
+		class Item1868
 		{
 			position[]={6816.4141,6.7444677,5834.5635};
 			azimut=63.123501;
-			id=1933;
+			id=1932;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
 			text="ironrock3_1";
 		};
-		class Item1870
+		class Item1869
 		{
 			position[]={5925.0171,32.5765,4380.626};
 			azimut=177.832;
-			id=1934;
+			id=1933;
 			side="EMPTY";
 			vehicle="Misc_palletsfoiled_heap";
 			skill=0.60000002;
 			text="lost_property_lot";
 		};
+		class Item1870
+		{
+			position[]={7124.7114,35.963661,3600.8574};
+			azimut=-171.769;
+			id=1934;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="rubber_shop";
+		};
 	};
 	class Markers
 	{
-		items=58;
+		items=59;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -23851,6 +23867,16 @@ class Mission
 			text="Iron Mine";
 			type="mil_flag";
 			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item58
+		{
+			position[]={7358.7485,70.900002,2913.6975};
+			name="item_shop1_2";
+			text="Resources Supermarket";
+			type="mil_flag";
+			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
 		};

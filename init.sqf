@@ -193,6 +193,7 @@ waitUntil {scriptDone _script};
 
 progressLoadingScreen 0.50;
 
+	
 
 if (isServer) then
 {
@@ -223,14 +224,14 @@ if (isServer) then
 progressLoadingScreen 0.99;
 endLoadingScreen;
 
-//if (RPP_isServer) then
-//{
-//	{
-//		_object = (_x select 0);
-//		_stock = (_x select 5);
-//		_object setVariable ["stock", _stock, true];
-//    } forEach RPP_var_shops;
-//};
+if (RPP_isServer) then
+{
+	{
+		_object = (_x select 0);
+		_stock = (_x select 5);
+		_object setVariable ["stock", _stock, true];
+    } forEach RPP_var_shops;
+};
 
 if (!__isServer) then
 {  
@@ -294,6 +295,7 @@ if (!__isServer) then
     
     [] spawn RPP_fnc_restrictionLoop;
     [] spawn RPP_fnc_monitor;
+	
 };
 
 
@@ -339,3 +341,5 @@ sleep 2.5;
 (findDisplay 46) displaySetEventHandler ["KeyDown","_this call RPP_fnc_onKeyPress;"];
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
+
+[] spawn ALR_acre_radios;
