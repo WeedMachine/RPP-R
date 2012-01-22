@@ -120,7 +120,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=63;
+		items=64;
 		class Item0
 		{
 			side="LOGIC";
@@ -1398,10 +1398,29 @@ class Mission
 				};
 			};
 		};
+		class Item63
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8067.4653,19,4793.3364};
+					azimut=536.591;
+					id=1944;
+					side="CIV";
+					vehicle="Doctor";
+					leader=1;
+					skill=0.60000002;
+					text="cocaine_sell";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=1871;
+		items=1880;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -23278,12 +23297,12 @@ class Mission
 		class Item1865
 		{
 			position[]={6766.4644,10.095835,5892.7778};
-			azimut=204.42216;
+			azimut=204.422;
 			id=1929;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="ironrock1_1";
+			text="stone4";
 		};
 		class Item1866
 		{
@@ -23293,17 +23312,17 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="ironrock2_1";
+			text="stone1";
 		};
 		class Item1867
 		{
-			position[]={6852.0981,0.29300129,5824.6729};
+			position[]={6849.1758,1.8335178,5820.9395};
 			azimut=139.92;
 			id=1931;
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="ironrock4_1";
+			text="stone2";
 		};
 		class Item1868
 		{
@@ -23313,7 +23332,7 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="ironrock3_1";
+			text="stone3";
 		};
 		class Item1869
 		{
@@ -23336,10 +23355,97 @@ class Mission
 			skill=0.60000002;
 			text="rubber_shop";
 		};
+		class Item1871
+		{
+			position[]={5919.1074,11.956724,5490.2666};
+			azimut=204.422;
+			id=1935;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="sand1";
+		};
+		class Item1872
+		{
+			position[]={5942.0493,11.710144,5502.0479};
+			azimut=246.319;
+			id=1936;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="sand2";
+		};
+		class Item1873
+		{
+			position[]={5993.7437,8.4696312,5531.1689};
+			azimut=139.92;
+			id=1937;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="sand4";
+		};
+		class Item1874
+		{
+			position[]={5965.4497,9.906764,5520.6846};
+			azimut=63.123501;
+			id=1938;
+			side="EMPTY";
+			vehicle="R_Stone_01_EP1";
+			skill=0.60000002;
+			text="sand3";
+		};
+		class Item1875
+		{
+			position[]={3090.5835,48.352211,4521.8145};
+			id=1939;
+			side="EMPTY";
+			vehicle="Land_Dirthump02_EP1";
+			skill=0.60000002;
+			text="salt1";
+		};
+		class Item1876
+		{
+			position[]={3071.1443,39.161663,4532.8477};
+			id=1940;
+			side="EMPTY";
+			vehicle="Land_Dirthump02_EP1";
+			skill=0.60000002;
+			text="salt2";
+		};
+		class Item1877
+		{
+			position[]={3053.9814,40.644402,4530.2202};
+			id=1941;
+			side="EMPTY";
+			vehicle="Land_Dirthump02_EP1";
+			skill=0.60000002;
+			text="salt3";
+		};
+		class Item1878
+		{
+			position[]={3057.3088,36.42244,4546.5059};
+			id=1942;
+			side="EMPTY";
+			vehicle="Land_Dirthump02_EP1";
+			skill=0.60000002;
+			text="salt4";
+		};
+		class Item1879
+		{
+			position[]={4776.5869,13.057797,3011.0688};
+			azimut=325.37399;
+			id=1943;
+			side="EMPTY";
+			vehicle="Land_bags_stack_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="cocaine_seeds";
+		};
 	};
 	class Markers
 	{
-		items=59;
+		items=62;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -23862,9 +23968,9 @@ class Mission
 		};
 		class Item57
 		{
-			position[]={6828.0898,0.98984456,5861.3618};
-			name="ironmine1_1";
-			text="Iron Mine";
+			position[]={6807.1255,6.7778654,5844.5703};
+			name="stonemine1";
+			text="Stone Mine";
 			type="mil_flag";
 			colorName="ColorYellow";
 			a=0.64999998;
@@ -23877,6 +23983,36 @@ class Mission
 			text="Resources Supermarket";
 			type="mil_flag";
 			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item59
+		{
+			position[]={5952.3335,12.142127,5501.3594};
+			name="sandmine1";
+			text="Sand Mine";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item60
+		{
+			position[]={3086.1375,48.383785,4521.8428};
+			name="saltmine1";
+			text="Salt Mine";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item61
+		{
+			position[]={8067.5161,19,4793.1338};
+			name="mari_sell_1";
+			text="Sell Cocaine";
+			type="mil_flag";
+			colorName="ColorRed";
 			a=0.64999998;
 			b=0.64999998;
 		};
