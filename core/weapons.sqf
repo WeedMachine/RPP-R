@@ -271,6 +271,7 @@ RPP_fnc_tazed =
     _shooter = _this select 1;
     
     closeDialog 0;
+	if(vehicle player != player) then {player Action ["eject", vehicle player];};
     
     if (RPP_var_isTazed) exitWith {};
     if (RPP_var_isRestrained) exitWith {};

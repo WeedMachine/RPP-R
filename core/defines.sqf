@@ -30,6 +30,8 @@ RPP_var_serverRules =
 ];
 RPP_var_pol_maxArrest = 60;
 
+ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+
 /* Jail variables */
 RPP_var_isArrested = false;
 RPP_var_jailTime = 0;
@@ -48,4 +50,24 @@ RPP_var_medical_animations =
     "AinvPknlMstpSnonWrflDr_medic4",
     "AinvPknlMstpSnonWrflDr_medic5"
 
+];
+
+ALR_acre_radios =
+[
+	if ((player call RPP_fnc_isCop)) then 
+	
+	{
+	player addweapon "ACRE_PRC119";
+	_chanset = ["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
+	_power = ["ACRE_PRC119", [50000, 50000, 50000, 50000, 50000, 50000] ] call acre_api_fnc_setDefaultPowers;
+	}
+	else
+	{
+	player addweapon "ACRE_PRC148";
+	_chanset = ["ACRE_PRC148", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
+	_power = ["ACRE_PRC148", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;  
+	};
+	
+	player removeweapon (ALR_var_acre_radio select 0);
+	
 ];
