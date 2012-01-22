@@ -27,8 +27,8 @@ RPP_var_goods =
 	["ACRE_PRC148", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
     ["ACRE_PRC343", ["WEAPON", "ITEM"], ["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
     ["ACRE_PRC117F", ["WEAPON", "ITEM"], ["PRC-117F RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
-	[format["%0", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
-    [format["%1", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"],["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+	//[format["%0", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    //[format["%1", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"],["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
     //[format["%2", ALR_var_acre_radio], ["PRC-117F RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
     
 	["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0, 0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
@@ -238,6 +238,14 @@ RPP_var_goods =
 	///NO COMMA!
 	
 	];
+	
+ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	{
+		_station = _x;
+		RPP_var_goods set[(count RPP_var_goods), [str _station, ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false]];
+	
+	} forEach ALR_var_acre_radio;
+
 
 RPP_fnc_itemGetArray =
 {
