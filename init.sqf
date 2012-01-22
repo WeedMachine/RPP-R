@@ -5,9 +5,9 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_Debug = true;
 RPP_Mission_Version = 0.4;
-RPP_Intro = false;
+RPP_Intro = true;
 RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
@@ -223,14 +223,14 @@ if (isServer) then
 progressLoadingScreen 0.99;
 endLoadingScreen;
 
-if (RPP_isServer) then
-{
-	{
-		_object = (_x select 0);
-		_stock = (_x select 5);
-		_object setVariable ["stock", _stock, true];
-    } forEach RPP_var_shops;
-};
+//if (RPP_isServer) then
+//{
+//	{
+//		_object = (_x select 0);
+//		_stock = (_x select 5);
+//		_object setVariable ["stock", _stock, true];
+//    } forEach RPP_var_shops;
+//};
 
 if (!__isServer) then
 {  

@@ -46,11 +46,11 @@ RPP_var_processLocations =
 	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
 	//Test Butchery skill 
-	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["Butchery", 1, 240, 110], 20],
-	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["Butchery", 1, 240, 110], 20],
-	[process_Lamb, "Butcher Lamb", "Process", _ALR_var_processButcher3, ["Butchery", 15, 360, 250], 20],
-	[process_Cow, "Butcher Beef", "Process", _ALR_var_processButcher4, ["Butchery", 30, 480, 330], 25],
-	[process_Boar, "Butcher Pork", "Process", _ALR_var_processButcher5, ["Butchery", 50, 600, 500], 30]
+	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["butchery", 1, 240, 110], 20],
+	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["butchery", 1, 240, 110], 20],
+	[process_Lamb, "Butcher Lamb", "Process", _ALR_var_processButcher3, ["butchery", 15, 360, 250], 20],
+	[process_Cow, "Butcher Beef", "Process", _ALR_var_processButcher4, ["butchery", 30, 480, 330], 25],
+	[process_Boar, "Butcher Pork", "Process", _ALR_var_processButcher5, ["butchery", 50, 600, 500], 30]
 ];
 
 RPP_fnc_setupProcessing =

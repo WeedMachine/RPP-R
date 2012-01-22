@@ -198,12 +198,12 @@ RPP_var_shops =
 	[stockyard_boar, "Boar", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
 	
     /* Lumberyard */	
-	[lumber_populus, "Populus Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
-	[lumber_alder, "Alder Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
-	[lumber_pine, "Pine Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
-	[lumber_larix, "Larix Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
-	[lumber_maple, "Maple Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
-	[lumber_rubber, "Rubber Log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_populus, "populus_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_alder, "alder_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_pine, "pine_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_larix, "larix_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_maple, "maple_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
+	[lumber_rubber, "rubber_log", "", [0, 0], [] call RPP_fnc_generateID, 99, true, true],
 	
 	/* Mari Sell */
     [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],

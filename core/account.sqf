@@ -310,7 +310,7 @@ RPP_fnc_acc_start =
 		_chanset = ["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
 		_ret = [] call acre_api_fnc_getCurrentRadioList;
 		player removeweapon (_ret select 0);
-		_power = ["ACRE_PRC119", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;
+		_power = ["ACRE_PRC119", [50000, 50000, 50000, 50000, 50000, 50000] ] call acre_api_fnc_setDefaultPowers;
 		
 		player addweapon "ItemMap";
     }
