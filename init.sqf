@@ -221,7 +221,7 @@ if (isServer) then
     [] call RPP_fnc_acc_serverStart;
 };
 
-progressLoadingScreen 0.99;
+progressLoadingScreen 0.75;
 endLoadingScreen;
 
 if (RPP_isServer) then
@@ -343,3 +343,5 @@ player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
 
 [] spawn ALR_acre_radios;
+progressLoadingScreen 0.99;
+endLoadingScreen;

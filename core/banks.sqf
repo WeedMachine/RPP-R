@@ -12,6 +12,10 @@ RPP_var_banks =
 [
     ["Central Bank", [] call RPP_fnc_generateID, mainBank],
 	["SWAT Automated Teller Machine ", [] call RPP_fnc_generateID, swatATM],
+	["Westpac Bank", [] call RPP_fnc_generateID, jailATM],
+	["Tilbaut Westpac Bank", [] call RPP_fnc_generateID, tilbautATM],
+	["Nanchuk Westpac Bank", [] call RPP_fnc_generateID, nanchukATM],
+	["Chalnik Westpac Bank", [] call RPP_fnc_generateID, chalnikATM],
 	["Police Automated Teller Machine ", [] call RPP_fnc_generateID, pATM]
 ];
 

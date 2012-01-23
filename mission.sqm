@@ -55,7 +55,10 @@ class Mission
 		"civic",
 		"roadrunner",
 		"cuda",
-		"nzdf"
+		"nzdf",
+		"usec_bell206",
+		"gnt_c185",
+		"kyo_microlight"
 	};
 	addOnsAuto[]=
 	{
@@ -107,6 +110,9 @@ class Mission
 		"roadrunner",
 		"cuda",
 		"nzdf",
+		"usec_bell206",
+		"gnt_c185",
+		"kyo_microlight",
 		"cmr_cicada"
 	};
 	randomSeed=13761412;
@@ -1422,7 +1428,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1928;
+		items=1951;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -15457,6 +15463,7 @@ class Mission
 			vehicle="Misc_cargo_cont_small_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="air_factory_storage";
 			init="this setPos [4434.98, 5572.71, 0]; this setDir 304.832; doStop this;";
 		};
 		class Item1193
@@ -15589,6 +15596,7 @@ class Mission
 			vehicle="MAP_PowerGenerator";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="air_factory";
 			init="this setPos [4413.74, 5567.27, 0.44444]; this setDir 124.752; doStop this;";
 		};
 		class Item1204
@@ -23814,24 +23822,271 @@ class Mission
 		};
 		class Item1926
 		{
-			position[]={7880.0972,17.5,4653.9155};
+			position[]={7905.5361,18.094673,4661.2603};
+			azimut=-91.5215;
 			id=1991;
 			side="EMPTY";
 			vehicle="airnz_C130";
 			skill=0.60000002;
+			text="shop2_air_airnz_C130";
 		};
 		class Item1927
 		{
-			position[]={7880.5498,17.5,4624.4395};
+			position[]={4423.9883,54,5256.769};
+			azimut=27.9025;
 			id=1992;
 			side="EMPTY";
 			vehicle="qantas_C130";
+			lock="LOCKED";
 			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1928
+		{
+			position[]={7108.8228,59.100731,2735.0195};
+			azimut=-372.6409;
+			id=1993;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="jailATM";
+		};
+		class Item1929
+		{
+			position[]={8026.9731,31.97847,1849.8972};
+			azimut=-178.8833;
+			id=1994;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="tilbautATM";
+		};
+		class Item1930
+		{
+			position[]={3635.4397,46,3035.824};
+			azimut=181.97099;
+			id=1995;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="nanchukATM";
+		};
+		class Item1931
+		{
+			position[]={8000.3989,19,4730.2246};
+			azimut=88.493599;
+			id=1996;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="chalnikATM";
+		};
+		class Item1932
+		{
+			position[]={4423.6689,54,5290.2139};
+			azimut=88.832397;
+			id=1997;
+			side="EMPTY";
+			vehicle="usec_bell206_2";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1933
+		{
+			position[]={4423.2378,54,5322.1167};
+			azimut=88.832397;
+			id=1998;
+			side="EMPTY";
+			vehicle="usec_bell206_1";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1934
+		{
+			position[]={4422.6826,54,5359.2617};
+			azimut=89.714996;
+			id=1999;
+			side="EMPTY";
+			vehicle="GNT_C185F";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1935
+		{
+			position[]={4417.4307,54,5394.6997};
+			azimut=89.714996;
+			id=2000;
+			side="EMPTY";
+			vehicle="kyo_microlight_blue";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1936
+		{
+			position[]={4416.8999,54,5403.0786};
+			azimut=89.714996;
+			id=2001;
+			side="EMPTY";
+			vehicle="kyo_microlight";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1937
+		{
+			position[]={4417.4253,54,5410.7754};
+			azimut=89.714996;
+			id=2002;
+			side="EMPTY";
+			vehicle="kyo_microlight_yellow";
+			lock="LOCKED";
+			skill=0.60000002;
+			init="doStop this;";
+		};
+		class Item1938
+		{
+			position[]={7860.52,17.5,4548.0938};
+			azimut=88.832397;
+			id=2003;
+			side="EMPTY";
+			vehicle="usec_bell206_2";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_usec_bell206_2";
+		};
+		class Item1939
+		{
+			position[]={7860.0889,17.5,4579.9966};
+			azimut=88.832397;
+			id=2004;
+			side="EMPTY";
+			vehicle="usec_bell206_1";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_usec_bell206_1";
+		};
+		class Item1940
+		{
+			position[]={7859.5337,17.5,4616.9404};
+			azimut=89.714996;
+			id=2005;
+			side="EMPTY";
+			vehicle="GNT_C185F";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_GNT_C185F";
+		};
+		class Item1941
+		{
+			position[]={7854.2817,17.5,4652.5796};
+			azimut=89.714996;
+			id=2006;
+			side="EMPTY";
+			vehicle="kyo_microlight_blue";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_kyo_microlight_blue";
+		};
+		class Item1942
+		{
+			position[]={7853.751,17.5,4660.9585};
+			azimut=89.714996;
+			id=2007;
+			side="EMPTY";
+			vehicle="kyo_microlight";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_kyo_microlight";
+		};
+		class Item1943
+		{
+			position[]={7854.2764,17.5,4668.6553};
+			azimut=89.714996;
+			id=2008;
+			side="EMPTY";
+			vehicle="kyo_microlight_yellow";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop2_air_kyo_microlight_yellow";
+		};
+		class Item1944
+		{
+			position[]={4430.3848,54,5256.478};
+			azimut=271.59177;
+			id=2009;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_qantas_C130";
+		};
+		class Item1945
+		{
+			position[]={4430.5942,54,5289.9834};
+			azimut=270.67999;
+			id=2010;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_usec_bell206_2";
+		};
+		class Item1946
+		{
+			position[]={4431.3018,54,5322.3276};
+			azimut=270.67999;
+			id=2011;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_usec_bell206_1";
+		};
+		class Item1947
+		{
+			position[]={4431.1636,54,5359.4839};
+			azimut=270.67999;
+			id=2012;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_GNT_C185F";
+		};
+		class Item1948
+		{
+			position[]={4424.9653,54,5393.7505};
+			azimut=270.67999;
+			id=2013;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_kyo_microlight_blue";
+		};
+		class Item1949
+		{
+			position[]={4424.9644,54,5410.4004};
+			azimut=270.67999;
+			id=2014;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_kyo_microlight_yellow";
+		};
+		class Item1950
+		{
+			position[]={4425.1021,54,5402.0068};
+			azimut=270.67999;
+			id=2015;
+			side="EMPTY";
+			vehicle="Info_Board_EP1";
+			skill=0.60000002;
+			text="shop_air_kyo_microlight";
 		};
 	};
 	class Markers
 	{
-		items=62;
+		items=69;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -24399,6 +24654,77 @@ class Mission
 			text="Sell Cocaine";
 			type="mil_flag";
 			colorName="ColorRed";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item62
+		{
+			position[]={7108.666,59.096775,2735.2849};
+			name="MainBank_1";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item63
+		{
+			position[]={8027.228,19,1849.678};
+			name="MainBank_1_1";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+			angle=-361.04059;
+		};
+		class Item64
+		{
+			position[]={3635.0391,46.102001,3035.4509};
+			name="MainBank_1_2";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item65
+		{
+			position[]={8000.458,19,4730.5586};
+			name="MainBank_1_3";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item66
+		{
+			position[]={4436.2236,54,5314.0132};
+			name="air_dealer_1";
+			text="East Airport";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item67
+		{
+			position[]={4421.8066,54,5572.4351};
+			name="air_factory_1";
+			text="Air Factory";
+			type="mil_flag";
+			colorName="ColorOrange";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item68
+		{
+			position[]={7872.4756,17.5,4659.0825};
+			name="air_dealer_1_2";
+			text="West Airport";
+			type="mil_flag";
+			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
 		};

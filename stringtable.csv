@@ -275,3 +275,4 @@ STRS_item_crowbar_success, "<t color='#4876FF'>Crowbar</t><br/>You have broken i
 STRS_item_crowbar_yourVehicle, "<t color='#4876FF'>Crowbar</t><br/>You cannot break into the trunk of your own vehicle."
 
 STRS_item_pickaxeDesc, "A pickaxe is a <t color='#009900'>tool</t> that is used for mainly mining many of the resources around the map such as <t color='#EEC900'>Gold, Iron, Coal and Stone!</t>. Most resources mined with a pickaxe can be sold to stores or used to manufacture new items, vehicles or weapons!."
+STRS_not_a_drug, "<t color='#4876FF'>Drugs</t><br/>You cannot smoke this."

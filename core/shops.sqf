@@ -30,6 +30,24 @@ RPP_var_shops =
     [shop_civic, "civic", "", [0,0], [] call RPP_fnc_generateID, 40, true, true],
     [shop_roadrunner, "roadrunner", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
     [shop_cuda, "cuda", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+	
+		/* Easten Airpot */
+	[shop_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop_air_qantas_C130, "qantas_C130", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	
+	/* Westen Airpot */
+	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+   	[shop2_air_airnz_C130, "airnz_C130", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop2_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop2_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+	[shop2_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop2_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+	[shop2_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
     	
 	/* Police Car Shop */
 	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
@@ -153,8 +171,41 @@ RPP_var_shops =
     [shop_m9mag, "15Rnd_9x19_M9", "", [0, 0], [] call RPP_fnc_generateID, 16, true, true],
     [shop_colt1911, "Colt1911", "", [0, 0], [] call RPP_fnc_generateID, 2, true, true],
     [shop_colt1911mag, "7Rnd_45ACP_1911", "", [0, 0], [] call RPP_fnc_generateID, 16, true, true],
-    
-    /* Resource shop */
+        
+    /* Farm Shop */
+    [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [wheat_shop, "Wheat", "", [0,0], [] call RPP_fnc_generateID, 250, true, true],
+    [populus_shop, "populus_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[apple_shop, "apple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[pine_shop, "pine_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+    [pumpkin_shop, "pumpkin_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[potato_shop, "potato_sprouts", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[alder_shop, "alder_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[larix_shop, "larix_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[cabbage_shop, "cabbage_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[maple_shop, "maple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+	[rubber_shop, "rubber_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
+		
+    /* Stockyard */
+	[stockyard_rabbit, "Rabbit", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_chicken, "Chicken", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_lamb, "Lamb", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_cow, "Cow", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	[stockyard_boar, "Boar", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+	
+    /* Lumberyard */	
+	[lumber_populus, "populus_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[lumber_alder, "alder_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[lumber_pine, "pine_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[lumber_larix, "larix_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[lumber_maple, "maple_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[lumber_rubber, "rubber_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	
+	/* Mari Sell */
+    [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[cocaine_sell, "cocaine", "", [0,0], [] call RPP_fnc_generateID, 3, true, false],
+	
+	 /* Resource shop */
     [shop_ironore, "IronOre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_goldore, "GoldOre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_copperore, "CopperOre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
@@ -175,39 +226,6 @@ RPP_var_shops =
 	[shop_tyre, "Tyre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_leather, "Leather", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_vinyl, "Vinyl", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-    
-    /* Farm Shop */
-    [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-    [wheat_shop, "Wheat", "", [0,0], [] call RPP_fnc_generateID, 250, true, true],
-    [populus_shop, "populus_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[apple_shop, "apple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[pine_shop, "pine_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-    [pumpkin_shop, "pumpkin_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[potato_shop, "potato_sprouts", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[alder_shop, "alder_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[larix_shop, "larix_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[cabbage_shop, "cabbage_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[maple_shop, "maple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	[rubber_shop, "rubber_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
-	
-    /* Stockyard */
-	[stockyard_rabbit, "Rabbit", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-	[stockyard_chicken, "Chicken", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-	[stockyard_lamb, "Lamb", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-	[stockyard_cow, "Cow", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-	[stockyard_boar, "Boar", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
-	
-    /* Lumberyard */	
-	[lumber_populus, "populus_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[lumber_alder, "alder_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[lumber_pine, "pine_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[lumber_larix, "larix_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[lumber_maple, "maple_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[lumber_rubber, "rubber_log", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	
-	/* Mari Sell */
-    [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-	[cocaine_sell, "cocaine", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 
     /* Drug Equipment */
 	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 250, true, false],

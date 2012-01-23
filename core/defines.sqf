@@ -8,6 +8,7 @@ RPP_var_hasRespawned = true; /* Has player respawned */
 RPP_var_isTazed = false; /* Is player tazed */
 RPP_var_isRestrained = false;
 RPP_var_tazedTime = 20;
+ALR_var_drugUseTime = 60;
 RPP_var_isImmortal = false;
 RPP_var_firstConnect = false;
 RPP_var_loggedIn = false;

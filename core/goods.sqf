@@ -91,6 +91,15 @@ RPP_var_goods =
     ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 20, "core\items\food.sqf", 0, true, [], true],
     ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 11, "core\items\food.sqf", 0, true, [], false],
    
+    /* Air */
+	["usec_bell206_2", ["VEHICLE", "AIR"], ["USEC Bell Dragon Fly", "No Desc"], [400000, 211800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["qantas_C130", ["VEHICLE", "AIR"], ["QANTAS C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["airnz_C130", ["VEHICLE", "AIR"], ["AIR NEW ZEALAND C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["usec_bell206_1", ["VEHICLE", "AIR"], ["USEC Bell White", "No Desc"], [400000, 211800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["GNT_C185F", ["VEHICLE", "AIR"], ["Cessna 185 Amphibian", "No Desc"], [350000, 199800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight_blue", ["VEHICLE", "AIR"], ["Kyo Microlight Blue", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight", ["VEHICLE", "AIR"], ["Kyo Microlight Red", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight_yellow", ["VEHICLE", "AIR"], ["Kyo Microlight Yellow", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
 
     //Cars
     ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [15500, 8000], 120, "core\items\noUse.sqf", 220, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
@@ -181,8 +190,8 @@ RPP_var_goods =
 	["maple_seed", ["ITEM", "SPROUT"], ["Maple Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["rubber_seed", ["ITEM", "SPROUT"], ["Rubber Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
     
-    ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\noUse.sqf", 0, true, [], true],
-	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\noUse.sqf", 0, true, [], true],
+    ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
+	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\drugUse.sqf", 0, true, [], true],
     ["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
 	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 2, "core\items\food.sqf", 0, true, [], false],
 	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.5, "core\items\food.sqf", 0, true, [], false],
