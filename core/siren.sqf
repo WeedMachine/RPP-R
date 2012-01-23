@@ -182,7 +182,7 @@ RPP_fsiren_sounds =
 
     _params = ((_car call RPP_fsiren_getValues) select 2) select 0;
     
-    player groupchat format["Car: %1  Type: %2", _car, _type];
+    //player groupchat format["Car: %1  Type: %2", _car, _type];
 
     while {_car getVariable "RPP_siren_state" == 2} do
     {

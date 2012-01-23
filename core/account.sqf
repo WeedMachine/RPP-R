@@ -256,7 +256,7 @@ RPP_fnc_acc_start =
     waitUntil {camCommitted _introCam};
     showCinemaBorder false;
     sleep 2;
-    cutText ["Welcome to The Roleplay Project: Reloaded!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
+    cutText ["Welcome to Aussie Life: Reloaded!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
     enableEnvironment false;
     waitUntil {server getVariable ["loaded",false]};
     enableEnvironment true;

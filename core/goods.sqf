@@ -125,15 +125,15 @@ RPP_var_goods =
     ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     
 	//Police Cars
-	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 300, true, [], false, []],
-	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], true, [], false, true],
-	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
+	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 300, true, [], false],
+	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], false, [true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
+	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	
     //Pickups
     ["datsun1_civil_1_open", ["VEHICLE", "CAR"], ["Datsun Open (Blue)", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
