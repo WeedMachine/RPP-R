@@ -5,86 +5,87 @@ Copyright (C) 2011  Matthew Simms
 
 _RPP_var_itemFactory = 
 [
-    ["Pump", ["manufacture", 1, 260]],
-	["Pickaxe", ["manufacture", 1, 260]],
-    ["Hatchet", ["manufacture", 1, 260]],
-	["Pump", ["manufacture", 20, 400]],
-	["Shovel", ["manufacture", 1, 260]],
-	["RepairKit", ["manufacture", 30, 500]],
-	["Can", ["manufacture", 1, 260]],
-	["Harpoon", ["manufacture", 25, 480]],
-	["Fishing_net", ["manufacture", 20, 450]],
-	["ACRE_PRC148_UHF", ["manufacture", 20, 450]],
-    ["Fishing_rod", ["manufacture", 15, 380]]
+    ["Pump", ["manufacture", 1, 280]],
+	["Pickaxe", ["manufacture", 1, 280]],
+    ["Hatchet", ["manufacture", 1, 280]],
+	["Pump", ["manufacture", 20, 980]],
+	["Shovel", ["manufacture", 1, 280]],
+	["RepairKit", ["manufacture", 30, 1400]],
+	["Can", ["manufacture", 1, 280]],
+	["Harpoon", ["manufacture", 25, 1240]],
+	["Fishing_net", ["manufacture", 20, 980]],
+	["ACRE_PRC148_UHF", ["manufacture", 20, 980]],
+    ["Fishing_rod", ["manufacture", 15, 900]]
 ];
 
 _ALR_var_carFactory = 
 [
 	//Cars
-	["Skoda", ["manufacture", 8, 350]],
-	["SkodaRed", ["manufacture", 8, 350]],
-	["SkodaBlue", ["manufacture", 8, 350]],
-	["SkodaGreen", ["manufacture", 8, 350]],
-	["VWGolf", ["manufacture", 15, 380]],
-	["car_hatchback", ["manufacture", 10, 380]],
-	["car_sedan", ["manufacture", 10, 380]],
-	["Lada1_TK_CIV_EP1", ["manufacture", 10, 380]],
-	["Lada2_TK_CIV_EP1", ["manufacture", 10, 380]],
-	["Volha_1_TK_CIV_EP1", ["manufacture", 10, 380]],
-	["Volha_2_TK_CIV_EP1", ["manufacture", 10, 380]]
+	["Skoda", ["manufacture", 8, 750]],
+	["SkodaRed", ["manufacture", 8, 750]],
+	["SkodaBlue", ["manufacture", 8, 750]],
+	["SkodaGreen", ["manufacture", 8, 750]],
+	["VWGolf", ["manufacture", 15, 900]],
+	["car_hatchback", ["manufacture", 10, 820]],
+	["car_sedan", ["manufacture", 10, 820]],
+	["Lada1_TK_CIV_EP1", ["manufacture", 10, 820]],
+	["Lada2_TK_CIV_EP1", ["manufacture", 10, 820]],
+	["Volha_1_TK_CIV_EP1", ["manufacture", 10, 820]],
+	["Volha_2_TK_CIV_EP1", ["manufacture", 10, 820]]
 ];
 
 _ALR_var_bikeFactory = 
 [	
 	//Bikes
-	["Old_bike_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["MMT_Civ", ["manufacture", 1, 260]],
-	["Old_moto_TK_Civ_EP1", ["manufacture", 1, 260]],
-	["M1030", ["manufacture", 1, 260]],
-	["TT650_Civ", ["manufacture", 1, 260]],
-	["TT650_Gue", ["manufacture", 1, 260]],
-	["TT650_TK_CIV_EP1", ["manufacture", 1, 260]],
-	["ATV_US_EP1", ["manufacture", 5, 300]]
+	["Old_bike_TK_CIV_EP1", ["manufacture", 1, 280]],
+	["MMT_Civ", ["manufacture", 1, 280]],
+	["Old_moto_TK_Civ_EP1", ["manufacture", 1, 280]],
+	["M1030", ["manufacture", 1, 280]],
+	["TT650_Civ", ["manufacture", 1, 280]],
+	["TT650_Gue", ["manufacture", 1, 280]],
+	["TT650_TK_CIV_EP1", ["manufacture", 1, 280]],
+	["ATV_US_EP1", ["manufacture", 5, 400]]
 	
 ];
 
 _ALR_var_truckFactory = 
 [	
 	//Trucks
-	["Kamaz", ["manufacture", 40, 520]],
-	["KamazOpen", ["manufacture", 40, 520]],
-	["UralCivil", ["manufacture", 30, 500]],
-	["UralCivil2", ["manufacture", 30, 500]],
-	["UralOpen_INS", ["manufacture", 30, 500]],
-	["MTVR", ["manufacture", 45, 550]],
-	["V3S_Salvage_TK_GUE_EP1", ["manufacture", 30, 500]],
+	["Kamaz", ["manufacture", 40, 1650]],
+	["KamazOpen", ["manufacture", 40, 1650]],
+	["UralCivil", ["manufacture", 30, 1400]],
+	["UralCivil2", ["manufacture", 30, 1400]],
+	["UralOpen_INS", ["manufacture", 30, 1400]],
+	["MTVR", ["manufacture", 45, 2250]],
+	["V3S_Salvage_TK_GUE_EP1", ["manufacture", 30, 1400]],
 	
 	//Pickups
-	["datsun1_civil_1_open", ["manufacture", 20, 450]],
-	["datsun1_civil_2_covered", ["manufacture", 20, 450]],
-	["datsun1_civil_3_open", ["manufacture", 20, 450]],
-	["hilux1_civil_1_open", ["manufacture", 25, 480]],
-	["hilux1_civil_2_covered", ["manufacture", 25, 480]],
-	["hilux1_civil_3_open", ["manufacture", 25, 480]],
-	["LandRover_CZ_EP1", ["manufacture", 20, 450]],
-	["LandRover_TK_CIV_EP1", ["manufacture", 20, 450]]
+	["datsun1_civil_1_open", ["manufacture", 20, 980]],
+	["datsun1_civil_2_covered", ["manufacture", 20, 980]],
+	["datsun1_civil_3_open", ["manufacture", 20, 980]],
+	["hilux1_civil_1_open", ["manufacture", 25, 1240]],
+	["hilux1_civil_2_covered", ["manufacture", 25, 1240]],
+	["hilux1_civil_3_open", ["manufacture", 25, 1240]],
+	["LandRover_CZ_EP1", ["manufacture", 20, 980]],
+	["LandRover_TK_CIV_EP1", ["manufacture", 20, 980]]
 	
 ];
 
 _ALR_var_manufacturingPlant =
 [
-	["Tyre", ["manufacture", 20, 450]],
-	["RefuelCan", ["manufacture", 20, 450]],
-	["ElecComp", ["manufacture", 20, 450]]
+	["Tyre", ["manufacture", 20, 980]],
+	["RefuelCan", ["manufacture", 20, 980]],
+	["AdvChipset", ["manufacture", 40, 1650]],
+	["ElecComp", ["manufacture", 20, 980]]
 ];
 
 _ALR_var_airFactory =
 [
-	["usec_bell206_2", ["manufacture", 1, 700]],
-	["qantas_C130", ["manufacture", 60, 700]],
-	["airnz_C130", ["manufacture", 60, 700]],
-	["usec_bell206_1", ["manufacture", 60, 700]],
-	["GNT_C185F", ["manufacture", 60, 700]]
+	["usec_bell206_2", ["manufacture", 70, 4250]],
+	["qantas_C130", ["manufacture", 60, 6500]],
+	["airnz_C130", ["manufacture", 55, 4200]],
+	["usec_bell206_1", ["manufacture", 70, 8000]],
+	["GNT_C185F", ["manufacture", 45, 2250]]
 ];
 
 RPP_var_factoryDefine = 
