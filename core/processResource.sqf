@@ -34,7 +34,7 @@ RPP_var_processLocations =
 	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 20, 240, 110], 25],
 	[process_gold, "Smelt Gold Ore", "Process", _RPP_var_smeltGold, ["manufacture", 85, 950, 800], 25],
 	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 340, 280], 25],
-	[process_silver, "Smelt Silver ore", "Process", _RPP_var_smeltSilver, ['manufacture", 65, 750, 600], 25],
+	[process_silver, "Smelt Silver ore", "Process", _RPP_var_smeltSilver, ["manufacture", 65, 750, 600], 25],
 	[process_sand, "Process Sand", "Process", _ALR_var_processSand, ["manufacture", 1, 240, 110], 25],
 	[process_bricks, "Bake Bricks", "Process", _ALR_var_processBricks, ["manufacture", 10, 340, 280], 15],
 	[process_populus, "Saw Populus Log", "Process", _ALR_var_processPopulus, ["manufacture", 1, 240, 110], 25],
