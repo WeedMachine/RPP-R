@@ -5,7 +5,7 @@ Copyright (C) 2011  Matthew Simms
 
 if (isNil "RPP_var_bankAmount") then
 {
-    RPP_var_bankAmount = 20000;
+    RPP_var_bankAmount = 2000000;
 };
 
 RPP_var_banks = 
