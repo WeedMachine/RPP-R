@@ -27,7 +27,7 @@ Copyright (C) 2011  Matthew Simms
 RPP_var_forestry_sprouts = 
 [
     //TIER 1
-    ["populus_seed", "TREE", "populus_tree", "AS_t_populusF2s_EP1", 10, ["populus_seed", 8, "", "normal"], 20, "Populus Tree", ["forestry", 1, 1250]],
+    ["populus_seed", "TREE", "populus_tree", "AS_t_populusF2s_EP1", 10, ["populus_seed", 8, "", "normal"], 20, "Populus Tree", ["forestry", 1, 280]],
 	["cabbage_seed", "BUSH", "cabbage_patch", "MAP_pumpkin2", 13, ["cabbage_seed", 5, "", "normal"], 35, "Cabbage Patch", ["forestry", 1, 280]],
 	//["wheat_seed", "BUSH", "wheat_plant", "AS_p_wheat_EP1", 600, ["", 0, "", "normal"], 40, "Wheat"]
 	
