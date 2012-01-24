@@ -8,6 +8,7 @@ RPP_var_hasRespawned = true; /* Has player respawned */
 RPP_var_isTazed = false; /* Is player tazed */
 RPP_var_isRestrained = false;
 RPP_var_tazedTime = 20;
+ALR_var_drugUseTime = 60;
 RPP_var_isImmortal = false;
 RPP_var_firstConnect = false;
 RPP_var_loggedIn = false;
@@ -30,6 +31,8 @@ RPP_var_serverRules =
 ];
 RPP_var_pol_maxArrest = 60;
 
+ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+
 /* Jail variables */
 RPP_var_isArrested = false;
 RPP_var_jailTime = 0;
@@ -49,3 +52,27 @@ RPP_var_medical_animations =
     "AinvPknlMstpSnonWrflDr_medic5"
 
 ];
+
+ALR_acre_radios =
+{
+	if (side player==west) then 
+	
+	{
+	player addweapon "ACRE_PRC119";
+	//['ACRE_PRC119', 1] call RPP_fnc_addInventoryItem;
+	_chanset = ["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
+	_chanset = ["ACRE_PRC343", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
+	_power = ["ACRE_PRC119", [50000, 50000, 50000, 50000, 50000, 50000] ] call acre_api_fnc_setDefaultPowers;
+	} else {
+	player addweapon "ACRE_PRC148";
+	//['ACRE_PRC148', 1] call RPP_fnc_addInventoryItem;
+	_chanset = ["ACRE_PRC148", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
+	_chanset = ["ACRE_PRC343", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
+	_power = ["ACRE_PRC148", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;  
+	};
+	
+	ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	player removeweapon (ALR_var_acre_radio select 0);
+	//player addweapon "ACRE_PRC119";
+	
+};

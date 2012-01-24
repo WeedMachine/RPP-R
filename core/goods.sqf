@@ -20,13 +20,18 @@ RPP_var_goods =
     ["ItemMap", ["WEAPON", "ITEM"], ["Map", "No description"], [5, 1], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemCompass", ["WEAPON", "ITEM"], ["Compass", "No description"], [40, 20], 0, "core\items\noUse.sqf", 0, true, [], false],
     ["ItemWatch", ["WEAPON", "ITEM"], ["Watch", "No description"], [80, 40], 0, "core\items\noUse.sqf", 0, true, [], false],
-    ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [800, 650], 0.5, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 1], ["Rubber", 1]]], false],
-    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [1600, 1250], 0.5, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 2], ["Rubber", 1]]], false],
-    ["ACRE_PRC148_UHF", ["WEAPON", "SPECIAL"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [2, [["ElecComp", 2], ["Rubber", 1]]], false],
-    ["ACRE_PRC119", ["WEAPON", "SPECIAL"], ["PRC-119 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["ACRE_PRC343", ["WEAPON", "SPECIAL"], ["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ItemRadio", ["WEAPON", "ITEM"], ["Radio", "No description"], [800, 650], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+    ["ItemGPS", ["WEAPON", "ITEM"], ["GPS", "No fdescription"], [1600, 1250], 0.5, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC148_UHF", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC119", ["WEAPON", "ITEM"], ["PRC-119 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["ACRE_PRC148", ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC343", ["WEAPON", "ITEM"], ["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["ACRE_PRC117F", ["WEAPON", "ITEM"], ["PRC-117F RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+	//[format["%0", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
+    //[format["%1", acre_api_fnc_getCurrentRadioList], ["WEAPON", "ITEM"],["PRC-343 RADIO", "No description"], [687, 375], 1, "core\items\noUse.sqf", 0, true, [], false],
+    //[format["%2", ALR_var_acre_radio], ["PRC-117F RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false],
     
-    ["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0, 0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
+	["Handcuffs", ["ITEM", "TOOL"], ["Handcuffs", "No description"], [0, 0], 1, "core\items\handcuffs.sqf", 0, true, [], false],
     
     /* Misc_Items & Tools */
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [300, 160], 0.5, "core\items\lockpick.sqf", 0, true, [2, [ ["IronBar", 1]]], false],
@@ -86,6 +91,15 @@ RPP_var_goods =
     ["Whale", ["ITEM", "FISH"], ["Whale", "No Desc"], [1200,700], 20, "core\items\food.sqf", 0, true, [], true],
     ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 11, "core\items\food.sqf", 0, true, [], false],
    
+    /* Air */
+	["usec_bell206_2", ["VEHICLE", "AIR"], ["USEC Bell Dragon Fly", "No Desc"], [400000, 211800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["qantas_C130", ["VEHICLE", "AIR"], ["QANTAS C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["airnz_C130", ["VEHICLE", "AIR"], ["AIR NEW ZEALAND C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["usec_bell206_1", ["VEHICLE", "AIR"], ["USEC Bell White", "No Desc"], [400000, 211800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["GNT_C185F", ["VEHICLE", "AIR"], ["Cessna 185 Amphibian", "No Desc"], [350000, 199800], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight_blue", ["VEHICLE", "AIR"], ["Kyo Microlight Blue", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight", ["VEHICLE", "AIR"], ["Kyo Microlight Red", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
+	["kyo_microlight_yellow", ["VEHICLE", "AIR"], ["Kyo Microlight Yellow", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 40],["Tyre", 4], ["Rubber", 40], ["Copper", 38], ["Leather" , 18], ["ElecComp", 16]]], false],
 
     //Cars
     ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [15500, 8000], 120, "core\items\noUse.sqf", 220, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
@@ -111,15 +125,15 @@ RPP_var_goods =
     ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [2, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     
 	//Police Cars
-	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 300, true, [], false, []],
-	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], true, [], false, true],
-	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
-	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false, []],
+	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarHW2", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["Paddy", ["VEHICLE", "CAR"], ["Holden Paddywagon WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 300, true, [], false],
+	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], false, [true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
+	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	
     //Pickups
     ["datsun1_civil_1_open", ["VEHICLE", "CAR"], ["Datsun Open (Blue)", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
@@ -163,20 +177,22 @@ RPP_var_goods =
     ["x26_mag", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [560, 300], 0.5, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Copper",1], ["ElecComp",1]]], true],
        
    /* Bushes/Seeds/Trees */
-    	["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
-    	["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
-    	["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-    	["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-    	["pine_seed", ["ITEM", "SPROUT"], ["Pine Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-    	["potato_sprouts", ["ITEM", "SPROUT"], ["Potato Sprouts", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
-    	["alder_seed", ["ITEM", "SPROUT"], ["Alder Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+    ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["pine_seed", ["ITEM", "SPROUT"], ["Pine Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["potato_sprouts", ["ITEM", "SPROUT"], ["Potato Sprouts", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
+    ["alder_seed", ["ITEM", "SPROUT"], ["Alder Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["pumpkin_seed", ["ITEM", "SPROUT"], ["Pumpkin Seed", "No Desc"], [6,2], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["cabbage_seed", ["ITEM", "SPROUT"], ["Cabbage Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["maple_seed", ["ITEM", "SPROUT"], ["Maple Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["rubber_seed", ["ITEM", "SPROUT"], ["Rubber Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
     
-    	["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\noUse.sqf", 0, true, [], true],
-    	["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
+    ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
+	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\drugUse.sqf", 0, true, [], true],
+    ["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
 	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 2, "core\items\food.sqf", 0, true, [], false],
 	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.5, "core\items\food.sqf", 0, true, [], false],
 	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false], 
@@ -191,14 +207,14 @@ RPP_var_goods =
 	["Boar", ["ITEM", "RESOURCE"], ["Boar", "No desc"], [20,10], 5, "core\items\noUse.sqf", 0, true, [], false],
 	
     /* Primary Resources */
-    	["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [40,20], 10, "core\items\noUse.sqf", 0, true, [], false],
-    	["IronOre", ["ITEM", "RESOURCE"], ["Iron Ore", "No desc"], [30,15], 5, "core\items\noUse.sqf", 0, true, [], false],
+    ["GoldOre", ["ITEM", "RESOURCE"], ["Gold Ore", "No desc"], [40,20], 10, "core\items\noUse.sqf", 0, true, [], false],
+    ["IronOre", ["ITEM", "RESOURCE"], ["Iron Ore", "No desc"], [30,15], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["CopperOre", ["ITEM", "RESOURCE"], ["Copper Ore", "No desc"], [25,12], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Stone", ["ITEM", "RESOURCE"], ["Stone", "No desc"], [25,12], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Sulphur", ["ITEM", "RESOURCE"], ["Sulphur", "No desc"], [25,12], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Diamond", ["ITEM", "RESOURCE"], ["Diamond", "No desc"], [40,20], .05, "core\items\noUse.sqf", 0, true, [], false],
 	["Silver", ["ITEM", "RESOURCE"], ["Silver", "No desc"], [50,25], .05, "core\items\noUse.sqf", 0, true, [], false],
-    	["Sand", ["ITEM", "RESOURCE"], ["Sand", "No desc"], [4,2], 1, "core\items\noUse.sqf", 0, true, [], false],
+    ["Sand", ["ITEM", "RESOURCE"], ["Sand", "No desc"], [4,2], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Salt", ["ITEM", "RESOURCE"], ["Salt", "No desc"], [4,2], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Clay", ["ITEM", "RESOURCE"], ["Clay", "No desc"], [5,2], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Coal", ["ITEM", "RESOURCE"], ["Coal", "No desc"], [25,12], 1, "core\items\noUse.sqf", 0, true, [], false],
@@ -231,6 +247,14 @@ RPP_var_goods =
 	///NO COMMA!
 	
 	];
+	
+ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	{
+		_station = _x;
+		RPP_var_goods set[(count RPP_var_goods), [str _station, ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false]];
+	
+	} forEach ALR_var_acre_radio;
+
 
 RPP_fnc_itemGetArray =
 {

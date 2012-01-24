@@ -12,6 +12,8 @@ RPP_var_licenses =
 [
     ["car", "Car License"],
 	["pistol", "Pistol License"],
+	["semiautogun", "Semi Automatic Rifle License"],
+	["truck", "Truck License"],
 	["pilot", "Pilot License"]
 ];
 

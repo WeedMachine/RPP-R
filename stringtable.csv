@@ -1,6 +1,6 @@
 LANGUAGE,  English
 
-STRM_mission_name, AussieLife: Reloaded v0.3 - Stats Save!
+STRM_mission_name, AussieLife: Reloaded v0.5 - Stats Saving!
 STRM_mission_desc, A RPG Mission by the aussielifereloaded.com community!
 
 STRS_login_new, "We have detected that you do not currently have a Aussie Life: Reloaded account. All accounts are registered using your Player ID (a unique number generated from your CD Key). Before you can play ALR:R you will need to generate a password to associate with your Player ID to ensure it is fully secure. You cannot registered more than one account.<br /><br />Please remember your password as will not be able to access your game account without it."
@@ -275,3 +275,4 @@ STRS_item_crowbar_success, "<t color='#4876FF'>Crowbar</t><br/>You have broken i
 STRS_item_crowbar_yourVehicle, "<t color='#4876FF'>Crowbar</t><br/>You cannot break into the trunk of your own vehicle."
 
 STRS_item_pickaxeDesc, "A pickaxe is a <t color='#009900'>tool</t> that is used for mainly mining many of the resources around the map such as <t color='#EEC900'>Gold, Iron, Coal and Stone!</t>. Most resources mined with a pickaxe can be sold to stores or used to manufacture new items, vehicles or weapons!."
+STRS_not_a_drug, "<t color='#4876FF'>Drugs</t><br/>You cannot smoke this."

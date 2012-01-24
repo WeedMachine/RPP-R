@@ -5,9 +5,9 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_Debug = true;
 RPP_Mission_Version = 0.4;
-RPP_Intro = false;
+RPP_Intro = true;
 RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
@@ -193,6 +193,7 @@ waitUntil {scriptDone _script};
 
 progressLoadingScreen 0.50;
 
+	
 
 if (isServer) then
 {
@@ -220,7 +221,7 @@ if (isServer) then
     [] call RPP_fnc_acc_serverStart;
 };
 
-progressLoadingScreen 0.99;
+progressLoadingScreen 0.75;
 endLoadingScreen;
 
 if (RPP_isServer) then
@@ -294,6 +295,7 @@ if (!__isServer) then
     
     [] spawn RPP_fnc_restrictionLoop;
     [] spawn RPP_fnc_monitor;
+	
 };
 
 
@@ -339,3 +341,7 @@ sleep 2.5;
 (findDisplay 46) displaySetEventHandler ["KeyDown","_this call RPP_fnc_onKeyPress;"];
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
+
+[] spawn ALR_acre_radios;
+progressLoadingScreen 0.99;
+endLoadingScreen;

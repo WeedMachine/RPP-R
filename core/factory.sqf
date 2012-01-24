@@ -78,11 +78,14 @@ _ALR_var_manufacturingPlant =
 	["ElecComp", ["manufacture", 20, 450]]
 ];
 
-//_ALR_var_airFactory =
-//[
-//	["AirVechile", ["manufacture", 60, 700]],
-//	["AirVechile2", ["manufacture", 70, 800]]
-//];
+_ALR_var_airFactory =
+[
+	["usec_bell206_2", ["manufacture", 1, 700]],
+	["qantas_C130", ["manufacture", 60, 700]],
+	["airnz_C130", ["manufacture", 60, 700]],
+	["usec_bell206_1", ["manufacture", 60, 700]],
+	["GNT_C185F", ["manufacture", 60, 700]]
+];
 
 RPP_var_factoryDefine = 
 [
@@ -90,7 +93,7 @@ RPP_var_factoryDefine =
 	[bike_factory, "Bike Factory", bike_factory_storage, _ALR_var_bikeFactory],
 	[heavy_factory, "Heavy Vechile Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
-	//[air_factory, "Air Factory", air_factory_storage, _RPP_var_airFactory],
+	[air_factory, "Air Factory", air_factory_storage, _ALR_var_airFactory],
 	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]
 ];
 

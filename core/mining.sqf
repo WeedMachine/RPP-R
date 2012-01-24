@@ -7,10 +7,10 @@ RPP_var_miningDefine =
 [
     /* Mines */
 	//TIER 1
-	//[ 0, [stone1, stone2, stone3, stone4], "Stone Mine", [ ["mining", 1], 2, 160, "Pickaxe", "Stone", 25, 1]],
-	//[ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]]
-	//[ 2, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
-	//[ 3, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
+	[ 0, [stone1, stone2, stone3, stone4], "Stone Mine", [ ["mining", 1], 2, 160, "Pickaxe", "Stone", 25, 1]],
+	[ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]],
+	[ 2, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
+	[ 3, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
 	//
 	////TIER 2
 	//[ 4, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
@@ -24,7 +24,7 @@ RPP_var_miningDefine =
 	//
 	////TIER 4
 	//[ 10, [Silver1, Silver2, Silver3, Silver4], "Silver Mine", [ ["mining", 60], 18, 4200, "Shovel", "Silver", 18, 1]],
-	//[ 11, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 85], 25, 8200, "Pickaxe", "GoldOre", 16, 1]],
+	[ 11, [goldrock1, goldrock2, goldrock3, goldrock4, goldrock5], "Gold Ore", [ ["mining", 85], 25, 8200, "Pickaxe", "GoldOre", 16, 1]]
 	//
 	////TIER 5
    	//[ 12, [Diamond1, Diamond2, Diamond3, Diamond4], "Diamond Mine", [ ["mining", 99], 40, 16400, "Pickaxe", "Diamond", 25, 1]]

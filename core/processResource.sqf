@@ -7,11 +7,11 @@ _RPP_var_smeltIron = [ ["IronOre", 2], ["IronBar", 1], ["CopperOre", 1]];
 _RPP_var_smeltCopper = [ ["CopperOre", 2], ["Copper", 1], ["Silicon",1]];
 _RPP_var_smeltGold = [ ["GoldOre", 5], ["GoldBar", 1], ["GoldOre", 3] ];
 _RPP_var_cookBluegill = [ ["Bluegill", 1], ["Cooked_Bluegill", 1], [] ];
-_RPP_var_processPopulus = [ ["Populus_Log", 6], ["Wood", 2], ["Populus_Log", 3] ];
-_ALR_var_processPine = [ ["pine_log", 6], ["Wood", 3], ["pine_log", 4] ];
-_ALR_var_processAlder = [ ["alder_log", 5], ["Wood", 3], ["alder_log", 4] ];
-_ALR_var_processLarix = [ ["larix_log", 4], ["Wood", 3], ["larix_log", 3] ];
-_ALR_var_processMaple = [ ["maple_log", 4], ["Wood", 4], ["maple_log", 3] ];
+_RPP_var_processPopulus = [ ["populus_log", 6], ["wood", 2], ["populus_log", 3] ];
+_ALR_var_processPine = [ ["pine_log", 6], ["wood", 3], ["pine_log", 4] ];
+_ALR_var_processAlder = [ ["alder_log", 5], ["wood", 3], ["alder_log", 4] ];
+_ALR_var_processLarix = [ ["larix_log", 4], ["wood", 3], ["larix_log", 3] ];
+_ALR_var_processMaple = [ ["maple_log", 4], ["wood", 4], ["maple_log", 3] ];
 _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], ["Rubber", 2] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
@@ -46,11 +46,11 @@ RPP_var_processLocations =
 	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
 	//Test Butchery skill 
-	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["Butchery", 1, 240, 110], 20],
-	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["Butchery", 1, 240, 110], 20],
-	[process_Lamb, "Butcher Lamb", "Process", _ALR_var_processButcher3, ["Butchery", 15, 360, 250], 20],
-	[process_Cow, "Butcher Beef", "Process", _ALR_var_processButcher4, ["Butchery", 30, 480, 330], 25],
-	[process_Boar, "Butcher Pork", "Process", _ALR_var_processButcher5, ["Butchery", 50, 600, 500], 30]
+	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["butchery", 1, 240, 110], 20],
+	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["butchery", 1, 240, 110], 20],
+	[process_Lamb, "Butcher Lamb", "Process", _ALR_var_processButcher3, ["butchery", 15, 360, 250], 20],
+	[process_Cow, "Butcher Beef", "Process", _ALR_var_processButcher4, ["butchery", 30, 480, 330], 25],
+	[process_Boar, "Butcher Pork", "Process", _ALR_var_processButcher5, ["butchery", 50, 600, 500], 30]
 ];
 
 RPP_fnc_setupProcessing =

@@ -28,3 +28,5 @@ RPP_fnc_restrictionLoop =
         sleep 1;
     };
 };
+
+#include "\al2\al2_core\scriptDefines.sqh"

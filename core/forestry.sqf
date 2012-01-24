@@ -45,7 +45,8 @@ RPP_var_forestry_sprouts =
 	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 60, 6500]],
 	
 	//TIER 5
-	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 20, ["maple_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 4250]]
+	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 40, ["maple_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 4250]],
+	["cocaine_seed", "BUSH", "cocaine_bush", "as_t_JuniperusC2s_EP1", 40, ["cocaine_seed", 12, "sickle", "normal"], 40, "Cocaine Bush", ["forestry", 80, 12500]]
 	
 ];
 
@@ -55,7 +56,7 @@ if (isServer) then
 };
 
 /* We use this for actions, Note: Case sensitive */ 
-RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_pumpkin2", "MAP_c_fern", "MAP_t_betula1f", "MAP_pumpkin" ];
+RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_pumpkin2", "as_t_JuniperusC2s_EP1", "MAP_c_fern", "MAP_t_betula1f", "MAP_pumpkin" ];
 { RPP_var_forestry_typeBushes set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeBushes;
 RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1", "MAP_t_larix3s", "MAP_t_carpinis2s", "MAP_t_picea2s", "MAP_t_pinusN2s" ];
 { RPP_var_forestry_typeTrees set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrees;
@@ -136,6 +137,7 @@ RPP_var_forestry_bushes =
 	["potato_patch", [4,7, "Potato"], [12], 18, 0.5, [300, 0,10], ["forestry", 160], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["pumpkin_patch", [1,3, "Pumpkin"], [12], 18, 0.5, [300, 0,10], ["forestry", 180], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["cabbage_patch", [1,3, "Cabbage"], [12], 18, 0.5, [300, 0,10], ["forestry", 80], "", "AinvPknlMstpSlayWrflDnon_medic"],
+	["cocaine_seed", [1,3, "cocaine"], [12], 18, 0.5, [300, 0,10], ["forestry", 480], "", "AinvPknlMstpSlayWrflDnon_medic"],
     ["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"]
 	
 ];

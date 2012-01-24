@@ -113,7 +113,7 @@ class RPP_Dlg_Stats
             w = 0.18;
             h = 0.4;
             size = 0.0235;
-            text = "RP Project: Reloaded<br/><br/>http://rp-project.net";
+            text = "Aussie Life: Reloaded<br/><br/>www.AussieLifeReloaded.com";
         };
 		
         class WeatherIcon : RPP_BackgroundFill

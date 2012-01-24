@@ -1,6 +1,7 @@
 _pages = 
 [ 
     ["Rules", "Rules & Guidelines"],
+	["law", "Laws"],
     ["Info", "Information"],
     ["Tutorial", "Tutorial"],
     ["Credits", "Credits"],

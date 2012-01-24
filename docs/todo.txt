@@ -6,16 +6,16 @@ Change UI
 Add 3D Credits
 
 -- Balancing --
-1) Fishing
-2) Seeds/Forestry
-2a) Process Logs
+
+
+
 3) Weapon Shops
 3) Licenses
 4) Mining
 5) Smelting
-5a) Helicopters/planes shops
-6) Factories
-7) Storages
+
+
+
 8) Investing
 
 - NOTES -
