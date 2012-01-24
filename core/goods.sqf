@@ -92,14 +92,14 @@ RPP_var_goods =
     ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 11, "core\items\food.sqf", 0, true, [], false],
    
     	/* Air */
-	["usec_bell206_2", ["VEHICLE", "AIR"], ["USEC Bell Dragon Fly", "No Desc"], [400000, 200000], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]], false],
-	["qantas_C130", ["VEHICLE", "AIR"], ["QANTAS C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [], false],
-	["airnz_C130", ["VEHICLE", "AIR"], ["AIR NEW ZEALAND C130", "No Desc"], [800000, 411800], 1300, "core\items\noUse.sqf", 300, true, [], false],
-	["usec_bell206_1", ["VEHICLE", "AIR"], ["USEC Bell White", "No Desc"], [400000, 200000], 300, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]], false],
-	["GNT_C185F", ["VEHICLE", "AIR"], ["Cessna 185 Amphibian", "No Desc"], [350000, 199800], 300, "core\items\noUse.sqf", 300, true, [], false],
-	["kyo_microlight_blue", ["VEHICLE", "AIR"], ["Kyo Microlight Blue", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [], false],
-	["kyo_microlight", ["VEHICLE", "AIR"], ["Kyo Microlight Red", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [], false],
-	["kyo_microlight_yellow", ["VEHICLE", "AIR"], ["Kyo Microlight Yellow", "No Desc"], [100000, 51800], 120, "core\items\noUse.sqf", 120, true, [], false],
+	["usec_bell206_2", ["VEHICLE", "AIR"], ["USEC Bell Dragon Fly", "No Desc"], [418000, 220000], 250, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]]], false],
+	["qantas_C130", ["VEHICLE", "AIR"], ["QANTAS C130", "No Desc"], [750500, 395000], 3000, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 100],["Tyre", 6], ["Rubber", 100], ["Copper", 120], ["Leather" , 80], ["ElecComp", 150], ["AdvChipset", 60], ["Glass", 40]]], false],
+	["airnz_C130", ["VEHICLE", "AIR"], ["AIR NEW ZEALAND C130", "No Desc"], [750500, 395000], 3000, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 100],["Tyre", 6], ["Rubber", 100], ["Copper", 120], ["Leather" , 80], ["ElecComp", 150], ["AdvChipset", 60], ["Glass", 40]]], false],
+	["usec_bell206_1", ["VEHICLE", "AIR"], ["USEC Bell White", "No Desc"], [418000, 220000], 250, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]]], false],
+	["GNT_C185F", ["VEHICLE", "AIR"], ["Cessna 185 Amphibian", "No Desc"], [361000, 190000], 400, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 110], ["Rubber", 80], ["Copper", 100], ["Leather" , 20], ["ElecComp", 90], ["AdvChipset", 22], ["Glass", 10]]], false],
+	["kyo_microlight_blue", ["VEHICLE", "AIR"], ["Kyo Microlight Blue", "No Desc"], [104500, 55000], 100, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
+	["kyo_microlight", ["VEHICLE", "AIR"], ["Kyo Microlight Red", "No Desc"], [104500, 55000], 100, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
+	["kyo_microlight_yellow", ["VEHICLE", "AIR"], ["Kyo Microlight Yellow", "No Desc"], [104500, 55000], 100, "core\items\noUse.sqf", 120, true, [2, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
 
     //Cars
     ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [15500, 8000], 120, "core\items\noUse.sqf", 220, true, [2, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
