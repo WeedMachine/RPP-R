@@ -190,9 +190,9 @@ RPP_var_goods =
 	["maple_seed", ["ITEM", "SPROUT"], ["Maple Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
 	["rubber_seed", ["ITEM", "SPROUT"], ["Rubber Seed", "No Desc"], [8,4], 0, "core\items\sprout.sqf", 0, true, [], false],
     
-    	["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
+    ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
 	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\drugUse.sqf", 0, true, [], true],
-    	["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
+    ["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
 	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 2, "core\items\food.sqf", 0, true, [], false],
 	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.5, "core\items\food.sqf", 0, true, [], false],
 	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false], 
