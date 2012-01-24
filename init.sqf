@@ -3,8 +3,8 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
-RPP_Mission_Version = 0.4;
+RPP_Debug = false;
+RPP_Mission_Version = 0.5;
 RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = true;
@@ -344,4 +344,3 @@ player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
 
 [] spawn ALR_acre_radios;
 progressLoadingScreen 0.99;
-endLoadingScreen;

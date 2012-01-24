@@ -255,6 +255,7 @@ RPP_fnc_acc_start =
 
     waitUntil {camCommitted _introCam};
     showCinemaBorder false;
+	endLoadingScreen;
     sleep 2;
     cutText ["Welcome to Aussie Life: Reloaded!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
     enableEnvironment false;
