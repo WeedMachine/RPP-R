@@ -222,7 +222,7 @@ if (isServer) then
 };
 
 progressLoadingScreen 0.75;
-endLoadingScreen;
+
 
 if (RPP_isServer) then
 {
