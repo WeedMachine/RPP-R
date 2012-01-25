@@ -76,3 +76,10 @@ ALR_acre_radios =
 	//player addweapon "ACRE_PRC119";
 	
 };
+
+{ doStop _x;
+_x disableAI "TARGET";
+_x disableAI "AUTOTARGET";
+_x disableAI "MOVE";
+_x disableAI "ANIM";
+} foreach (units _team);
