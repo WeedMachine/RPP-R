@@ -39,8 +39,8 @@ RPP_fnc_loadStatsMenu =
     lbAdd[10, "Player Information"];
     lbAdd[10, format["Username: %1", name player]];
     lbAdd[10, format["ID: %1", getPlayerUID player]];
-    lbAdd[10, format["Hunger: %1", "hunger" call RPP_fnc_getDynamicVal]];
-    lbAdd[10, format["Thirst: %1", "thirst" call RPP_fnc_getDynamicVal]];
+    lbAdd[10, format["Hunger: %1", "Hunger" call RPP_fnc_getDynamicVal]];
+    lbAdd[10, format["Thirst: %1", "Thirst" call RPP_fnc_getDynamicVal]];
 
     lbAdd[10, ""];
     lbAdd[10, "Licenses"];
