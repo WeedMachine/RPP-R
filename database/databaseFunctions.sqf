@@ -387,7 +387,7 @@ RPP_fsav_clientRequestLoad =
                 [{ 
                     if (RPP_var_acc_login == (_this select 0)) then
                     {
-                        _toCompile = "" + (_this select 1) + " = " + (_this select 2) + ";";
+                        _toCompile = "" + (_this select 1) + " = " + str(_this select 2) + ";";
                         call compile _toCompile;
                         //call compile format['%1 = %2;', (_this select 2), (_this select 3)];
                     };
