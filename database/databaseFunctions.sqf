@@ -252,7 +252,7 @@ RPP_fsav_serverRequestLoad =
 
                 if (_getVarName == _varName) then
                 {
-                        _str = "" + _varName + " = " + (_x select 1) + ";";
+                        _str = "" + _varName + " = " + str(_x select 1) + ";";
                         call compile _str;
                         //call compile format['%1 = %2;', (_varName), (_x select 1)];
                 };

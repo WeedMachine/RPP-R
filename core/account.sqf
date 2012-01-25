@@ -104,6 +104,7 @@ RPP_fnc_acc_clientLogin =
     RPP_var_acc_login = getPlayerUID player;
     RPP_var_isLoggingIn = true;
     closeDialog 0;
+	showCinemaBorder false;
     sleep 1;
     cutText ["Logging into account, please wait...", "PLAIN DOWN", 1];
     sleep 2;

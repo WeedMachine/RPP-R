@@ -241,7 +241,7 @@ RPP_var_goods =
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["AdvChipset", ["ITEM", "RESOURCE"], ["Advanced Chipset", "No Desc"], [3200,1750], 5, "core\items\noUse.sqf", 0, true, [2, [ ["ElecComp", 2],["GoldBar", 1], ["Silicon", 2]]], false],,
+	["AdvChipset", ["ITEM", "RESOURCE"], ["Advanced Chipset", "No Desc"], [3200,1750], 5, "core\items\noUse.sqf", 0, true, [2, [ ["ElecComp", 2],["GoldBar", 1], ["Silicon", 2]]], false],
 	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false]
 
 
