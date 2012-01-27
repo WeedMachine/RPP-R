@@ -3,6 +3,7 @@
 RPP_fnc_acc_login = 
 {
     private ["_id", "_exists", "_password"];
+	showCinemaBorder false;
     createDialog "RPP_Dlg_Login";
     _id = getPlayerUID player;
     _exists = _this select 0;
@@ -112,7 +113,7 @@ RPP_fnc_acc_clientLogin =
     [{
         if (isServer) then
         {
-            [str (_this select 0), (_this select 1)] call RPP_fsav_clientRequestLoad; 
+            [(_this select 0), (_this select 1)] call RPP_fsav_clientRequestLoad; 
         };
     }, [RPP_var_acc_login, RPP_var_saving_clientToLoad]] call RPP_fnet_execPublic;
     sleep 4;

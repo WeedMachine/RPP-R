@@ -224,14 +224,14 @@ if (isServer) then
 progressLoadingScreen 0.75;
 
 
-if (RPP_isServer) then
-{
-	{
-		_object = (_x select 0);
-		_stock = (_x select 5);
-		_object setVariable ["stock", _stock, true];
-    } forEach RPP_var_shops;
-};
+//if (RPP_isServer) then
+//{
+//	{
+//		_object = (_x select 0);
+//		_stock = (_x select 5);
+//		_object setVariable ["stock", _stock, true];
+//    } forEach RPP_var_shops;
+//};
 
 if (!__isServer) then
 {  
@@ -243,10 +243,14 @@ if (!__isServer) then
     [] spawn RPP_fnc_offroad; /* Damage from driving offroad*/
 	  
     _script = [] execVM "core\ui.sqf";
-    waitUntil {scriptDone _script}; 
+    waitUntil {scriptDone _script};
 
-    /* Setup all shops */
+};
+	 /* Setup all shops */
     [] spawn RPP_fnc_setupShops;
+	
+if (!__isServer) then
+{
 
     /* Setup all banks */
     [] spawn RPP_fnc_setupBanks;
