@@ -11,16 +11,16 @@ RPP_var_miningDefine =
 	[ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]],
 	[ 2, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
 	[ 3, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
-	//
-	////TIER 2
-	//[ 4, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
-	//[ 5, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 25], 8, 920, "Pickaxe", "Coal", 25, 1]],
-	//[ 6, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
-	//
-	////TIER 3
-	//[ 7, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
-	//[ 8, [Sulphur1, Sulphur2, Sulphur3, Sulphur4], "Sulpur Mine", [ ["mining", 40], 15, 250, "Pickaxe", "Sulphur", 20, 1]],
-	//[ 9, [oil1, oil2, oil3, oil4], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
+	
+	//TIER 2
+	[ 4, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
+	[ 5, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 25], 8, 920, "Pickaxe", "Coal", 25, 1]],
+	[ 6, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
+	
+	//TIER 3
+	[ 7, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
+	[ 8, [Sulphur1, Sulphur2, Sulphur3, Sulphur4], "Sulpur Mine", [ ["mining", 40], 15, 250, "Pickaxe", "Sulphur", 20, 1]],
+	[ 9, [oil1], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
 	//
 	////TIER 4
 	//[ 10, [Silver1, Silver2, Silver3, Silver4], "Silver Mine", [ ["mining", 60], 18, 4200, "Shovel", "Silver", 18, 1]],
