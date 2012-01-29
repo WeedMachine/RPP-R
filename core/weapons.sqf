@@ -221,8 +221,8 @@ RPP_fnc_holsterPistol =
 RPP_fnc_dropWeapons = 
 {
 	ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
-	player removeweapon (ALR_var_acre_radio select 0);
-	player removeweapon (ALR_var_acre_radio select 1);
+	if(player hasWeapon (ALR_var_acre_radio select 0))then{
+	player removeweapon (ALR_var_acre_radio select 0);};
     private ["_unit", "_magazines", "_weapons", "_weaponHolder"];
     _unit = _this select 0;
     _magazines = _this select 1;
