@@ -220,6 +220,9 @@ RPP_fnc_holsterPistol =
 
 RPP_fnc_dropWeapons = 
 {
+	ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	player removeweapon (ALR_var_acre_radio select 0);
+	player removeweapon (ALR_var_acre_radio select 1);
     private ["_unit", "_magazines", "_weapons", "_weaponHolder"];
     _unit = _this select 0;
     _magazines = _this select 1;
@@ -325,7 +328,8 @@ RPP_fnc_tazed =
     cutText ["","WHITE IN", 0.1];
     "radialBlur" ppEffectEnable false;
     "radialBlur" ppEffectCommit 5;
-    disableUserInput false; 
+    disableUserInput false;
+	[] spawn ALR_acre_radios;	
     RPP_var_isTazed = false;
     
     if (RPP_var_isRestrained) exitWith {};

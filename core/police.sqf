@@ -291,12 +291,14 @@ RPP_fnc_pol_prisonerReleased =
     {
         /* Released */
         server globalchat format[localize "STRS_arrest_released", name _prisoner];
+		[] spawn ALR_acre_radios;
 
     }
     else
     {
         /* Released by person */
         server globalchat format[localize "STRS_arrest_earlyRelease", name _prisoner, name _person];
+		[] spawn ALR_acre_radios;
     };
     
     if (_prisoner == player) then

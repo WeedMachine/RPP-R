@@ -55,6 +55,9 @@ RPP_var_medical_animations =
 
 ALR_acre_radios =
 {
+	ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	player removeweapon (ALR_var_acre_radio select 0);
+	player removeweapon (ALR_var_acre_radio select 1);
 	if (side player==west) then 
 	
 	{
