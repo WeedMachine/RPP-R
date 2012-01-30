@@ -41,14 +41,14 @@ RPP_var_shops =
 	[shop_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 	
 	/* Westen Airpot */
-	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-   	[shop2_air_airnz_C130, "airnz_C130", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-    [shop2_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-	[shop2_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
-	[shop2_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-    [shop2_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
-	[shop2_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-	[shop2_usec_bell206_uscg, "usec_bell206_uscg", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+   	[shop2_air_airnz_C130, "airnz_C130", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+    [shop2_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+	[shop2_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop2_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+    [shop2_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop2_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+	[shop2_usec_bell206_uscg, "usec_bell206_uscg", "", [0,0], [] call RPP_fnc_generateID, 99, true, false],
     	
 	/* Police Car Shop */
 	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
@@ -57,7 +57,6 @@ RPP_var_shops =
 	[shop_cop_qin_black, "qin_evoix_black", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_monaro_black, "Civcarsl", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	
-		
 	/* Police Item Shop */
 	[shop_police_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_compass, "ItemCompass", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
