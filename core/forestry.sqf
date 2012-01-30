@@ -28,7 +28,7 @@ RPP_var_forestry_sprouts =
 [
     //TIER 1
     ["populus_seed", "TREE", "populus_tree", "AS_t_populusF2s_EP1", 10, ["populus_seed", 8, "", "normal"], 20, "Populus Tree", ["forestry", 1, 280]],
-	["cabbage_seed", "BUSH", "cabbage_patch", "MAP_pumpkin2", 13, ["cabbage_seed", 5, "", "normal"], 35, "Cabbage Patch", ["forestry", 1, 280]],
+	["cabbage_seed", "BUSH", "cabbage_patch", "MAP_p_urtica", 13, ["cabbage_seed", 5, "", "normal"], 35, "Cabbage Patch", ["forestry", 1, 280]],
 	//["wheat_seed", "BUSH", "wheat_plant", "AS_p_wheat_EP1", 600, ["", 0, "", "normal"], 40, "Wheat"]
 	["apple_seed", "BUSH", "apple_bush", "MAP_t_betula1f", 20, ["apple_seed", 5, "sickle", "normal"], 35, "Apple Tree", ["forestry", 5, 410]],
 
@@ -38,7 +38,7 @@ RPP_var_forestry_sprouts =
 	["rubber_seed", "TREE", "rubber_tree", "MAP_t_pyrus2s", 10, ["rubber_seed", 8, "", "normal"], 20, "Ruber Tree", ["forestry", 20, 980]], 
 	
 	//TIER 3
-	["pumpkin_seed", "BUSH", "pumpkin_patch", "MAP_pumpkin", 20, ["pumpkin_seed", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 25, 1240]],
+	["pumpkin_seed", "BUSH", "pumpkin_patch", "MAP__p_urtica", 20, ["pumpkin_seed", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 25, 1240]],
 	["pine_seed", "TREE", "pine_tree", "MAP_t_picea2s", 30, ["pine_seed", 12, "sickle", "normal"], 20, "Pine Tree", ["forestry", 40, 1650]],
 	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 40, 1650]],	
 	
@@ -140,7 +140,7 @@ RPP_var_forestry_bushes =
 	["pumpkin_patch", [1,3, "Pumpkin"], [12], 18, 0.5, [300, 0,10], ["forestry", 180], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["cabbage_patch", [1,3, "Cabbage"], [12], 18, 0.5, [300, 0,10], ["forestry", 80], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["cocaine_seed", [1,3, "cocaine"], [12], 18, 0.5, [300, 0,10], ["forestry", 480], "", "AinvPknlMstpSlayWrflDnon_medic"],
-    ["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"]
+    	["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"]
 	
 ];
 
