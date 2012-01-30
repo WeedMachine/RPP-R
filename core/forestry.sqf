@@ -57,9 +57,9 @@ if (isServer) then
 };
 
 /* We use this for actions, Note: Case sensitive */ 
-RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_pumpkin2", "as_t_JuniperusC2s_EP1", "MAP_c_fern", "MAP_t_betula1f", "MAP_pumpkin" ];
+RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_p_urtica", "as_t_JuniperusC2s_EP1", "MAP_c_fern", "MAP_t_betula1f", "MAP_p_urtica" ];
 { RPP_var_forestry_typeBushes set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeBushes;
-RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1", "MAP_t_larix3s", "MAP_t_carpinis2s", "MAP_t_picea2s", "MAP_t_pinusN2s" ];
+RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1", "MAP_t_larix3s", "MAP_t_carpinis2s", "MAP_t_picea2s", "MAP_t_pinusN2s", "MAP_t_pyrus2s" ];
 { RPP_var_forestry_typeTrees set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrees;
 RPP_var_forestry_typeTrunks = [ "as_Misc_trunk_torzo_ep1", "MAP_misc_FallenTree2" ];
 { RPP_var_forestry_typeTrunks set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrunks;
