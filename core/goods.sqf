@@ -177,8 +177,8 @@ RPP_var_goods =
    	["x26_mag", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [560, 300], 0.5, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Copper",1], ["ElecComp",1]]], true],
        
  	/* Bushes/Seeds/Trees */
-    ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
-	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+    ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [35,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [40,6], 0, "core\items\sprout.sqf", 0, true, [], true],
     ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
     ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
     ["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
