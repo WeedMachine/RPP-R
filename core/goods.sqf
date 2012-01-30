@@ -92,6 +92,7 @@ RPP_var_goods =
     ["Swordfish", ["ITEM", "FISH"], ["Swordfish", "No Desc"], [600,350], 11, "core\items\food.sqf", 0, true, [], false],
    
     	/* Air */
+	["usec_bell206_uscg", ["VEHICLE", "AIR"], ["USEC Bell Police", "No Desc"], [290000, 120000], 250, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]]],	
 	["usec_bell206_2", ["VEHICLE", "AIR"], ["USEC Bell Dragon Fly", "No Desc"], [418000, 220000], 250, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 120],["Tyre", 4], ["Rubber", 80], ["Copper", 70], ["Leather" , 30], ["ElecComp", 100], ["AdvChipset", 30], ["Glass", 20]]], false],
 	["qantas_C130", ["VEHICLE", "AIR"], ["QANTAS C130", "No Desc"], [750500, 395000], 3000, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 100],["Tyre", 6], ["Rubber", 100], ["Copper", 120], ["Leather" , 80], ["ElecComp", 150], ["AdvChipset", 60], ["Glass", 40]]], false],
 	["airnz_C130", ["VEHICLE", "AIR"], ["AIR NEW ZEALAND C130", "No Desc"], [750500, 395000], 3000, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 100],["Tyre", 6], ["Rubber", 100], ["Copper", 120], ["Leather" , 80], ["ElecComp", 150], ["AdvChipset", 60], ["Glass", 40]]], false],
@@ -134,6 +135,8 @@ RPP_var_goods =
 	["SUV_TK_CIV_EP1", ["VEHICLE", "CAR"], ["SWAT SUV", "No Desc"], [22000, 15000], 65, "core\items\noUse.sqf", 250, true, [], false, [true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
 	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard WIP", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["qin_evoix_black", ["VEHICLE", "CAR"], ["Police Evo Black", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false,[true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
+	["Civcarsl", ["VEHICLE", "CAR"], ["Holden Monaro Black", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false,[true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
 	
     //Pickups
     ["datsun1_civil_1_open", ["VEHICLE", "CAR"], ["Datsun Open (Blue)", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [2, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
@@ -177,8 +180,8 @@ RPP_var_goods =
    	["x26_mag", ["MAGAZINE", "PISTOL"], ["X26 Cartridge", "No Desc"], [560, 300], 0.5, "core\items\noUse.sqf", 0, true, [2, [ ["IronBar", 1], ["Copper",1], ["ElecComp",1]]], true],
        
  	/* Bushes/Seeds/Trees */
-    ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [35,5], 0, "core\items\sprout.sqf", 0, true, [], true],
-	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [40,6], 0, "core\items\sprout.sqf", 0, true, [], true],
+    ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
     ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
     ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
     ["larix_seed", ["ITEM", "SPROUT"], ["Larix Seed", "No Desc"], [5,2], 0, "core\items\sprout.sqf", 0, true, [], false],
