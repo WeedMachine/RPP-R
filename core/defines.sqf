@@ -53,33 +53,6 @@ RPP_var_medical_animations =
 
 ];
 
-ALR_acre_radios =
-{
-	//ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
-	//if(player hasWeapon (ALR_var_acre_radio select 0))then{
-	//player removeweapon (ALR_var_acre_radio select 0);};
-	if (side player==west) then 
-	
-	{
-	player addweapon "ACRE_PRC119";
-	//['ACRE_PRC119', 1] call RPP_fnc_addInventoryItem;
-	_chanset = ["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
-	_chanset = ["ACRE_PRC343", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
-	_power = ["ACRE_PRC119", [50000, 50000, 50000, 50000, 50000, 50000] ] call acre_api_fnc_setDefaultPowers;
-	} else {
-	player addweapon "ACRE_PRC148";
-	//['ACRE_PRC148', 1] call RPP_fnc_addInventoryItem;
-	_chanset = ["ACRE_PRC148", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
-	_chanset = ["ACRE_PRC343", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
-	_power = ["ACRE_PRC148", [20000, 20000, 20000, 20000, 2000, 2000] ] call acre_api_fnc_setDefaultPowers;  
-	};
-	
-	ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
-	player removeweapon (ALR_var_acre_radio select 0);
-	//player addweapon "ACRE_PRC119";
-	
-};
-
 { doStop _x;
 _x disableAI "TARGET";
 _x disableAI "AUTOTARGET";
