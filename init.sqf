@@ -3,8 +3,9 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
+serverCommand "#lock";
 RPP_Debug = false;
-RPP_Mission_Version = 0.5;
+RPP_Mission_Version = 0.6;
 RPP_Intro = true;
 RPP_QuickTest = false;
 RPP_Saving = true;
@@ -191,6 +192,8 @@ waitUntil {scriptDone _script};
 _script = [] execVM "database\SQLite.sqf";
 waitUntil {scriptDone _script};
 
+[] execVM "core\powerplant.sqf";
+
 progressLoadingScreen 0.50;
 
 	
@@ -315,13 +318,14 @@ if (!__isServer) then
     };
 };
 
+progressLoadingScreen 0.99;
 
 if (RPP_Debug) then
 {
     ['money', 25000] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
     ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-
+	endLoadingScreen;
 };
 
 
@@ -332,6 +336,8 @@ if (isServer) then
     [] spawn RPP_fnc_timeLoop;
     [] spawn RPP_fnc_forestry_serverGrowth;
     [] spawn RPP_fnc_importAll;
+	serverCommand "#unlock";
+	diag_log text "Server unlocked!";
 };
 
 onPlayerConnected "_this call RPP_fnc_event_onPlayerConnect;";
@@ -346,5 +352,9 @@ sleep 2.5;
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
 player addEventHandler ["handleDamage",  "_this call RPP_fnc_hit;"];
 
+_script = [] execVM "core\acre.sqf";
+waitUntil {scriptDone _script};
+	
 [] spawn ALR_acre_radios;
-progressLoadingScreen 0.99;
+
+
