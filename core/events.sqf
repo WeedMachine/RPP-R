@@ -4,6 +4,8 @@ RPP_fnc_event_onPlayerConnect =
     _id = _this select 0;
     _name = _this select 1;
     _uid = _this select 2;
+	
+	format["if(%1)then{power1 setdamage 0};if(%2)then{power2 setdamage 0};", alive power1, alive power2] call RPP_fnet_execPublic;
 
 };
 

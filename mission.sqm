@@ -132,7 +132,7 @@ class Mission
 		forecastWeather=0.25;
 		year=2011;
 		month=8;
-		hour=4;
+		hour=6;
 	};
 	class Groups
 	{
@@ -1513,7 +1513,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2149;
+		items=2156;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -24076,7 +24076,7 @@ class Mission
 			vehicle="oilrig_base";
 			skill=0.60000002;
 			text="oil1";
-			init="this setPos [getPos this select 0, getPos this select 1, 30]";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
 		};
 		class Item1938
 		{
@@ -24126,7 +24126,7 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="sand1_1";
+			text="Silver1";
 		};
 		class Item1943
 		{
@@ -24136,7 +24136,7 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="sand2_1";
+			text="Silver2";
 		};
 		class Item1944
 		{
@@ -24146,7 +24146,7 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="sand4_1";
+			text="Silver4";
 		};
 		class Item1945
 		{
@@ -24156,7 +24156,7 @@ class Mission
 			side="EMPTY";
 			vehicle="R_Stone_01_EP1";
 			skill=0.60000002;
-			text="sand3_1";
+			text="Silver3";
 		};
 		class Item1946
 		{
@@ -26112,10 +26112,85 @@ class Mission
 			text="shop_cop_monaro_black";
 			init="this allowdamage false;";
 		};
+		class Item2149
+		{
+			position[]={7213.9307,52.566101,7374.3389};
+			id=2218;
+			side="EMPTY";
+			vehicle="MAP_trafostanica_velka";
+			skill=0.60000002;
+			text="power2";
+			init="this allowDamage allow; power2 setDamage 0.92;";
+		};
+		class Item2150
+		{
+			position[]={7213.5586,53,7354.1353};
+			id=2219;
+			side="EMPTY";
+			vehicle="MAP_trafostanica_velka";
+			skill=0.60000002;
+			text="power1";
+			init="power1 allowDamage allow; power1 setDamage 0.92;";
+		};
+		class Item2151
+		{
+			position[]={3844.093,0.1568183,4063.3037};
+			azimut=139.92;
+			id=2220;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			skill=0.60000002;
+			text="oil2";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
+		};
+		class Item2152
+		{
+			position[]={6511.2012,0.32204539,1612.8032};
+			azimut=139.92;
+			id=2221;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			skill=0.60000002;
+			text="oil3";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
+		};
+		class Item2153
+		{
+			position[]={5336.5322,39.799797,5552.1572};
+			azimut=139.92;
+			id=2222;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			skill=0.60000002;
+			text="oil3_1";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
+		};
+		class Item2154
+		{
+			position[]={5398.4053,88.492867,5475.6055};
+			azimut=139.92;
+			id=2223;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			skill=0.60000002;
+			text="oil3_2";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
+		};
+		class Item2155
+		{
+			position[]={1718.4883,0.29181433,5315.583};
+			azimut=139.92;
+			id=2224;
+			side="EMPTY";
+			vehicle="oilrig_base";
+			skill=0.60000002;
+			text="oil4";
+			init="this setPos [getPos this select 0, getPos this select 1, 20]";
+		};
 	};
 	class Markers
 	{
-		items=78;
+		items=94;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -26839,6 +26914,126 @@ class Mission
 			position[]={7492.3252,19.822073,7821.5415};
 			name="silvermine1_2";
 			text="Silver Mine";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item78
+		{
+			position[]={6058.1255,32,4301.1255};
+			name="powercoverage";
+			type="Empty";
+		};
+		class Item79
+		{
+			position[]={4732.0464,24.234018,4671.4482};
+			name="powercoverage1";
+			type="Empty";
+		};
+		class Item80
+		{
+			position[]={2648.2007,47.818546,4097.5342};
+			name="powercoverage2";
+			type="Empty";
+		};
+		class Item81
+		{
+			position[]={3574.5986,46,3026.5898};
+			name="powercoverage3";
+			type="Empty";
+		};
+		class Item82
+		{
+			position[]={6511.4316,30,5721.7104};
+			name="powercoverage4";
+			type="Empty";
+		};
+		class Item83
+		{
+			position[]={7285.1968,53,7336.2363};
+			name="powercoverage5";
+			type="Empty";
+		};
+		class Item84
+		{
+			position[]={7107.6948,59.40485,2720.5095};
+			name="powercoverage6";
+			type="Empty";
+		};
+		class Item85
+		{
+			position[]={7322.4424,64.290329,2926.7554};
+			name="powercoverage7";
+			type="Empty";
+		};
+		class Item86
+		{
+			position[]={8049.231,19,1839.5446};
+			name="powercoverage8";
+			type="Empty";
+		};
+		class Item87
+		{
+			position[]={8002.5679,19,4697.6904};
+			name="powercoverage9";
+			type="Empty";
+		};
+		class Item88
+		{
+			position[]={7211.46,53,7333.8164};
+			name="MainBank_1_2_1";
+			text="Power Plant";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item89
+		{
+			position[]={3841.6541,0.1095984,4063.6797};
+			name="ironmine1_2_1";
+			text="Oil Rig";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item90
+		{
+			position[]={6508.7617,0.31987968,1613.1792};
+			name="ironmine1_2_1_1";
+			text="Oil Rig";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item91
+		{
+			position[]={5334.0928,40.021221,5552.5332};
+			name="ironmine1_2_1_1_1";
+			text="Oil Rig";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item92
+		{
+			position[]={5395.9658,88.615303,5475.9814};
+			name="ironmine1_2_1_1_2";
+			text="Oil Rig";
+			type="mil_flag";
+			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item93
+		{
+			position[]={1716.0488,0.35604626,5315.959};
+			name="ironmine1_2_1_1_3";
+			text="Oil Rig";
 			type="mil_flag";
 			colorName="ColorYellow";
 			a=0.64999998;
