@@ -77,7 +77,7 @@ _ALR_var_manufacturingPlant =
 	["RefuelCan", ["manufacture", 20, 980]],
 	["AdvChipset", ["manufacture", 40, 1650]],
 	["ElecComp", ["manufacture", 20, 980]],
-	["Plank", ["manufacture", 1, 280]],
+	["Plank", ["manufacture", 1, 570]],
 	["Beam", ["manufacture", 5, 400]]
 ];
 

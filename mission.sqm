@@ -1513,7 +1513,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2152;
+		items=2157;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -1697,12 +1697,11 @@ class Mission
 		class Item18
 		{
 			position[]={6270.0508,32,4152.3652};
-			azimut=-1.0796343;
+			azimut=-1.07963;
 			id=35;
 			side="EMPTY";
 			vehicle="Misc_palletsfoiled";
 			skill=0.60000002;
-			text="process_iron1";
 		};
 		class Item19
 		{
@@ -18210,6 +18209,7 @@ class Mission
 			vehicle="Land_Campfire_burning";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="process_iron1";
 			init="this setPos [6263.08, 4139.53, 2.2090]; this setDir -25.6771; doStop this;";
 		};
 		class Item1415
@@ -18246,6 +18246,7 @@ class Mission
 			vehicle="Land_Campfire_burning";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="process_bricks";
 			init="this setPos [6277.73, 4139.46, 2.1959]; this setDir -25.6771; doStop this;";
 		};
 		class Item1418
@@ -18282,6 +18283,7 @@ class Mission
 			vehicle="Land_Campfire_burning";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="process_sand";
 			init="this setPos [6292.43, 4139.56, 2.1959]; this setDir -25.6771; doStop this;";
 		};
 		class Item1421
@@ -26145,10 +26147,57 @@ class Mission
 			text="oil2";
 			init="this setPos [getPos this select 0, getPos this select 1, 20]";
 		};
+		class Item2152
+		{
+			position[]={8048.7051,19,4750.4395};
+			azimut=-0.15325101;
+			id=2221;
+			side="EMPTY";
+			vehicle="Land_bags_stack_EP1";
+			skill=0.60000002;
+		};
+		class Item2153
+		{
+			position[]={8046.478,19,4750.9575};
+			azimut=-1.07963;
+			id=2222;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled";
+			skill=0.60000002;
+			text="process_flour";
+		};
+		class Item2154
+		{
+			position[]={4235.7944,10.430634,2503.1221};
+			azimut=-16.350716;
+			id=2223;
+			side="EMPTY";
+			vehicle="Land_bags_stack_EP1";
+			skill=0.60000002;
+		};
+		class Item2155
+		{
+			position[]={4233.5083,11.22293,2503.0005};
+			azimut=-17.2771;
+			id=2224;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled";
+			skill=0.60000002;
+			text="process_wheat";
+		};
+		class Item2156
+		{
+			position[]={2951.9299,16.300425,2351.6484};
+			id=2225;
+			side="EMPTY";
+			vehicle="Axe_woodblock";
+			skill=0.60000002;
+			text="process_rubber";
+		};
 	};
 	class Markers
 	{
-		items=90;
+		items=92;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -26218,9 +26267,9 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={6269.8369,42.117077,4142.0063};
+			position[]={6274.8032,42.117077,4139.5972};
 			name="iron_smelter";
-			text="Iron Smelter";
+			text="Smelter";
 			type="mil_flag";
 			colorName="ColorOrange";
 			a=0.64999998;
@@ -26599,7 +26648,7 @@ class Mission
 		{
 			position[]={3705.033,46.29253,2991.2246};
 			name="heavy_factory";
-			text="Heavy Vechile Factory";
+			text="Heavy Vehicle Factory";
 			type="mil_flag";
 			colorName="ColorOrange";
 			a=0.64999998;
@@ -26954,6 +27003,26 @@ class Mission
 			text="Oil Rig";
 			type="mil_flag";
 			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item90
+		{
+			position[]={8045.7666,19,4751.2183};
+			name="iron_smelter_1";
+			text="Bakery";
+			type="mil_flag";
+			colorName="ColorOrange";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item91
+		{
+			position[]={4234.4023,10.548618,2503.249};
+			name="iron_smelter_1_1";
+			text="Mill";
+			type="mil_flag";
+			colorName="ColorOrange";
 			a=0.64999998;
 			b=0.64999998;
 		};

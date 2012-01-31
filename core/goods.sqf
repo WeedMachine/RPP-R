@@ -227,7 +227,8 @@ RPP_var_goods =
 	["larix_log", ["ITEM", "RESOURCE"], ["Larix Log", "No Desc"], [6,3], 21, "core\items\noUse.sqf", 0, true, [], false],
 	["maple_log", ["ITEM", "RESOURCE"], ["Maple Log", "No Desc"], [8,3], 22, "core\items\noUse.sqf", 0, true, [], false],
 	["rubber_log", ["ITEM", "RESOURCE"], ["Rubber Log", "No Desc"], [8,3], 20, "core\items\noUse.sqf", 0, true, [], false],
-	["Wheat", ["ITEM", "RESOURCE"], ["Wheat", "No Desc"], [3,1], 1, "core\items\noUse.sqf", 0, true, [], false],
+	["Wheat", ["ITEM", "RESOURCE"], ["Wheat", "No Desc"], [3,1], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["Flour", ["ITEM", "RESOURCE"], ["Flour", "No Desc"], [6,3], 2, "core\items\noUse.sqf", 0, true, [], false],
 	    
 	/* Secondary Resources */
 	["wood", ["ITEM", "RESOURCE"], ["Wood", "No Desc"], [40,20], 5, "core\items\noUse.sqf", 0, true, [], false],
