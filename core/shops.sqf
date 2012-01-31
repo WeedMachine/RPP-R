@@ -131,6 +131,8 @@ RPP_var_shops =
 	[shop_shop2_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_shop2_pump, "Pump", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_shop2_shovel, "Shovel", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_plank, "Plank", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_beam, "Beam", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     
     /* Outdoor shop */
     [shop_shop3_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],

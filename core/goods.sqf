@@ -238,13 +238,17 @@ RPP_var_goods =
 	["Glass", ["ITEM", "RESOURCE"], ["Glass", "No Desc"], [20,10], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [24,12], 3, "core\items\noUse.sqf", 0, true, [], false],
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [20,14], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [2, [ ["Copper", 2],["Silicon", 2]]], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false],
+	
+	/* Tertiary Resources */
+	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [2, [ ["Copper", 2],["Silicon", 2]]], false],
 	["AdvChipset", ["ITEM", "RESOURCE"], ["Advanced Chipset", "No Desc"], [3200,1750], 5, "core\items\noUse.sqf", 0, true, [2, [ ["ElecComp", 2],["GoldBar", 1], ["Silicon", 2]]], false],
-	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false]
-
+	["Plank", ["ITEM", "RESOURCE"], ["Plank", "No Desc"], [190,95], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 2]]], false],
+	["Beam", ["ITEM", "RESOURCE"], ["Beam", "No Desc"], [380,190], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 4]]], false]
+	
 
 	///NO COMMA!
 	
@@ -366,4 +370,34 @@ RPP_fnc_itemGetIllegal =
 RPP_fnc_itemGetSiren = 
 {
     ((_this call RPP_fnc_itemGetArray) select 10)
+};
+
+ALR_acre_radios =
+{
+	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+	
+		if (side player==west) then 
+		{
+			player addweapon "ACRE_PRC119";
+				{
+					_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+					["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
+					["ACRE_PRC119", [50000, 50000] ] call acre_api_fnc_setDefaultPowers;
+				} forEach _ALR_var_acre_radio;
+		} 
+		else
+		{
+			player addweapon "ACRE_PRC148";
+				{
+					_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
+					["ACRE_PRC148", [45.000, 14.025, 34.050, 41.075, 57.100, 64.125] ] call acre_api_fnc_setDefaultChannels;
+					["ACRE_PRC148", [50000, 50000] ] call acre_api_fnc_setDefaultPowers;
+				} forEach _ALR_var_acre_radio;
+		};
+	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;	
+	player removeweapon (_ALR_var_acre_radio select 0);
+	{
+		_station = _x;
+		RPP_var_goods set[(count RPP_var_goods), [str _station, ["WEAPON", "ITEM"], ["ACRE UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false]];
+	} forEach _ALR_var_acre_radio;
 };

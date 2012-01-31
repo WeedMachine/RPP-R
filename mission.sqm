@@ -131,7 +131,7 @@ class Mission
 		startWeather=0;
 		forecastWeather=0.25;
 		year=2011;
-		month=8;
+		month=6;
 		hour=6;
 	};
 	class Groups
@@ -1513,7 +1513,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2156;
+		items=2152;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -8839,6 +8839,7 @@ class Mission
 			vehicle="Fort_Crate_wood";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_shop2_plank";
 			init="this setPos [7371.3, 2915.88, 1.1869]; this setDir -271.317; doStop this;";
 		};
 		class Item625
@@ -8876,6 +8877,7 @@ class Mission
 			vehicle="Land_bags_stack_EP1";
 			lock="UNLOCKED";
 			skill=0.2;
+			text="shop_shop2_beam";
 			init="this setPos [7371.2, 2914.32, 1.21]; this setDir -271.402; doStop this;";
 		};
 		class Item628
@@ -26134,7 +26136,7 @@ class Mission
 		};
 		class Item2151
 		{
-			position[]={3844.093,0.1568183,4063.3037};
+			position[]={5547.5952,0.17655146,3542.4321};
 			azimut=139.92;
 			id=2220;
 			side="EMPTY";
@@ -26143,54 +26145,10 @@ class Mission
 			text="oil2";
 			init="this setPos [getPos this select 0, getPos this select 1, 20]";
 		};
-		class Item2152
-		{
-			position[]={6511.2012,0.32204539,1612.8032};
-			azimut=139.92;
-			id=2221;
-			side="EMPTY";
-			vehicle="oilrig_base";
-			skill=0.60000002;
-			text="oil3";
-			init="this setPos [getPos this select 0, getPos this select 1, 20]";
-		};
-		class Item2153
-		{
-			position[]={5336.5322,39.799797,5552.1572};
-			azimut=139.92;
-			id=2222;
-			side="EMPTY";
-			vehicle="oilrig_base";
-			skill=0.60000002;
-			text="oil3_1";
-			init="this setPos [getPos this select 0, getPos this select 1, 20]";
-		};
-		class Item2154
-		{
-			position[]={5398.4053,88.492867,5475.6055};
-			azimut=139.92;
-			id=2223;
-			side="EMPTY";
-			vehicle="oilrig_base";
-			skill=0.60000002;
-			text="oil3_2";
-			init="this setPos [getPos this select 0, getPos this select 1, 20]";
-		};
-		class Item2155
-		{
-			position[]={1718.4883,0.29181433,5315.583};
-			azimut=139.92;
-			id=2224;
-			side="EMPTY";
-			vehicle="oilrig_base";
-			skill=0.60000002;
-			text="oil4";
-			init="this setPos [getPos this select 0, getPos this select 1, 20]";
-		};
 	};
 	class Markers
 	{
-		items=94;
+		items=90;
 		class Item0
 		{
 			position[]={6094.9014,42.791473,4196.0142};
@@ -26991,48 +26949,8 @@ class Mission
 		};
 		class Item89
 		{
-			position[]={3841.6541,0.1095984,4063.6797};
+			position[]={5545.1567,0.10991162,3542.8081};
 			name="ironmine1_2_1";
-			text="Oil Rig";
-			type="mil_flag";
-			colorName="ColorYellow";
-			a=0.64999998;
-			b=0.64999998;
-		};
-		class Item90
-		{
-			position[]={6508.7617,0.31987968,1613.1792};
-			name="ironmine1_2_1_1";
-			text="Oil Rig";
-			type="mil_flag";
-			colorName="ColorYellow";
-			a=0.64999998;
-			b=0.64999998;
-		};
-		class Item91
-		{
-			position[]={5334.0928,40.021221,5552.5332};
-			name="ironmine1_2_1_1_1";
-			text="Oil Rig";
-			type="mil_flag";
-			colorName="ColorYellow";
-			a=0.64999998;
-			b=0.64999998;
-		};
-		class Item92
-		{
-			position[]={5395.9658,88.615303,5475.9814};
-			name="ironmine1_2_1_1_2";
-			text="Oil Rig";
-			type="mil_flag";
-			colorName="ColorYellow";
-			a=0.64999998;
-			b=0.64999998;
-		};
-		class Item93
-		{
-			position[]={1716.0488,0.35604626,5315.959};
-			name="ironmine1_2_1_1_3";
 			text="Oil Rig";
 			type="mil_flag";
 			colorName="ColorYellow";
