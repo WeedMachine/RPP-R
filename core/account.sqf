@@ -308,7 +308,8 @@ RPP_fnc_acc_start =
             ['cl_Spikestrip', 1] call RPP_fnc_addInventoryItem;
 						
         };
-        		
+        
+		['Keychain', 1] call RPP_fnc_addInventoryItem;
 		player addweapon "ItemMap";
     }
     else
