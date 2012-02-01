@@ -13,6 +13,8 @@ RPP_var_storages =
 	[manufacturing_plant_storage, "Manufacturing Plant Storage", 0, false],
 	[lost_property_lot, "Lost Property Lot", 0, true],
 	[air_factory_storage, "Air Factory Storage", 0, false],
+	[cop_spawn_local, "Police: Local Storage", 0, false],
+	[cop_spawn_public, "Police: Public Storage", 10000, true],
 	[heavy_car_factory_storage, "Heavy Storage", 0, false]
 	
 ];

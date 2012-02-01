@@ -24,6 +24,8 @@ _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 8], ["Meat", 4] ];
 _ALR_var_processButcher3 = [ ["Lamb", 5], ["Meat", 15], ["Meat", 7] ];
 _ALR_var_processButcher4 = [ ["Cow", 2], ["Meat", 6], ["Leather", 2] ];
 _ALR_var_processButcher5 = [ ["Boar", 1], ["Meat", 4], ["Meat", 2] ];
+_ALR_var_processWheat = [ ["Wheat" 2], ["Flour", 1], ["Wheat" 1] ];
+_ALR_var_processBread = [ ["Flour", 2], ["Bread", 1], ["Flour" 1] ];
 
 
 RPP_var_processDelay = 1;
@@ -42,9 +44,11 @@ RPP_var_processLocations =
 	[process_pine, "Saw Pine Log", "Process", _ALR_var_processPine, ["manufacture", 20, 340, 280], 25],
 	[process_larix, "Saw Larix Log", "Process", _ALR_var_processLarix, ["manufacture", 30, 480, 330], 30],
 	[process_maple, "Saw Maple Log", "Process", _ALR_var_processMaple, ["manufacture", 70, 800, 650], 33],
-	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 10, 240, 230], 25],
+	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 1, 240, 110], 20],
 	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
+	[process_wheat, "Mill Wheat", "Process", _ALR_var_processWheat, ["manufacture", 3, 250, 120], 20],
+	[process_flour, "Bake Bread", "Process", _ALR_var_processBread, ["manufacture", 4, 270, 130], 25],
 	//Test Butchery skill 
 	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["butchery", 1, 240, 110], 20],
 	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["butchery", 1, 240, 110], 20],
@@ -175,7 +179,7 @@ RPP_fnc_processResource =
             localize "STRS_process_failed" call RPP_fnc_hint;
         };
         
-        [_reqItem, -_reqAmount] call RPP_fnc_addInventoryItem;
+        //[_reqItem, -_reqAmount] call RPP_fnc_addInventoryItem;
         
         [_skill, _skillFailed] call RPP_fnc_increaseSkill;
     };
