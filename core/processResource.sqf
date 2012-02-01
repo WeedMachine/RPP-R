@@ -24,8 +24,8 @@ _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 8], ["Meat", 4] ];
 _ALR_var_processButcher3 = [ ["Lamb", 5], ["Meat", 15], ["Meat", 7] ];
 _ALR_var_processButcher4 = [ ["Cow", 2], ["Meat", 6], ["Leather", 2] ];
 _ALR_var_processButcher5 = [ ["Boar", 1], ["Meat", 4], ["Meat", 2] ];
-_ALR_var_processWheat = [ ["Wheat" 2], ["Flour", 1], ["Wheat" 1] ];
-_ALR_var_processBread = [ ["Flour", 2], ["Bread", 1], ["Flour" 1] ];
+_ALR_var_processWheat = [ ["Wheat", 2], ["Flour", 1], ["Wheat", 1] ];
+_ALR_var_processBread = [ ["Flour", 2], ["Bread", 1], ["Flour", 1] ];
 
 
 RPP_var_processDelay = 1;
