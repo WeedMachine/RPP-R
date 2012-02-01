@@ -53,8 +53,8 @@ RPP_var_goods =
     ["Sandwich", ["ITEM", "FOOD"], ["Sandwich", "No Desc"], [20, 16], 0.5, "core\items\food.sqf", 0, true, [2, [ ["Bread", 1]]], false], 
     ["Bread", ["ITEM", "FOOD"], ["Bread", "No Desc"], [15, 10], 1, "core\items\food.sqf", 0, true, [2, [ ["Wheat", 3]]], false], 
     ["Donut", ["ITEM", "FOOD"], ["Donut", "No Desc"], [12, 7], 0.5, "core\items\food.sqf", 0, true, [2, [ ["Wheat", 2]]], false], 
-    ["Low_bottleWater", ["ITEM", "DRINK"], ["Small Bottled Water", "No Desc"], [70, 50], 1, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
-    ["High_bottleWater", ["ITEM", "DRINK"], ["Bottled Water", "No Desc"], [70, 50], 2, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
+    ["Low_bottleWater", ["ITEM", "DRINK"], ["Small Bottled Water", "No Desc"], [25, 10], 1, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
+    ["High_bottleWater", ["ITEM", "DRINK"], ["Bottled Water", "No Desc"], [30, 15], 2, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
     ["Bottle", ["ITEM", "DRINK"], ["Bottle", "No Desc"], [50, 25], 1, "core\items\noUse.sqf", 0, true, [2, [ ["Glass", 1]]], false],
 	["ApplePie", ["ITEM", "DRINK"], ["Apple Pie", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [2, [ ["Bread", 1], ["Apple", 2]]], false],
     
@@ -232,12 +232,12 @@ RPP_var_goods =
 	    
 	/* Secondary Resources */
 	["wood", ["ITEM", "RESOURCE"], ["Wood", "No Desc"], [40,20], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["IronBar", ["ITEM", "RESOURCE"], ["Iron Bar", "No desc"], [160,80], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["IronBar", ["ITEM", "RESOURCE"], ["Iron Bar", "No desc"], [160,80], 2, "core\items\noUse.sqf", 0, true, [], false],
 	["Copper", ["ITEM", "RESOURCE"], ["Copper", "No desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false],
 	["GoldBar", ["ITEM", "RESOURCE"], ["Gold Bar", "No desc"], [440,220], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["SilverBar", ["ITEM", "RESOURCE"], ["Silver Bar", "No desc"], [400,200], 5, "core\items\noUse.sqf", 0, true, [], false],
-	["Glass", ["ITEM", "RESOURCE"], ["Glass", "No Desc"], [20,10], 3, "core\items\noUse.sqf", 0, true, [], false],
-	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [24,12], 3, "core\items\noUse.sqf", 0, true, [], false],
+	["Glass", ["ITEM", "RESOURCE"], ["Glass", "No Desc"], [20,10], 2, "core\items\noUse.sqf", 0, true, [], false],
+	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [24,12], 2, "core\items\noUse.sqf", 0, true, [], false],
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [20,14], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],

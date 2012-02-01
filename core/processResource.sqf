@@ -16,7 +16,7 @@ _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], ["Rubber", 2] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
 _ALR_var_processVinyl = [ ["Rubber", 4], ["Vinyl", 1], ["Rubber", 1] ];
-_ALR_var_processOil = [ ["Oil", 5], ["Sand", 1], ["Petrol", 5] ];
+_ALR_var_processOil = [ ["Oil", 5], ["Petrol", 10], ["Petrol", 5] ];
 _ALR_var_processSilver = [ ["Silver", 5], ["SilverBar", 1], ["IronOre", 5] ];
 //Test Butchery skill
 _ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], ["Meat", 5] ];
@@ -33,12 +33,12 @@ RPP_var_processLastUsed = time;
 
 RPP_var_processLocations = 
 [
-	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 20, 240, 110], 25],
+	[process_copper, "Smelt Copper Ore", "Process", _RPP_var_smeltCopper, ["manufacture", 20, 500, 420], 25],
 	[process_gold, "Smelt Gold Ore", "Process", _RPP_var_smeltGold, ["manufacture", 85, 950, 800], 25],
 	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 340, 280], 25],
-	[process_silver, "Smelt Silver ore", "Process", _RPP_var_smeltSilver, ["manufacture", 65, 750, 600], 25],
+	[process_silver, "Smelt Silver ore", "Process", _ALR_var_processSilver, ["manufacture", 65, 750, 600], 25],
 	[process_sand, "Process Sand", "Process", _ALR_var_processSand, ["manufacture", 1, 240, 110], 25],
-	[process_bricks, "Bake Bricks", "Process", _ALR_var_processBricks, ["manufacture", 10, 340, 280], 15],
+	//[process_bricks, "Bake Bricks", "Process", _ALR_var_processBricks, ["manufacture", 10, 340, 280], 15],
 	[process_populus, "Saw Populus Log", "Process", _RPP_var_processPopulus, ["manufacture", 1, 240, 110], 25],
 	[process_alder, "Saw Alder Log", "Process", _ALR_var_processAlder, ["manufacture", 10, 380, 230], 25],
 	[process_pine, "Saw Pine Log", "Process", _ALR_var_processPine, ["manufacture", 20, 340, 280], 25],
@@ -48,7 +48,7 @@ RPP_var_processLocations =
 	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
 	[process_wheat, "Mill Wheat", "Process", _ALR_var_processWheat, ["manufacture", 3, 250, 120], 20],
-	[process_flour, "Bake Bread", "Process", _ALR_var_processBread, ["manufacture", 4, 270, 130], 25],
+	[process_flour, "Bake Bread", "Process", _ALR_var_processBread, ["cooking", 1, 270, 130], 25],
 	//Test Butchery skill 
 	[process_Rabbit, "Butcher Rabbit", "Process", _ALR_var_processButcher1, ["butchery", 1, 240, 110], 20],
 	[process_Chicken, "Butcher Chicken", "Process", _ALR_var_processButcher2, ["butchery", 1, 240, 110], 20],

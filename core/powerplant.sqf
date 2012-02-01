@@ -1,4 +1,4 @@
-_types = ["Land_PowLines_WoodL", "Land_PowLines_ConcL", "Land_lampa_ind_zebr", "Land_lampa_sidl_3", "Land_lampa_vysoka", "Land_lampa_ind", "Land_lampa_ind_b", "MAP_trafostanica_velka", "Land_lampa_sidl"];
+_types = ["Land_PowLines_WoodL", "Land_PowLines_ConcL", "Land_lampa_ind_zebr", "Land_lampa_sidl_3", "Land_lampa_vysoka", "Land_lampa_ind", "Land_lampa_ind_b", "MAP_trafostanica_velka", "Land_lampa_sidl", "MAP_lampa_sidl"];
 _location = ["powercoverage", "powercoverage1", "powercoverage2", "powercoverage3", "powercoverage4", "powercoverage5", "powercoverage6", "powercoverage7", "powercoverage8", "powercoverage9"]; 
 
 while {true} do

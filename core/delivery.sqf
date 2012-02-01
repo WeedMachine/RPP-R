@@ -15,7 +15,7 @@ RPP_var_deliveryStarts =
 ];
 
 RPP_var_hasDeliveryJob = false;
-RPP_var_deliveryBasePrice = 250;
+RPP_var_deliveryBasePrice = 150;
 RPP_var_deliveringTo = empty;
 RPP_var_deliveryPenalty = 0.1;
 RPP_var_deliveryPay = 0;

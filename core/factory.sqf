@@ -12,6 +12,8 @@ _RPP_var_itemFactory =
 	["Shovel", ["manufacture", 1, 280]],
 	["RepairKit", ["manufacture", 30, 1400]],
 	["Can", ["manufacture", 1, 280]],
+	["Lockpick", ["manufacture", 4, 280]],
+	["Crowbar", ["manufacture", 14, 280]],
 	["Harpoon", ["manufacture", 25, 1240]],
 	["Fishing_net", ["manufacture", 20, 980]],
 	["ACRE_PRC148_UHF", ["manufacture", 20, 980]],

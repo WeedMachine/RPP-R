@@ -1,6 +1,9 @@
 RPP_var_investLocations = 
 [
     [car_dealer, "Car Dealer", [10000, 500]],
+	[truck_dealer, "Truck Dealer", [20000, 1000]],
+	[bike_dealer, "Bike Dealer", [5000, 250],
+	[classic_dealer, "Classic Car Dealer", [35000, 1750],
     [farmer_joe, "Farmer Joe", [10000, 500]]
 ];
 
