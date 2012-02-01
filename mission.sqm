@@ -26140,7 +26140,7 @@ class Mission
 			vehicle="oilrig_base";
 			skill=0.60000002;
 			text="oil1";
-			init="this setPos [getPos this select 0, getPos this select 1, 16]";
+			init="this setposASL [getposASL this select 0, getposASL this select 1, 3]";
 		};
 		class Item2151
 		{
