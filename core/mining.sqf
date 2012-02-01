@@ -20,7 +20,7 @@ RPP_var_miningDefine =
 	//TIER 3
 	[ 7, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
 	[ 8, [Sulphur1, Sulphur2, Sulphur3, Sulphur4], "Sulpur Mine", [ ["mining", 40], 15, 250, "Pickaxe", "Sulphur", 20, 1]],
-	[ 9, [oil1, oil2], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
+	[ 9, [oil1], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
 	
 	//TIER 4
 	[ 10, [Silver1, Silver2, Silver3, Silver4], "Silver Mine", [ ["mining", 60], 18, 4200, "Shovel", "Silver", 18, 1]],

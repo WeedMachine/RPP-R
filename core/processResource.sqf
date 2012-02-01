@@ -44,7 +44,7 @@ RPP_var_processLocations =
 	[process_pine, "Saw Pine Log", "Process", _ALR_var_processPine, ["manufacture", 20, 340, 280], 25],
 	[process_larix, "Saw Larix Log", "Process", _ALR_var_processLarix, ["manufacture", 30, 480, 330], 30],
 	[process_maple, "Saw Maple Log", "Process", _ALR_var_processMaple, ["manufacture", 70, 800, 650], 33],
-	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 10, 240, 230], 25],
+	[process_rubber, "Process Rubber Log", "Process", _ALR_var_processRubber, ["manufacture", 1, 240, 110], 20],
 	[process_vinyl, "Process Rubber", "Process", _ALR_var_processVinyl, ["manufacture", 20, 420, 250], 20],
 	[process_oil, "Process Oil", "Process", _ALR_var_processOil, ["manufacture", 30, 480, 280], 20],
 	[process_wheat, "Mill Wheat", "Process", _ALR_var_processWheat, ["manufacture", 3, 250, 120], 20],

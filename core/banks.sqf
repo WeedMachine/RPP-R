@@ -5,13 +5,13 @@ Copyright (C) 2011  Matthew Simms
 
 if (isNil "RPP_var_bankAmount") then
 {
-    RPP_var_bankAmount = 2000000;
+    RPP_var_bankAmount = 25000;
 };
 
 RPP_var_banks = 
 [
     ["Central Bank", [] call RPP_fnc_generateID, mainBank],
-	["SWAT Automated Teller Machine ", [] call RPP_fnc_generateID, swatATM],
+	//["SWAT Automated Teller Machine ", [] call RPP_fnc_generateID, swatATM],
 	["Westpac Bank", [] call RPP_fnc_generateID, jailATM],
 	["Tilbaut Westpac Bank", [] call RPP_fnc_generateID, tilbautATM],
 	["Nanchuk Westpac Bank", [] call RPP_fnc_generateID, nanchukATM],
