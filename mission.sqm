@@ -25055,7 +25055,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignM_UN_Base_EP1";
 			skill=0.60000002;
-			init="this SetObjectTexture [0,""AFPSign.paa""]; this setPos [getPos this select 0, getPos this select 1, 3.95];";
+			init="this SetObjectTexture [0,""images\AFPSign.paa""]; this setPos [getPos this select 0, getPos this select 1, 3.95];";
 		};
 		class Item2045
 		{

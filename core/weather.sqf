@@ -12,9 +12,9 @@ RPP_var_weather_types =
     ["heavy_rain", [0.1, 0.85, 1.0], ["images\weather\darkheavyrain1.paa", "Heavy Rain"]],
     ["medium_rain", [0.1, 0.8, 0.5], ["images\weather\darklightrain1.paa", "Rain"]],
     ["light_rain", [0.1, 0.8, 0.25], ["images\weather\whitelightrain1.paa", "Light Rain"]],
-    ["heavy_fog", [0.85, 0.5, 0.0], ["", "Heavy Fog"]],
-    ["medium_fog", [0.5, 0.35, 0.0], ["", "Medium Fog"]],
-    ["light_fog", [0.25, 0.25, 0.0], ["", "Light Fog"]],
+    ["heavy_fog", [0.85, 0.5, 0.0], ["images\weather\sunnycloud1.paa", "Heavy Fog"]],
+    ["medium_fog", [0.5, 0.35, 0.0], ["images\weather\sunnycloud1.paa", "Medium Fog"]],
+    ["light_fog", [0.25, 0.25, 0.0], ["images\weather\sunnycloud1.paa", "Light Fog"]],
     ["sunny", [0, 0, 0], ["images\weather\sunny.paa", "Sunny"]],
     ["cloudy", [0, 0.2, 0], ["images\weather\sunnycloud1.paa", "Cloudy"]]
 ];
