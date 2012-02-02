@@ -173,6 +173,7 @@ RPP_fnc_respawnEffect =
 	RPP_var_holstered = false;
 	removeAllWeapons player;
     player addweapon "ItemMap";
+	['Keychain', 1] call RPP_fnc_addInventoryItem;
 	
 	[] spawn ALR_acre_radios;
 	

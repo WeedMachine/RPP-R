@@ -240,7 +240,7 @@ RPP_var_goods =
 	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [24,12], 2, "core\items\noUse.sqf", 0, true, [], false],
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [20,14], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
+	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [ ["Rubber", 2] ], false],
 	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false],
 	

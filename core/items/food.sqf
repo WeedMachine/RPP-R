@@ -16,7 +16,12 @@ _foodArray =
 [
     ["Minnow", 0.25, localize "STRS_food_minnow"],
     ["Bluegill", 6, localize "STRS_food_bluegill"],
-    ["Soup", 1, "You eat the Soup(s)"],
+	["Catfish", 7, "You ate the Catfish(s)"],
+	["Perch", 7, "You ate the Perch(s)"],
+	["Trout", 7.5, "You ate the Trout(s)"],
+	["RockBass", 7.6, "You ate the RockBass(s)"],
+	
+	["Soup", 1, "You eat the Soup(s)"],
 	["CookedMeat", 10, "You eat the Meat"],
     ["Sandwich", 10, "You eat the Sandwich(s)"],
     ["Bread", 8, "You eat the Bread"],
@@ -24,7 +29,8 @@ _foodArray =
 	["Pumpkin", 10, "You ate the Pumpkin"],
     ["Cabbage", 10, "You ate the Cabbage(s)"],
     ["Potato", 8, "You ate the Potato"],
-	["Meat", 10, "You eat the Meat"],	
+	["Meat", 10, "You eat the Meat"],
+	
     ["Donut", 6, "You eat the Donut(s)"]
 ];
 
