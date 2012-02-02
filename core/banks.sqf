@@ -105,6 +105,27 @@ RPP_fnc_withdrawBnk =
     [] call RPP_fnc_updateBankDlg;
 };
 
+/* Get the total amount of money the player has */
+RPP_fnc_getTotalWealth = {
+	private ["_amount", "_cash"];
+	_amount = RPP_var_bankAmount;
+	_cash = _this;
+	
+	/* Get money from storages */
+	{
+		_obj = _x;
+		_storeMoney = [_obj, "Money"] call RPP_fnc_getTrunkItemAmount;
+		_amount = _amount + _storeMoney;
+	} forEach RPP_var_storages;
+
+	/* We want to get add the players cash into the wealth too */
+	if (_cash) then {
+		_amount = _amount + "Money" call RPP_fnc_itemGetAmount;
+	};
+
+	_amount
+};
+
 /* Deposit money into bank */
 RPP_fnc_depositBnk = 
 {

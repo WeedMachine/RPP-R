@@ -446,60 +446,8 @@ Jail : 2 min<br/>
 ];
 player createDiaryRecord ["changelog", 
 [
-"DU 2.2", 
+"", 
 "
-<br/>
-ADDED:<br/>
-Added Server Refresh Script<br/>
-Added Server Load Check to your radio<br/>
-Added Unflip Vechicle to your radio<br/>
-Added realestate License to Donating players<br/>
-Added ability to plant, and grow apples<br/>
-Added apples to market and shop arrays<br/>
-Added demand to status menu for apples<br/>
-Added new laws for Down Under. Found in briefing<br/>
-Added ability for Cops to elect in Chief in Cop bases<br/>
-Re-introduced military base<br/>
-NZ Civ slots<br/>
-NZ Police slots<br/>
-Added NZ Civ Spawn<br/>
-Added NZ Cop Spawn<br/>
-<br/>
-FIXED:<br/>
-Fixed Esocrt Giving X Cords<br/>
-Fixed Cavair Bug<br/>
-Fixed Selling to many Barracks to shops<br/>
-Fixed Spam on shops<br/>
-Fixed Double Licensing<br/>
-Fixed General Police Box<br/>
-Fixed Servo Bounty Infomation<br/>
-Fixed Hot spots for Veiw Trunk on Air Vechicles<br/>
-Fixed Crop strength in status menu for Wheat<br/>
-Fixed Cops from being elected Mayor<br/>
-Fixed Civs from being elected Police Chief<br/>
-Many multiple small script errors<br/>
-Rebalancing has made more jobs more viable<br/>
-Fixed Taxi missions<br/>
-Fixed ability to cut power by blowing power plant<br/>
-<br/>
-UPDATED:<br/>
-Major Update on car radio. Off, Light and Full options now available<br/>
-Re-built briefing.sqf<br/>
-<br/>
-CHANGED:<br/>
-Changed Speed Cams at 103 being the limit<br/>
-Changed songs available on Radio<br/>
-Revamped item pricings for balance<br/>
-Revamped item weights for Balance<br/>
-Changed map to Duala, away from ArmA map, to ArmA II map. Reduce bugs and map issues<br/>
-Changed stun script. Now when stuned, vehciles are locked to stop exploiting<br/>
-<br/>
-REMOVED:
-Removed 1/5 Graphics setting option for Balacing of gameplay<br/>
-<br/>
-while this code was being re-ported bugs script errors were found and fixed<br/>
-We are sure there are more and would appreciate them being reported<br/>
-so they can be addressed http://tracker.downundermod.com/<br/>
 "
 ]
 ];
@@ -561,6 +509,5 @@ player createDiaryRecord
 "<img image=""images\project_logo.paa""/><br/>
 Lester, [MAP Editorupgrade (EU)]<br/>
 Commander1985, [Island Cicada]<br/>
-Laertes, [Chernarus National Police]<br/>
 Gnome_AS, [AS Editor Update - Full]<br/>
 "]];

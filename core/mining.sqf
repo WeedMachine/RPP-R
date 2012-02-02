@@ -10,12 +10,12 @@ RPP_var_miningDefine =
 	[ 0, [stone1, stone2, stone3, stone4], "Stone Mine", [ ["mining", 1], 2, 160, "Pickaxe", "Stone", 25, 1]],
 	[ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]],
 	[ 2, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
-	[ 3, [sand1, sand2, sand3, sand4], "Mine Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
+	[ 3, [sand1, sand2, sand3, sand4], "Dig Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
 	
 	//TIER 2
 	[ 4, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
 	[ 5, [coal1, coal2, coal3, coal4], "Mine Coal", [ ["mining", 25], 8, 920, "Pickaxe", "Coal", 25, 1]],
-	[ 6, [clay1, clay2, clay3, clay4], "Mine Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
+	[ 6, [clay1, clay2, clay3, clay4], "Dig Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
 	
 	//TIER 3
 	[ 7, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
@@ -47,10 +47,12 @@ RPP_fnc_miningGetArray =
 };
 
 RPP_var_isMining = false;
+RPP_var_miningDelay = 2;
+RPP_var_miningTime = time;
 
 RPP_fnc_mineResource = 
 {
-    private ["_id", "_obj", "_arr", "_statsArray", "_skill", "_reqSkill", "_time", "_exp", "_reqClass", "_amount", "_oldTime", "_getRsc", "_level"];
+    private ["_id", "_obj", "_arr", "_statsArray", "_skill", "_reqSkill", "_time", "_reqName", "_getRscName", "_earlyChance", "_exp", "_reqClass", "_amount", "_oldTime", "_getRsc", "_level"];
     _id = _this select 0;
     _obj = _this select 1;
     _arr = _id call RPP_fnc_miningGetArray;
@@ -68,10 +70,10 @@ RPP_fnc_mineResource =
     _earlyChance = _statsArray select 6;
     _success = true;
 
-    if (RPP_var_isMining) exitWith /* Already mining */
+	if (RPP_var_isMining) exitWith /* Already mining */
     {
-        localize "STRS_mine_alreadyMining" call RPP_fnc_hint;
-    };
+        //localize "STRS_mine_alreadyMining" call RPP_fnc_hint;
+    };	
     
     if (_amount <= 0) exitWith /* No pickaxe */
     {
@@ -89,7 +91,7 @@ RPP_fnc_mineResource =
     {
         (format[localize "STRS_mine_noEnoughSkill", _reqSkill]) call RPP_fnc_hint;
     };
-    
+
     _failChance = _failChance - ((_level - _reqSkill) * 1.25); 
     _earlyChance = ((_level - _reqSkill)) * _earlyChance;
     
@@ -99,13 +101,13 @@ RPP_fnc_mineResource =
     };
 
     [_getRsc, -1] call RPP_fnc_addInventoryItem;
-    RPP_var_isMining = true;
-    
-    [{(_this select 0) switchMove "AmovPercMstpSnonWnonDnon_sekani2";}, [player]] call RPP_fnet_execPublic;
-    
-    
-    (format[localize "STRS_mine_startMining", _time]) call RPP_fnc_hint;
-    _oldTime = time;
+	RPP_var_isMining = true;
+	
+	[{(_this select 0) switchMove "AmovPercMstpSnonWnonDnon_sekani2";}, [player]] call RPP_fnet_execPublic;
+	    
+	    
+	(format[localize "STRS_mine_startMining", _time]) call RPP_fnc_hint;
+	_oldTime = time;
     _remainingTime = 0;
     _earlyRoll = 100;
     while {RPP_var_isMining} do /* Loop check */
@@ -128,7 +130,7 @@ RPP_fnc_mineResource =
         if (_earlyRoll <= _earlyChance) then
         {
             _success = true;
-            RPP_var_isMining = false;
+          	 RPP_var_isMining = false;
         };
         
         if (player distance _obj >= 15) then
@@ -146,6 +148,7 @@ RPP_fnc_mineResource =
         //((RPP_display_progress select 0) displayCtrl 1) ctrlSetStructuredText parseText format["<t shadow='true'><t shadowColor='#EEC900'><t size='1.35' color='#4876FF'>Remaining time: %1 seconds</t></t></t>", (round(_time - _timeLeft))];
         sleep 1;
     };
+
     [{(_this select 0) switchMove "Normal";}, [player]] call RPP_fnet_execPublic;
     
     if (_remainingTime > 0 && (not(_earlyRoll <= _earlyChance))) then
@@ -178,7 +181,8 @@ RPP_fnc_mineResource =
             (format[localize "STRS_mine_mineSuccess", _getRscName]) call RPP_fnc_hint;
         };
         [_skill, _exp] call RPP_fnc_increaseSkill;
-    };
+    };	    
+	
 };
 
 RPP_fnc_cancelMining = 
@@ -202,8 +206,7 @@ RPP_fnc_setupMines =
             _obj = _x;
             _id = [] call RPP_fnc_generateID;
         
-            _onAdd = format[
-            '
+            _onAdd = format['
                 [%2, "%1", %3, 0.9, 20, false] call RPP_fnc_create3DText;
                 [%3, %4] spawn
                 {
@@ -212,7 +215,9 @@ RPP_fnc_setupMines =
                     {
                         if (cursorTarget == (_this select 0)) then
                         {
-                            [33, "[%4, %3] spawn RPP_fnc_mineResource;", false, false, false] spawn RPP_fnc_addKeyAction;
+							if (!RPP_var_isMining) then {
+                            	[33, "if (((RPP_var_miningTime)+RPP_var_miningDelay) >= time) exitWith { }; RPP_var_miningTime = time; [%4, %3] spawn RPP_fnc_mineResource; ", false, false, false] spawn RPP_fnc_addKeyAction;
+							};
                             [20, "[] spawn RPP_fnc_cancelMining;", false, false, false] spawn RPP_fnc_addKeyAction;
                             _onTarget = true;
                         }

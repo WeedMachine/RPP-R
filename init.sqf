@@ -4,11 +4,11 @@ Copyright (C) 2011  Matthew Simms
 */
 
 serverCommand "#lock";
-RPP_Debug = false;
+RPP_Debug = true;
 RPP_Mission_Version = 0.6;
 RPP_Intro = true;
 RPP_QuickTest = false;
-RPP_Saving = true;
+RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
@@ -33,8 +33,6 @@ if (RPP_QuickTest) exitWith
 
    //player setDir (_playerDir - _dir);
 };
-
-startLoadingScreen ["Initializing...", "RscDisplayStart"];
 
 _script = [] execVM "briefing.sqf";
 waitUntil {scriptDone _script};
@@ -194,10 +192,6 @@ waitUntil {scriptDone _script};
 
 [] execVM "core\powerplant.sqf";
 
-progressLoadingScreen 0.50;
-
-	
-
 if (isServer) then
 {
   
@@ -223,18 +217,6 @@ if (isServer) then
     /* Start Loading */
     [] call RPP_fnc_acc_serverStart;
 };
-
-progressLoadingScreen 0.75;
-
-
-//if (RPP_isServer) then
-//{
-//	{
-//		_object = (_x select 0);
-//		_stock = (_x select 5);
-//		_object setVariable ["stock", _stock, true];
-//    } forEach RPP_var_shops;
-//};
 
 if (!__isServer) then
 {  
@@ -305,11 +287,9 @@ if (!__isServer) then
 	
 };
 
-
 if (!__isServer) then
 {  
     [] spawn RPP_fnc_clientRefuelCheck;
-    
     
     /* Begin login */
     if !(RPP_Debug) then
@@ -318,16 +298,14 @@ if (!__isServer) then
     };
 };
 
-progressLoadingScreen 0.99;
-
 if (RPP_Debug) then
 {
+	['Pickaxe', 1] call RPP_fnc_addInventoryItem;
     ['money', 25000] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
     ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-	endLoadingScreen;
+	
 };
-
 
 /* Start weather & time */
 if (isServer) then
@@ -356,5 +334,7 @@ _script = [] execVM "core\acre.sqf";
 waitUntil {scriptDone _script};
 	
 [] spawn ALR_acre_radios;
+
+
 
 

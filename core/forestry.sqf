@@ -302,6 +302,8 @@ RPP_fnc_forestry_chopTreeTrunk =
                     deleteVehicle _object;
                 };
             };
+
+			 [{(_this select 0) switchMove "Normal";}, [player]] call RPP_fnet_execPublic;
         };
     }
     else

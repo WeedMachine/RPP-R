@@ -53,9 +53,10 @@ RPP_var_medical_animations =
 
 ];
 
-{ doStop _x;
-_x disableAI "TARGET";
-_x disableAI "AUTOTARGET";
-_x disableAI "MOVE";
-_x disableAI "ANIM";
-} foreach (units _team);
+{ 
+	doStop _x;
+	_x disableAI "TARGET";
+	_x disableAI "AUTOTARGET";
+	_x disableAI "MOVE";
+	_x disableAI "ANIM";
+} foreach (units _team); /* What the fuck is this for !? */
