@@ -16,7 +16,6 @@ RPP_var_storages =
 	[cop_spawn_local, "Police: Local Storage", 0, false],
 	[cop_spawn_public, "Police: Public Storage", 10000, true],
 	[heavy_car_factory_storage, "Heavy Storage", 0, false]
-	
 ];
 
 {
@@ -576,7 +575,7 @@ RPP_fnc_addStorageItem =
                 {
                     _x set[1, (_trunkAmount) + _amount];
                     
-                    if (_x select 1 <= 0) then
+                    if ((_x select 1) <= 0) then
                     {
                         _trunk set[_i, "REMOVE"];
                     };

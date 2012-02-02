@@ -387,13 +387,15 @@ RPP_fsav_clientRequestLoad =
                 [{ 
                     if (RPP_var_acc_login == (_this select 0)) then
                     {
-                        _toCompile = "" + (_this select 1) + " = " + str(_this select 2) + ";";
-                        call compile _toCompile;
-                        //call compile format['%1 = %2;', (_this select 2), (_this select 3)];
+                        //_toCompile = "" + (_this select 1) + " = " + str(_this select 2) + ";";
+                        //call compile _toCompile;
+                        call compile format['%1 = %2;', (_this select 1), (_this select 2)];
                     };
                 }, [_id, (_varName), (_x select 1)]] call RPP_fnet_execPublic;
             };
         } forEach _return;
+
+		sleep 1;
 
     } forEach _tableNames;
 };

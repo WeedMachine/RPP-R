@@ -113,9 +113,9 @@ RPP_fnc_acc_clientLogin =
     [{
         if (isServer) then
         {
-            [(_this select 0), (_this select 1)] call RPP_fsav_clientRequestLoad; 
+            [(_this select 0), RPP_var_saving_clientToLoad] spawn RPP_fsav_clientRequestLoad; 
         };
-    }, [RPP_var_acc_login, RPP_var_saving_clientToLoad]] call RPP_fnet_execPublic;
+    }, [RPP_var_acc_login]] spawn RPP_fnet_execPublic;
     sleep 4;
     cutText ["Loading storages...", "PLAIN DOWN", 1];
     [{  
