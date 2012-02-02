@@ -80,6 +80,12 @@ _ALR_var_manufacturingPlant =
 	["AdvChipset", ["manufacture", 40, 1650]],
 	["ElecComp", ["manufacture", 20, 980]],
 	["Plank", ["manufacture", 1, 570]],
+	["Nails", ["manufacture", 1, 280]],
+	["Screws", ["manufacture", 1, 280]],
+	["Tempered Glass", ["manufacture", 5, 410]],
+	["Windshield", ["manufacture", 10, 870]],
+	["Aggrigate", ["manufacture", 1, 280]],
+	["Concrete", ["manufacture", 10, 870]],
 	["Beam", ["manufacture", 5, 400]]
 ];
 
