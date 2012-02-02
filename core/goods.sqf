@@ -5,6 +5,7 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_goods =
 [
+	["Null", ["ITEM", "SPECIAL"], ["Error - No item", "Please report how you got this item."], [0, 0], 0, "core\items\noUse.sqf", 0, false, [   ], false ],
     ["Money", ["ITEM", "SPECIAL"], ["Money", "No description"], [0, 0], 0, "core\items\noUse.sqf", 0, true, [   ], false ],
     ["Keychain", ["ITEM", "SPECIAL"], ["Keychain", "No description"], [0, 0], 0.0, "core\items\keychain.sqf", 0, false, [], false],
     ["MedicalBag", ["ITEM", "SPECIAL"], ["Medical Bag", "No description"], [150, 80], 2, "core\items\medic.sqf", 0, true, [2, [ ["wood", 1], ["Rubber", 2]]], false],
@@ -253,16 +254,8 @@ RPP_var_goods =
 
 	///NO COMMA!
 	
-	];
+];
 	
-ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
-	{
-		_station = _x;
-		RPP_var_goods set[(count RPP_var_goods), [str _station, ["WEAPON", "ITEM"], ["PRC-148 UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false]];
-	
-	} forEach ALR_var_acre_radio;
-
-
 RPP_fnc_itemGetArray =
 {
     private ["_id", "_arr", "_getID"];
@@ -270,11 +263,12 @@ RPP_fnc_itemGetArray =
     _arr = [];
 
 	if (RPP_AcreEnabled) then {
-		if ([_id] call acre_api_fnc_isRadio) then {
-			_id = [_id] call acre_api_fnc_getBaseRadio;
-		};	
-	};
+		_acreID = [_id] call acre_api_fnc_getBaseRadio;
 
+		if (typeName _acreID == "STRING") then {
+			_id = _acreID;
+		};
+	};
     
     {
         _getID = (_x select 0);
@@ -284,6 +278,10 @@ RPP_fnc_itemGetArray =
             _arr = _x;
         };
     } forEach RPP_var_goods;
+
+	if (count _arr == 0) then {
+		_arr = "Null" call RPP_fnc_itemGetArray;	
+	};
     
     _arr
 };

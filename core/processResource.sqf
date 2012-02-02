@@ -173,7 +173,7 @@ RPP_fnc_processResource =
     {
         if (_failItem != "") then
         {
-            [_failItem, -_failAmount] call RPP_fnc_addInventoryItem;
+            [_failItem, _failAmount] call RPP_fnc_addInventoryItem;
             (format[localize "STRS_process_failedItem", _failAmount, _failItem call RPP_fnc_itemGetName]) call RPP_fnc_hint;
         }
         else
@@ -181,7 +181,7 @@ RPP_fnc_processResource =
             localize "STRS_process_failed" call RPP_fnc_hint;
         };
         
-        //[_reqItem, -_reqAmount] call RPP_fnc_addInventoryItem;
+        [_reqItem, -_reqAmount] call RPP_fnc_addInventoryItem;
         
         [_skill, _skillFailed] call RPP_fnc_increaseSkill;
     };

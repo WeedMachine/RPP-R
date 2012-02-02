@@ -479,6 +479,10 @@ RPP_fnc_lockTrunk =
 
 RPP_fnc_loadKeyChain = 
 {
+	if (count RPP_var_keyChain == 0) exitWith {
+		closeDialog 0;
+	};
+
     lbClear 2;
     {
         _vcl = _x;

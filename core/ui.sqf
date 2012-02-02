@@ -18,6 +18,6 @@ Copyright (C) 2011  Matthew Simms
         _health = ceil(100 - (damage player*100));
         _id = getPlayerUID player;
         ((RPP_display_ui select 0) displayCtrl 1) ctrlSetStructuredText parseText format["<t color='#4876FF'>Money: $%1 - Inventory Size: %2/%3 - Health: %4/100 - Hunger: %6 - Thirst: %7 - ID: %5</t>", _money, _weight, _maxWeight, _health, _id, _hunger, _thirst];
-        sleep 1;
+        sleep 3;
     };
 };

@@ -318,6 +318,10 @@ RPP_fnc_trunkTake =
             };
         };
 
+		if (_type2 == "ITEM") then {
+			_ok = true;
+		};
+
         if (_ok) then /* Add the weapon to the player */
         {
             player addweapon _itemClass;

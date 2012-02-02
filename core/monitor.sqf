@@ -11,6 +11,12 @@ RPP_fnc_monitor =
     while {true} do
     {
         RPP_var_speed = speed vehicle player;
+
+		_amountNull = "Null" call RPP_fnc_itemGetAmount;
+		if (_amountNull > 0) then {
+			["Null", -_amountNull] call RPP_fnc_addInventoryItem;
+			diag_log format["Removed %1 null items!", _amountNull];
+		};
         
         if (_ticks % 2 == 0) then
         {
