@@ -22,11 +22,6 @@ ALR_acre_radios =
 		};
 	sleep 1;
 
-		
-	{
-		_station = _x;
-		RPP_var_goods set[(count RPP_var_goods), [str _station, ["WEAPON", "ITEM"], ["ACRE UHF RADIO", "No description"], [1600, 1250], 1, "core\items\noUse.sqf", 0, true, [], false]];
-	} forEach _ALR_var_acre_radio;
 	
 	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;	
 	player removeweapon (_ALR_var_acre_radio select 0);
