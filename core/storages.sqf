@@ -5,8 +5,8 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_storages = 
 [
-    [local_storage1, "Test: Local Storage", 0, false],
-    [public_storage1, "Test: Public Storage", 10000, true],
+    [local_storage1, "Central Local Storage", 0, false],
+    [public_storage1, "Central Public Storage", 10000, true],
     [item_factory_storage, "Item Factory Storage", 0, false],
 	[car_factory_storage, "Car Factory Storage", 0, false],
 	[bike_factory_storage, "Bike Factory Storage", 0, false],

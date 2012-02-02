@@ -166,7 +166,7 @@ RPP_var_shops =
 	[shop_shop4_swordfish, "Swordfish", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
         
     /* Objects */
-    [shop_fence, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
+    //[shop_fence, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
     
     /* Pistol shop */
     [shop_m9, "M9", "", [0, 0], [] call RPP_fnc_generateID, 2, true, true],
