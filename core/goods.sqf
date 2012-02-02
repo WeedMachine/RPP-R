@@ -240,12 +240,12 @@ RPP_var_goods =
 	["Bricks", ["ITEM", "RESOURCE"], ["Bricks", "No Desc"], [24,12], 2, "core\items\noUse.sqf", 0, true, [], false],
 	["Petrol", ["ITEM", "RESOURCE"], ["Petrol", "No Desc"], [20,14], 1, "core\items\noUse.sqf", 0, true, [], false],
 	["Rubber", ["ITEM", "RESOURCE"], ["Rubber", "No Desc"], [14,7], 1, "core\items\noUse.sqf", 0, true, [], false],
-	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [ ["Rubber", 2] ], false],
+	["Tyre", ["ITEM", "RESOURCE"], ["Rubber Tyre", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [2, [["Rubber", 2] ]], false],
 	["Leather", ["ITEM", "RESOURCE"], ["Leather", "No Desc"], [140,70], 5, "core\items\noUse.sqf", 0, true, [], false],
 	["Vinyl", ["ITEM", "RESOURCE"], ["Vinyl", "No Desc"], [120,60], 2, "core\items\noUse.sqf", 0, true, [], false],
 	
 	/* Tertiary Resources */
-	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [2, [ ["Copper", 2],["Silicon", 2]]], false],
+	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [2, [ ["Copper", 2],["Silicon", 2] ]], false],
 	["AdvChipset", ["ITEM", "RESOURCE"], ["Advanced Chipset", "No Desc"], [3200,1750], 5, "core\items\noUse.sqf", 0, true, [2, [ ["ElecComp", 2],["GoldBar", 1], ["Silicon", 2]]], false],
 	["Plank", ["ITEM", "RESOURCE"], ["Plank", "No Desc"], [190,95], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 2]]], false],
 	["Beam", ["ITEM", "RESOURCE"], ["Beam", "No Desc"], [380,190], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 4]]], false]
