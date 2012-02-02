@@ -249,6 +249,12 @@ RPP_var_goods =
 	["ElecComp", ["ITEM", "RESOURCE"], ["Electric Components", "No Desc"], [610,305], 3, "core\items\noUse.sqf", 0, true, [2, [ ["Copper", 2],["Silicon", 2] ]], false],
 	["AdvChipset", ["ITEM", "RESOURCE"], ["Advanced Chipset", "No Desc"], [3200,1750], 5, "core\items\noUse.sqf", 0, true, [2, [ ["ElecComp", 2],["GoldBar", 1], ["Silicon", 2]]], false],
 	["Plank", ["ITEM", "RESOURCE"], ["Plank", "No Desc"], [190,95], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 2]]], false],
+	["Nails", ["ITEM", "RESOURCE"], ["Nails", "Ram these into things just like I rammed your mother last night."], [5,3], 0.1, "core\items\noUse.sqf", 0, true, [10, [["IronBar", 1]]], false],
+	["Screws", ["ITEM", "RESOURCE"], ["Screws", "Hold stuff together with these nifty screws."], [5,3], 0.1, "core\items\noUse.sqf", 0, true, [10, [["IronBar", 1]]], false],
+	["Tempered Glass", ["ITEM", "RESOURCE"], ["Tempered Glass", "A toughened glass pane for use in the automotive and housing industry."], [60,40], 1, "core\items\noUse.sqf", 0, true, [1, [["Glass", 2]]], false],
+	["Windshield", ["ITEM", "RESOURCE"], ["Windshield", "A special wide pane of glass for use on vehicles"], [60,40], 4, "core\items\noUse.sqf", 0, true, [1, [["Glass", 4]]], false],
+	["Aggrigate", ["ITEM", "RESOURCE"], ["Aggrigate", "Crushed up stone, used in the creation of concrete"], [20,14], 1, "core\items\noUse.sqf", 0, true, [1, [["Stone", 1]]], false],
+	["Concrete", ["ITEM", "RESOURCE"], ["Concrete", "Used in numerous applications, this tough and universal material is in almost anything that does not move."], [500,400], 10, "core\items\noUse.sqf", 0, true, [1, [["Aggrigate", 2], ["Sand", 4], ["High_bottleWater", 5]]], false],
 	["Beam", ["ITEM", "RESOURCE"], ["Beam", "No Desc"], [380,190], 3, "core\items\noUse.sqf", 0, true, [2, [ ["wood", 4]]], false]
 	
 
