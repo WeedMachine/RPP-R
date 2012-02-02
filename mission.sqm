@@ -375,7 +375,7 @@ class Mission
 					id=13;
 					side="CIV";
 					vehicle="Profiteer3";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="Civ9";
