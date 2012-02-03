@@ -107,11 +107,11 @@ RPP_fnc_onKeyPress =
         if (RPP_var_hideText) then
         {
             localize "STRS_ui_hideText" call RPP_fnc_hint;
+			100 cutRsc ["Default", "plain"];  
         }
         else
         {
             localize "STRS_ui_revealText" call RPP_fnc_hint;
-			100 cutRsc ["Default", "plain"];  
 			100 cutRsc ["RPP_Dlg_ui", "PLAIN"];
         };
     };
