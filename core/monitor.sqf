@@ -12,11 +12,17 @@ RPP_fnc_monitor =
     {
         RPP_var_speed = speed vehicle player;
 
-		_amountNull = "Null" call RPP_fnc_itemGetAmount;
-		if (_amountNull > 0) then {
-			["Null", -_amountNull] call RPP_fnc_addInventoryItem;
-			diag_log format["Removed %1 null items!", _amountNull];
-		};
+		{
+			_class = (_x select 0);
+			_amount = (_x select 1);
+			_name = _class call RPP_fnc_itemGetClass;
+
+			if (_name == "Null") then {
+				[_class, -_amount] call RPP_fnc_addInventoryItem;
+				diag_log format["Removed %1 null items!", _amount];
+			};
+		} forEach RPP_var_inventory;
+
         
         if (_ticks % 2 == 0) then
         {

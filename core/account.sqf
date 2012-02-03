@@ -149,6 +149,10 @@ RPP_fnc_acc_clientLogin =
     cutText ["Logged in!", "PLAIN DOWN", 3];
     sleep 3;
     cutText ["", "PLAIN DOWN", 3];
+
+	if (("Keychain" call RPP_fnc_itemGetAmount) <= 0) then {
+		['Keychain', 1] call RPP_fnc_addInventoryItem;
+	};
     
     RPP_var_isLoggingIn = false;
     RPP_var_loggedIn = true;
