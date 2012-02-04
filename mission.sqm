@@ -139,7 +139,8 @@ class Mission
 		forecastWeather=0.25;
 		year=2011;
 		month=6;
-		hour=6;
+		hour=4;
+		minute=0;
 	};
 	class Groups
 	{
@@ -1541,7 +1542,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2252;
+		items=2260;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -24789,12 +24790,13 @@ class Mission
 		};
 		class Item2013
 		{
-			position[]={4836.8999,110,5187.5728};
-			azimut=-271.54071;
+			position[]={4837.5581,110,5187.7925};
+			azimut=-271.54099;
 			id=2082;
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
 		};
 		class Item2014
 		{
@@ -25344,7 +25346,7 @@ class Mission
 			azimut=-95.932198;
 			id=2140;
 			side="EMPTY";
-			vehicle="Land_Pneu";
+			vehicle="Misc_TyreHeap";
 			skill=0.60000002;
 			text="shop_police_repair";
 			init="clearWeaponCargo this;clearMagazineCargo this;this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +1.10];this allowdamage false;this enableSimulation false;";
@@ -26314,7 +26316,7 @@ class Mission
 		};
 		class Item2175
 		{
-			position[]={4927.9673,110,5174.9766};
+			position[]={5034.0317,120.46385,5185.8965};
 			azimut=270;
 			id=2245;
 			side="EMPTY";
@@ -26901,7 +26903,7 @@ class Mission
 			side="EMPTY";
 			vehicle="as_Land_Lamp_Small_EP1";
 			skill=0.60000002;
-			init="this allowdamage false; this setPos [getPos this select 0, getPos this select 1, -1];";
+			init="this allowdamage false; this setPos [getPos this select 0, getPos this select 1, -1]; call compile ""[this, 0.1] execvm """"core\lighting.sqf"""";"";";
 		};
 		class Item2235
 		{
@@ -27065,6 +27067,89 @@ class Mission
 			side="EMPTY";
 			vehicle="usec_bell206_2";
 			skill=0.60000002;
+		};
+		class Item2252
+		{
+			position[]={5029.2236,118.66772,5183.8765};
+			azimut=-470.55301;
+			id=2322;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.60000002;
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[this, 0.5, [0.2, 0.2, 0]] execVM """"core\lighting.sqf"""";"";";
+		};
+		class Item2253
+		{
+			position[]={4933.394,110,5210.731};
+			azimut=-470.55301;
+			id=2323;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.60000002;
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8]; call compile ""[this, 0.5, [0.2, 0.2, 0]] execVM """"core\lighting.sqf"""";"";";
+		};
+		class Item2254
+		{
+			position[]={4844.1401,110,5204.9639};
+			azimut=-470.55301;
+			id=2324;
+			side="EMPTY";
+			vehicle="HeliHEmpty";
+			leader=1;
+			skill=0.60000002;
+			init=" this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) + 8];  call compile ""[this, 0.1] execvm """"core\lighting.sqf"""";"";";
+		};
+		class Item2255
+		{
+			position[]={4895.0977,110.00613,5168.6479};
+			azimut=-271.54099;
+			id=2325;
+			side="EMPTY";
+			vehicle="MAP_lampa_sidl";
+			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+		};
+		class Item2256
+		{
+			position[]={4909.853,110,5168.4316};
+			azimut=-271.54099;
+			id=2326;
+			side="EMPTY";
+			vehicle="MAP_lampa_sidl";
+			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+		};
+		class Item2257
+		{
+			position[]={4924.54,110,5168.3574};
+			azimut=-271.54099;
+			id=2327;
+			side="EMPTY";
+			vehicle="MAP_lampa_sidl";
+			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+		};
+		class Item2258
+		{
+			position[]={4892.7451,110,5243.8433};
+			azimut=-90.6782;
+			id=2328;
+			side="EMPTY";
+			vehicle="MAP_lampa_sidl";
+			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+		};
+		class Item2259
+		{
+			position[]={4906.8862,110,5243.9985};
+			azimut=-89.675598;
+			id=2329;
+			side="EMPTY";
+			vehicle="MAP_lampa_sidl";
+			skill=1;
+			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
 		};
 	};
 	class Markers
@@ -27870,7 +27955,7 @@ class Mission
 		class Item89
 		{
 			position[]={4872.6445,110,5215.4683};
-			name="powercoverage1_1";
+			name="powercoverage10";
 			type="Empty";
 		};
 		class Item90
