@@ -241,6 +241,7 @@ RPP_fnc_acc_serverGetPassword =
 RPP_fnc_acc_start = 
 {
     playMusic "BAF_Track01";
+	showCinemaBorder false;
     2 fadeSound 0;
     10 fadeMusic 1;
     
@@ -253,7 +254,7 @@ RPP_fnc_acc_start =
 	
     _introCam = "camera" camCreate [10001.95,-95596.97,1013.62];
     _introCam cameraEffect ["Internal", "BACK"];
-
+	showCinemaBorder false;
     _introCam camPrepareTarget [10001.95,-95596.97,1013.62];
     _introCam camPreparePos [6168.65,4325.08,38.35];
     _introCam camPrepareFOV 0.700;
