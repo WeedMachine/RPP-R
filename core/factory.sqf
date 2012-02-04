@@ -86,6 +86,7 @@ _ALR_var_manufacturingPlant =
 	["Windshield", ["manufacture", 10, 870]],
 	["Aggrigate", ["manufacture", 1, 280]],
 	["Concrete", ["manufacture", 10, 870]],
+	["Bottle", ["manufacture", 1, 570]],
 	["Beam", ["manufacture", 5, 400]]
 ];
 

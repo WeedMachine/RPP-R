@@ -27,7 +27,7 @@ RPP_var_serverRules =
 	"[1.4]  Roleplay is Required",
 	"[1.5]  Communication With Others",
 	"[1.6]  ACRE MUST BE RUNNING",
-    "Failure to comply with listed rule set stated above may result in temporary or permanent bans depending on the severity of your offence."
+    "Failure to comply with listed above may result in temporary or permanent bans depending on the severity."
 ];
 RPP_var_pol_maxArrest = 60;
 
@@ -53,10 +53,3 @@ RPP_var_medical_animations =
 
 ];
 
-{ 
-	doStop _x;
-	_x disableAI "TARGET";
-	_x disableAI "AUTOTARGET";
-	_x disableAI "MOVE";
-	_x disableAI "ANIM";
-} foreach (units _team); /* What the fuck is this for !? */
