@@ -117,7 +117,8 @@ RPP_var_shops =
     [shop_bottle, "Bottle", "", [0, 0], [] call RPP_fnc_generateID, 0, true, true],
     [shop_worm, "Bread", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
     [shop_sandwich, "Sandwich", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],	
+	[shop_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	
     
     /* Tool Shop */
     [shop_shop2_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
@@ -132,6 +133,7 @@ RPP_var_shops =
 	[shop_shop2_pump, "Pump", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
 	[shop_shop2_shovel, "Shovel", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
 	[shop_shop2_sickle, "sickle", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
+	[shop_shop2_fishing_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
 
     /* Outdoor shop */
     [shop_shop3_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],

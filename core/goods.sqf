@@ -57,6 +57,11 @@ RPP_var_goods =
     ["Low_bottleWater", ["ITEM", "DRINK"], ["Small Bottled Water", "No Desc"], [25, 10], 1, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
     ["High_bottleWater", ["ITEM", "DRINK"], ["Bottled Water", "No Desc"], [30, 15], 2, "core\items\drink.sqf", 0, true, [2, [ ["Bottle", 1]]], false],
     ["Bottle", ["ITEM", "DRINK"], ["Bottle", "No Desc"], [50, 25], 1, "core\items\noUse.sqf", 0, true, [2, [ ["Glass", 1]]], false],
+	["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
+	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 2, "core\items\food.sqf", 0, true, [], false],
+	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.5, "core\items\food.sqf", 0, true, [], false],
+	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false], 
+	["Meat", ["ITEM", "FOOD"], ["Meat", "No Desc"], [40,25], 1, "core\items\food.sqf", 0, true, [], false],	
 	["ApplePie", ["ITEM", "DRINK"], ["Apple Pie", "No Desc"], [50, 25], 0.5, "core\items\noUse.sqf", 0, true, [2, [ ["Bread", 1], ["Apple", 2]]], false],
     
     /* Boats */
@@ -194,12 +199,7 @@ RPP_var_goods =
     
     ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
 	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\drugUse.sqf", 0, true, [], true],
-    ["Apple", ["ITEM", "FOOD"], ["Apple", "No Desc"], [7,3], 0.2, "core\items\food.sqf", 0, true, [], false],
-	["Pumpkin", ["ITEM", "FOOD"], ["Pumpkin", "No Desc"], [25,15], 2, "core\items\food.sqf", 0, true, [], false],
-	["Cabbage", ["ITEM", "FOOD"], ["Cabbage", "No Desc"], [15,7], 0.5, "core\items\food.sqf", 0, true, [], false],
-	["Potato", ["ITEM", "FOOD"], ["Potato", "No Desc"], [10,5], 0.1, "core\items\food.sqf", 0, true, [], false], 
-	["Meat", ["ITEM", "FOOD"], ["Meat", "No Desc"], [40,25], 1, "core\items\food.sqf", 0, true, [], false],	
-	
+    	
 	//Resources
 	/* Food Resources */
 	["Rabbit", ["ITEM", "RESOURCE"], ["Rabbit", "No desc"], [12,10], 0.5, "core\items\noUse.sqf", 0, true, [], false],
