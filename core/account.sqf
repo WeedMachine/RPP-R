@@ -156,6 +156,9 @@ RPP_fnc_acc_clientLogin =
     
     RPP_var_isLoggingIn = false;
     RPP_var_loggedIn = true;
+
+	/* Activate all light sources */
+	[] spawn RPP_fnc_activateLights;
 };
 
 RPP_fnc_acc_exists = 
@@ -326,10 +329,7 @@ RPP_fnc_acc_start =
             if ((player call RPP_fnc_isEMS)) then
             {
                 ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
-			};
-			      
+			};      
 		}; 
-    
-
     };
 };
