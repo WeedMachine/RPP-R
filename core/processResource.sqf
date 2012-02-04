@@ -18,7 +18,7 @@ _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
 _ALR_var_processVinyl = [ ["Rubber", 4], ["Vinyl", 1], ["Rubber", 1] ];
 _ALR_var_processOil = [ ["Oil", 5], ["Petrol", 10], ["Petrol", 5] ];
 _ALR_var_processSilver = [ ["Silver", 5], ["SilverBar", 1], ["IronOre", 5] ];
-_ALR_var_processBottles = [ ["Bottle", 1], ["High_bottleWater", 1], ["Low_bottleWater", 5] ];
+_ALR_var_processBottles = [ ["Bottle", 1], ["High_bottleWater", 1], ["Low_bottleWater", 1] ];
 //Test Butchery skill
 _ALR_var_processButcher1 = [ ["Rabbit", 5], ["Meat", 10], ["Meat", 5] ];
 _ALR_var_processButcher2 = [ ["Chicken", 5], ["Meat", 8], ["Meat", 4] ];
