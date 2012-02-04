@@ -14,9 +14,12 @@ RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 
+startLoadingScreen ["Initializing...", "RscDisplayStart"];
+
 if (RPP_Debug) then
 {
     onMapSingleClick "vehicle player setPos _pos";
+	endLoadingScreen;
 };
 
 sleep 0.1;
@@ -32,7 +35,10 @@ if (RPP_QuickTest) exitWith
 	/* Testing stuff */
 
    //player setDir (_playerDir - _dir);
+   endLoadingScreen;
 };
+
+progressLoadingScreen 0.25;
 
 _script = [] execVM "briefing.sqf";
 waitUntil {scriptDone _script};
@@ -93,6 +99,8 @@ waitUntil {scriptDone _script};
 
 _script = [] execVM "core\time.sqf";
 waitUntil {scriptDone _script};
+
+progressLoadingScreen 0.25;
 
 _script = [] execVM "core\fishing.sqf";
 waitUntil {scriptDone _script};
@@ -218,6 +226,8 @@ if (isServer) then
     [] call RPP_fnc_acc_serverStart;
 };
 
+progressLoadingScreen 0.75;
+
 if (!__isServer) then
 {  
 
@@ -335,6 +345,6 @@ waitUntil {scriptDone _script};
 	
 [] spawn ALR_acre_radios;
 
-
+progressLoadingScreen 0.99;
 
 
