@@ -178,7 +178,7 @@ STRS_bank_transferNoExist, <t color='#4876FF'>Bank Account</t><br/>Unable to tra
 STRS_bank_withdraw, "<t color='#4876FF'>Bank Account</t><br/>You have withdrawn <t color='#009900'>$%1!</t>"
 STRS_bank_deposit, "<t color='#4876FF'>Bank Account</t><br/>You have deposited <t color='#009900'>$%1!</t>"
 STRS_bank_overweight, "<t color='#4876FF'>Bank Account</t><br/>You cannot withdraw this amount of money, you have no room in your inventory!"
-STRS_bank_cannotUse, "<t color='#4876FF'>Bank Account</t><br/>The bank has been recently robbed and you cannot use it yet!"
+STRS_bank_cannotUse, "<t color='#4876FF'>Bank Account</t><br/>The bank has been recently robbed and you cannot use this yet!"
 STRS_bank_cannotRob, "<t color='#4876FF'>Bank Account</t><br/>There must be at least 2 cops online to rob the bank!"
 STRS_bank_bankRobbed, "<t color='#4876FF'>Bank Account</t><br/><t color='#FF0000'>The bank is being robbed you have lost $%1!</t>"
 STRS_bank_bankEscaped, "<t color='#4876FF'>Bank Account</t><br/><t color='#FF0000'>The bank robbers have escaped with $%1!</t>"

@@ -17,6 +17,7 @@ RPP_fnc_pol_disarmAction =
     ["RPP_fnc_pol_disarm", [_victim, player]] call RPP_fnet_execPublic;
 };
 
+
 RPP_fnc_pol_disarm = 
 {
     private ["_victim", "_person"];
@@ -225,7 +226,7 @@ RPP_fnc_pol_prisonLoop =
     waitUntil {player distance _markerPos <= 10};
     while {RPP_var_isArrested} do
     {
-        if (player distance _markerPos >= 45) then
+        if ((player distance _markerPos >= 45) && (alive player)) then
         {
             /* Escaped */
              ["RPP_fnc_pol_prisonerEscaped", [player]] call RPP_fnet_execPublic;
@@ -234,6 +235,9 @@ RPP_fnc_pol_prisonLoop =
         if !(alive player) then
         {
             /* Killed */
+			waitUntil {alive player};
+			 _markerPos = getMarkerPos ([] call RPP_fnc_pol_getRandomCell);
+			player setpos _markerPos;
         };
         
         if (time >= _releaseTime) then

@@ -94,10 +94,15 @@ RPP_fnc_onKeyPress =
     
     if ((_key == 2) && (_ctrl)) then /* Arrest */
     {
-        if ((vehicle player distance arrest_point <= 7) && (vehicle player != player)) then
+        if ((vehicle player distance arrest_point <= 7) && (vehicle player != player)) then /* Arresting */
         {
             [] call RPP_fnc_pol_openArrest;
-        };
+        }
+		else
+		{
+			/* Ticket/Wanted */
+			//[] call RPP_fnc_pol_openTicketWanted;
+		};
     };
     
     if ((_key == 15) && (not _alt)) then /* Hide Text */

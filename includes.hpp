@@ -21,6 +21,7 @@ Copyright (C) 2009  Matthew Simms & Petr Klíma
 #include "dialogs\search.hpp"
 #include "dialogs\sms.hpp"
 #include "dialogs\selectPlayer.hpp"
+#include "dialogs\ticket.hpp"
 
 /* Configs */
 #include "configs\CfgItems.hpp"
