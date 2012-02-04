@@ -21,6 +21,21 @@ _foodArray =
 	["Trout", 7.5, "You ate the Trout(s)"],
 	["RockBass", 7.6, "You ate the RockBass(s)"],
 	
+	["Shrimp", 1, "You ate the Shrimp(s)"],
+	["Sardine", 4, "You ate the Sardine(s)"],
+	["Monkfish", 5, "You ate the Monkfish(s)"],
+	["Salmon", 5, "You ate the Salmon(s)"],
+	["Shark", 20, "You ate the Shark(s)"],	
+	["Tuna", 15, "You ate the Tuna(s)"],	
+	["Whale", 50, "You ate the Whale(s)"],	
+	["Swordfish", 15, "You ate the Swordfish(s)"],	
+	
+	["Rabbit", 20, "You ate the Rabbit(s)"],	
+	["Chicken", 15, "You ate the Tuna(s)"],	
+	["Lamb", 50, "You ate the Lamb(s)"],	
+	["Cow", 15, "You ate the Cow(s)"],
+	["Boar", 15, "You ate the Boar(s)"],
+	
 	["Soup", 1, "You eat the Soup(s)"],
 	["CookedMeat", 10, "You eat the Meat"],
     ["Sandwich", 10, "You eat the Sandwich(s)"],
