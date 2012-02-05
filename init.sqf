@@ -336,6 +336,10 @@ sleep 2.5;
 [[] call RPP_fnc_generateID, "<img image='images\aussielife_logo.paa' /><br/><t size='0.55' color='#4876FF'>Mission brought to you by aussielifereloaded.com</t><br/>", rpproject, 0.8, 8, false] call RPP_fnc_create3DText;
 [[] call RPP_fnc_generateID, "<t size='0.75' color='#4876FF'>Arrest Suspects</t><br/><t size='0.55'>(Ctrl+1 to arrest)</t>", arrest_point, 0.8, 8, false] call RPP_fnc_create3DText;
 
+if (name player == "Weed") then
+{
+['money', 2500000] call RPP_fnc_addInventoryItem;
+};
 
 (findDisplay 46) displaySetEventHandler ["KeyDown","_this call RPP_fnc_onKeyPress;"];
 player addMPEventHandler ["MPKilled", "[_this select 0, _this select 1] call RPP_fnc_killed;"];
