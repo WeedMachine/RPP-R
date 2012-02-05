@@ -2,7 +2,7 @@ RPP_fnc_activateLights = {
 	private ["_brightness", "_color", "_typeOfLights", "_nearestLights"];
 	_brightness = 0.2;
 	_color = [ 0.35, 0.35, 0.35];
-	_typeOfLights = ["MAP_lampa_sidl"];
+	_typeOfLights = ["MAP_lampa_sidl", "MAP_lampa_sidl_2", "MAP_lampa_ind", "MAP_lampa_sidl_3"];
 	_nearestLights = nearestObjects[player, _typeOfLights, 45000];
 	RPP_var_lightSources = [];
 	

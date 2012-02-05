@@ -7,8 +7,6 @@ Add 3D Credits
 
 -- Balancing --
 
-
-
 3) Weapon Shops
 3) Licenses
 4) Mining
