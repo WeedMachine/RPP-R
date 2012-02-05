@@ -18401,7 +18401,7 @@ class Mission
 			vehicle="MAP_Kontejner";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7170.88, 2845.89, 0.52286]; this setDir -28.2901; doStop this;";
+			init="this setPos [7170.88, 2845.89, 0.52286]; this setDir -28.2901; doStop this;this allowdamage false;";
 		};
 		class Item1428
 		{
@@ -18413,7 +18413,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7176.2, 2865.93, -1.4]; this setDir -61.4819; doStop this;";
+			init="this setPos [7176.2, 2865.93, -1.4]; this setDir -61.4819; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1429
 		{
@@ -18425,7 +18425,7 @@ class Mission
 			vehicle="MAP_lampa_sidl_2";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7169.88, 2846.8, -1.398]; this setDir -28.5928; doStop this;";
+			init="this setPos [7169.88, 2846.8, -1.398]; this setDir -28.5928; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1430
 		{
@@ -18437,7 +18437,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7182.6, 2848.29, -1.4]; this setDir 17.6926; doStop this;";
+			init="this setPos [7182.6, 2848.29, -1.4]; this setDir 17.6926; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1431
 		{
@@ -18449,7 +18449,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7140.56, 2849.95, -1.4]; this setDir -174.91; doStop this;";
+			init="this setPos [7140.56, 2849.95, -1.4]; this setDir -174.91; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1432
 		{
@@ -18461,7 +18461,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7147.33, 2831.46, -1.4]; this setDir -258.484; doStop this;";
+			init="this setPos [7147.33, 2831.46, -1.4]; this setDir -258.484; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1433
 		{
@@ -18628,7 +18628,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [5983.35, 4311.5, -1.490]; this setDir -33.7883; doStop this;";
+			init="this setPos [5983.35, 4311.5, -1.490]; this setDir -33.7883; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1447
 		{
@@ -18639,7 +18639,7 @@ class Mission
 			vehicle="MAP_lampa_sidl_2";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [5966.79, 4299.64, -1.3986]; this setDir 0; doStop this;";
+			init="this setPos [5966.79, 4299.64, -1.3986]; this setDir 0; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1448
 		{
@@ -18651,7 +18651,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [5978.81, 4293.8, -1.490]; this setDir 48.7275; doStop this;";
+			init="this setPos [5978.81, 4293.8, -1.490]; this setDir 48.7275; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1449
 		{
@@ -18663,7 +18663,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [5944.55, 4316.45, -1.490]; this setDir -143.255; doStop this;";
+			init="this setPos [5944.55, 4316.45, -1.490]; this setDir -143.255; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1450
 		{
@@ -18675,7 +18675,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [5940.51, 4297.06, -1.490]; this setDir -229.659; doStop this;";
+			init="this setPos [5940.51, 4297.06, -1.490]; this setDir -229.659; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1451
 		{
@@ -18839,7 +18839,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [3557.33, 3209.97, -0.4575]; this setDir 35.6502; doStop this;";
+			init="this setPos [3557.33, 3209.97, -0.4575]; this setDir 35.6502; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1465
 		{
@@ -18850,7 +18850,7 @@ class Mission
 			vehicle="MAP_lampa_sidl_2";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [3535.01, 3222.15, -0.7189]; this setDir 0; doStop this;";
+			init="this setPos [3535.01, 3222.15, -0.7189]; this setDir 0; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1466
 		{
@@ -18862,7 +18862,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [3518.53, 3214.25, -0.5359]; this setDir 135.812; doStop this;";
+			init="this setPos [3518.53, 3214.25, -0.5359]; this setDir 135.812; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1467
 		{
@@ -18874,7 +18874,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [3522.43, 3233.24, -0.5359]; this setDir -140.568; doStop this;";
+			init="this setPos [3522.43, 3233.24, -0.5359]; this setDir -140.568; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1468
 		{
@@ -18886,7 +18886,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [3561.25, 3228.98, -0.6143]; this setDir -44.0557; doStop this;";
+			init="this setPos [3561.25, 3228.98, -0.6143]; this setDir -44.0557; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1469
 		{
@@ -19027,7 +19027,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [6617.51, 5686.66, -0.457]; this setDir 35.6502; doStop this;";
+			init="this setPos [6617.51, 5686.66, -0.457]; this setDir 35.6502; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1481
 		{
@@ -19039,7 +19039,7 @@ class Mission
 			vehicle="MAP_lampa_sidl_2";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [6611.09, 5711.88, -0.718]; this setDir 89.9846; doStop this;";
+			init="this setPos [6611.09, 5711.88, -0.718]; this setDir 89.9846; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1482
 		{
@@ -19051,7 +19051,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [6598.65, 5691.29, -0.535]; this setDir 135.812; doStop this;";
+			init="this setPos [6598.65, 5691.29, -0.535]; this setDir 135.812; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1483
 		{
@@ -19063,7 +19063,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [6602.82, 5730.44, -0.70583]; this setDir -140.568; doStop this;";
+			init="this setPos [6602.82, 5730.44, -0.70583]; this setDir -140.568; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1484
 		{
@@ -19075,7 +19075,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [6621.65, 5725.89, -0.8888]; this setDir -44.0557; doStop this;";
+			init="this setPos [6621.65, 5725.89, -0.8888]; this setDir -44.0557; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1485
 		{
@@ -22667,7 +22667,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7176.2, 2865.93, -1.4]; this setDir -61.4819; doStop this;";
+			init="this setPos [7176.2, 2865.93, -1.4]; this setDir -61.4819; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1787
 		{
@@ -22679,7 +22679,7 @@ class Mission
 			vehicle="MAP_lampa_sidl_2";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7169.88, 2846.8, -1.398]; this setDir -28.5928; doStop this;";
+			init="this setPos [7169.88, 2846.8, -1.398]; this setDir -28.5928; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1788
 		{
@@ -22691,7 +22691,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7182.6, 2848.29, -1.4]; this setDir 17.6926; doStop this;";
+			init="this setPos [7182.6, 2848.29, -1.4]; this setDir 17.6926; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1789
 		{
@@ -22703,7 +22703,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7140.56, 2849.95, -1.4]; this setDir -174.91; doStop this;";
+			init="this setPos [7140.56, 2849.95, -1.4]; this setDir -174.91; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1790
 		{
@@ -22715,7 +22715,7 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [7147.33, 2831.46, -1.4]; this setDir -258.484; doStop this;";
+			init="this setPos [7147.33, 2831.46, -1.4]; this setDir -258.484; doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1791
 		{
@@ -24294,6 +24294,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_2";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1956
 		{
@@ -24303,6 +24304,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1957
 		{
@@ -24319,6 +24321,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1959
 		{
@@ -24327,6 +24330,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1960
 		{
@@ -24336,6 +24340,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1961
 		{
@@ -24345,6 +24350,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1962
 		{
@@ -24354,6 +24360,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1963
 		{
@@ -24363,6 +24370,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1964
 		{
@@ -24372,6 +24380,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1965
 		{
@@ -24381,6 +24390,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1966
 		{
@@ -24389,6 +24399,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1967
 		{
@@ -24397,6 +24408,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1968
 		{
@@ -24405,6 +24417,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1969
 		{
@@ -24413,6 +24426,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1970
 		{
@@ -24421,6 +24435,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1971
 		{
@@ -24430,6 +24445,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1972
 		{
@@ -24439,6 +24455,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1973
 		{
@@ -24448,6 +24465,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1974
 		{
@@ -24457,6 +24475,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1975
 		{
@@ -24466,6 +24485,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1976
 		{
@@ -24475,6 +24495,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1977
 		{
@@ -24484,6 +24505,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1978
 		{
@@ -24493,6 +24515,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1979
 		{
@@ -24501,6 +24524,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1980
 		{
@@ -24510,6 +24534,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1981
 		{
@@ -24519,6 +24544,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1982
 		{
@@ -24528,6 +24554,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1983
 		{
@@ -24537,6 +24564,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1984
 		{
@@ -24546,6 +24574,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1985
 		{
@@ -24555,6 +24584,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1986
 		{
@@ -24563,6 +24593,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1987
 		{
@@ -24571,6 +24602,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1988
 		{
@@ -24579,6 +24611,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1989
 		{
@@ -24587,6 +24620,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1990
 		{
@@ -24595,6 +24629,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1991
 		{
@@ -24604,6 +24639,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_Misc_wall_lamp";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1992
 		{
@@ -24612,6 +24648,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1993
 		{
@@ -24620,6 +24657,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1994
 		{
@@ -24628,6 +24666,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1995
 		{
@@ -24636,6 +24675,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1996
 		{
@@ -24644,6 +24684,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1997
 		{
@@ -24652,6 +24693,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1998
 		{
@@ -24661,6 +24703,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item1999
 		{
@@ -24670,6 +24713,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2000
 		{
@@ -24679,6 +24723,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2001
 		{
@@ -24688,6 +24733,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2002
 		{
@@ -24697,6 +24743,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2003
 		{
@@ -24706,6 +24753,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2004
 		{
@@ -24723,6 +24771,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2006
 		{
@@ -24732,6 +24781,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2007
 		{
@@ -24741,6 +24791,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2008
 		{
@@ -24750,6 +24801,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2009
 		{
@@ -24759,6 +24811,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2010
 		{
@@ -24768,6 +24821,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2011
 		{
@@ -24777,6 +24831,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2012
 		{
@@ -24786,6 +24841,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2013
 		{
@@ -24795,6 +24851,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2014
 		{
@@ -24804,6 +24861,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2015
 		{
@@ -24813,6 +24871,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2016
 		{
@@ -24822,6 +24881,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2017
 		{
@@ -24831,6 +24891,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2018
 		{
@@ -24840,6 +24901,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2019
 		{
@@ -24849,6 +24911,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2020
 		{
@@ -24857,6 +24920,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2021
 		{
@@ -24866,6 +24930,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2022
 		{
@@ -24875,6 +24940,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2023
 		{
@@ -24884,6 +24950,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2024
 		{
@@ -24893,6 +24960,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2025
 		{
@@ -24901,6 +24969,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2026
 		{
@@ -24910,6 +24979,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2027
 		{
@@ -24919,6 +24989,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2028
 		{
@@ -24928,6 +24999,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2029
 		{
@@ -24937,6 +25009,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2030
 		{
@@ -24946,6 +25019,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2031
 		{
@@ -24955,6 +25029,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2032
 		{
@@ -24964,6 +25039,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2033
 		{
@@ -24972,6 +25048,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2034
 		{
@@ -24981,6 +25058,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2035
 		{
@@ -24990,6 +25068,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2036
 		{
@@ -24999,6 +25078,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2037
 		{
@@ -25008,6 +25088,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2038
 		{
@@ -25017,6 +25098,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2039
 		{
@@ -25026,6 +25108,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2040
 		{
@@ -25035,6 +25118,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2041
 		{
@@ -27089,7 +27173,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2254
 		{
@@ -27099,7 +27183,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2255
 		{
@@ -27109,7 +27193,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2256
 		{
@@ -27119,7 +27203,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 		class Item2257
 		{
@@ -27129,7 +27213,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="call compile ""[this, 0.3] execvm """"core\lighting.sqf"""";"";";
+			init="doStop this; this allowdamage false; _this switchLight "On";";
 		};
 	};
 	class Markers
