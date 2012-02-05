@@ -53,13 +53,20 @@ RPP_fnc_openStorage =
     {
         /* Do nothing */
     };
+
+	/* Got to add this because people who rob bank just put the money in storage */
+	if ((((RPP_var_bankRobTime)+(RPP_var_bankDelay/2.25)) >= time) && (typeName _object != "STRING")) exitWith
+	{
+		/* Cannot use yet */
+		localize "STRS_bank_cannotUse" call RPP_fnc_hint;
+	};
     
     if (typeName _object == "STRING") then
     {
         /* We will have to search for the vehicle manually */
         _object = _object call RPP_fnc_findVehicle;  
     };
-    
+
     if ((_object getVariable ["locked", false])) exitWith
     {
         /* Storage is locked */

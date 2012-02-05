@@ -153,10 +153,7 @@ RPP_fnc_freezeLoop =
                 {
                     _obj setDir _dir;
                 };
-            };
-            
-            
-                
+            }; 
         } forEach RPP_var_positionStore;
     sleep 1;
     };
@@ -243,15 +240,16 @@ RPP_fnc_createVehicle =
 
             [[] call RPP_fnc_generateID, (_this select 1), (_this select 0), 0.8, 5, true] spawn RPP_fnc_create3DText;
         };
-	_vcl = this;
-	_vcl addEventHandler [""GetIn"", {_this spawn RPP_fnc_event_onVehicleEnter;}];
-	_vcl addEventHandler [""GetOut"", {_this spawn RPP_fnc_event_onVehicleExit;}];
+		_vcl = this;
+		_vcl addEventHandler [""GetIn"", {_this spawn RPP_fnc_event_onVehicleEnter;}];
+		_vcl addEventHandler [""GetOut"", {_this spawn RPP_fnc_event_onVehicleExit;}];
         _vcl addEventHandler [""Engine"", {_this spawn RPP_fnc_event_onVehicleEngine;}];
         _vcl setVariable [""hasActions"", true, false];
+		ClearWeaponCargo _vcl;
+		ClearMagazineCargo _vcl;
 	";
 	player reveal _vcl;
-	ClearWeaponCargo _vcl;
-	ClearMagazineCargo _vcl;
+
 	_vcl setFuelCargo 0;
         _vcl call RPP_fnc_addVehicleToServer;
         _vcl call RPP_fnc_addToKeychain;

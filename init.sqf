@@ -4,11 +4,11 @@ Copyright (C) 2011  Matthew Simms
 */
 
 serverCommand "#lock";
-RPP_Debug = false;
+RPP_Debug = true;
 RPP_Mission_Version = 0.6;
 RPP_Intro = true;
 RPP_QuickTest = false;
-RPP_Saving = true;
+RPP_Saving = false;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
@@ -34,6 +34,7 @@ if (RPP_QuickTest) exitWith
     //dummy attachTo[player, [-0.25,-0.5,0]];
 
 	/* Testing stuff */
+	createDialog "ALR_Dlg_Ticket";
 
    //player setDir (_playerDir - _dir);
    
@@ -184,6 +185,9 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\medical.sqf";
 waitUntil {scriptDone _script};
 
+_script = [] execVM "core\lighting.sqf";
+waitUntil {scriptDone _script};
+
 _script = [] execVM "core\saving.sqf";
 waitUntil {scriptDone _script};
 
@@ -198,8 +202,6 @@ waitUntil {scriptDone _script};
 
 _script = [] execVM "database\SQLite.sqf";
 waitUntil {scriptDone _script};
-
-[] execVM "core\powerplant.sqf";
 
 if (isServer) then
 {
@@ -353,3 +355,6 @@ waitUntil {scriptDone _script};
 progressLoadingScreen 0.99;
 
 
+//createDialog "RPP_Dlg_Ticket";
+    
+   // [] call RPP_fnc_pol_populateTicketWanted;

@@ -103,7 +103,7 @@ RPP_var_factoryDefine =
 [
     [car_factory, "Car Factory", car_factory_storage, _ALR_var_carFactory],
 	[bike_factory, "Bike Factory", bike_factory_storage, _ALR_var_bikeFactory],
-	[heavy_factory, "Heavy Vechile Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
+	[heavy_factory, "Heavy Vehicle Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
 	[air_factory, "Air Factory", air_factory_storage, _ALR_var_airFactory],
 	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]

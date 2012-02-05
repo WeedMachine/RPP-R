@@ -1,25 +1,29 @@
-
-	_object     = _this select 0;
-	_brightness = 0.1;
-	_color      = [0.5, 0.5, 0.5];
+RPP_fnc_activateLights = {
+	private ["_brightness", "_color", "_typeOfLights", "_nearestLights"];
+	_brightness = 0.2;
+	_color = [ 0.35, 0.35, 0.35];
+	_typeOfLights = ["MAP_lampa_sidl"];
+	_nearestLights = nearestObjects[player, _typeOfLights, 45000];
+	RPP_var_lightSources = [];
 	
-	if ((count _this) > 2) then {_brightness = _this select 1;};
-	if ((count _this) > 3) then {_color      = _this select 2;};
-	
-while{true}do
 
-	{	
-	
-	_light = "#lightpoint" createVehicleLocal getpos _object;
-	_light lightAttachObject [_object, [0,0,0]]; 
-	_light setLightBrightness _brightness;
-	_light setLightAmbient    _color;
-	_light setLightColor      _color;
-	
-	waituntil{!alive power1 and !alive power2};
+	{
+		_obj = _x;
+		_light = "#lightpoint" createVehicleLocal getpos _obj;
+		_light lightAttachObject [_obj, [0,0,3]]; 
+		_light setLightBrightness _brightness;
+		_light setLightAmbient    _color;
+		_light setLightColor      _color;
+		RPP_var_lightSources set[(count RPP_var_lightSources), _light];
+	} forEach _nearestLights;
+};
 
-	deletevehicle _light;
+RPP_fnc_deactivateLights = {
+	if (isNil "RPP_var_lightSources") exitWith {};
 
-	waituntil{alive power1 and alive power2};
+	{
+		deleteVehicle _x;
+	} forEach RPP_var_lightSources;
 
-	};
+	RPP_var_lightSources = [];
+};
