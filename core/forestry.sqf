@@ -33,9 +33,9 @@ RPP_var_forestry_sprouts =
 	["apple_seed", "BUSH", "apple_bush", "MAP_t_betula1f", 20, ["apple_seed", 5, "sickle", "normal"], 35, "Apple Tree", ["forestry", 5, 410]],
 
 	//TIER 2
-	["potato_sprouts", "BUSH", "potato_patch", "MAP_c_fern", 20, ["patato_sprouts", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 10, 820]],
+	["potato_sprouts", "BUSH", "potato_patch", "MAP_c_fern", 20, ["patato_sprouts", 5, "", "normal"], 35, "Potato Patch", ["forestry", 10, 820]],
 	["alder_seed", "TREE", "alder_tree", "MAP_t_pinusN2s", 10, ["alder_seed", 8, "sickle", "normal"], 20, "Alder Tree", ["forestry", 20, 980]],
-	["rubber_seed", "TREE", "rubber_tree", "MAP_t_pyrus2s", 10, ["rubber_seed", 8, "", "normal"], 20, "Ruber Tree", ["forestry", 10, 720]], 
+	["rubber_seed", "TREE", "rubber_tree", "MAP_t_pyrus2s", 10, ["rubber_seed", 8, "", "normal"], 20, "Rubber Tree", ["forestry", 10, 720]], 
 	
 	//TIER 3
 	["pumpkin_seed", "BUSH", "pumpkin_patch", "MAP_p_urtica", 20, ["pumpkin_seed", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 25, 1240]],
