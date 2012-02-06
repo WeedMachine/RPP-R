@@ -478,6 +478,7 @@ RPP_fnc_onShopAction =
     _typeOfAction = (_this select 3);
     
     if (cursorTarget != _object) exitWith {};
+	if (vehicle player != player) exitWith {};
     
     if (!(_id call RPP_fnc_shopGetCanCiv) && (player call RPP_fnc_isCiv)) exitWith
     {

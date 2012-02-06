@@ -245,8 +245,7 @@ RPP_fnc_createVehicle =
 		_vcl addEventHandler [""GetOut"", {_this spawn RPP_fnc_event_onVehicleExit;}];
         _vcl addEventHandler [""Engine"", {_this spawn RPP_fnc_event_onVehicleEngine;}];
         _vcl setVariable [""hasActions"", true, false];
-		ClearWeaponCargo _vcl;
-		ClearMagazineCargo _vcl;
+		
 	";
 	player reveal _vcl;
 
@@ -260,6 +259,8 @@ RPP_fnc_createVehicle =
         _vcl setVariable ["isPublic", true, true];
         _vcl setVariable ["RPP_siren_mounted", %8, true];
 		_vcl setVariable ["RPP_siren_state", 0, true];
+
+		[{ ClearWeaponCargo (_this select 0); ClearMagazineCargo (_this select 0);}, [_vcl]] call RPP_fnet_execPublic;
 
         _vcl setFuel %7;
         _vcl setDamage %6;

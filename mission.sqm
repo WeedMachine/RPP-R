@@ -27832,7 +27832,7 @@ class Mission
 		{
 			position[]={5385.1304,21.625973,3371.9478};
 			name="ironmine1_1";
-			text="Copper Iron Mine";
+			text="Copper Mine";
 			type="mil_flag";
 			colorName="ColorYellow";
 			a=0.64999998;
