@@ -7,7 +7,7 @@ class RPP_Dlg_Login
 {
 	idd = 1400;
 	movingEnable = false;
-	controlsBackground[] = { BackgroundFill, Background, TitleFill, FooterFill, Title, TitleBackground, LoginFrame, RulesFrame; LoginTitle };
+	controlsBackground[] = { BackgroundFill, Background, TitleFill, FooterFill, Title, TitleBackground, LoginFrame, RulesFrame, LoginTitle };
 	objects[] = { };
 	controls[] = { LoginWelcome, Password, LoginDesc, PasswordDesc, PID, LoginConfirmDesc, LoginButton, Rules };
 	OnLoad = " ""dynamicBlur"" ppEffectEnable true; ""dynamicBlur"" ppEffectAdjust [1.6]; ""dynamicBlur"" ppEffectCommit 0;";
