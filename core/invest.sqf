@@ -5,7 +5,7 @@ RPP_var_investLocations =
 	[bike_dealer, "Bike Dealer", [5000, 167]],
 	[bike_dealer2, "2 Wheels Deals", [3000, 100]],
 	[classic_dealer, "Classic Car Dealer", [35000, 1167]],
-	//[realestate_betty, "Farmer Betty", [50000,1667]],
+	[realestate_betty, "Farmer Betty", [50000,1667]],
     [farmer_joe, "Farmer Joe", [10000, 333]]
 	
 ];
