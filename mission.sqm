@@ -1557,7 +1557,8 @@ class Mission
 					side="CIV";
 					vehicle="Profiteer2";
 					leader=1;
-					skill=0;
+					skill=0.2;
+					text="bike_dealer2";
 					init="this setPos [6012.34, 4157.55, 0.012695]; this setDir 0; doStop this;this allowdamage false;";
 				};
 			};
@@ -28736,19 +28737,21 @@ class Mission
 		};
 		class Item96
 		{
-			position[]={6010.6084,31.716843,4158.4663};
-			name="bikeshop2";
-			text="Bike Shop";
-			type="hd_flag";
-			colorName="ColorBlue";
-		};
-		class Item97
-		{
 			position[]={4592.7515,12.634574,3822.7542};
 			name="ironmine_1";
 			text="Iron Mine";
 			type="mil_flag";
 			colorName="ColorYellow";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item97
+		{
+			position[]={6010.7676,31.721903,4158.1558};
+			name="bike_dealer_1";
+			text="Bike Shop";
+			type="mil_flag";
+			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
 		};
