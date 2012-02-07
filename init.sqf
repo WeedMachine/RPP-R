@@ -7,14 +7,16 @@ serverCommand "#lock";
 RPP_Debug = true;
 RPP_Mission_Version = 0.6;
 RPP_Intro = true;
-RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_QuickTest = true;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 
 startLoadingScreen ["Initializing...", "RscDisplayStart"];
+
+progressLoadingScreen 0.15;
 
 if (RPP_Debug) then
 {
@@ -34,7 +36,7 @@ if (RPP_QuickTest) exitWith
     //dummy attachTo[player, [-0.25,-0.5,0]];
 
 	/* Testing stuff */
-	createDialog "ALR_Dlg_Ticket";
+	createDialog "ALR_Dlg_payTicket";
 
    //player setDir (_playerDir - _dir);
    
@@ -50,6 +52,8 @@ waitUntil {scriptDone _script};
 
 _script = [] execVM "core\defines.sqf";
 waitUntil {scriptDone _script};
+
+progressLoadingScreen 0.35;
 
 _script = [] execVM "core\goods.sqf";
 waitUntil {scriptDone _script};
@@ -84,6 +88,8 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\skills.sqf";
 waitUntil {scriptDone _script};
 
+progressLoadingScreen 0.45;
+
 _script = [] execVM "core\mining.sqf";
 waitUntil {scriptDone _script};
 
@@ -102,7 +108,7 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\time.sqf";
 waitUntil {scriptDone _script};
 
-progressLoadingScreen 0.25;
+progressLoadingScreen 0.65;
 
 _script = [] execVM "core\fishing.sqf";
 waitUntil {scriptDone _script};
@@ -136,6 +142,8 @@ waitUntil {scriptDone _script};
 
 _script = [] execVM "core\delivery.sqf";
 waitUntil {scriptDone _script};
+
+progressLoadingScreen 0.70;
 
 _script = [] execVM "core\paycheck.sqf";
 waitUntil {scriptDone _script};

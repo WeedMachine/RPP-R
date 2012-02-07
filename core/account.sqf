@@ -244,6 +244,7 @@ RPP_fnc_acc_serverGetPassword =
 RPP_fnc_acc_start = 
 {
     playMusic "BAF_Track01";
+	progressLoadingScreen 0.99;
 	showCinemaBorder false;
     2 fadeSound 0;
     10 fadeMusic 1;
