@@ -596,7 +596,7 @@ class Mission
 					id=46;
 					side="WEST";
 					vehicle="DU_Characters";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="Cop2";

@@ -17,6 +17,133 @@ RPP_fnc_pol_disarmAction =
     ["RPP_fnc_pol_disarm", [_victim, player]] call RPP_fnet_execPublic;
 };
 
+RPP_fnc_pol_openTicketDlg = {
+	if (!isNull(findDisplay 2300)) exitWith
+    {
+        /* Do nothing */
+    };
+
+	if !((player call RPP_fnc_isCop)) exitWith
+    {
+    
+    };
+
+	_dlg = createDialog "ALR_Dlg_Ticket";
+
+	[] call RPP_fnc_pol_updateTicketDlg;
+};
+
+RPP_fnc_pol_updateTicketDlg = {
+	private ["_numCivs"];
+	lbClear 2100;
+	_numCivs = 0;
+	{
+		_civ = call compile _x;
+		
+		if ((alive _civ) && (player distance _civ <= 15)) then {
+			_index = lbAdd[2100, format["%1", name _civ]];
+			lbSetData[2100, _index, str _civ];
+			_numCivs = _numCivs + 1;
+			
+		};
+	} forEach RPP_var_civilians;
+
+	lbSetCurSel[2100,0];
+
+	if (_numCivs <= 0) then {
+		closeDialog 0;
+	};
+
+	
+};
+
+RPP_fnc_pol_sendTicket = {
+	private ["_civ", "_amount", "_reason"];
+	_civ = _this select 0;
+	_amount = _this select 1;
+	_reason = _this select 2;
+
+	if (_amount <= 0) exitWith {};
+
+	/* Message sent */
+	format[localize "STRS_ticket_sentTicket", name _civ, _amount] call RPP_fnc_hint;
+
+	["RPP_fnc_pol_recvTicket", [player, _civ, _amount, _reason]] call RPP_fnet_execPublic;
+
+};
+
+RPP_fnc_pol_recvTicket = {
+	private ["_from", "_to", "_amount", "_reason"];
+	_from = _this select 0;
+	_to = _this select 1;
+	_amount = _this select 2;
+	_reason = _this select 3;
+
+	if (player != _to) exitWith {
+		
+	};
+
+	server globalChat format[localize "STRS_ticket_globalTicket", name _to, _amount, _reason];
+
+	if (!isNull(findDisplay 2400)) then
+    {
+        closeDialog 0;
+    };
+
+	_dlg = createDialog "ALR_Dlg_payTicket";
+	ctrlSetText[1000, format[localize "STRS_ticket_dlgMsgRecv", name player]];
+	((findDisplay 2400) displayCtrl 2) ctrlSetStructuredText parseText format["%1", _reason];
+	((findDisplay 2400) displayCtrl 3) ctrlSetStructuredText parseText format["Fine: $%1", _amount];
+	((findDisplay 2400) displayCtrl 1600) buttonSetAction format["[%1, %2, %3] call RPP_fnc_pol_payTicket; closeDialog 0;", _amount, _to, _from];
+	((findDisplay 2400) displayCtrl 1601) buttonSetAction format["closeDialog 0;", _amount, _to, _from];
+};
+
+RPP_fnc_pol_paidTicket = {
+	private ["_success", "_cop", "_civ"];
+	_success = _this select 0;
+	_cop = _this select 1;
+	_civ = _this select 2;
+
+	if (player != _cop) exitWith {};
+ 
+	if (_success) then {
+		format[localize "STRS_ticket_copPaid", name _civ] call RPP_fnc_hint;
+	} else {
+		format[localize "STRS_ticket_copNoMoney", name _civ] call RPP_fnc_hint;
+
+	};
+};
+
+RPP_fnc_pol_payTicket = {
+	private ["_amount", "_to", "_from", "_money", "_success"];
+	_amount = _this select 0;
+	_to = _this select 1;
+	_from = _this select 2;
+	_money = 'Money' call RPP_fnc_itemGetAmount;
+	_success = false;
+
+	if (_money >= _amount) then {
+		/* Player has enough money! */
+		['Money', -_amount] call RPP_fnc_addInventoryItem;
+		_success = true;
+
+	} else {
+		/* Check if player has money in bank */
+		if (RPP_var_bankAmount >= _amount) then {
+			RPP_var_bankAmount = RPP_var_bankAmount - _amount;
+			_success = true;
+		};
+	};
+
+	if !(_success) then {
+		localize "STRS_ticket_cannotPay" call RPP_fnc_hint;
+	} else {
+		format[localize "STRS_ticket_paidFine", _amount] call RPP_fnc_hint;
+	};
+
+	["RPP_fnc_pol_paidTicket", [_success, _from, _to]] call RPP_fnet_execPublic;
+
+};
 
 RPP_fnc_pol_disarm = 
 {

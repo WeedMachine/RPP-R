@@ -101,7 +101,9 @@ RPP_fnc_onKeyPress =
 		else
 		{
 			/* Ticket/Wanted */
-			//[] call RPP_fnc_pol_openTicketWanted;
+			if (vehicle player == player) then { 
+				[] call RPP_fnc_pol_openTicketDlg;
+			};
 		};
     };
     
