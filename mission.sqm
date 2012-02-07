@@ -129,7 +129,6 @@ class Mission
 		"as_eu_oa_lights",
 		"helipad",
 		"as_eu_oa_sidewalks",
-		"rpp_veh",
 		"cmr_cicada"
 	};
 	randomSeed=13761412;
@@ -1545,7 +1544,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2259;
+		items=2258;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -27216,18 +27215,6 @@ class Mission
 			vehicle="MAP_lampa_sidl";
 			skill=1;
 			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
-		};
-		class Item2258
-		{
-			position[]={8053.2051,19,4672.4272};
-			azimut=270;
-			id=2328;
-			side="EMPTY";
-			vehicle="rpp_m5";
-			lock="LOCKED";
-			skill=0.60000002;
-			text="shop_car_m5";
-			init="doStop this; this allowDamage false;";
 		};
 	};
 	class Markers
