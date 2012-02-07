@@ -53,7 +53,7 @@ class ALR_Dlg_Ticket
             y = 0.5914597 * safezoneH + safezoneY;
             w = 0.0810669 * safezoneW;
             h = 0.0455892 * safezoneH;
-            action = "closeDialog 0; [call compile (lbData[2100,lbCurSel 2100]), parseNumber (ctrlText 1401), ctrlText 1400] call RPP_fnc_pol_sendTicket;";
+            action = "closeDialog 0; [call compile (lbData[2100,lbCurSel 2100]), parseNumber (ctrlText 1401), ctrlText 1301] call RPP_fnc_pol_sendTicket;";
     };
     
     class closeBtn : RPP_Button

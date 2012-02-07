@@ -1,0 +1,23 @@
+--- Weedmachines todo ---
+
+Features:
+
+
+Bug fixes:
+
+
+Changes:
+@ Tidy up ticket dialogs.
+@ Wanted dialog - See below;
+
+
+;; Wanted Dialog (Fairly big size) ;;
+Required controls:
+	List of players (Combo box)
+	List of wanted players (List box)
+	Bounty amount (Edit box)
+	Reason (Edit box)
+	Set wanted (Button)
+	Set unwanted (Button)
+	Close (Button)
+	
