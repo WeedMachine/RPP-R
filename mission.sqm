@@ -28696,8 +28696,8 @@ class Mission
 		};
 		class Item96
 		{
-			position[]={6010.7676,31.721903,4158.1558};
-			name="bike_dealer_1";
+			position[]={6008.7231,31.69751,4157.916};
+			name="Bike_shop_2";
 			text="Bike Shop";
 			type="mil_flag";
 			colorName="ColorBlue";
