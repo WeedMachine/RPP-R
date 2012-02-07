@@ -1,10 +1,13 @@
 RPP_var_investLocations = 
 [
-    [car_dealer, "Car Dealer", [10000, 500]],
-	[truck_dealer, "Truck Dealer", [20000, 1000]],
-	[bike_dealer, "Bike Dealer", [5000, 250]],
-	[classic_dealer, "Classic Car Dealer", [35000, 1750]],
-    [farmer_joe, "Farmer Joe", [10000, 500]]
+    [car_dealer, "Car Dealer", [10000, 333]],
+	[truck_dealer, "Truck Dealer", [20000, 667]],
+	[bike_dealer, "Bike Dealer", [5000, 167]],
+	[bike_dealer2, "2 Wheels Deals", [3000, 100]],
+	[classic_dealer, "Classic Car Dealer", [35000, 1167]],
+	[realestate_betty, "Farmer Betty", [50000,1667]],
+    [farmer_joe, "Farmer Joe", [10000, 333]]
+	
 ];
 
 RPP_var_invested = [];
