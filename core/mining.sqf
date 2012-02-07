@@ -10,7 +10,7 @@ RPP_var_miningDefine =
 	[ 0, [stone1, stone2, stone3, stone4], "Stone Mine", [ ["mining", 1], 2, 160, "Pickaxe", "Stone", 25, 1]],
 	[ 1, [ironrock1, ironrock2, ironrock3, ironrock4], "Mine Iron", [ ["mining", 10], 4, 320, "Pickaxe", "IronOre", 25, 1]],
 	[ 2, [salt1, salt2, salt3, salt4], "Mine Salt", [ ["mining", 1], 2, 160, "Pickaxe", "Salt", 25, 1]],
-	[ 3, [sand1, sand2, sand3, sand4], "Dig Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
+	[ 3, [ sand1 ], "Dig Sand", [ ["mining", 1], 2, 160, "Shovel", "Sand", 30, 1]],	
 	
 	//TIER 2
 	[ 4, [copperrock1, copperrock2, copperrock3, copperrock4], "Copper Iron", [ ["mining", 20], 5, 650, "Pickaxe", "CopperOre", 20, 1]],
