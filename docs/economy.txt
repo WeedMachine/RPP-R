@@ -25,3 +25,177 @@ v1.0 Alpha
 * A player will be able to set any object he owns up for sale, text will appear above the object with the price that players can buy for.
 * A player can create his own shop marker on the map for a price, if he doesnt own anything within this marker area the marker will be removed to avoid spam.
 
+Suggestions from     SomeBloke
+					RPPR Developer
+
+So with Un4 starting on the shops etc Here are my suggestions for basic items/stock
+
+Tool Shop:
+Hand Axe - $60 (Standard for chopping down trees) 2Kg
+Large Axe - $150 (Increased Damage, slower chop rate) 8kg
+Pickaxe - $60 (Standard for stone/coal/copper) 2kg
+Large Pickaxe - $200 (Increased chance, slower mining rate, used for Iron/Gold/Diamond) 12kg
+5L Fuel Can - $100 (Refillable, Fill up at Petrol Stations) 5kg
+10L Fuel Can -$200 (Refillable, Fill up at Petrol Stations) 10kg
+Shovel - $75 (Used for Sand/Clay) 4kg
+
+
+Supermaket:
+Food:
+Stars Bar - $5 (Removes 0.1 Hunger, Avoids Copyright)
+Marshmallows - $5 (Roast on campfire, Removes 0.5 Hunger Normal or 1 Hunger when roasted)
+Apple - $5 (Removes 0.5 Hunger)
+Bread roll - $10 (Removes 3 Hunger)
+Sandwich - $15 (Removes 5 Hunger)
+Loaf of Bread - $40 (Removes 10 Hunger)
+
+Drinks:
+Soda Can - $5 (Removes 1 Thirst)
+Small Water Bottle - $10 (Refillable, Removes 5 Thirst) 0.5kg
+Large Water Bottle - $25 (Refillable, Removes 8 Thirst) 1kg
+Large Water Container - $100 (Refillable, Removes 15 Thirst) 7kg
+Small Bottle of Beer - $30 (1 Use, Heals up to 8 Health, increases Alcohol Level by 0.5) 0.5kg
+
+Misc:
+Small Empty Bottle - $10 (Fill from water sources) 0kg
+Large Empty Bottle - $25 (Fill from water sources) 0kg
+Lighter - $10 (Reference SLR use) 1kg
+
+
+Petrol Station:
+Food:
+Marshmallows - As above
+Stars Bar - As Above
+Donuts - $10 (Removes 5 Hunger)
+Sandwich - As Above
+
+Drinks:
+Soda Can - As above
+Small Bottle of Beer - As Above
+Large Bottle of Beer - $50 (1 Use, Heals up to 15 Health, Increases Alcohol Level by 1.5) 2Kg
+Bottle of Cider - $40 (1 Use, Heals up to 10 Health, Increases Alcohol Level by 0.5) 1Kg
+Bottle of White Wine - $65 (1 Use, Causes -10 Thirst, Increases Alcohol Level by 4) 3Kg
+Bottle of Red Wine - $75 (1 Use, Causes -15 Thirst, Increases Alcohol Level by 4.5) 3Kg
+
+Misc:
+Empty 5L Fuel Can - $50
+Empty 10L Fuel Can - $100
+Lighter - As Above
+Small Repair Kit - $100 (Only repairs 10 Vehicle health, Re-usable) 10kg
+Large Repair Kit - $450 (Repairs 50 Vehicle Health, Re-usable) 25Kg
+Spare Tyre - $350 (Repairs Tyre Damage, If possible) 20Kg
+Mobile Phone - $200 (Obvious) 2Kg
+Map - $150 (Obvious, Goes into Gear)
+
+
+Outdoor Shop:
+Misc:
+Fishing Rod - $250 (Re-usable) 5Kg
+Campire Fire - $150 (Used to roast marshmallows, lights area) 10Kg
+Small Tent - $300 (Use as "hideout/save point?") 10Kg
+Large Tent - $600 20Kg
+Compass - $40 (Obvious)
+GPS - $800 (Obvious)
+Watch - $25 (Obvious)
+
+Fishing Bait:
+Maggot - $1 (1 Use, increases chance of Medium fish) 0.1kg
+Worm - $1 (1 Use, increases chance of Medium fish) 0.1kg
+Bread Crumbs - $4 (1 Use, increases chance of Medium fish) 0.5kg
+Minnow - $10 (1 Use, Increases chance of Medium/Large fish) 1Kg
+Mixed Bait - $20 (1 Use, Increases chance of Medium/Large Fish) 1Kg
+Chopped Mackeral - $25 (1 Use, Increases chance of Large Fish) 2Kg
+Chopped Tuna - $30 (1 Use, Increases chance of Large Fish) 3Kg
+
+
+Seeds:
+Olive Seed - $5 (1 Use, Olive plant grows) 0.1kg
+Apple Seed - $5 (1 Use, Apple Plant grows) 0.1kg
+Ficus Tree Sapling - $20 (1 Use, Ficus Tree Grows) 0.5kg
+Pine Tree Sapling - $30 (1 Use, Pine Tree Grows) 0.5kg
+Oak Tree Sapling - $50 (1 Use, Oak Tree Grows) 1Kg
+Willow Tree Sapling - $70 (1 Use, Willow Tree Grows) 1Kg
+
+
+Bike Dealer
+Bicycle - $100 2Kg Trunk
+Old Moto - $350 10Kg Trunk
+M1303 - $450 15Kg Trunk
+TT650 $450 15Kg Trunk
+ATV - $650 20Kg Trunk
+
+Car Dealer:
+Skodas - $750 40Kg Trunk
+Hatchbacks - $850 50Kg Trunk
+Ladas - $900 55Kg Trunk
+Sedans - $1,250 65Kg Trunk
+Golfs - $1,650 65Kg Trunk
+
+4x4/Suv Dealer:
+Datsuns - $1,500 75Kg Trunk
+Coyotas - $1,950 85Kg Trunk
+UAZs - $1,950 90Kg Trunk
+Landrovers - $2,450 100Kg Trunk
+SUVs - $3,650 100Kg Trunk
+Vans - $3,800 120Kg Trunk
+
+HGV Dealer:
+Buses - $4,000 200Kg Trunk
+V35s - $4,500 250Kg Trunk
+MTVRs - $5,300 300Kg Trunk
+Urals - $7,450 400Kg Trunk
+Kamaz - $8,500 700Kg Trunk
+
+Boat Dealer:
+PBX - $1,750 60Kg Trunk
+Zodiac $1,750 60Kg Trunk
+Small Boats - $3,250 80Kg Trunk
+Fishing Boat - $6,500 200Kg Trunk
+
+Drug Prices:
+Buy
+Marijuana - $80 per Kg
+LSD - $100 per Kg
+Cocaine - $120 per Kg
+
+Sell
+Marijuana - $100 per Kg
+LSD - $140 per Kg
+Cocaine - $250 per Kg
+
+Seeds:
+Marijuana Seed - $50
+Cocaine Seed - $100
+
+Licenses
+
+Vehicle:
+Class A - Motocycles, ATVs - $250
+Class B - Cars - $400
+Class C - Off-road Vehicles - $650
+Class D - Heavy goods vehicles - $1,000
+Class E - Passenger vehicles (Vehicles with more than 5 seats) - $1,500
+
+Air Vehicles:
+Light Aircraft - Little Birds, Pipers, Camels - $6,000
+Large Aircraft - Hercules, MI-17s $10,000
+
+Watercraft:
+Inflatables - $950
+All other vessels - $1,250
+
+Weapons:
+Handgun License - Pistols - $2,500
+Rifle License - Sem-auto rifles - $7,500
+
+Misc:
+Fishing License - Required to fish in ocean - $1,250
+Taxi License - Required to transport passengers for a fee - $750
+Hunting License - Required to hunt in woodland/forests - $1,400
+Alcohol License - Required to sell Alcoholic Beverages to others - $900
+Trader's License - Required to sell goods in a public place - $300
+Security License - Required to become a Bodyguard to players - $2,400 (Not an excuse to carry unholstered weapons in public)
+Agriculturual License - Required to keep livestock - $1,000
+
+
+

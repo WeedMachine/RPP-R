@@ -13,23 +13,24 @@ RPP_var_shops =
     [shop_carred, "SkodaRed", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_cargreen, "SkodaGreen", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_carblue, "SkodaBlue", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_cargolf, "VWGolf", "", [0,0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_carhatch, "car_hatchback", "", [0,0], [] call RPP_fnc_generateID, 40, true, true],
-    [shop_carsedan, "car_sedan", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
-    [shop_carlada1, "Lada1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
-    [shop_carlada2, "Lada2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+    [shop_cargolf, "VWGolf", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_carhatch, "car_hatchback", "", [0,0], [] call RPP_fnc_generateID, 3, true, true],
+    [shop_carsedan, "car_sedan", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_carlada1, "Lada1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
+    [shop_carlada2, "Lada2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
     [shop_caroldb, "Volha_1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_caroldw, "Volha_2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     
 	/* Classic Cars */
-	[shop_monaco, "monaco", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_roadrunner2, "roadrunner2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_barcuda, "barcuda", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_fury, "fury", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_challenger, "challenger", "", [0,0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_civic, "civic", "", [0,0], [] call RPP_fnc_generateID, 40, true, true],
-    [shop_roadrunner, "roadrunner", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
-    [shop_cuda, "cuda", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
+	[shop_monaco, "monaco", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_roadrunner2, "roadrunner2", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_barcuda, "barcuda", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_fury, "fury", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_challenger, "challenger", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_civic, "civic", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_roadrunner, "roadrunner", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+    [shop_cuda, "cuda", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+	//[shop_car_m5, "rpp_m5", "", [0, 0], [] call RPP_fnc_generateID, 0, true, false],
 	
 		/* Easten Airpot */
 	[shop_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
@@ -41,17 +42,17 @@ RPP_var_shops =
 	[shop_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 	
 	/* Westen Airpot */
-	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
-   	[shop2_air_airnz_C130, "airnz_C130", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
-    [shop2_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
-	[shop2_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop2_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
-    [shop2_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop2_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
-	[shop2_usec_bell206_uscg, "usec_bell206_uscg", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
+	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+   	[shop2_air_airnz_C130, "airnz_C130", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop2_air_usec_bell206_1, "usec_bell206_1", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop2_air_GNT_C185F, "GNT_C185F", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+	[shop2_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+    [shop2_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
+	[shop2_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[shop2_usec_bell206_uscg, "usec_bell206_uscg", "", [0,0], [] call RPP_fnc_generateID, 0, false, true],
     	
 	/* Police Car Shop */
-	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
+	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_CopcarHW2, "CopcarHW2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_swat_suv, "SUV_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_qin_black, "qin_evoix_black", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
@@ -66,11 +67,11 @@ RPP_var_shops =
 	[shop_police_handcuffs, "Handcuffs", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
 	[shop_police_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_police_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	[shop_police_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 50, true, true],
 	[shop_police_repair, "RepairKit", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_refuel, "RefuelCan", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_phone, "Phone", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_police_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
+	[shop_police_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 50, true, true],
 	[shop_police_bottleWater, "High_bottleWater", "", [0, 0], [] call RPP_fnc_generateID, 45, true, true],
 	
 	/* Police Weapon Shop */
@@ -80,77 +81,81 @@ RPP_var_shops =
 	[shop_police_stunshotgun_mag, "8Rnd_B_Beneli_74Slug", "", [0, 0], [] call RPP_fnc_generateID, 999, true, true],
 	
     /* Pickup shop */
-    [shop_pickup, "datsun1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup2, "datsun1_civil_2_covered", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup3, "datsun1_civil_3_open", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup4, "hilux1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup5, "hilux1_civil_2_covered", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup6, "hilux1_civil_3_open", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup7, "LandRover_CZ_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_pickup8, "LandRover_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_pickup, "datsun1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup2, "datsun1_civil_2_covered", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup3, "datsun1_civil_3_open", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup4, "hilux1_civil_1_open", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup5, "hilux1_civil_2_covered", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup6, "hilux1_civil_3_open", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup7, "LandRover_CZ_EP1", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
+    [shop_pickup8, "LandRover_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 2, true, true],
     
-    /* Bike Shop */
-    [shop_bike1, "MMT_Civ", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_bike2, "Old_bike_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_bike3, "Old_moto_TK_Civ_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    /* Bike Shops */
+    [shop_bike1, "MMT_Civ", "", [0,0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_bike2, "Old_bike_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
+    [shop_bike3, "Old_moto_TK_Civ_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
     [shop_bike4, "M1030", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_bike5, "TT650_Civ", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_bike6, "TT650_Gue", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_bike7, "TT650_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_bike8, "ATV_US_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	[shop2_bike1, "Old_bike_TK_CIV_EP1", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop2_bike2, "Old_moto_TK_Civ_EP1", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop2_bike3, "TT650_TK_CIV_EP1", "", [0, 0], [] call RPP_fnc_generateID, 30, true, true],
     
     /* Truck shop */
-    [shop_truck1, "UralCivil", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_truck2, "UralCivil2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_truck3, "V3S_Salvage_TK_GUE_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_truck4, "Kamaz", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_truck5, "KamazOpen", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_truck6, "MTVR", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_truck7, "UralOpen_INS", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_truck1, "UralCivil", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+    [shop_truck2, "UralCivil2", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+    [shop_truck3, "V3S_Salvage_TK_GUE_EP1", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck4, "Kamaz", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck5, "KamazOpen", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck6, "MTVR", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck7, "UralOpen_INS", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
 
     /* Item store */
-    [shop_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     [shop_bottleWaterLow, "Low_bottleWater", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_bottleWater, "High_bottleWater", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_worm, "Bread", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_sandwich, "Sandwich", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+    [shop_worm, "Bread", "", [0, 0], [] call RPP_fnc_generateID, 30, true, true],
+    [shop_sandwich, "Sandwich", "", [0, 0], [] call RPP_fnc_generateID, 50, true, true],
+	[shop_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 5, true, true],
 	
     
     /* Tool Shop */
-    [shop_shop2_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_shop2_pickaxe, "Pickaxe", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_shop2_hatchet, "Hatchet", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_shop2_repair, "RepairKit", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
+    [shop_shop2_rod, "Fishing_rod", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_shop2_pickaxe, "Pickaxe", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_shop2_hatchet, "Hatchet", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_shop2_repair, "RepairKit", "", [0, 0], [] call RPP_fnc_generateID, 5, true, true],
     [shop_shop2_refuel, "RefuelCan", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-    [shop_shop2_phone, "Phone", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop4_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop4_harpoon, "Harpoon", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop2_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
+    [shop_shop2_phone, "Phone", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+	[shop_shop4_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 5, true, true],
+	[shop_shop4_harpoon, "Harpoon", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_shop2_can, "Can", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
 	[shop_shop2_pump, "Pump", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop2_shovel, "Shovel", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop2_sickle, "sickle", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
-	[shop_shop2_fishing_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 3, true, true],
+	[shop_shop2_shovel, "Shovel", "", [0, 0], [] call RPP_fnc_generateID, 5, true, true],
+	[shop_shop2_sickle, "sickle", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+	[shop_shop2_fishing_net, "Fishing_net", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 
     /* Outdoor shop */
     [shop_shop3_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_compass, "ItemCompass", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_radio, "ItemRadio", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_shop3_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_shop3_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_shop3_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_shop3_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_shop3_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    [shop_shop3_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     
     /* Boat shop */
-    [shop_fishingboat, "Fishing_Boat", "", [0,0], [] call RPP_fnc_generateID, 15, true, false],
-    [shop_smallboat1, "Smallboat_1", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
-    [shop_smallboat2, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
-    [shop_pbx, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
+    [shop_fishingboat, "Fishing_Boat", "", [0,0], [] call RPP_fnc_generateID, 2, true, false],
+    [shop_smallboat1, "Smallboat_1", "", [0,0], [] call RPP_fnc_generateID, 3, true, false],
+    [shop_smallboat2, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 4, true, false],
+    [shop_pbx, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 5, true, false],
     
     /* Fishing shop */
-    [shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_shop4_worm, "Worm", "", [0, 0], [] call RPP_fnc_generateID, 20, true, true],
+    [shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+	[shop_shop4_worm, "Worm", "", [0, 0], [] call RPP_fnc_generateID, 50, true, true],
 	[shop_shop4_bluegill, "Bluegill", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop4_catfish, "Catfish", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop4_perch, "Perch", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
@@ -175,7 +180,7 @@ RPP_var_shops =
     [shop_colt1911mag, "7Rnd_45ACP_1911", "", [0, 0], [] call RPP_fnc_generateID, 16, true, true],
         
     /* Farm Shop */
-    [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 25, true, true],
+    [tractor_shop, "Tractor", "", [0,0], [] call RPP_fnc_generateID, 5, true, true],
     [wheat_shop, "Wheat", "", [0,0], [] call RPP_fnc_generateID, 250, true, true],
     [populus_shop, "populus_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
 	[apple_shop, "apple_seed", "", [0,0], [] call RPP_fnc_generateID, 80, true, true],
@@ -205,7 +210,7 @@ RPP_var_shops =
 	
 	/* Mari Sell */
     [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
-	[cocaine_sell, "cocaine", "", [0,0], [] call RPP_fnc_generateID, 3, true, false],
+	[cocaine_sell, "cocaine", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 	
 	 /* Resource shop */
     [shop_ironore, "IronOre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
@@ -228,12 +233,12 @@ RPP_var_shops =
 	[shop_tyre, "Tyre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_leather, "Leather", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_vinyl, "Vinyl", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_shop2_plank, "Plank", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
-	[shop_shop2_beam, "Beam", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
+	[shop_shop2_plank, "Plank", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_shop2_beam, "Beam", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 
     /* Drug Equipment */
-	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 250, true, false],
-    [mari_seeds, "mari_seed", "", [0,0], [] call RPP_fnc_generateID, 250, true, false]
+	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false],
+    [mari_seeds, "mari_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false]
 ];
 
 RPP_fnc_addStock = 

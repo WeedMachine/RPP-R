@@ -22,6 +22,7 @@ Copyright (C) 2009  Matthew Simms & Petr Klíma
 #include "dialogs\sms.hpp"
 #include "dialogs\selectPlayer.hpp"
 #include "dialogs\ticket.hpp"
+#include "dialogs\payTicket.hpp"
 
 /* Configs */
 #include "configs\CfgItems.hpp"

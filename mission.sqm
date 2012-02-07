@@ -66,7 +66,8 @@ class Mission
 		"casigns_e",
 		"as_eu_oa_lights",
 		"helipad",
-		"as_eu_oa_sidewalks"
+		"as_eu_oa_sidewalks",
+		"rpp_veh"
 	};
 	addOnsAuto[]=
 	{
@@ -572,7 +573,7 @@ class Mission
 					id=49;
 					side="WEST";
 					vehicle="DU_Charactersman";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop1";
@@ -24294,7 +24295,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_2";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1956
 		{
@@ -24304,7 +24305,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1957
 		{
@@ -24321,7 +24322,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1959
 		{
@@ -24330,7 +24331,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1960
 		{
@@ -24340,7 +24341,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1961
 		{
@@ -24350,7 +24351,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1962
 		{
@@ -24360,7 +24361,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1963
 		{
@@ -24370,7 +24371,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1964
 		{
@@ -24380,7 +24381,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1965
 		{
@@ -24390,7 +24391,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1966
 		{
@@ -24399,7 +24400,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1967
 		{
@@ -24408,7 +24409,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1968
 		{
@@ -24417,7 +24418,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1969
 		{
@@ -24426,7 +24427,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1970
 		{
@@ -24435,7 +24436,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1971
 		{
@@ -24445,7 +24446,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1972
 		{
@@ -24455,7 +24456,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1973
 		{
@@ -24465,7 +24466,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1974
 		{
@@ -24475,7 +24476,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1975
 		{
@@ -24485,7 +24486,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1976
 		{
@@ -24495,7 +24496,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1977
 		{
@@ -24505,7 +24506,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1978
 		{
@@ -24515,7 +24516,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1979
 		{
@@ -24524,7 +24525,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1980
 		{
@@ -24534,7 +24535,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1981
 		{
@@ -24544,7 +24545,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1982
 		{
@@ -24554,7 +24555,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1983
 		{
@@ -24564,7 +24565,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1984
 		{
@@ -24574,7 +24575,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1985
 		{
@@ -24584,7 +24585,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1986
 		{
@@ -24593,7 +24594,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1987
 		{
@@ -24602,7 +24603,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1988
 		{
@@ -24611,7 +24612,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1989
 		{
@@ -24620,7 +24621,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1990
 		{
@@ -24629,7 +24630,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1991
 		{
@@ -24639,7 +24640,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_Misc_wall_lamp";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1992
 		{
@@ -24648,7 +24649,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1993
 		{
@@ -24657,7 +24658,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1994
 		{
@@ -24666,7 +24667,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_ind";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1995
 		{
@@ -24675,7 +24676,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1996
 		{
@@ -24684,7 +24685,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1997
 		{
@@ -24693,7 +24694,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1998
 		{
@@ -24703,7 +24704,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item1999
 		{
@@ -24713,7 +24714,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2000
 		{
@@ -24723,7 +24724,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2001
 		{
@@ -24733,7 +24734,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2002
 		{
@@ -24743,7 +24744,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2003
 		{
@@ -24753,7 +24754,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2004
 		{
@@ -24771,7 +24772,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2006
 		{
@@ -24781,7 +24782,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2007
 		{
@@ -24791,7 +24792,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2008
 		{
@@ -24801,7 +24802,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2009
 		{
@@ -24811,7 +24812,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2010
 		{
@@ -24821,7 +24822,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2011
 		{
@@ -24831,7 +24832,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2012
 		{
@@ -24841,7 +24842,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2013
 		{
@@ -24851,7 +24852,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2014
 		{
@@ -24861,7 +24862,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2015
 		{
@@ -24871,7 +24872,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2016
 		{
@@ -24881,7 +24882,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2017
 		{
@@ -24891,7 +24892,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2018
 		{
@@ -24901,7 +24902,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2019
 		{
@@ -24911,7 +24912,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2020
 		{
@@ -24920,7 +24921,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2021
 		{
@@ -24930,7 +24931,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2022
 		{
@@ -24940,7 +24941,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2023
 		{
@@ -24950,7 +24951,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2024
 		{
@@ -24960,7 +24961,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2025
 		{
@@ -24969,7 +24970,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2026
 		{
@@ -24979,7 +24980,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2027
 		{
@@ -24989,7 +24990,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2028
 		{
@@ -24999,7 +25000,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2029
 		{
@@ -25009,7 +25010,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2030
 		{
@@ -25019,7 +25020,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl_3";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2031
 		{
@@ -25029,7 +25030,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2032
 		{
@@ -25039,7 +25040,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2033
 		{
@@ -25048,7 +25049,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2034
 		{
@@ -25058,7 +25059,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2035
 		{
@@ -25068,7 +25069,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2036
 		{
@@ -25078,7 +25079,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2037
 		{
@@ -25088,7 +25089,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2038
 		{
@@ -25098,7 +25099,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2039
 		{
@@ -25108,7 +25109,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2040
 		{
@@ -25118,7 +25119,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2041
 		{
@@ -27173,7 +27174,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2254
 		{
@@ -27183,7 +27184,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2255
 		{
@@ -27193,7 +27194,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2256
 		{
@@ -27203,7 +27204,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 		class Item2257
 		{
@@ -27213,7 +27214,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MAP_lampa_sidl";
 			skill=1;
-			init="doStop this; this allowdamage false; _this switchLight "On";";
+			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
 	};
 	class Markers
