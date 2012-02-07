@@ -14,6 +14,7 @@ _ALR_var_processLarix = [ ["larix_log", 4], ["wood", 3], ["larix_log", 3] ];
 _ALR_var_processMaple = [ ["maple_log", 4], ["wood", 4], ["maple_log", 3] ];
 _ALR_var_processRubber = [ ["rubber_log", 2], ["Rubber", 4], ["Rubber", 2] ];
 _ALR_var_processSand = [ ["Sand", 2], ["Glass", 1], ["Sand", 1] ];
+_ALR_var_processSand2 = [ ["Sand", 10], ["Silicon", 1], ["Sand", 5] ];
 _ALR_var_processClay = [ ["Clay", 2], ["Bricks", 1], ["Sand", 2] ];
 _ALR_var_processVinyl = [ ["Rubber", 4], ["Vinyl", 1], ["Rubber", 1] ];
 _ALR_var_processOil = [ ["Oil", 5], ["Petrol", 10], ["Petrol", 5] ];
@@ -39,6 +40,7 @@ RPP_var_processLocations =
 	[process_iron1, "Smelt Iron Ore", "Process", _RPP_var_smeltIron, ["manufacture", 10, 340, 280], 25],
 	[process_silver, "Smelt Silver ore", "Process", _ALR_var_processSilver, ["manufacture", 65, 750, 600], 25],
 	[process_sand, "Process Sand", "Process", _ALR_var_processSand, ["manufacture", 1, 240, 110], 25],
+	[process_sand2, "Process Sand", "Process", _ALR_var_processSand2, ["manufacture", 10, 340, 280], 30],
 	[process_bottle, "Refill Water Bottle", "Process", _ALR_var_processBottles, ["manufacture", 2, 0, 0], 50],
 	//[process_bricks, "Bake Bricks", "Process", _ALR_var_processBricks, ["manufacture", 10, 340, 280], 15],
 	[process_populus, "Saw Populus Log", "Process", _RPP_var_processPopulus, ["manufacture", 1, 240, 110], 25],
