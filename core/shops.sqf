@@ -172,6 +172,10 @@ RPP_var_shops =
         
     /* Objects */
     //[shop_fence, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
+	[shophouse1, "Land_MBG_GER_RHUS_4", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
+	[shophouse2, "Land_MBG_GER_RHUS_3", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
+	[shophouse3, "Land_MBG_GER_RHUS_5", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
+	[shophouse4, "Land_MBG_GER_RHUS_2", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
     
     /* Pistol shop */
     [shop_m9, "M9", "", [0, 0], [] call RPP_fnc_generateID, 2, true, true],
