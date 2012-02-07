@@ -130,7 +130,7 @@ RPP_var_goods =
     ["civic", ["VEHICLE", "CAR"], ["1989 Honda Civic", "No Desc"], [23820, 12300], 100, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 7]]], false],
     ["roadrunner", ["VEHICLE", "CAR"], ["1969 Road Runner", "Green"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     ["cuda", ["VEHICLE", "CAR"], ["1970 Plymouth AAR Cuda.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
-	["rpp_m5", ["VEHICLE", "CAR"], ["rpp_m5", "BMW M5"], [30000,17000], 120, "core\items\noUse.sqf", 200, false, [1, [["IronBar", 25], ["Tyre", 4], ["Rubber", 20], ["Copper", 20], ["Leather", 12], ["ElecComp", 8]]], false],
+	//["rpp_m5", ["VEHICLE", "CAR"], ["rpp_m5", "BMW M5"], [30000,17000], 120, "core\items\noUse.sqf", 200, false, [1, [["IronBar", 25], ["Tyre", 4], ["Rubber", 20], ["Copper", 20], ["Leather", 12], ["ElecComp", 8]]], false],
     
 	//Police Cars
 	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],

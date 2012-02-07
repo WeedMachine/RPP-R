@@ -30,7 +30,7 @@ RPP_var_shops =
     [shop_civic, "civic", "", [0,0], [] call RPP_fnc_generateID, 40, true, true],
     [shop_roadrunner, "roadrunner", "", [0,0], [] call RPP_fnc_generateID, 35, true, true],
     [shop_cuda, "cuda", "", [0,0], [] call RPP_fnc_generateID, 18, true, true],
-	[shop_car_m5, "rpp_m5", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
+	//[shop_car_m5, "rpp_m5", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
 	
 		/* Easten Airpot */
 	[shop_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
