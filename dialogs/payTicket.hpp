@@ -1,6 +1,6 @@
 class ALR_Dlg_payTicket
 {
-    idd = 2300;
+    idd = 2400;
     movingEnable = false;
     controlsBackground[] = { background, header };
     objects[] = { };
@@ -44,18 +44,18 @@ class ALR_Dlg_payTicket
             w = 0.25;
             h = 0.4;
             size = 0.025;
-            text = "This is the reason you have no friends";
+            text = "";
     };
 	
 	class ticketCost : RPP_StructuredText 
     {
-            idc = 2;
+            idc = 3;
             x = 0.442368;
             y = 0.389732;
             w = 0.25;
             h = 0.4;
             size = 0.025;
-            text = "Fine: $250";
+            text = "Fine:";
     };
     
     class payBtn : RPP_Button
@@ -66,7 +66,7 @@ class ALR_Dlg_payTicket
             y = 0.5214597 * safezoneH + safezoneY;
             w = 0.0745669 * safezoneW;
             h = 0.0455892 * safezoneH;
-            action = "[ctrlText 1400, call compile(lbData[2100, lbCurSel 2100])] call RPP_fnc_phone_sendSMS;";
+            action = "";
     };
     
     class RefuseBtn : RPP_Button
@@ -83,7 +83,7 @@ class ALR_Dlg_payTicket
     class info : RPP_Text
     {
             idc = 1000;
-            text = "Weed, You have been fined.";
+            text = "You have been fined.";
             x = 0.423984 * safezoneW + safezoneX;
             y = 0.399528 * safezoneH + safezoneY;
             w = 0.25 * safezoneW;

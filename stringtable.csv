@@ -28,6 +28,14 @@ STRS_respawn_emsLoss, "<t color='#4876FF'>Respawn</t><br/>You have died and have
 STRS_event_vcl_entered, "<t color='#4876FF'>Vehicle</t><br/><t color='#009900'>%1</t> has entered your vehicle."
 STRS_event_vcl_left, "<t color='#4876FF'>Vehicle</t><br/><t color='#009900'>%1</t> has left your vehicle."
 
+STRS_ticket_dlgMsgRecv, "You have been fined."
+STRS_ticket_sentTicket, "<t color='#4876FF'>Ticket</t><br/>You have given <t color='#009900'>%1</t> a ticket of <t color='#009900'>$%2</t>"
+STRS_ticket_globalTicket, "%1, has been given a ticket of $%2! Reason: %3"
+STRS_ticket_cannotPay, "<t color='#4876FF'>Ticket</t><br/>You do not have enough money to pay the fine!</t>"
+STRS_ticket_copNoMoney, "<t color='#4876FF'>Ticket</t><br/><t color='#009900'>%1</t> does not have enough money to pay for the ticket.</t>"
+STRS_ticket_copPaid, "<t color='#4876FF'>Ticket</t><br/><t color='#009900'>%1</t> has paid the fine!</t>"
+STRS_ticket_paidFine, "<t color='#4876FF'>Ticket</t><br/>You have paid the fine of <t color='#009900'>$%1</t>"
+
 STRS_object_place, "<t color='#4876FF'>Object</t><br/>You have placed a <t color='#009900'>%1</t> here."
 STRS_object_pickup, "<t color='#4876FF'>Object</t><br/>You pickup a <t color='#009900'>%1</t>, Caution: It is against the rules to pickup other players objects."
 STRS_object_desc, "This is a object, you can place them by using the object. You can also pick up placed objects by pressing (B)"
