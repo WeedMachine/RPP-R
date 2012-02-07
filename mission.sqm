@@ -150,7 +150,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=71;
+		items=70;
 		class Item0
 		{
 			side="LOGIC";
@@ -1563,27 +1563,6 @@ class Mission
 					skill=0.2;
 					text="bike_dealer2";
 					init="this setPos [6012.34, 4157.55, 0.012695]; this setDir 0; doStop this;this allowdamage false;";
-				};
-			};
-		};
-		class Item70
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={4362.8237,54,5479.3516};
-					azimut=-267.8053;
-					special="NONE";
-					id=2379;
-					side="WEST";
-					vehicle="CDF_Soldier";
-					player="PLAYER COMMANDER";
-					leader=1;
-					lock="LOCKED";
-					skill=0.2;
 				};
 			};
 		};
@@ -27874,7 +27853,7 @@ class Mission
 		{
 			position[]={4381.417,63.479973,5479.9785};
 			azimut=90;
-			id=2380;
+			id=2379;
 			side="EMPTY";
 			vehicle="Land_House_C_4_EP1";
 			skill=0.60000002;
@@ -27883,7 +27862,7 @@ class Mission
 		{
 			position[]={4380.4141,60.856197,5478.8403};
 			azimut=45;
-			id=2381;
+			id=2380;
 			side="EMPTY";
 			vehicle="Notice_board_EP1";
 			skill=0.60000002;
