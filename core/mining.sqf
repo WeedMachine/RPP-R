@@ -18,7 +18,6 @@ RPP_var_miningDefine =
 	[ 6, [clay1, clay2, clay3, clay4], "Dig Clay", [ ["mining", 20], 5, 650, "Shovel", "Clay", 30, 1]],
 	
 	//TIER 3
-	[ 7, [Silicon1, Silicon2, Silicon3, Silicon4], "Silicon Mine", [ ["mining", 30], 13, 1850, "Shovel", "Silicon", 25, 1]],
 	[ 8, [Sulphur1, Sulphur2, Sulphur3, Sulphur4], "Sulpur Mine", [ ["mining", 40], 15, 250, "Pickaxe", "Sulphur", 20, 1]],
 	[ 9, [oil1], "Pump Oil", [ ["mining", 30], 15, 1900, "Pump", "Oil", 18, 1]],
 	
