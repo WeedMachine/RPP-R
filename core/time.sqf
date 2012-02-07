@@ -58,6 +58,11 @@ RPP_fnc_serverUpdateTime =
     ["RPP_fnc_syncClientsTime", [date]] call RPP_fnet_execPublic;
 };
 
+RPP_fnc_syncTime = {
+	if !(isServer) exitWith {};
+	["RPP_fnc_syncClientsTime", [date]] call RPP_fnet_execPublic;
+};
+
 RPP_fnc_syncClientsTime = 
 {
     private ["_date"];

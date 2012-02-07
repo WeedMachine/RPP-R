@@ -22,6 +22,13 @@ RPP_var_weather_types =
 RPP_var_currentWeather = [];
 RPP_var_forcastWeather = [];
 
+RPP_fnc_syncWeather = {
+	if !(isServer) exitWith {};
+
+	publicVariable "RPP_var_currentWeather";
+	publicVariable "RPP_var_forcastWeather";
+};
+
 RPP_fnc_weatherLoop = 
 {
     _ticks = 0;

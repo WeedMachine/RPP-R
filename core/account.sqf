@@ -159,6 +159,12 @@ RPP_fnc_acc_clientLogin =
 
 	/* Activate all light sources */
 	[] spawn RPP_fnc_activateLights;
+
+	/* Sync weather */
+	["RPP_fnc_syncWeather", []] call RPP_fnet_execPublic;
+
+	/* Sync time */
+	["RPP_fnc_syncTime", []] call RPP_fnet_execPublic;
 };
 
 RPP_fnc_acc_exists = 
