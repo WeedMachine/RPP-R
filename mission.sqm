@@ -67,7 +67,9 @@ class Mission
 		"as_eu_oa_lights",
 		"helipad",
 		"as_eu_oa_sidewalks",
-		"cabuildings"
+		"cabuildings",
+		"ca_animals_e",
+		"castructures_e_housec"
 	};
 	addOnsAuto[]=
 	{
@@ -130,6 +132,8 @@ class Mission
 		"helipad",
 		"as_eu_oa_sidewalks",
 		"cabuildings",
+		"ca_animals_e",
+		"castructures_e_housec",
 		"cmr_cicada"
 	};
 	randomSeed=13761412;
@@ -146,7 +150,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=70;
+		items=71;
 		class Item0
 		{
 			side="LOGIC";
@@ -1562,10 +1566,31 @@ class Mission
 				};
 			};
 		};
+		class Item70
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4362.8237,54,5479.3516};
+					azimut=-267.8053;
+					special="NONE";
+					id=2379;
+					side="WEST";
+					vehicle="CDF_Soldier";
+					player="PLAYER COMMANDER";
+					leader=1;
+					lock="LOCKED";
+					skill=0.2;
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=2307;
+		items=2310;
 		class Item0
 		{
 			position[]={5947.4438,32.564308,4301.9795};
@@ -27832,6 +27857,39 @@ class Mission
 			skill=1;
 			init="doStop this; this allowdamage false; _this call RPP_fnc_addLightSource;";
 		};
+		class Item2307
+		{
+			position[]={4380.3584,60.856293,5474.5747};
+			azimut=330;
+			special="NONE";
+			id=2378;
+			side="AMBIENT LIFE";
+			vehicle="Cow01_EP1";
+			lock="LOCKED";
+			skill=0.2;
+			text="realestate_betty";
+			init="doStop this; this allowDamage false; this enableSimulation false; this setPos [(getpos this select 0), (getpos this select 1), 0.6];";
+		};
+		class Item2308
+		{
+			position[]={4381.417,63.479973,5479.9785};
+			azimut=90;
+			id=2380;
+			side="EMPTY";
+			vehicle="Land_House_C_4_EP1";
+			skill=0.60000002;
+		};
+		class Item2309
+		{
+			position[]={4380.4141,60.856197,5478.8403};
+			azimut=45;
+			id=2381;
+			side="EMPTY";
+			vehicle="Notice_board_EP1";
+			skill=0.60000002;
+			text="shop_cowshed";
+			init="doStop this; this allowDamage false; this setPos [(getpos this select 0), (getpos this select 1), 0.60]; this enableSimulation false;";
+		};
 	};
 	class Markers
 	{
@@ -28598,18 +28656,11 @@ class Mission
 		};
 		class Item85
 		{
-			position[]={4876.835,110.46233,5147.8174};
-			name="cop_exit";
-			text="Cop Exit";
-			type="Empty";
-		};
-		class Item86
-		{
 			position[]={4872.6445,110,5215.4683};
 			name="powercoverage10";
 			type="Empty";
 		};
-		class Item87
+		class Item86
 		{
 			position[]={4646.6372,35,4765.5215};
 			name="MainBank_1_2_2";
@@ -28619,7 +28670,7 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 		};
-		class Item88
+		class Item87
 		{
 			position[]={4908.3604,110,5211.4116};
 			name="cop_base";
@@ -28630,14 +28681,14 @@ class Mission
 			b=0.64999998;
 			angle=-0.61570573;
 		};
-		class Item89
+		class Item88
 		{
-			position[]={4876.835,110.46233,5147.8174};
+			position[]={4876.2754,111.03096,5114.771};
 			name="cop_exit_1";
 			text="Cop Exit";
 			type="Empty";
 		};
-		class Item90
+		class Item89
 		{
 			position[]={4927.5449,110,5215.7271};
 			name="pATM";
@@ -28647,7 +28698,7 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 		};
-		class Item91
+		class Item90
 		{
 			position[]={4943.2041,110,5218.458};
 			name="cop_item_shop_1";
@@ -28658,7 +28709,7 @@ class Mission
 			b=0.55000001;
 			angle=-0.61570603;
 		};
-		class Item92
+		class Item91
 		{
 			position[]={4902.1001,110,5173.3247};
 			name="storage_area_1";
@@ -28668,13 +28719,13 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 		};
-		class Item93
+		class Item92
 		{
 			position[]={4872.6445,110,5215.4683};
 			name="powercoverage1_1_1";
 			type="Empty";
 		};
-		class Item94
+		class Item93
 		{
 			position[]={7172.3296,8.2230291,4333.9214};
 			name="Silicon_mine_1";
@@ -28684,7 +28735,7 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 		};
-		class Item95
+		class Item94
 		{
 			position[]={4592.7515,12.634574,3822.7542};
 			name="ironmine_1";
@@ -28694,11 +28745,21 @@ class Mission
 			a=0.64999998;
 			b=0.64999998;
 		};
-		class Item96
+		class Item95
 		{
 			position[]={6008.7231,31.69751,4157.916};
 			name="Bike_shop_2";
 			text="Bike Shop";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item96
+		{
+			position[]={4385.7183,54,5479.8774};
+			name="Real Estate";
+			text="Real Estate";
 			type="mil_flag";
 			colorName="ColorBlue";
 			a=0.64999998;
