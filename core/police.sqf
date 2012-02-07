@@ -85,8 +85,7 @@ RPP_fnc_pol_recvTicket = {
 
 	server globalChat format[localize "STRS_ticket_globalTicket", name _to, _amount, _reason];
 
-	if (!isNull(findDisplay 2400)) then
-    {
+	if (!isNull(findDisplay 2400)) then {
         closeDialog 0;
     };
 
