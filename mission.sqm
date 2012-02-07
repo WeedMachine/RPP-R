@@ -67,7 +67,6 @@ class Mission
 		"as_eu_oa_lights",
 		"helipad",
 		"as_eu_oa_sidewalks",
-		"rpp_veh",
 		"cabuildings"
 	};
 	addOnsAuto[]=
