@@ -171,7 +171,7 @@ RPP_var_shops =
 	[shop_shop4_swordfish, "Swordfish", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
         
     /* Objects */
-    //[shop_fence, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
+    [shop_cowshed, "Land_Farm_Cowshed_c", "", [0,0], [] call RPP_fnc_generateID, 25, true, false],
 	[shophouse1, "Land_MBG_GER_RHUS_4", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
 	[shophouse2, "Land_MBG_GER_RHUS_3", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
 	[shophouse3, "Land_MBG_GER_RHUS_5", "", [0, 0], [] call RPP_fnc_generateID, 1, true, false],
