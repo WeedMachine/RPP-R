@@ -44,11 +44,15 @@ RPP_var_goods =
     ["RefuelCan", ["ITEM", "ITEM"], ["RefuelCan", "No description"], [450, 350], 9, "core\items\refuelCan.sqf", 0, true, [1, [ ["Can", 1], ["Petrol", 8]]], false],
 
     /* Objects */
-    ["Land_Farm_Cowshed_c", ["ITEM", "OBJECT"], ["Cowshed", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, [], false],
+    ["Land_Farm_Cowshed_c", ["ITEM", "OBJECT"], ["Cowshed", localize "STRS_object_desc"], [10000,5000], 5, "core\items\object.sqf", 0, true, [], false],
     ["cl_Spikestrip", ["ITEM", "OBJECT"], ["Spikestrip", localize "STRS_object_desc"], [700,0], 5, "core\items\object.sqf", 0, true, [], true],
+	["Land_MBG_GER_RHUS_4", ["ITEM", "OBJECT"], ["House 1", localize "STRS_object_desc"], [10000,5000], 5, "core\items\object.sqf", 0, true, []],
+	["Land_MBG_GER_RHUS_3", ["ITEM", "OBJECT"], ["House 2", localize "STRS_object_desc"], [10000,5000], 5, "core\items\object.sqf", 0, true, []],
+	["Land_MBG_GER_RHUS_5", ["ITEM", "OBJECT"], ["House 3", localize "STRS_object_desc"], [10000,5000], 5, "core\items\object.sqf", 0, true, []],
+	["Land_MBG_GER_RHUS_2", ["ITEM", "OBJECT"], ["House 4", localize "STRS_object_desc"], [10000,5000], 5, "core\items\object.sqf", 0, true, []],
     
     //["Wall_FenW2_6_EP1", ["ITEM", "OBJECT"], ["Fence", localize "STRS_object_desc"], [0,0], 5, "core\items\object.sqf", 0, true, []],
-    
+	
     /* Food & Drink */
     ["Soup", ["ITEM", "FOOD"], ["Soup", "No Desc"], [5, 2], 0.2, "core\items\food.sqf", 0, true, [], false], 
     ["Sandwich", ["ITEM", "FOOD"], ["Sandwich", "No Desc"], [20, 16], 0.5, "core\items\food.sqf", 0, true, [1, [ ["Bread", 1]]], false], 
