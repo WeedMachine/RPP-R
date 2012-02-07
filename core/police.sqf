@@ -79,11 +79,11 @@ RPP_fnc_pol_recvTicket = {
 	_amount = _this select 2;
 	_reason = _this select 3;
 
+	server globalChat format[localize "STRS_ticket_globalTicket", name _to, _amount, _reason];
+
 	if (player != _to) exitWith {
 		
 	};
-
-	server globalChat format[localize "STRS_ticket_globalTicket", name _to, _amount, _reason];
 
 	if (!isNull(findDisplay 2400)) then {
         closeDialog 0;

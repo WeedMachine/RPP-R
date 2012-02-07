@@ -3,12 +3,13 @@ _car = _this select 0;
 _rem = 0;
 _pull = 0;
 _num = 0;
-_crew = crew _car;
 
 if (typeName _car == "STRING") then
 {
     _car = _car call RPP_fnc_findVehicle; 
 };
+
+_crew = crew _car;
 
 if (typeName _who == "STRING") then
 {
